@@ -13,6 +13,10 @@ Code dùng lại từ Day 6 (`store`, `embeddings`, `chunking`, `ingestion`, `co
 | `check_setup.py` | Kiểm tra DB, key và một truy vấn thật |
 | `retrieval.py` | Ba phương pháp retrieval: dense (pgvector), BM25 (tự cài), hybrid RRF |
 | `run_retrieval.py` | So sánh 3 phương pháp × index A/B, chỉ retrieval (không LLM); mặc định chỉ dev |
+| `adv_render.py`, `adv_extract.py`, `adv_index.py` | Thử thách nâng cao: render 280 trang thành ảnh; model vision đọc từng trang (biểu đồ, bảng, sơ đồ); index text + hình cho cả tài liệu |
+| `adv_agent.py`, `adv_run.py` | Agent nâng cấp (Responses API, cấu hình TEXT / VISUAL / PAGES) và bộ chạy dev/test (`--final-test` chạy một lần) |
+| `adv_build_benchmark.py`, `adv_verify_benchmark.py`, `adv_check_extraction.py` | Benchmark nâng cao (dựng, kiểm chứng, đóng băng) và kiểm tra trích xuất so với ảnh gốc |
+| `adv_labels_proposal.py`, `adv_review.py` | Nhãn chấm tay 30 câu test, bảng chấm có ảnh trang gốc và tổng kết n/N theo nhóm |
 | `run_retrieval_variants.py` | Đánh giá riêng C1 (viết lại truy vấn) và C2 (gộp chunk) ở mức retrieval, kèm đối chứng; chỉ dev, phân tích bổ sung |
 | `agent.py` | Agent OpenAI tool calling (`search_documents`, `answer`, `abstain`), dựng context, cấu hình R0 / BASE / C1 / C2 |
 | `run_agent.py` | Chạy agent trên benchmark, ghi trace và tổng hợp tự động; `--final-test` chỉ chạy một lần |

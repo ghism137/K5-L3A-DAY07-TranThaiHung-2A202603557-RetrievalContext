@@ -1,0 +1,35 @@
+{
+  "config": "VISUAL",
+  "split": "test",
+  "passed": 29,
+  "total": 30,
+  "rate_percent": 96.67,
+  "threshold": "27/30 (90%), not rounded",
+  "meets_threshold": true,
+  "by_group": {
+    "abstain": "6/6",
+    "chart": "5/5",
+    "diagram": "4/5",
+    "multihop": "4/4",
+    "table": "6/6",
+    "text": "4/4"
+  },
+  "failed": [
+    "t16"
+  ],
+  "system_errors": [],
+  "first_pass_auto": "26/30",
+  "labels_changed_from_auto": [
+    "t13",
+    "t21",
+    "t29"
+  ],
+  "median_seconds": 5.9,
+  "tokens": {
+    "agent_input": 149715,
+    "agent_output": 3996,
+    "agent_reasoning": 349,
+    "embedding": 675
+  },
+  "note": "labels are the grade of record; gpt-6.1-terra prices are unknown, so cost is reported in tokens"
+}

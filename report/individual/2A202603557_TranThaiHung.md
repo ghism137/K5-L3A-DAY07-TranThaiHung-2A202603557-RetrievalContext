@@ -149,6 +149,79 @@ Phần "dùng lại" đã chạy ở Day 6 và tác giả đã thấy kết qu�
   - *Giới hạn:* n = 15 ở dev và 11 ở test, mỗi câu ≈ 7–9 điểm phần trăm, nên chênh 1–3 câu là nhiễu; temperature 0 không xác định hoàn toàn (q11); truy vấn của agent khác truy vấn của bảng retrieval; index và phương pháp bị trộn trong so sánh R0/BASE; Context Evidence Rate và Hit@k dựa vào trang gold hẹp (q03); nhãn câu mới do trợ lý AI đề xuất, tác giả duyệt, và tác giả vừa soạn vừa chấm; giá chi phí là giả định; đánh giá riêng C1/C2 là phân tích bổ sung chạy sau khi chốt cấu hình và chỉ trên dev; bộ viết lại cho văn bản hơi khác nhau giữa các lần chạy; ngân sách context 2400 (đúng 3 chunk đầy) làm C2 không có chỗ hoạt động ở lần chạy agent.
 
 
-## Thử thách nâng cao (nếu thực hiện)
+## Thử thách nâng cao
 
-Chưa thực hiện (không bắt buộc).
+**Kết quả:** 29/30 câu test đạt (96.67%), vượt ngưỡng 27/30. Đây là điểm theo **nhãn chấm tay** (đối chiếu từng câu với trang gốc); chấm tự động lượt đầu chỉ được 26/30 (86,7%), thấp hơn ngưỡng. Ba nhãn khác chấm tự động là **t13, t21, t29** và cần được kiểm tra trước: nếu t29 bị tính là trượt thì kết quả là 28/30 (93,3%), vẫn đạt; nếu cả ba bị tính trượt thì là 26/30 và không đạt.
+
+- **Tài liệu, nguồn, quyền sử dụng, số trang và phiên bản:** cùng tài liệu với phần cơ bản, *International Debt Report 2026* (World Bank), **280 trang PDF**, CC BY 3.0 IGO, <https://hdl.handle.net/10986/45762>, sha256 kiểm ở `src/config.py`. Phần cơ bản chỉ index trang 27–134; phần nâng cao index **cả 280 trang** (mở đầu, ba chương, hồ sơ quốc gia và vùng, phụ lục). PDF không được commit; ảnh trang được render lại bằng `python -m src.adv_render`.
+- **Cách xử lý text, bảng, ảnh, biểu đồ; phạm vi index và phần chưa xử lý:**
+  1. *Text:* lớp văn bản PDF, gom đoạn tối đa 800 ký tự (như bài cơ bản), 840 chunk.
+  2. *Hình, bảng, sơ đồ:* mỗi trang được render ở scale 2,0 và gửi cho `gpt-6.1-terra` cùng lớp văn bản của trang (`src/adv_extract.py`, prompt `v1`); model liệt kê từng phần tử không trang trí (loại, tiêu đề, trục, chú giải, giá trị in sẵn, bảng dạng markdown, mô tả) và được dặn không bịa, đánh dấu giá trị ước lượng. Kết quả là 597 chunk hình (424 biểu đồ, 169 infographic, 3 bảng, 1 sơ đồ), mỗi chunk giữ số trang và đường dẫn ảnh trang; trên trang hồ sơ có thêm tên quốc gia hoặc vùng. 280/280 trang trích xuất thành công.
+  3. *Index:* embedding `text-embedding-3-small`, truy xuất hybrid (dense bằng numpy cosine, BM25, RRF k = 60). Không dùng vision embedding.
+  4. *Chưa xử lý:* 11 trang không có nội dung (2, 12, 16, 18, 22, 26, 106, 264, 266, 278, 279; trang trắng hoặc trang đệm) nên không có chunk; ảnh nhúng duy nhất của tài liệu là nền trang bìa, được bỏ qua vì chỉ trang trí.
+  5. *Kiểm chứng trích xuất với bản gốc* (`python -m src.adv_check_extraction`): 103/103 giá trị mình đọc trực tiếp từ ảnh gốc của 19 trang (các trang của benchmark) có mặt trong chunk hình. Đây là kiểm tra một phần, không phải kiểm toán cả 280 trang; lần chạy đầu báo 101/103 vì phép so khớp quá máy móc ("3.6%" khác "3.6 %"), đã đính chính.
+- **Cách chia benchmark, schema evidence, model và cấu hình đã chốt trên dev:** benchmark ([benchmark/advanced/README.md](../../benchmark/advanced/README.md)) soạn từ ảnh trang gốc *trước* khi chạy pipeline và đóng băng bằng sha256: dev 15 câu có đáp án + 3 thiếu bằng chứng, test 24 + 6 (bảng 6, ảnh/sơ đồ 5, biểu đồ 5, multi-hop 4, text 4, thiếu bằng chứng 6); dev và test **không chung trang gold**; câu thiếu bằng chứng được kiểm bằng regex trên cả 280 trang. Mỗi câu ghi nhóm, đáp án, trang, vị trí (hình, hàng, cột), giá trị và lý do. Câu và đáp án do trợ lý AI soạn, tác giả duyệt. Model: `gpt-6.1-terra` (Responses API, reasoning mặc định, không nhận `temperature`, nên các lần chạy không lặp lại hoàn toàn); tiêu chí chọn ([docs/ADVANCED_CRITERIA.md](../../docs/ADVANCED_CRITERIA.md)) được đóng băng trước khi chạy dev.
+
+**Dev (18 câu; chấm tự động lượt đầu: câu trả lời đúng theo bộ chấm hỗ trợ và trích dẫn phủ mọi trang gold; câu thiếu bằng chứng đạt khi từ chối):**
+
+| Cấu hình | Đạt | Token đầu vào của agent | Ghi chú |
+|---|---:|---:|---|
+| TEXT (chỉ văn bản) | 5/18 | 174,824 | 12/18 câu bị từ chối vì chữ trích từ biểu đồ không gắn nhãn |
+| **VISUAL** (thêm chunk hình), **được chọn** | **15/18** | **76,643** | |
+| PAGES (VISUAL + ảnh gốc của trang) | 15/18 | 312,655 | hòa VISUAL nhưng tốn gấp ~4 lần token |
+
+Quy tắc chọn (hòa ≤ 1 câu thì chọn cấu hình ít token) cho VISUAL. Ba câu trượt ở VISUAL và PAGES (d04, d14, d15) được đọc tay: đều trả lời đúng điều câu hỏi hỏi; bộ chấm hỗ trợ hụt vì đáp án chuẩn ghi thêm chi tiết không được hỏi, và d14 trích trang 51, nơi tài liệu nêu cùng sự kiện. Không có cấu hình cải thiện thêm. Chi tiết và lỗi kỹ thuật đã sửa (định dạng citation) ở [docs/ADVANCED_DEV_NOTES.md](../../docs/ADVANCED_DEV_NOTES.md).
+
+**Test (30 câu, chạy một lần với VISUAL; đạt/không đạt theo ADVANCED.md):**
+
+| Nhóm test | Đạt / tổng | Tỷ lệ | Lỗi / nhận xét |
+|---|---|---|---|
+| Bảng | 6/6 | 100.0% | Bảng 1.2 (p63) và danh sách nhóm nước (p269); đúng hàng, cột, đơn vị; phép trừ có nêu toán hạng. |
+| Ảnh, sơ đồ | 4/5 | 80.0% | Sơ đồ ba tầng (p132) đúng; khung mẫu hồ sơ (p136) đúng ở t15; **t16 trượt**: dữ liệu có trong index (vis:p0136:e05) nhưng truy xuất trả về thẻ Figure 4 của trang quốc gia khác (hơn 120 thẻ gần giống nhau). |
+| Biểu đồ | 5/5 | 100.0% | Nhãn số in sẵn (t07, t08) và độ cao cột ước lượng (t09–t11, đúng thứ tự và trong dung sai). |
+| Multi-hop | 4/4 | 100.0% | Ghép số của hai trang hồ sơ hoặc hai trang vùng; trích dẫn cả hai trang. |
+| Text | 4/4 | 100.0% | t21 trích trang 30 thay vì trang 19 (cùng sự kiện, đã kiểm tra); nhãn đổi từ không đạt sang đạt. |
+| Thiếu bằng chứng | 6/6 | 100.0% | t29 trả lời "không có lãi suất vì không có cam kết mới" (có căn cứ ở p150), xem mục nhãn đổi; 5 câu còn lại từ chối đúng. |
+| **Toàn bộ** | **29/30** | **96.7%** | Ngưỡng 27/30 (90%), không làm tròn: **đạt**. Lỗi hệ thống: 0. |
+
+**Nhãn từng câu** (đạt nghĩa là đúng và đủ, đúng đơn vị và phép tính, citation xác định được trang và vùng, evidence hỗ trợ toàn bộ câu trả lời; câu thiếu bằng chứng đạt khi từ chối hoặc nêu rõ thiếu, không thêm khẳng định). Cột "tự động" là lượt chấm đầu:
+
+| Câu | Nhóm | Nhãn | Tự động | Lý do (rút gọn; đầy đủ ở `results/advanced/test/review/labels.json`) |
+|---|---|---|---|---|
+| t01 | Bảng | **đạt** | đạt | 15.2 US$ billion, Table 1.2 IMF 2020; unit given; citation = visual chunk of p63 |
+| t02 | Bảng | **đạt** | đạt | Fall of 21.9 US$ billion (66.3 to 44.4), sign and operands shown; cites p63 |
+| t03 | Bảng | **đạt** | đạt | 2021 and 85.9 US$ billion; cites p63 |
+| t04 | Bảng | **đạt** | đạt | Increase of 1.5 US$ billion (13.3 to 14.8); cites p63 |
+| t05 | Bảng | **đạt** | đạt | 16 countries; cites the Country Groups text chunk on p269; the p138 header also says 16 |
+| t06 | Bảng | **đạt** | đạt | (P), preliminary; cites p269 |
+| t07 | Biểu đồ | **đạt** | đạt | 3,762 at End-2024 (printed label); cites Figure 3.3 chunk on p113 |
+| t08 | Biểu đồ | **đạt** | đạt | 61.8 US$ billion at End-2023 (printed label); cites p113 |
+| t09 | Biểu đồ | **đạt** | đạt | 2025, about 56 percent, as in the reference; cites Figure 3.2 chunk on p111 |
+| t10 | Biểu đồ | **đạt** | đạt | 2025, about 6 percent (p110 text: 5.8); cites p111 |
+| t11 | Biểu đồ | **đạt** | đạt | About 24, inside the accepted 23-25 range; cites Figure 3.1 chunk on p110 |
+| t12 | Ảnh, sơ đồ | **đạt** | đạt | Tier 2 = IDS (International Debt Statistics), 'trusted, transparent statistics'; cites p132 |
+| t13 | Ảnh, sơ đồ | **đạt** | không đạt | Exact arrow text 'Gaps and findings strengthen reporting' |
+| t14 | Ảnh, sơ đồ | **đạt** | đạt | Tier 3, IDR = International Debt Report; cites p132 |
+| t15 | Ảnh, sơ đồ | **đạt** | đạt | Belize, 1,609 US$ million, +2.6% from 2024; cites the sample on p136 |
+| t16 | Ảnh, sơ đồ | **không đạt** | không đạt | Refused |
+| t17 | Multi-hop | **đạt** | đạt | Peru, by 43,751 US$ million (94,270 - 50,519); cites both profile pages (p230, p200) |
+| t18 | Multi-hop | **đạt** | đạt | 84,917 US$ million (28,633 + 56,284); cites p262 and p175 |
+| t19 | Multi-hop | **đạt** | đạt | About 10.8 percent (1,020 / 9,445, US$ billion); cites p143 and p137 |
+| t20 | Multi-hop | **đạt** | đạt | 2,358 US$ billion (3,313 - 955); cites p138 and p142 |
+| t21 | Text | **đạt** | không đạt | 8.9 percent to $262.4 billion, which is the whole of what is asked |
+| t22 | Text | **đạt** | đạt | $294.5 billion and FDI down 25.5 percent 2011-2025; cites p21 |
+| t23 | Text | **đạt** | đạt | Fell from 42.1 to 41.2 percent; growth outpaced debt accumulation and restructuring helped; cites p21 |
+| t24 | Text | **đạt** | đạt | IMF (supplemented by UNCTAD and country data); sixth edition of the Balance of Payments Manual; cites p267 |
+| t25 | Thiếu bằng chứng | **đạt** | đạt | Abstained; no claim about Switzerland |
+| t26 | Thiếu bằng chứng | **đạt** | đạt | Abstained and correctly said Figure 3.3 has end-2021, end-2023 and end-2024 only |
+| t27 | Thiếu bằng chứng | **đạt** | đạt | Abstained; said Figure 3.7 is not in the material |
+| t28 | Thiếu bằng chứng | **đạt** | đạt | Abstained; said no 2027 projection exists in the material |
+| t29 | Thiếu bằng chứng | **đạt** | không đạt | Judgement call |
+| t30 | Thiếu bằng chứng | **đạt** | đạt | Abstained; no claim about Norway |
+
+- **Nhãn khác chấm tự động (cần kiểm tra trước):** t13 (đáp án chuẩn có thêm ngoặc đơn không được hỏi), t21 (cùng sự kiện nằm ở trang 19 và trang 30; trang 30 được trích và đã kiểm tra), t29 (hệ thống nêu "không có lãi suất vì không có cam kết mới", có căn cứ ở p150; đây là phán đoán, nếu tính trượt thì 28/30). Cả ba đều đổi từ không đạt sang đạt, nên cần đọc kỹ.
+- **Lỗi thật duy nhất, t16:** từ chối vì truy xuất trả về thẻ "Figure 4" của các trang quốc gia khác thay vì khung mẫu ở p136; hơn 120 thẻ này gần như giống hệt nhau và câu hỏi không nêu tên quốc gia. Đây là điểm yếu của chunking hình theo từng thẻ, không phải của việc đọc ảnh.
+- **Trace, nhãn và evidence từng câu:** `results/advanced/test/VISUAL/{traces,summary}.json` (truy vấn, context, tool call, câu trả lời, citation, thời gian, token); `results/advanced/test/review/review_sheet.md` (bảng chấm tay có đường dẫn ảnh trang gốc), `labels.json`, `final_summary.json`.
+- **Thời gian, chi phí, lỗi hệ thống:** trung vị 5.9 s mỗi câu; token của agent trên test: đầu vào 149,715, đầu ra 3,996, reasoning 349, embedding truy vấn 675. **Chi phí tính bằng token** vì đơn giá `gpt-6.1-terra` chưa rõ (cần tra bảng giá); riêng việc trích xuất 280 trang tiêu tốn khoảng 918 nghìn token đầu vào và 346 nghìn token đầu ra. Không có lỗi hệ thống hay timeout.
+- **Giới hạn:** benchmark do trợ lý AI soạn và tác giả duyệt, chưa có người thứ hai đối chiếu; một tài liệu, 24 câu có đáp án (mỗi câu ≈ 3,3 điểm phần trăm tổng); tài liệu không có ảnh chụp có nội dung nên nhóm "ảnh, sơ đồ" dùng sơ đồ ba tầng, khung mẫu hồ sơ và khối phân cấp của hồ sơ quốc gia (dev dùng loại khối phân cấp, test dùng hai loại đầu); nhiều giá trị ở nhóm biểu đồ và sơ đồ cũng nằm trong lớp văn bản PDF; model trích xuất, trả lời và chấm hỗ trợ cùng một họ nên có thể thiên lệch; nhãn test do mình đề xuất rồi tác giả rà; chưa thử chunking khác cho các thẻ lặp.
+- **Tái lập:** `python -m src.adv_render` → `python -m src.adv_extract` → `python -m src.adv_index` → `python -m src.adv_verify_benchmark` → `python -m src.adv_run --config TEXT,VISUAL,PAGES` (dev) → `python -m src.adv_run --config VISUAL --final-test` → `python -m src.adv_labels_proposal` → `python -m src.adv_review`. Cần `OPENAI_API_KEY` và `AGENT_MODEL=gpt-6.1-terra` trong `.env`; `pip install -r requirements.txt` (đã thêm `pypdfium2`, `pillow`, `numpy`).

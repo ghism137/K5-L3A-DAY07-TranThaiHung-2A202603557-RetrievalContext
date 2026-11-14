@@ -40,7 +40,9 @@ EXPECTED: dict[int, tuple[str, list[str]]] = {
 
 
 def norm(s: str) -> str:
-    return re.sub(r"\s+", " ", s.replace("−", "-").replace("–", "-"))
+    """Whitespace-insensitive, including a space before '%' (the model writes '3.6 %' for the printed '3.6%')."""
+    s = re.sub(r"\s+", " ", s.replace("−", "-").replace("–", "-"))
+    return re.sub(r"\s+%", "%", s)
 
 
 def main() -> None:

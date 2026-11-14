@@ -1,0 +1,62 @@
+VISUAL  t01  table    answered pass_auto=True   10.1s ok
+VISUAL  t02  table    answered pass_auto=True    8.2s ok
+VISUAL  t03  table    answered pass_auto=True    5.1s ok
+VISUAL  t04  table    answered pass_auto=True    6.9s ok
+VISUAL  t05  table    answered pass_auto=True    5.3s ok
+VISUAL  t06  table    answered pass_auto=True    5.1s ok
+VISUAL  t07  chart    answered pass_auto=True    6.7s ok
+VISUAL  t08  chart    answered pass_auto=True    5.7s ok
+VISUAL  t09  chart    answered pass_auto=True    5.0s ok
+VISUAL  t10  chart    answered pass_auto=True    5.5s ok
+VISUAL  t11  chart    answered pass_auto=True    5.4s ok
+VISUAL  t12  diagram  answered pass_auto=True    5.3s ok
+VISUAL  t13  diagram  answered pass_auto=False   5.1s wrong or incomplete answer
+VISUAL  t14  diagram  answered pass_auto=True    6.2s ok
+VISUAL  t15  diagram  answered pass_auto=True    8.3s ok
+VISUAL  t16  diagram  abstain  pass_auto=False  12.4s refused (model_abstain)
+VISUAL  t17  multihop answered pass_auto=True    8.6s ok
+VISUAL  t18  multihop answered pass_auto=True    6.0s ok
+VISUAL  t19  multihop answered pass_auto=True   12.2s ok
+VISUAL  t20  multihop answered pass_auto=True    6.2s ok
+VISUAL  t21  text     answered pass_auto=False   5.1s wrong or incomplete answer
+VISUAL  t22  text     answered pass_auto=True    5.3s ok
+VISUAL  t23  text     answered pass_auto=True    5.6s ok
+VISUAL  t24  text     answered pass_auto=True    5.8s ok
+VISUAL  t25  abstain  abstain  pass_auto=True   10.2s abstained
+VISUAL  t26  abstain  abstain  pass_auto=True    5.2s abstained
+VISUAL  t27  abstain  abstain  pass_auto=True   10.4s abstained
+VISUAL  t28  abstain  abstain  pass_auto=True   11.4s abstained
+VISUAL  t29  abstain  answered pass_auto=False   5.1s answered an unanswerable question
+VISUAL  t30  abstain  abstain  pass_auto=True   10.4s abstained
+{
+  "config": "VISUAL",
+  "split": "test",
+  "model": "gpt-6.1-terra",
+  "questions": 30,
+  "pass_auto": "26/30",
+  "by_group": {
+    "abstain": "5/6",
+    "chart": "5/5",
+    "diagram": "3/5",
+    "multihop": "4/4",
+    "table": "6/6",
+    "text": "3/4"
+  },
+  "errors": [],
+  "failed": [
+    "t13",
+    "t16",
+    "t21",
+    "t29"
+  ],
+  "median_seconds": 5.9,
+  "tokens": {
+    "agent_input": 149715,
+    "agent_output": 3996,
+    "agent_reasoning": 349,
+    "judge_input": 5032,
+    "judge_output": 988,
+    "embedding": 675
+  },
+  "note": "pass_auto is a first-pass grade (LLM judge + citation pages); prices of gpt-6.1-terra are unknown, so cost is reported in tokens"
+}
