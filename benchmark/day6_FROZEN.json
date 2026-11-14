@@ -1,0 +1,11 @@
+{
+  "file": "benchmark/questions.json",
+  "sha256": "80f2ae94adf20b7331ce98f643c12d4031ebc334e61400fa6c16a9b22cdd8dd7",
+  "frozen_at": "2026-11-13T11:29:43+07:00",
+  "counts": {
+    "dev": 15,
+    "spare": 4,
+    "test": 5
+  },
+  "note": "Recorded before any retrieval run. Any later change to the file changes the hash."
+}

@@ -1,0 +1,44 @@
+PASS benchmark/day6_questions.json matches its Day 6 frozen hash
+OK  q01 [dev ] day6_dev          p27 ch1 filter=None | other pages with all key facts: -
+OK  q02 [dev ] day6_dev          p31 ch1 filter=None | other pages with all key facts: -
+OK  q03 [dev ] day6_dev          p32 ch1 filter={'chapter': 1} | other pages with all key facts: -
+OK  q04 [dev ] day6_dev          p33 ch1 filter=None | other pages with all key facts: -
+OK  q05 [dev ] day6_dev          p34 ch1 filter=None | other pages with all key facts: -
+OK  q06 [dev ] day6_dev          p49 ch1 filter=None | other pages with all key facts: -
+OK  q07 [dev ] day6_dev          p70 ch1 filter=None | other pages with all key facts: -
+OK  q08 [dev ] day6_dev          p80 ch2 filter=None | other pages with all key facts: -
+OK  q09 [dev ] day6_dev          p88 ch2 filter=None | other pages with all key facts: -
+OK  q10 [dev ] day6_dev          p93 ch2 filter=None | other pages with all key facts: -
+OK  q11 [dev ] day6_dev          p75 ch2 filter=None | other pages with all key facts: -
+OK  q12 [dev ] day6_dev          p108 ch3 filter=None | other pages with all key facts: -
+OK  q13 [dev ] day6_dev          p117 ch3 filter={'chapter': 3} | other pages with all key facts: -
+OK  q14 [dev ] day6_dev          p128 ch3 filter={'chapter': 3} | other pages with all key facts: -
+OK  q15 [dev ] day6_dev          p125 ch3 filter=None | other pages with all key facts: -
+OK  u01 [dev ] UNANSWERABLE terms with 0 PDF pages: ['stablecoin', 'crypto', 'bitcoin', 'digital asset', 'blockchain']
+OK  u02 [dev ] UNANSWERABLE terms with 0 PDF pages: ['panda']
+OK  n01 [test] day7_new          p64 ch1 filter=None | other pages with all key facts: -
+OK  n02 [test] day7_new          p100 ch2 filter=None | other pages with all key facts: -
+OK  q16 [test] day6_test_reused  p38 ch1 filter=None | other pages with all key facts: -
+OK  q17 [test] day6_test_reused  p90 ch2 filter={'chapter': 2} | other pages with all key facts: -
+OK  q18 [test] day6_test_reused  p96 ch2 filter=None | other pages with all key facts: -
+OK  q19 [test] day6_test_reused  p109 ch3 filter=None | other pages with all key facts: -
+OK  q20 [test] day6_test_reused  p119 ch3 filter=None | other pages with all key facts: -
+OK  s01 [test] day6_spare_new    p40 ch1 filter=None | other pages with all key facts: -
+OK  s02 [test] day6_spare_new    p96 ch2 filter=None | other pages with all key facts: -
+OK  s03 [test] day6_spare_new    p126 ch3 filter={'chapter': 3} | other pages with all key facts: -
+OK  s04 [test] day6_spare_new    p114 ch3 filter=None | other pages with all key facts: -
+OK  u03 [test] UNANSWERABLE terms with 0 PDF pages: ['forecast', 'debt stocks? .{0,60}\\b2028\\b', '\\b2028\\b.{0,60}debt stocks?']
+OK  u04 [test] UNANSWERABLE terms with 0 PDF pages: ['\\bgold\\b', 'bullion']
+
+counts: {('dev', 'answerable'): 15, ('dev', 'unanswerable'): 2, ('test', 'answerable'): 11, ('test', 'unanswerable'): 2}
+origins: {'day6_dev': 15, 'day7_new': 6, 'day6_test_reused': 5, 'day6_spare_new': 4}
+filter questions: {'dev': 3, 'test': 2}
+gold pages used by more than one question in the same split (informational): [96]
+PASS dev answerable = 15 (need >= 15)
+PASS dev unanswerable = 2 (need >= 2)
+PASS test answerable = 11 (need >= 5)
+PASS test unanswerable = 2 (need >= 2)
+PASS test answerable never seen in Day 6 = 6 (need >= 5 for a standalone new test)
+PASS gold pages shared by dev and test: none
+
+No problems found.

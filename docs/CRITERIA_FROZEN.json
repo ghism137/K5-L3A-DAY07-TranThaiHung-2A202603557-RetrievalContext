@@ -1,0 +1,8 @@
+{
+  "file": "docs/SELECTION_CRITERIA.md",
+  "sha256": "012941b6560c9ccce52ce0ddbb4109925e3d96f0072b0f9a3fdf421018423623",
+  "frozen_at": "2026-11-14T23:24:53+07:00",
+  "frozen_by": "Tran Thai Hung (2A202603557), after reading and confirming the file",
+  "benchmark_sha256": "5dbe8fe0d42b3095b066886f0ab46a137b97c73835ed05d8e74365db754060fa",
+  "note": "Frozen before any agent run and before any test run. sha256 is computed over the file with LF line endings (same function as the benchmark freeze)."
+}

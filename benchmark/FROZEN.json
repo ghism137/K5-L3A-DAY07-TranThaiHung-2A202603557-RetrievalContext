@@ -1,0 +1,12 @@
+{
+  "file": "benchmark/questions.json",
+  "sha256": "5dbe8fe0d42b3095b066886f0ab46a137b97c73835ed05d8e74365db754060fa",
+  "frozen_at": "2026-11-14T17:35:53+07:00",
+  "counts": {
+    "dev_answerable": 15,
+    "dev_unanswerable": 2,
+    "test_answerable": 11,
+    "test_unanswerable": 2
+  },
+  "note": "Recorded before any Day 7 retrieval or agent run. Any later change to the file changes the hash."
+}

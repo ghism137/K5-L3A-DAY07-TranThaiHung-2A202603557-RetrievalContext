@@ -9,3 +9,7 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Source PDF (14 MB, CC BY 3.0 IGO) is not committed; download it from https://hdl.handle.net/10986/45762
+# and check its sha256 against PDF_SHA256 in src/config.py (see src/README.md).
+data/international-debt-report-2026.pdf

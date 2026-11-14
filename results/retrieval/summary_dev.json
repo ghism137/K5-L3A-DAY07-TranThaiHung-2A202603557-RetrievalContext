@@ -1,0 +1,197 @@
+{
+  "config": {
+    "split": "dev",
+    "questions": 17,
+    "answerable": 15,
+    "depth_for_fusion": 20,
+    "rank_cut": 10,
+    "rrf_k": 60,
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75
+    },
+    "embedding_model": "text-embedding-3-small",
+    "query_embedding_tokens": 389,
+    "estimated_cost_usd": 7.8e-06
+  },
+  "rows": [
+    {
+      "index": "A",
+      "method": "bm25",
+      "filter_applied_to_questions_that_have_one": false,
+      "n": 15,
+      "hit_at_1": 8,
+      "hit_at_3": 12,
+      "hit_at_10": 14,
+      "mrr_at_10": 0.6856,
+      "missed_at_3": [
+        "q03",
+        "q04",
+        "q13"
+      ],
+      "median_ms": 2.5
+    },
+    {
+      "index": "A",
+      "method": "bm25",
+      "filter_applied_to_questions_that_have_one": true,
+      "n": 3,
+      "hit_at_1": 1,
+      "hit_at_3": 1,
+      "hit_at_10": 2,
+      "mrr_at_10": 0.4167,
+      "missed_at_3": [
+        "q03",
+        "q13"
+      ],
+      "median_ms": 1.5
+    },
+    {
+      "index": "A",
+      "method": "dense",
+      "filter_applied_to_questions_that_have_one": false,
+      "n": 15,
+      "hit_at_1": 9,
+      "hit_at_3": 12,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.7317,
+      "missed_at_3": [
+        "q03",
+        "q11",
+        "q15"
+      ],
+      "median_ms": 238.1
+    },
+    {
+      "index": "A",
+      "method": "dense",
+      "filter_applied_to_questions_that_have_one": true,
+      "n": 3,
+      "hit_at_1": 2,
+      "hit_at_3": 2,
+      "hit_at_10": 3,
+      "mrr_at_10": 0.75,
+      "missed_at_3": [
+        "q03"
+      ],
+      "median_ms": 259.0
+    },
+    {
+      "index": "A",
+      "method": "hybrid_rrf",
+      "filter_applied_to_questions_that_have_one": false,
+      "n": 15,
+      "hit_at_1": 7,
+      "hit_at_3": 14,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.6852,
+      "missed_at_3": [
+        "q13"
+      ],
+      "median_ms": 241.5
+    },
+    {
+      "index": "A",
+      "method": "hybrid_rrf",
+      "filter_applied_to_questions_that_have_one": true,
+      "n": 3,
+      "hit_at_1": 1,
+      "hit_at_3": 3,
+      "hit_at_10": 3,
+      "mrr_at_10": 0.6111,
+      "missed_at_3": [],
+      "median_ms": 260.0
+    },
+    {
+      "index": "B",
+      "method": "bm25",
+      "filter_applied_to_questions_that_have_one": false,
+      "n": 15,
+      "hit_at_1": 8,
+      "hit_at_3": 12,
+      "hit_at_10": 14,
+      "mrr_at_10": 0.6685,
+      "missed_at_3": [
+        "q03",
+        "q04",
+        "q13"
+      ],
+      "median_ms": 2.8
+    },
+    {
+      "index": "B",
+      "method": "bm25",
+      "filter_applied_to_questions_that_have_one": true,
+      "n": 3,
+      "hit_at_1": 0,
+      "hit_at_3": 1,
+      "hit_at_10": 3,
+      "mrr_at_10": 0.2148,
+      "missed_at_3": [
+        "q03",
+        "q13"
+      ],
+      "median_ms": 1.1
+    },
+    {
+      "index": "B",
+      "method": "dense",
+      "filter_applied_to_questions_that_have_one": false,
+      "n": 15,
+      "hit_at_1": 7,
+      "hit_at_3": 12,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.65,
+      "missed_at_3": [
+        "q03",
+        "q13",
+        "q14"
+      ],
+      "median_ms": 247.9
+    },
+    {
+      "index": "B",
+      "method": "dense",
+      "filter_applied_to_questions_that_have_one": true,
+      "n": 3,
+      "hit_at_1": 0,
+      "hit_at_3": 1,
+      "hit_at_10": 3,
+      "mrr_at_10": 0.2698,
+      "missed_at_3": [
+        "q03",
+        "q14"
+      ],
+      "median_ms": 263.9
+    },
+    {
+      "index": "B",
+      "method": "hybrid_rrf",
+      "filter_applied_to_questions_that_have_one": false,
+      "n": 15,
+      "hit_at_1": 11,
+      "hit_at_3": 13,
+      "hit_at_10": 14,
+      "mrr_at_10": 0.8133,
+      "missed_at_3": [
+        "q03",
+        "q13"
+      ],
+      "median_ms": 256.8
+    },
+    {
+      "index": "B",
+      "method": "hybrid_rrf",
+      "filter_applied_to_questions_that_have_one": true,
+      "n": 3,
+      "hit_at_1": 1,
+      "hit_at_3": 2,
+      "hit_at_10": 3,
+      "mrr_at_10": 0.5278,
+      "missed_at_3": [
+        "q03"
+      ],
+      "median_ms": 264.8
+    }
+  ]
+}

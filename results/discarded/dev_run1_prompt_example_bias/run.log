@@ -1,0 +1,233 @@
+R0          q01  error    searches=- ctx_evidence=- 4.8s  ERROR RuntimeError: answer/citations are malformed
+R0          q02  abstain  searches=1 ctx_evidence=True 4.0s
+R0          q03  abstain  searches=1 ctx_evidence=False 2.6s
+R0          q04  abstain  searches=1 ctx_evidence=True 3.2s
+R0          q05  abstain  searches=1 ctx_evidence=True 2.9s
+R0          q06  abstain  searches=1 ctx_evidence=True 3.6s
+R0          q07  abstain  searches=1 ctx_evidence=True 3.5s
+R0          q08  abstain  searches=1 ctx_evidence=True 4.7s
+R0          q09  abstain  searches=1 ctx_evidence=True 2.9s
+R0          q10  abstain  searches=1 ctx_evidence=True 2.6s
+R0          q11  abstain  searches=1 ctx_evidence=False 2.4s
+R0          q12  abstain  searches=1 ctx_evidence=True 3.2s
+R0          q13  abstain  searches=1 ctx_evidence=True 3.2s
+R0          q14  abstain  searches=1 ctx_evidence=True 3.3s
+R0          q15  abstain  searches=1 ctx_evidence=False 4.5s
+R0          u01  abstain  searches=1 ctx_evidence=- 2.3s
+R0          u02  abstain  searches=1 ctx_evidence=- 2.2s
+{
+  "config": "R0",
+  "split": "dev",
+  "model": "gpt-4o-mini",
+  "questions": 17,
+  "provider_errors": [
+    "q01"
+  ],
+  "answerable": {
+    "n": 14,
+    "context_evidence_rate": "11/14",
+    "first_search_hit_at_3": "11/14",
+    "answered": 0,
+    "abstained_false": 14,
+    "context_missed": [
+      "q03",
+      "q11",
+      "q15"
+    ]
+  },
+  "unanswerable": {
+    "n": 2,
+    "abstained": 2,
+    "answered_anyway": [],
+    "note": "status only; whether the abstention is correct is a human label"
+  },
+  "tool_use": "16/16",
+  "searches_distribution": {
+    "0": 0,
+    "1": 16,
+    "2": 0,
+    "3": 0,
+    "4": 0
+  },
+  "median_seconds": 3.19,
+  "tokens": {
+    "llm_prompt": 23883,
+    "llm_completion": 2662,
+    "embedding": 278
+  },
+  "estimated_cost_usd": 0.005185,
+  "cost_note": "list prices are assumptions (src/agent.py, src/embeddings.py); verify before quoting"
+}
+BASE        q01  abstain  searches=1 ctx_evidence=True 4.1s
+BASE        q02  answered searches=1 ctx_evidence=True 3.9s
+BASE        q03  abstain  searches=1 ctx_evidence=False 2.0s
+BASE        q04  abstain  searches=3 ctx_evidence=False 4.8s
+BASE        q05  answered searches=1 ctx_evidence=True 3.4s
+BASE        q06  answered searches=1 ctx_evidence=True 4.1s
+BASE        q07  answered searches=1 ctx_evidence=True 3.7s
+BASE        q08  answered searches=1 ctx_evidence=True 3.0s
+BASE        q09  abstain  searches=1 ctx_evidence=True 2.7s
+BASE        q10  answered searches=1 ctx_evidence=True 2.4s
+BASE        q11  abstain  searches=1 ctx_evidence=True 2.8s
+BASE        q12  abstain  searches=1 ctx_evidence=True 3.0s
+BASE        q13  answered searches=2 ctx_evidence=True 3.8s
+BASE        q14  answered searches=1 ctx_evidence=True 4.4s
+BASE        q15  answered searches=1 ctx_evidence=True 2.7s
+BASE        u01  abstain  searches=1 ctx_evidence=- 2.3s
+BASE        u02  abstain  searches=1 ctx_evidence=- 2.1s
+{
+  "config": "BASE",
+  "split": "dev",
+  "model": "gpt-4o-mini",
+  "questions": 17,
+  "provider_errors": [],
+  "answerable": {
+    "n": 15,
+    "context_evidence_rate": "13/15",
+    "first_search_hit_at_3": "12/15",
+    "answered": 9,
+    "abstained_false": 6,
+    "context_missed": [
+      "q03",
+      "q04"
+    ]
+  },
+  "unanswerable": {
+    "n": 2,
+    "abstained": 2,
+    "answered_anyway": [],
+    "note": "status only; whether the abstention is correct is a human label"
+  },
+  "tool_use": "17/17",
+  "searches_distribution": {
+    "0": 0,
+    "1": 15,
+    "2": 1,
+    "3": 1,
+    "4": 0
+  },
+  "median_seconds": 2.99,
+  "tokens": {
+    "llm_prompt": 25051,
+    "llm_completion": 2478,
+    "embedding": 281
+  },
+  "estimated_cost_usd": 0.00525,
+  "cost_note": "list prices are assumptions (src/agent.py, src/embeddings.py); verify before quoting"
+}
+BASE+C1     q01  answered searches=1 ctx_evidence=True 4.2s
+BASE+C1     q02  answered searches=1 ctx_evidence=True 4.8s
+BASE+C1     q03  abstain  searches=2 ctx_evidence=False 5.2s
+BASE+C1     q04  abstain  searches=2 ctx_evidence=False 4.9s
+BASE+C1     q05  answered searches=1 ctx_evidence=True 3.9s
+BASE+C1     q06  answered searches=1 ctx_evidence=True 5.2s
+BASE+C1     q07  answered searches=1 ctx_evidence=True 4.3s
+BASE+C1     q08  answered searches=1 ctx_evidence=True 6.2s
+BASE+C1     q09  abstain  searches=1 ctx_evidence=True 4.4s
+BASE+C1     q10  answered searches=1 ctx_evidence=True 3.5s
+BASE+C1     q11  abstain  searches=1 ctx_evidence=True 3.8s
+BASE+C1     q12  abstain  searches=1 ctx_evidence=True 4.2s
+BASE+C1     q13  answered searches=2 ctx_evidence=True 5.3s
+BASE+C1     q14  answered searches=1 ctx_evidence=True 4.5s
+BASE+C1     q15  answered searches=1 ctx_evidence=True 3.9s
+BASE+C1     u01  abstain  searches=1 ctx_evidence=- 3.3s
+BASE+C1     u02  abstain  searches=1 ctx_evidence=- 3.5s
+{
+  "config": "BASE+C1",
+  "split": "dev",
+  "model": "gpt-4o-mini",
+  "questions": 17,
+  "provider_errors": [],
+  "answerable": {
+    "n": 15,
+    "context_evidence_rate": "13/15",
+    "first_search_hit_at_3": "12/15",
+    "answered": 10,
+    "abstained_false": 5,
+    "context_missed": [
+      "q03",
+      "q04"
+    ]
+  },
+  "unanswerable": {
+    "n": 2,
+    "abstained": 2,
+    "answered_anyway": [],
+    "note": "status only; whether the abstention is correct is a human label"
+  },
+  "tool_use": "17/17",
+  "searches_distribution": {
+    "0": 0,
+    "1": 14,
+    "2": 3,
+    "3": 0,
+    "4": 0
+  },
+  "median_seconds": 4.26,
+  "tokens": {
+    "llm_prompt": 28159,
+    "llm_completion": 2850,
+    "embedding": 292
+  },
+  "estimated_cost_usd": 0.00594,
+  "cost_note": "list prices are assumptions (src/agent.py, src/embeddings.py); verify before quoting"
+}
+BASE+C2     q01  abstain  searches=1 ctx_evidence=True 3.1s
+BASE+C2     q02  answered searches=1 ctx_evidence=True 3.6s
+BASE+C2     q03  abstain  searches=1 ctx_evidence=False 2.2s
+BASE+C2     q04  abstain  searches=3 ctx_evidence=False 4.3s
+BASE+C2     q05  answered searches=1 ctx_evidence=True 3.7s
+BASE+C2     q06  error    searches=- ctx_evidence=- 4.5s  ERROR RuntimeError: answer/citations are malformed
+BASE+C2     q07  answered searches=1 ctx_evidence=True 3.7s
+BASE+C2     q08  answered searches=1 ctx_evidence=True 3.7s
+BASE+C2     q09  abstain  searches=1 ctx_evidence=True 3.2s
+BASE+C2     q10  answered searches=1 ctx_evidence=True 3.1s
+BASE+C2     q11  answered searches=1 ctx_evidence=True 2.9s
+BASE+C2     q12  abstain  searches=1 ctx_evidence=True 3.3s
+BASE+C2     q13  answered searches=2 ctx_evidence=True 3.8s
+BASE+C2     q14  answered searches=1 ctx_evidence=True 3.7s
+BASE+C2     q15  answered searches=1 ctx_evidence=True 2.8s
+BASE+C2     u01  abstain  searches=1 ctx_evidence=- 2.2s
+BASE+C2     u02  abstain  searches=1 ctx_evidence=- 2.1s
+{
+  "config": "BASE+C2",
+  "split": "dev",
+  "model": "gpt-4o-mini",
+  "questions": 17,
+  "provider_errors": [
+    "q06"
+  ],
+  "answerable": {
+    "n": 14,
+    "context_evidence_rate": "12/14",
+    "first_search_hit_at_3": "11/14",
+    "answered": 9,
+    "abstained_false": 5,
+    "context_missed": [
+      "q03",
+      "q04"
+    ]
+  },
+  "unanswerable": {
+    "n": 2,
+    "abstained": 2,
+    "answered_anyway": [],
+    "note": "status only; whether the abstention is correct is a human label"
+  },
+  "tool_use": "16/16",
+  "searches_distribution": {
+    "0": 0,
+    "1": 14,
+    "2": 1,
+    "3": 1,
+    "4": 0
+  },
+  "median_seconds": 3.24,
+  "tokens": {
+    "llm_prompt": 27013,
+    "llm_completion": 2552,
+    "embedding": 302
+  },
+  "estimated_cost_usd": 0.005589,
+  "cost_note": "list prices are assumptions (src/agent.py, src/embeddings.py); verify before quoting"
+}

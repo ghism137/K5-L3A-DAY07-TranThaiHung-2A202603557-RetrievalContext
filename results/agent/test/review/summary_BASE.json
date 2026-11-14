@@ -1,0 +1,113 @@
+{
+  "combined": {
+    "cases": 13,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 13,
+      "N": 13
+    },
+    "grounded_answer": {
+      "0": 4,
+      "1": 0,
+      "2": 7,
+      "N": 11,
+      "mean": 1.2727272727272727
+    },
+    "citation_validity": {
+      "n": 10,
+      "N": 12
+    },
+    "answer_citation_coverage": {
+      "n": 8,
+      "N": 8
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 3,
+      "N": 11
+    },
+    "context_grade": {
+      "0": 2,
+      "1": 0,
+      "2": 9,
+      "N": 11
+    }
+  },
+  "reused": {
+    "cases": 5,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 5,
+      "N": 5
+    },
+    "grounded_answer": {
+      "0": 2,
+      "1": 0,
+      "2": 3,
+      "N": 5,
+      "mean": 1.2
+    },
+    "citation_validity": {
+      "n": 5,
+      "N": 5
+    },
+    "answer_citation_coverage": {
+      "n": 3,
+      "N": 3
+    },
+    "abstention": {
+      "n": 0,
+      "N": 0
+    },
+    "false_abstention": {
+      "n": 2,
+      "N": 5
+    },
+    "context_grade": {
+      "0": 1,
+      "1": 0,
+      "2": 4,
+      "N": 5
+    }
+  },
+  "new": {
+    "cases": 8,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 8,
+      "N": 8
+    },
+    "grounded_answer": {
+      "0": 2,
+      "1": 0,
+      "2": 4,
+      "N": 6,
+      "mean": 1.3333333333333333
+    },
+    "citation_validity": {
+      "n": 5,
+      "N": 7
+    },
+    "answer_citation_coverage": {
+      "n": 5,
+      "N": 5
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 1,
+      "N": 6
+    },
+    "context_grade": {
+      "0": 1,
+      "1": 0,
+      "2": 5,
+      "N": 6
+    }
+  }
+}

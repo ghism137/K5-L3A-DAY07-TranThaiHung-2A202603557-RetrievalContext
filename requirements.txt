@@ -1,0 +1,5 @@
+# Versions match the Day 6 run (results recorded in the Day 6 report).
+psycopg[binary]==3.3.8
+pypdf>=5,<7
+python-dotenv>=1,<2
+openai>=3,<4

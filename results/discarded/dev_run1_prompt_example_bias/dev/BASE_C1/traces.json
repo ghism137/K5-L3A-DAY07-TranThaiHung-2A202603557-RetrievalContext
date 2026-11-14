@@ -1,0 +1,1814 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "What record level did the external debt of low- and middle-income countries reach at the end of 2025?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 4.201,
+    "usage": {
+      "prompt_tokens": 1503,
+      "completion_tokens": 211,
+      "llm_calls": 3,
+      "embedding_tokens": 14,
+      "cost_usd": 0.00035233
+    },
+    "status": "answered",
+    "answer": "At the end of 2025, the external borrowing levels of low- and middle-income countries reached a record $9.4 trillion, which represents an increase of 5.5 percent from $8.9 trillion in 2024. This growth in external debt has been about 60 percent over the past decade, with the increase in 2025 being the largest since the easing of the COVID-19 pandemic in 2021. The rise was driven by net debt inflows of $423.5 billion, a significant increase from the previous year, along with some debt forgiveness and the effects of US dollar depreciation on accounting figures. [para:idr-2026:p0027:000]",
+    "citations": [
+      "para:idr-2026:p0027:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "external debt of low- and middle-income countries end of 2025",
+        "filter": null,
+        "rewritten_query": "external debt of low-income and middle-income countries end of 2025",
+        "rewrite_log": {},
+        "retrieval_ms": 1189.3,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0028:000",
+            "page": 28,
+            "score": 0.047379
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0027:000",
+            "page": 27,
+            "score": 0.047163
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0061:002",
+            "page": 61,
+            "score": 0.046964
+          }
+        ],
+        "context": "[para:idr-2026:p0028:000] (page 28)\nTable 1.1 External Debt Stock of Low- and Middle-Income Countries, 2015–25 US$ (billion)\n\n[para:idr-2026:p0027:000] (page 27)\nand Debt Flows as of End-2025 Trends in External Debt, 2015–25\nRenewed global inflationary pressures, geopolitical tensions, and decreased fiscal space continued to put substantial pressure on the external debt positions of low- and middle-income countries (LMICs) in 2025. LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024. LMIC external debt has grown about 60 percent over the past decade, and the 2025 increase was the largest since the easing of the COVID-19 pandemic in 2021. The change in debt stock was driven by net debt inflows of $423.5 billion, a more than twofold increase from 2024, as well as by some debt forgiveness and the upward accounting effect of US dollar depreciation.\n\n[para:idr-2026:p0061:002] (page 61)\nThe Middle East, North Africa, Afghanistan, and Pakistan region, despite recording improvements in debt service and interest ratios, saw its external debt-to-GNI ratio rise from 26.7 percent to 29.4 percent, the largest single-year increase of any region, signaling continued debt stock accumulation.\n\nFigure 1.17 External Debt Stock to Exports of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 202 5 0 50 100 150 200 250 300 350 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: IDA = International Development Association.",
+        "context_ids": [
+          "para:idr-2026:p0028:000",
+          "para:idr-2026:p0027:000",
+          "para:idr-2026:p0061:002"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0028:000"
+            ],
+            "page": 28,
+            "text": "Table 1.1 External Debt Stock of Low- and Middle-Income Countries, 2015–25 US$ (billion)"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0027:000"
+            ],
+            "page": 27,
+            "text": "and Debt Flows as of End-2025 Trends in External Debt, 2015–25\nRenewed global inflationary pressures, geopolitical tensions, and decreased fiscal space continued to put substantial pressure on the external debt positions of low- and middle-income countries (LMICs) in 2025. LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024. LMIC external debt has grown about 60 percent over the past decade, and the 2025 increase was the largest since the easing of the COVID-19 pandemic in 2021. The change in debt stock was driven by net debt inflows of $423.5 billion, a more than twofold increase from 2024, as well as by some debt forgiveness and the upward accounting effect of US dollar depreciation."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0061:002"
+            ],
+            "page": 61,
+            "text": "The Middle East, North Africa, Afghanistan, and Pakistan region, despite recording improvements in debt service and interest ratios, saw its external debt-to-GNI ratio rise from 26.7 percent to 29.4 percent, the largest single-year increase of any region, signaling continued debt stock accumulation.\n\nFigure 1.17 External Debt Stock to Exports of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 202 5 0 50 100 150 200 250 300 350 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: IDA = International Development Association."
+          }
+        ],
+        "body_chars": 1646,
+        "context_chars": 1758
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "How does the report define a total return swap (TRS) in its box on sovereign financing?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 4.809,
+    "usage": {
+      "prompt_tokens": 1356,
+      "completion_tokens": 225,
+      "llm_calls": 3,
+      "embedding_tokens": 7,
+      "cost_usd": 0.00033853999999999997
+    },
+    "status": "answered",
+    "answer": "A total return swap (TRS) is defined as a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread. TRSs have traditionally been used to transfer economic risks and returns without transferring legal ownership, and they have gained prominence as a form of sovereign financing, often involving up-front funding and the pledging of government securities or other assets as collateral. This structure can blur the distinction between a financial derivative and conventional borrowing, making it important to assess the economic substance of the transaction [para:idr-2026:p0031:002][para:idr-2026:p0031:003].",
+    "citations": [
+      "para:idr-2026:p0031:002",
+      "para:idr-2026:p0031:003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "total return swap TRS sovereign financing",
+        "filter": null,
+        "rewritten_query": "total return swap TRS sovereign debt financing",
+        "rewrite_log": {},
+        "retrieval_ms": 1146.9,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0031:002",
+            "page": 31,
+            "score": 0.04918
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0032:004",
+            "page": 32,
+            "score": 0.048387
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0031:003",
+            "page": 31,
+            "score": 0.047619
+          }
+        ],
+        "context": "[para:idr-2026:p0031:002] (page 31)\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\nTotal return swaps (TRSs) have traditionally been used in financial markets to transfer the economic risks and returns of an underlying asset without transferring its legal ownership. More recently, TRS structures have gained prominence as a form of sovereign financing, often involving up-front funding and the pledging of government securities or other assets as collateral.\n\nHow a TRS Works\nA TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread.\n\n[para:idr-2026:p0032:004] (page 32)\nCommon Features of Sovereign TRS Financing\nThe recent transactions point to three common features:\n\n• Large financing amounts: Transactions range from about $1 .0 billion to $9.3 billion.\n\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\n(continued)\n\n(Box continues on next page)\n\n[para:idr-2026:p0031:003] (page 31)\nIn sovereign transactions, TRS structures can combine derivative features with financing. This combination can blur the distinction between a financial derivative and conventional borrowing, and makes it important to assess the economic substance of the transaction.\n\nSovereign borrowers may turn to TRS arrangements when conventional market financing is unavailable, slow, or prohibitively expensive. By using government (Box continues on next page)",
+        "context_ids": [
+          "para:idr-2026:p0031:002",
+          "para:idr-2026:p0032:004",
+          "para:idr-2026:p0031:003"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0031:002"
+            ],
+            "page": 31,
+            "text": "Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\nTotal return swaps (TRSs) have traditionally been used in financial markets to transfer the economic risks and returns of an underlying asset without transferring its legal ownership. More recently, TRS structures have gained prominence as a form of sovereign financing, often involving up-front funding and the pledging of government securities or other assets as collateral.\n\nHow a TRS Works\nA TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0032:004"
+            ],
+            "page": 32,
+            "text": "Common Features of Sovereign TRS Financing\nThe recent transactions point to three common features:\n\n• Large financing amounts: Transactions range from about $1 .0 billion to $9.3 billion.\n\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\n(continued)\n\n(Box continues on next page)"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0031:003"
+            ],
+            "page": 31,
+            "text": "In sovereign transactions, TRS structures can combine derivative features with financing. This combination can blur the distinction between a financial derivative and conventional borrowing, and makes it important to assess the economic substance of the transaction.\n\nSovereign borrowers may turn to TRS arrangements when conventional market financing is unavailable, slow, or prohibitively expensive. By using government (Box continues on next page)"
+          }
+        ],
+        "body_chars": 1503,
+        "context_chars": 1615
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "How much more collateral than the amount borrowed do countries typically pledge when they use total return swap financing?",
+    "filter": {
+      "chapter": 1
+    },
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 5.235,
+    "usage": {
+      "prompt_tokens": 2410,
+      "completion_tokens": 94,
+      "llm_calls": 5,
+      "embedding_tokens": 13,
+      "cost_usd": 0.00041815999999999994
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "collateral total return swap financing",
+        "filter": {
+          "chapter": 1
+        },
+        "rewritten_query": "collateralized total return swap debt financing",
+        "rewrite_log": {},
+        "retrieval_ms": 1186.9,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0031:002",
+            "page": 31,
+            "score": 0.048652
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0033:002",
+            "page": 33,
+            "score": 0.048147
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0032:004",
+            "page": 32,
+            "score": 0.046883
+          }
+        ],
+        "context": "[para:idr-2026:p0031:002] (page 31)\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\nTotal return swaps (TRSs) have traditionally been used in financial markets to transfer the economic risks and returns of an underlying asset without transferring its legal ownership. More recently, TRS structures have gained prominence as a form of sovereign financing, often involving up-front funding and the pledging of government securities or other assets as collateral.\n\nHow a TRS Works\nA TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread.\n\n[para:idr-2026:p0033:002] (page 33)\nTransparent reporting should therefore provide information on the amount financed, maturity, collateralization ratio and type of collateral, margin requirements, repayment obligations, and rollover or early termination provisions, while separately identifying the financing and derivative components. Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing (continued)\n\n[para:idr-2026:p0032:004] (page 32)\nCommon Features of Sovereign TRS Financing\nThe recent transactions point to three common features:\n\n• Large financing amounts: Transactions range from about $1 .0 billion to $9.3 billion.\n\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\n(continued)\n\n(Box continues on next page)",
+        "context_ids": [
+          "para:idr-2026:p0031:002",
+          "para:idr-2026:p0033:002",
+          "para:idr-2026:p0032:004"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0031:002"
+            ],
+            "page": 31,
+            "text": "Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\nTotal return swaps (TRSs) have traditionally been used in financial markets to transfer the economic risks and returns of an underlying asset without transferring its legal ownership. More recently, TRS structures have gained prominence as a form of sovereign financing, often involving up-front funding and the pledging of government securities or other assets as collateral.\n\nHow a TRS Works\nA TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0033:002"
+            ],
+            "page": 33,
+            "text": "Transparent reporting should therefore provide information on the amount financed, maturity, collateralization ratio and type of collateral, margin requirements, repayment obligations, and rollover or early termination provisions, while separately identifying the financing and derivative components. Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing (continued)"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0032:004"
+            ],
+            "page": 32,
+            "text": "Common Features of Sovereign TRS Financing\nThe recent transactions point to three common features:\n\n• Large financing amounts: Transactions range from about $1 .0 billion to $9.3 billion.\n\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\n(continued)\n\n(Box continues on next page)"
+          }
+        ],
+        "body_chars": 1433,
+        "context_chars": 1545
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "collateral amount borrowed total return swap",
+        "filter": {
+          "chapter": 1
+        },
+        "rewritten_query": "collateral amount debt total return swap",
+        "rewrite_log": {},
+        "retrieval_ms": 1102.9,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0033:002",
+            "page": 33,
+            "score": 0.04918
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0031:002",
+            "page": 31,
+            "score": 0.047875
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0032:000",
+            "page": 32,
+            "score": 0.046176
+          }
+        ],
+        "context": "[para:idr-2026:p0031:002] (page 31)\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\nTotal return swaps (TRSs) have traditionally been used in financial markets to transfer the economic risks and returns of an underlying asset without transferring its legal ownership. More recently, TRS structures have gained prominence as a form of sovereign financing, often involving up-front funding and the pledging of government securities or other assets as collateral.\n\nHow a TRS Works\nA TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread.\n\n[para:idr-2026:p0033:002] (page 33)\nTransparent reporting should therefore provide information on the amount financed, maturity, collateralization ratio and type of collateral, margin requirements, repayment obligations, and rollover or early termination provisions, while separately identifying the financing and derivative components. Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing (continued)\n\n[para:idr-2026:p0032:004] (page 32)\nCommon Features of Sovereign TRS Financing\nThe recent transactions point to three common features:\n\n• Large financing amounts: Transactions range from about $1 .0 billion to $9.3 billion.\n\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\n(continued)\n\n(Box continues on next page)\n\n[para:idr-2026:p0032:000] (page 32)\nsecurities as collateral, borrowers can obtain foreign currency liquidity quickly and potentially at a lower short-term financing rate. These benefits, however, come with substantial collateral requirements, margin-call, refinancing, and transparency risks.",
+        "context_ids": [
+          "para:idr-2026:p0031:002",
+          "para:idr-2026:p0033:002",
+          "para:idr-2026:p0032:004",
+          "para:idr-2026:p0032:000"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0031:002"
+            ],
+            "page": 31,
+            "text": "Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\nTotal return swaps (TRSs) have traditionally been used in financial markets to transfer the economic risks and returns of an underlying asset without transferring its legal ownership. More recently, TRS structures have gained prominence as a form of sovereign financing, often involving up-front funding and the pledging of government securities or other assets as collateral.\n\nHow a TRS Works\nA TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0033:002"
+            ],
+            "page": 33,
+            "text": "Transparent reporting should therefore provide information on the amount financed, maturity, collateralization ratio and type of collateral, margin requirements, repayment obligations, and rollover or early termination provisions, while separately identifying the financing and derivative components. Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing (continued)"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0032:004"
+            ],
+            "page": 32,
+            "text": "Common Features of Sovereign TRS Financing\nThe recent transactions point to three common features:\n\n• Large financing amounts: Transactions range from about $1 .0 billion to $9.3 billion.\n\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\n(continued)\n\n(Box continues on next page)"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0032:000"
+            ],
+            "page": 32,
+            "text": "securities as collateral, borrowers can obtain foreign currency liquidity quickly and potentially at a lower short-term financing rate. These benefits, however, come with substantial collateral requirements, margin-call, refinancing, and transparency risks."
+          }
+        ],
+        "body_chars": 1690,
+        "context_chars": 1840
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The passages do not provide specific information on how much more collateral than the amount borrowed countries typically pledge when using total return swap financing."
+      }
+    ],
+    "eval": {
+      "n_searches": 2,
+      "tool_use": true,
+      "context_has_evidence": false,
+      "first_search_hit_at_3": false
+    }
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "Under what condition is a total return swap financing recorded as debt of the sovereign?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 4.911,
+    "usage": {
+      "prompt_tokens": 2374,
+      "completion_tokens": 94,
+      "llm_calls": 5,
+      "embedding_tokens": 17,
+      "cost_usd": 0.00041283999999999993
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "total return swap financing recorded as debt of the sovereign",
+        "filter": null,
+        "rewritten_query": "total return swap financing classified as sovereign debt",
+        "rewrite_log": {},
+        "retrieval_ms": 1013.0,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0031:002",
+            "page": 31,
+            "score": 0.04918
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0033:002",
+            "page": 33,
+            "score": 0.047379
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0032:004",
+            "page": 32,
+            "score": 0.047131
+          }
+        ],
+        "context": "[para:idr-2026:p0031:002] (page 31)\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\nTotal return swaps (TRSs) have traditionally been used in financial markets to transfer the economic risks and returns of an underlying asset without transferring its legal ownership. More recently, TRS structures have gained prominence as a form of sovereign financing, often involving up-front funding and the pledging of government securities or other assets as collateral.\n\nHow a TRS Works\nA TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread.\n\n[para:idr-2026:p0033:002] (page 33)\nTransparent reporting should therefore provide information on the amount financed, maturity, collateralization ratio and type of collateral, margin requirements, repayment obligations, and rollover or early termination provisions, while separately identifying the financing and derivative components. Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing (continued)\n\n[para:idr-2026:p0032:004] (page 32)\nCommon Features of Sovereign TRS Financing\nThe recent transactions point to three common features:\n\n• Large financing amounts: Transactions range from about $1 .0 billion to $9.3 billion.\n\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\n(continued)\n\n(Box continues on next page)",
+        "context_ids": [
+          "para:idr-2026:p0031:002",
+          "para:idr-2026:p0033:002",
+          "para:idr-2026:p0032:004"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0031:002"
+            ],
+            "page": 31,
+            "text": "Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\nTotal return swaps (TRSs) have traditionally been used in financial markets to transfer the economic risks and returns of an underlying asset without transferring its legal ownership. More recently, TRS structures have gained prominence as a form of sovereign financing, often involving up-front funding and the pledging of government securities or other assets as collateral.\n\nHow a TRS Works\nA TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0033:002"
+            ],
+            "page": 33,
+            "text": "Transparent reporting should therefore provide information on the amount financed, maturity, collateralization ratio and type of collateral, margin requirements, repayment obligations, and rollover or early termination provisions, while separately identifying the financing and derivative components. Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing (continued)"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0032:004"
+            ],
+            "page": 32,
+            "text": "Common Features of Sovereign TRS Financing\nThe recent transactions point to three common features:\n\n• Large financing amounts: Transactions range from about $1 .0 billion to $9.3 billion.\n\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\n(continued)\n\n(Box continues on next page)"
+          }
+        ],
+        "body_chars": 1433,
+        "context_chars": 1545
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "conditions total return swap financing debt sovereign",
+        "filter": null,
+        "rewritten_query": "conditions total return swap financing external debt sovereign",
+        "rewrite_log": {},
+        "retrieval_ms": 1348.5,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0108:002",
+            "page": 108,
+            "score": 0.048412
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0032:004",
+            "page": 32,
+            "score": 0.048131
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0031:002",
+            "page": 31,
+            "score": 0.047891
+          }
+        ],
+        "context": "[para:idr-2026:p0031:002] (page 31)\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\nTotal return swaps (TRSs) have traditionally been used in financial markets to transfer the economic risks and returns of an underlying asset without transferring its legal ownership. More recently, TRS structures have gained prominence as a form of sovereign financing, often involving up-front funding and the pledging of government securities or other assets as collateral.\n\nHow a TRS Works\nA TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread.\n\n[para:idr-2026:p0033:002] (page 33)\nTransparent reporting should therefore provide information on the amount financed, maturity, collateralization ratio and type of collateral, margin requirements, repayment obligations, and rollover or early termination provisions, while separately identifying the financing and derivative components. Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing (continued)\n\n[para:idr-2026:p0032:004] (page 32)\nCommon Features of Sovereign TRS Financing\nThe recent transactions point to three common features:\n\n• Large financing amounts: Transactions range from about $1 .0 billion to $9.3 billion.\n\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\n(continued)\n\n(Box continues on next page)\n\n[para:idr-2026:p0108:002] (page 108)\nIn addition, with tighter global financing conditions, some governments have turned to off-budget and increasingly complex debt instruments—including bilateral currency swaps, total return swaps, and collateralized loans—to meet financing needs, making it harder to assess public debt exposure.",
+        "context_ids": [
+          "para:idr-2026:p0031:002",
+          "para:idr-2026:p0033:002",
+          "para:idr-2026:p0032:004",
+          "para:idr-2026:p0108:002"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0031:002"
+            ],
+            "page": 31,
+            "text": "Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\nTotal return swaps (TRSs) have traditionally been used in financial markets to transfer the economic risks and returns of an underlying asset without transferring its legal ownership. More recently, TRS structures have gained prominence as a form of sovereign financing, often involving up-front funding and the pledging of government securities or other assets as collateral.\n\nHow a TRS Works\nA TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0033:002"
+            ],
+            "page": 33,
+            "text": "Transparent reporting should therefore provide information on the amount financed, maturity, collateralization ratio and type of collateral, margin requirements, repayment obligations, and rollover or early termination provisions, while separately identifying the financing and derivative components. Box 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing (continued)"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0032:004"
+            ],
+            "page": 32,
+            "text": "Common Features of Sovereign TRS Financing\nThe recent transactions point to three common features:\n\n• Large financing amounts: Transactions range from about $1 .0 billion to $9.3 billion.\n\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\n(continued)\n\n(Box continues on next page)"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0108:002"
+            ],
+            "page": 108,
+            "text": "In addition, with tighter global financing conditions, some governments have turned to off-budget and increasingly complex debt instruments—including bilateral currency swaps, total return swaps, and collateralized loans—to meet financing needs, making it harder to assess public debt exposure."
+          }
+        ],
+        "body_chars": 1727,
+        "context_chars": 1878
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The passages do not contain specific conditions under which total return swap financing is recorded as debt of the sovereign."
+      }
+    ],
+    "eval": {
+      "n_searches": 2,
+      "tool_use": true,
+      "context_has_evidence": false,
+      "first_search_hit_at_3": false
+    }
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "How much of last year's rise in public-sector external obligations merely reflected the weaker US dollar rather than new borrowing?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 3.868,
+    "usage": {
+      "prompt_tokens": 1545,
+      "completion_tokens": 156,
+      "llm_calls": 3,
+      "embedding_tokens": 11,
+      "cost_usd": 0.00032557
+    },
+    "status": "answered",
+    "answer": "In 2025, at least 28.2 percent of the $301.8 billion increase in public-sector external obligations for low- and middle-income countries (LMICs) can be attributed to the depreciation of the US dollar, rather than new borrowing. This depreciation occurred during a period when the US dollar experienced significant declines against other currencies, impacting the reported debt stock when converted to US dollars [para:idr-2026:p0034:002].",
+    "citations": [
+      "para:idr-2026:p0034:002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "rise in public-sector external obligations weaker US dollar new borrowing",
+        "filter": null,
+        "rewritten_query": "increase in public-sector external debt weaker US dollar new debt",
+        "rewrite_log": {},
+        "retrieval_ms": 1149.3,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0034:002",
+            "page": 34,
+            "score": 0.048916
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0027:001",
+            "page": 27,
+            "score": 0.047651
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0033:004",
+            "page": 33,
+            "score": 0.047183
+          }
+        ],
+        "context": "[para:idr-2026:p0034:002] (page 34)\nFor several of the largest borrowers from concessional windows, currency valuation gains in 2025 not only offset principal payments made during the year but also, in some cases, partially reversed the stock reductions achieved through repayments in 2024, leaving reported balances higher at end-2025 despite continued debt servicing. Of the $301.8 billion increase in LMICs’ PPG debt stock (external debt obligations of a country’s government and any private sector debts backed by a public sector guarantee) recorded in 2025, at least 28.2 percent can be attributed to the depreciation of the US dollar. Borrowing by the PPG sector of the economy gets reported at the instrument level and in the currency in which the liabilities are denominated or repaid.\n\n[para:idr-2026:p0027:001] (page 27)\nDuring the first half of 2025, the US dollar experienced its biggest depreciation against other currencies in more than five decades, and the increase in new debt flows went largely to middle-income countries (MICs), predominantly because of continued support from multilateral creditors and a rebound in lending from private creditors. That rebound, driven by both new borrowing and buyback operations, indicated a recovery of investor confidence after a retrenchment by private lenders from 2022 to 2023 and only a small increase in 2024, as well as a renewed search for yield (table 1.1). This pattern shows the procyclical nature of the private creditor lending. It expands in favorable global conditions and contracts sharply when conditions tighten.\n\n[para:idr-2026:p0033:004] (page 33)\nAdditionally, in this publication, the US dollar is used as the common currency by convention to measure all external borrowing of LMICs, which has implications over time. As the US dollar depreciated in 2025 against the euro, the British pound, the Chinese yuan, and many other currencies, the debt stock denominated in those currencies increased when converted to US dollars. The euro, IMF special drawing rights (SDR),2 the Chinese yuan, and the Japanese yen are the four currencies that make up the largest portion of LMICs’ non-dollar-denominated debt. In 2025 the dollar depreciated 13.1 percent against the euro, 5.0 percent against SDR, and 4.4 percent against the yuan, and remained essentially stable against the weakened",
+        "context_ids": [
+          "para:idr-2026:p0034:002",
+          "para:idr-2026:p0027:001",
+          "para:idr-2026:p0033:004"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0034:002"
+            ],
+            "page": 34,
+            "text": "For several of the largest borrowers from concessional windows, currency valuation gains in 2025 not only offset principal payments made during the year but also, in some cases, partially reversed the stock reductions achieved through repayments in 2024, leaving reported balances higher at end-2025 despite continued debt servicing. Of the $301.8 billion increase in LMICs’ PPG debt stock (external debt obligations of a country’s government and any private sector debts backed by a public sector guarantee) recorded in 2025, at least 28.2 percent can be attributed to the depreciation of the US dollar. Borrowing by the PPG sector of the economy gets reported at the instrument level and in the currency in which the liabilities are denominated or repaid."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0027:001"
+            ],
+            "page": 27,
+            "text": "During the first half of 2025, the US dollar experienced its biggest depreciation against other currencies in more than five decades, and the increase in new debt flows went largely to middle-income countries (MICs), predominantly because of continued support from multilateral creditors and a rebound in lending from private creditors. That rebound, driven by both new borrowing and buyback operations, indicated a recovery of investor confidence after a retrenchment by private lenders from 2022 to 2023 and only a small increase in 2024, as well as a renewed search for yield (table 1.1). This pattern shows the procyclical nature of the private creditor lending. It expands in favorable global conditions and contracts sharply when conditions tighten."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0033:004"
+            ],
+            "page": 33,
+            "text": "Additionally, in this publication, the US dollar is used as the common currency by convention to measure all external borrowing of LMICs, which has implications over time. As the US dollar depreciated in 2025 against the euro, the British pound, the Chinese yuan, and many other currencies, the debt stock denominated in those currencies increased when converted to US dollars. The euro, IMF special drawing rights (SDR),2 the Chinese yuan, and the Japanese yen are the four currencies that make up the largest portion of LMICs’ non-dollar-denominated debt. In 2025 the dollar depreciated 13.1 percent against the euro, 5.0 percent against SDR, and 4.4 percent against the yuan, and remained essentially stable against the weakened"
+          }
+        ],
+        "body_chars": 2243,
+        "context_chars": 2355
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "How did total debt service of LMICs change in 2025 once the $34.5 billion of buyback and prepayment principal is removed?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 5.214,
+    "usage": {
+      "prompt_tokens": 1510,
+      "completion_tokens": 284,
+      "llm_calls": 3,
+      "embedding_tokens": 28,
+      "cost_usd": 0.00039746
+    },
+    "status": "answered",
+    "answer": "In 2025, once the $34.5 billion of buyback and prepayment principal is removed, the total debt service of LMICs decreased by a moderate 0.7 percent. This adjustment reflects a total debt service payment of $328.6 billion to bondholders, which represents a smaller annual percentage increase of 2.9 percent. Additionally, total debt service payments to all other creditors decreased, including a 0.6 percent drop to $52.6 billion for official bilateral creditors, a 2.6 percent decrease to $142.4 billion for official multilateral creditors, and a 1.5 percent decline to $703.8 billion for commercial banks and other private creditors in 2025 [para:idr-2026:p0049:000][para:idr-2026:p0049:001].",
+    "citations": [
+      "para:idr-2026:p0049:000",
+      "para:idr-2026:p0049:001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "total debt service of LMICs change in 2025 once the $34.5 billion of buyback and prepayment principal is removed",
+        "filter": null,
+        "rewritten_query": "total debt service of low- and middle-income countries change in 2025 once the $34.5 billion of buyback and prepayment principal is removed",
+        "rewrite_log": {},
+        "retrieval_ms": 1431.5,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0049:000",
+            "page": 49,
+            "score": 0.04918
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0049:003",
+            "page": 49,
+            "score": 0.048387
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0049:001",
+            "page": 49,
+            "score": 0.047371
+          }
+        ],
+        "context": "[para:idr-2026:p0049:000] (page 49)\nrepayments of the debt buyback or prepayment operations funded through the issuance of new international bonds. When the total prepaid or buyback amount of $34.5 billion in principal repayments is removed from these payments, total debt service of LMICs decreased by a moderate 0.7 percent in 2025.\n\n[para:idr-2026:p0049:003] (page 49)\nHowever, when the buyback and prepayment operations’ amounts are considered, debt service payments from LMICs to bondholders for this group of countries also decreased by 10.3 percent, to $207.9 billion, in 2025. Principal repayments for LMICs increased 2.7 percent in 2025, to $973.3 billion. From a creditor viewpoint, principal repayments to multilateral creditors and commercial banks and other private creditors recorded decreases in 2025, those to official bilateral creditors increased 1.9 percent to $40.4 billion, and those to bondholders increased 11.9 percent to $252.5 billion in 2025. When China and the buyback payment operations are excluded, principal repayments to bondholders decreased 19.6 percent to $122.9 billion in 2025.\n\n[para:idr-2026:p0049:001] (page 49)\nFrom the composition standpoint, when subtracting the buyback and prepaid principal payment amounts from total debt service payments made to bondholders alone, the annual percentage increase persists but is reduced to a much smaller pace of 2.9 percent, to $328.6 billion, in 2025. Conversely, total debt service payments owed to all other creditors recorded a decrease in 2025, including official bilateral creditors (down 0.6 percent to $52.6 billion), official multilateral creditors (down 2.6 percent to $142.4 billion), and commercial banks and other private creditors (down 1.5 percent to $703.8 billion).",
+        "context_ids": [
+          "para:idr-2026:p0049:000",
+          "para:idr-2026:p0049:003",
+          "para:idr-2026:p0049:001"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0049:000"
+            ],
+            "page": 49,
+            "text": "repayments of the debt buyback or prepayment operations funded through the issuance of new international bonds. When the total prepaid or buyback amount of $34.5 billion in principal repayments is removed from these payments, total debt service of LMICs decreased by a moderate 0.7 percent in 2025."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0049:003"
+            ],
+            "page": 49,
+            "text": "However, when the buyback and prepayment operations’ amounts are considered, debt service payments from LMICs to bondholders for this group of countries also decreased by 10.3 percent, to $207.9 billion, in 2025. Principal repayments for LMICs increased 2.7 percent in 2025, to $973.3 billion. From a creditor viewpoint, principal repayments to multilateral creditors and commercial banks and other private creditors recorded decreases in 2025, those to official bilateral creditors increased 1.9 percent to $40.4 billion, and those to bondholders increased 11.9 percent to $252.5 billion in 2025. When China and the buyback payment operations are excluded, principal repayments to bondholders decreased 19.6 percent to $122.9 billion in 2025."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0049:001"
+            ],
+            "page": 49,
+            "text": "From the composition standpoint, when subtracting the buyback and prepaid principal payment amounts from total debt service payments made to bondholders alone, the annual percentage increase persists but is reduced to a much smaller pace of 2.9 percent, to $328.6 billion, in 2025. Conversely, total debt service payments owed to all other creditors recorded a decrease in 2025, including official bilateral creditors (down 0.6 percent to $52.6 billion), official multilateral creditors (down 2.6 percent to $142.4 billion), and commercial banks and other private creditors (down 1.5 percent to $703.8 billion)."
+          }
+        ],
+        "body_chars": 1652,
+        "context_chars": 1764
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "Under the restructuring deal with bilateral creditors, how cheap was Zambia's borrowing in the early years and where does the rate eventually top out?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 4.259,
+    "usage": {
+      "prompt_tokens": 1523,
+      "completion_tokens": 186,
+      "llm_calls": 3,
+      "embedding_tokens": 8,
+      "cost_usd": 0.00034020999999999997
+    },
+    "status": "answered",
+    "answer": "Under the restructuring deal with bilateral creditors, Zambia's borrowing was set at an interest rate of 1.0 percent for the first 14 years. After this period, the rate gradually increases to a maximum of 2.5 percent. This restructuring agreement, which involved about $6.3 billion in outstanding debt, extended maturities by 12 years and pushed average maturities to beyond 20 years, providing significant debt relief for Zambia. Over the next decade, Zambia is expected to make debt service payments of about $750 million, compared to nearly $6 billion originally due [para:idr-2026:p0070:003].",
+    "citations": [
+      "para:idr-2026:p0070:003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Zambia restructuring deal bilateral creditors borrowing rates",
+        "filter": null,
+        "rewritten_query": "Zambia restructuring agreement bilateral creditors debt terms",
+        "rewrite_log": {},
+        "retrieval_ms": 1023.3,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0069:004",
+            "page": 69,
+            "score": 0.04866
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0070:003",
+            "page": 70,
+            "score": 0.048652
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0070:004",
+            "page": 70,
+            "score": 0.047875
+          }
+        ],
+        "context": "[para:idr-2026:p0069:004] (page 69)\nCurrently, only a handful of G-20 bilateral creditors publish information on the amount and terms of rescheduling agreements on official websites.\n\nDebt Restructuring in 2025\nDebt restructuring in 2025 focused on implementation of an MoU between bilateral creditors and Ghana, Sri Lanka, and Zambia. As discussed in detail in International Debt Report 2025, all three countries finalized and concluded a restructuring agreement with bondholders in 2024. The pace of implementation of bilateral agreements accelerated in 2025, and, after long and protracted negotiations, an MoU was also signed with Ethiopia.\n\n[para:idr-2026:p0070:003] (page 70)\nIn addition, an agreement to restructure $2.2 billion owed to the China Development Bank on terms comparable to those accorded by international bondholders was also signed. Zambia signed an MoU with 16 bilateral creditors in December 2023 that restructured about $6.3 billion in outstanding debt. The agreement extended maturities by 12 years and pushed average maturities to beyond 20 years. Interest rates were reduced according to a structured schedule and set at 1.0 percent for the first 14 years, gradually increasing thereafter to a maximum of 2.5 percent. The revised terms provided significant debt relief. Over the next decade, Zambia will make debt service payments of about $750 million, compared to nearly $6 billion originally due.\n\n[para:idr-2026:p0070:004] (page 70)\nBy end-2025 Zambia had signed a bilateral agreement with 6 of the 16 creditors signatory to the MoU, including, in order of the date of signature, Saudi Arabia, France, China, India, the United Kingdom, and Japan. Based on information reported to the Debtor Reporting System, together these creditors restructured $3.9 billion, equivalent to about 62 percent of the total of $6.3 billion agreed to by bilateral creditors in the MoU.\n\nEthiopia concluded negotiations with bilateral creditors in 2025. It reached an agreement in principle with the Official Creditor Committee in March 2025, and an MoU covering approximately $8.4 billion was signed by all 14 Official Creditor Committee members in December 2025. The first bilateral agreement",
+        "context_ids": [
+          "para:idr-2026:p0069:004",
+          "para:idr-2026:p0070:003",
+          "para:idr-2026:p0070:004"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0069:004"
+            ],
+            "page": 69,
+            "text": "Currently, only a handful of G-20 bilateral creditors publish information on the amount and terms of rescheduling agreements on official websites.\n\nDebt Restructuring in 2025\nDebt restructuring in 2025 focused on implementation of an MoU between bilateral creditors and Ghana, Sri Lanka, and Zambia. As discussed in detail in International Debt Report 2025, all three countries finalized and concluded a restructuring agreement with bondholders in 2024. The pace of implementation of bilateral agreements accelerated in 2025, and, after long and protracted negotiations, an MoU was also signed with Ethiopia."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0070:003"
+            ],
+            "page": 70,
+            "text": "In addition, an agreement to restructure $2.2 billion owed to the China Development Bank on terms comparable to those accorded by international bondholders was also signed. Zambia signed an MoU with 16 bilateral creditors in December 2023 that restructured about $6.3 billion in outstanding debt. The agreement extended maturities by 12 years and pushed average maturities to beyond 20 years. Interest rates were reduced according to a structured schedule and set at 1.0 percent for the first 14 years, gradually increasing thereafter to a maximum of 2.5 percent. The revised terms provided significant debt relief. Over the next decade, Zambia will make debt service payments of about $750 million, compared to nearly $6 billion originally due."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0070:004"
+            ],
+            "page": 70,
+            "text": "By end-2025 Zambia had signed a bilateral agreement with 6 of the 16 creditors signatory to the MoU, including, in order of the date of signature, Saudi Arabia, France, China, India, the United Kingdom, and Japan. Based on information reported to the Debtor Reporting System, together these creditors restructured $3.9 billion, equivalent to about 62 percent of the total of $6.3 billion agreed to by bilateral creditors in the MoU.\n\nEthiopia concluded negotiations with bilateral creditors in 2025. It reached an agreement in principle with the Official Creditor Committee in March 2025, and an MoU covering approximately $8.4 billion was signed by all 14 Official Creditor Committee members in December 2025. The first bilateral agreement"
+          }
+        ],
+        "body_chars": 2093,
+        "context_chars": 2205
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "Excluding China, how did inflation in commodity-importing LMICs change between January and June 2026?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 6.236,
+    "usage": {
+      "prompt_tokens": 1585,
+      "completion_tokens": 240,
+      "llm_calls": 3,
+      "embedding_tokens": 23,
+      "cost_usd": 0.00038220999999999996
+    },
+    "status": "answered",
+    "answer": "Between January and June 2026, inflation in commodity-importing low- and middle-income countries (LMICs), excluding China, increased from 7.0 percent to 8.3 percent. This rise was influenced by a major energy supply shock due to the conflict in the Middle East, which began at the end of February 2026, causing overall inflation in these countries to surge to 3.6 percent by June 2026 from a preconflict level of 2.6 percent. Inflation expectations for 2026 also rose during this period, from 2.7 percent in February to 3.4 percent in July 2026 [para:idr-2026:p0080:000].",
+    "citations": [
+      "para:idr-2026:p0080:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Excluding China, how did inflation in commodity-importing LMICs change between January and June 2026?",
+        "filter": null,
+        "rewritten_query": "Excluding China, what was the change in inflation rates for commodity-importing low- and middle-income countries between January and June 2026?",
+        "rewrite_log": {},
+        "retrieval_ms": 2793.4,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0080:001",
+            "page": 80,
+            "score": 0.048916
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0080:000",
+            "page": 80,
+            "score": 0.048652
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0081:002",
+            "page": 81,
+            "score": 0.047131
+          }
+        ],
+        "context": "[para:idr-2026:p0080:001] (page 80)\nEnergy prices have increased, as well, by 1.1 percentage points between January and June 2026 (excluding China). To ease price pressures, several central banks have raised interest rates. In addition, several commodity-importing LMICs have introduced subsidies in response to higher fuel prices (World Bank 2026b).\n\nFigure 2.4 Headline Consumer Prices in Commodity-Importing Low- and Middle-Income Countries, 2024–26 2 4 6 8 10 12 14 2024 2025 2026\nCommodity-importing LMICs Commodity-importing LMICs (excl. China)\n\nPercent change from a year earlier\nSources: Original calculations based on data from Haver Analytics; International Monetary Fund; World Bank Group.\n\n[para:idr-2026:p0080:000] (page 80)\nInflation in commodity-importing LMICs has increased following a major energy supply shock in 2026. The conflict in the Middle East involving major energy producers, which began at the end of February 2026, has caused a surge in headline inflation in these countries, to 3.6 percent in June 2026, from the preconflict level of 2.6 percent (figure 2.4). Among market participants, inflation expectations for 2026 have also risen, from 2.7 percent according to preconflict February surveys to 3.4 percent in July. Excluding China, which has been relatively insulated from the shock, partly because of its large petroleum reserves, inflation in commodity-importing LMICs increased from 7.0 percent to 8.3 percent between January and June, with higher inflation expectations for 2026.\n\n[para:idr-2026:p0081:002] (page 81)\nCurrency pressures have made imports more expensive in commodity importers and worsened trade balances. Across commodity-importing LMICs with flexible or adjustable currency regimes, merchandise import values, in US dollar terms, increased by an average 23 percent between February and June 2026 compared with the same months of 2025. Excluding China, the rate of increase was 21 percent, on average. As import values increased faster than those of exports, merchandise trade deficits—without China—expanded in the first half of 2026. Between February and June 2026, merchandise trade deficits averaged almost $20 billion higher than in the same months of the previous year.",
+        "context_ids": [
+          "para:idr-2026:p0080:001",
+          "para:idr-2026:p0080:000",
+          "para:idr-2026:p0081:002"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0080:001"
+            ],
+            "page": 80,
+            "text": "Energy prices have increased, as well, by 1.1 percentage points between January and June 2026 (excluding China). To ease price pressures, several central banks have raised interest rates. In addition, several commodity-importing LMICs have introduced subsidies in response to higher fuel prices (World Bank 2026b).\n\nFigure 2.4 Headline Consumer Prices in Commodity-Importing Low- and Middle-Income Countries, 2024–26 2 4 6 8 10 12 14 2024 2025 2026\nCommodity-importing LMICs Commodity-importing LMICs (excl. China)\n\nPercent change from a year earlier\nSources: Original calculations based on data from Haver Analytics; International Monetary Fund; World Bank Group."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0080:000"
+            ],
+            "page": 80,
+            "text": "Inflation in commodity-importing LMICs has increased following a major energy supply shock in 2026. The conflict in the Middle East involving major energy producers, which began at the end of February 2026, has caused a surge in headline inflation in these countries, to 3.6 percent in June 2026, from the preconflict level of 2.6 percent (figure 2.4). Among market participants, inflation expectations for 2026 have also risen, from 2.7 percent according to preconflict February surveys to 3.4 percent in July. Excluding China, which has been relatively insulated from the shock, partly because of its large petroleum reserves, inflation in commodity-importing LMICs increased from 7.0 percent to 8.3 percent between January and June, with higher inflation expectations for 2026."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0081:002"
+            ],
+            "page": 81,
+            "text": "Currency pressures have made imports more expensive in commodity importers and worsened trade balances. Across commodity-importing LMICs with flexible or adjustable currency regimes, merchandise import values, in US dollar terms, increased by an average 23 percent between February and June 2026 compared with the same months of 2025. Excluding China, the rate of increase was 21 percent, on average. As import values increased faster than those of exports, merchandise trade deficits—without China—expanded in the first half of 2026. Between February and June 2026, merchandise trade deficits averaged almost $20 billion higher than in the same months of the previous year."
+          }
+        ],
+        "body_chars": 2118,
+        "context_chars": 2230
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "At end-December 2025, how many IDA LIC-DSF countries were in debt distress or had unsustainable public debt, out of how many?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 4.392,
+    "usage": {
+      "prompt_tokens": 1598,
+      "completion_tokens": 163,
+      "llm_calls": 3,
+      "embedding_tokens": 32,
+      "cost_usd": 0.00033814
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "At end-December 2025, how many IDA LIC-DSF countries were in debt distress or had unsustainable public debt, out of how many?",
+        "filter": null,
+        "rewritten_query": "At end-December 2025, how many IDA low-income countries under the Debt Sustainability Framework were in debt distress or had unsustainable public debt, out of the total number?",
+        "rewrite_log": {},
+        "retrieval_ms": 1854.7,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0088:000",
+            "page": 88,
+            "score": 0.04918
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0088:002",
+            "page": 88,
+            "score": 0.045957
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0034:003",
+            "page": 34,
+            "score": 0.045517
+          }
+        ],
+        "context": "[para:idr-2026:p0088:000] (page 88)\nDebt distress risks have eased from the deterioration observed over the past decade, particularly following the COVID-19 shock, but they remain elevated. As informed by the World Bank–International Monetary Fund Debt Sustainability Framework for Low-Income Countries (LIC-DSF), the number of IDA LIC-DSF countries with unsustainable external public debt or rated as being in debt distress remains limited (at end-December 2025): out of 68 IDA LIC-DSF countries, only 11 are in debt distress or have unsustainable public debt. The share of IDA LIC-DSF countries assessed as being at high risk of external debt distress declined from a peak of 46 percent in 2021 to 35 percent in 2025.\n\n[para:idr-2026:p0088:002] (page 88)\nDespite these improvements, IDA LIC-DSF countries have generally moved from high to moderate risk rather than returning to their preshock levels. Between 2019 and 2025, there were a total of 37 changes in external risk (figure 2.10). Of these changes, 22 were downgraded to higher risk of external debt distress, most of which took place after the COVID-19 shock. More recently, upgrades have reflected improved macro-fiscal conditions and, in a few cases, the completion of debt restructuring. The LIC-DSF framework underpinning these assessments has undergone a comprehensive review by the World Bank Group and the International Monetary Fund, with that review approved by their respective Executive Boards in September 2026.\n\n[para:idr-2026:p0034:003] (page 34)\nAccordingly, this level of detailed reporting makes possible the computation of the effect of the cross-currency valuation. Viewed from a lending category perspective, the external debt stock of countries eligible for International Development Association (IDA) financing increased 8.1 percent in 2025, to $1.3 trillion. Of this group, LICs’ debt increased at an even faster pace of 8.9 percent in 2025, to $262.4 billion, a marked increase not seen since 2020. Although LICs account for only a 2.8 percent share of total LMIC debt stock, over 60 percent of these countries are at high risk of debt distress or already in debt distress.",
+        "context_ids": [
+          "para:idr-2026:p0088:000",
+          "para:idr-2026:p0088:002",
+          "para:idr-2026:p0034:003"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0088:000"
+            ],
+            "page": 88,
+            "text": "Debt distress risks have eased from the deterioration observed over the past decade, particularly following the COVID-19 shock, but they remain elevated. As informed by the World Bank–International Monetary Fund Debt Sustainability Framework for Low-Income Countries (LIC-DSF), the number of IDA LIC-DSF countries with unsustainable external public debt or rated as being in debt distress remains limited (at end-December 2025): out of 68 IDA LIC-DSF countries, only 11 are in debt distress or have unsustainable public debt. The share of IDA LIC-DSF countries assessed as being at high risk of external debt distress declined from a peak of 46 percent in 2021 to 35 percent in 2025."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0088:002"
+            ],
+            "page": 88,
+            "text": "Despite these improvements, IDA LIC-DSF countries have generally moved from high to moderate risk rather than returning to their preshock levels. Between 2019 and 2025, there were a total of 37 changes in external risk (figure 2.10). Of these changes, 22 were downgraded to higher risk of external debt distress, most of which took place after the COVID-19 shock. More recently, upgrades have reflected improved macro-fiscal conditions and, in a few cases, the completion of debt restructuring. The LIC-DSF framework underpinning these assessments has undergone a comprehensive review by the World Bank Group and the International Monetary Fund, with that review approved by their respective Executive Boards in September 2026."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0034:003"
+            ],
+            "page": 34,
+            "text": "Accordingly, this level of detailed reporting makes possible the computation of the effect of the cross-currency valuation. Viewed from a lending category perspective, the external debt stock of countries eligible for International Development Association (IDA) financing increased 8.1 percent in 2025, to $1.3 trillion. Of this group, LICs’ debt increased at an even faster pace of 8.9 percent in 2025, to $262.4 billion, a marked increase not seen since 2020. Although LICs account for only a 2.8 percent share of total LMIC debt stock, over 60 percent of these countries are at high risk of debt distress or already in debt distress."
+          }
+        ],
+        "body_chars": 2046,
+        "context_chars": 2158
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "model_answer": "At end-December 2025, out of 68 IDA LIC-DSF countries, 11 were in debt distress or had unsustainable public debt. This indicates that approximately 16.2% of these countries faced significant debt challenges at that time.",
+        "model_citations": [
+          "para:idr-2026:p0088:000"
+        ]
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "Where large sustainability gaps persisted for four years or more, by how much did the median debt ratio rise?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 3.54,
+    "usage": {
+      "prompt_tokens": 1602,
+      "completion_tokens": 124,
+      "llm_calls": 3,
+      "embedding_tokens": 21,
+      "cost_usd": 0.00031512
+    },
+    "status": "answered",
+    "answer": "Where large sustainability gaps persisted for four years or more, the median debt ratio increased by 17 percentage points of gross domestic product [para:idr-2026:p0093:001].",
+    "citations": [
+      "para:idr-2026:p0093:001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Where large sustainability gaps persisted for four years or more, by how much did the median debt ratio rise?",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {
+          "rewrite_proposed": "Where large sustainability gaps persisted for four years or more, by how much did the median debt-to-GDP ratio increase?",
+          "rewrite_rejected_added": [
+            "GDP"
+          ]
+        },
+        "retrieval_ms": 1308.9,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0093:001",
+            "page": 93,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0094:000",
+            "page": 94,
+            "score": 0.027746
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0062:000",
+            "page": 62,
+            "score": 0.027619
+          }
+        ],
+        "context": "[para:idr-2026:p0093:001] (page 93)\nConsolidation is often delayed even after fiscal balances become unsustainable, which carries compounding costs. Where the primary deficit was significantly larger than what would stabilize debt, countries tended to wait three to four years before embarking on meaningful fiscal consolidation (figure B2.3.2; Di Lorenzo and Lacey 2024). Political and social constraints are particularly binding in the aftermath of a shock, but delay can compound the eventual costs. Where large sustainability gaps (that is, the primary deficit was significantly larger than what would stabilize debt) persisted for four years or more, the median debt ratio increased by 17 percentage points of gross domestic product.\n\n[para:idr-2026:p0094:000] (page 94)\nFigure B2.3.1 Success of Maintaining Growth During Consolidation 0 10 20 30 40 50 60 70 80 Shock No shock Number of episodes Success No success\nSource: Original calculations.\n\nNote: Terms-of-trade shock defined as a country’s terms-of-trade index score (2012 = 100) falling by 15 percent or more in at least one of the three years before consolidation. Success defined as maintaining average GDP per capita growth during consolidation equal to 90 percent or more of average GDP per capita growth rates in the 10 years before consolidation. Significant in a Chi-squared test at p<0.01.\n\nFigure B2.3.2 Consecutive Years of Unsustainable Debt Before Consolidation Started 0 5 10 15 20 25 30 35 40 45 Percent 1 2 Y ears since debt became unsustainable 3 4 Source: Di Lorenzo and Lacey 2024.\n\n[para:idr-2026:p0062:000] (page 62)\nTrends in External Debt of IDA-Eligible Countries, 2015–25\nExternal debt stock of IDA-eligible countries reached a record $1.3 trillion in 2025, accumulating at a rate of 8.1 percent, faster than that of the other LMICs. The pace of accumulation was much higher than the 2.9 percent average recorded during the past three years and raises sustainability concerns for this group of countries. Long-term debt stock rose by 7.9 percent, and short-term debt rose by 10.7 percent, bringing the end-2025 external debt stock to almost double the 2015 level. Long-term obligations of the PPG sector grew at a faster rate of 9.0 percent than the 4.3 percent increase of the PNG debt stock.",
+        "context_ids": [
+          "para:idr-2026:p0093:001",
+          "para:idr-2026:p0094:000",
+          "para:idr-2026:p0062:000"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0093:001"
+            ],
+            "page": 93,
+            "text": "Consolidation is often delayed even after fiscal balances become unsustainable, which carries compounding costs. Where the primary deficit was significantly larger than what would stabilize debt, countries tended to wait three to four years before embarking on meaningful fiscal consolidation (figure B2.3.2; Di Lorenzo and Lacey 2024). Political and social constraints are particularly binding in the aftermath of a shock, but delay can compound the eventual costs. Where large sustainability gaps (that is, the primary deficit was significantly larger than what would stabilize debt) persisted for four years or more, the median debt ratio increased by 17 percentage points of gross domestic product."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0094:000"
+            ],
+            "page": 94,
+            "text": "Figure B2.3.1 Success of Maintaining Growth During Consolidation 0 10 20 30 40 50 60 70 80 Shock No shock Number of episodes Success No success\nSource: Original calculations.\n\nNote: Terms-of-trade shock defined as a country’s terms-of-trade index score (2012 = 100) falling by 15 percent or more in at least one of the three years before consolidation. Success defined as maintaining average GDP per capita growth during consolidation equal to 90 percent or more of average GDP per capita growth rates in the 10 years before consolidation. Significant in a Chi-squared test at p<0.01.\n\nFigure B2.3.2 Consecutive Years of Unsustainable Debt Before Consolidation Started 0 5 10 15 20 25 30 35 40 45 Percent 1 2 Y ears since debt became unsustainable 3 4 Source: Di Lorenzo and Lacey 2024."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0062:000"
+            ],
+            "page": 62,
+            "text": "Trends in External Debt of IDA-Eligible Countries, 2015–25\nExternal debt stock of IDA-eligible countries reached a record $1.3 trillion in 2025, accumulating at a rate of 8.1 percent, faster than that of the other LMICs. The pace of accumulation was much higher than the 2.9 percent average recorded during the past three years and raises sustainability concerns for this group of countries. Long-term debt stock rose by 7.9 percent, and short-term debt rose by 10.7 percent, bringing the end-2025 external debt stock to almost double the 2015 level. Long-term obligations of the PPG sector grew at a faster rate of 9.0 percent than the 4.3 percent increase of the PNG debt stock."
+          }
+        ],
+        "body_chars": 2168,
+        "context_chars": 2280
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "By how much did the World Uncertainty Index rise between the third quarter of 2024 and the third quarter of 2025?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 3.757,
+    "usage": {
+      "prompt_tokens": 1532,
+      "completion_tokens": 128,
+      "llm_calls": 3,
+      "embedding_tokens": 21,
+      "cost_usd": 0.00030701999999999997
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "World Uncertainty Index rise between the third quarter of 2024 and the third quarter of 2025",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {
+          "rewrite_proposed": "World Uncertainty Index increase between Q3 2024 and Q3 2025",
+          "rewrite_rejected_added": [
+            "3"
+          ]
+        },
+        "retrieval_ms": 1405.8,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0075:003",
+            "page": 75,
+            "score": 0.032522
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0076:000",
+            "page": 76,
+            "score": 0.032522
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0086:001",
+            "page": 86,
+            "score": 0.029631
+          }
+        ],
+        "context": "[para:idr-2026:p0075:003] (page 75)\nFinally, food and nutrition security provides a concrete example of these interactions, illustrating how debt burdens may be closely associated with a decline in the affordability of a healthy diet during periods of global stress. Global uncertainty rose sharply in 2025 (figure 2.1) and remained elevated into 2026. The World Uncertainty Index measures broad uncertainty and rose more than fivefold between the third quarter of 2024 and the third quarter of 2025, nearly twice its COVID-19 peak. The Global Economic Policy Uncertainty Index showed a similar pattern, rising sharply in early 2025 and remaining elevated into 2026 (Ahir et al. 2022; Davis 2016).1\n\n[para:idr-2026:p0076:000] (page 76)\nFigure 2.1 Global Uncertainty amid Successive Shocks 1,200 1,000 800 600 400 200 100 0\nIndex (2000 = 100)\n\n2000 2005 2010 World Uncertainty Index Global Economic Policy Uncertainty Index 2015 2020 2025\nSources: Original calculations based on data from the World Uncertainty Index database and the Global Economic Policy Uncertainty Index database.\n\nNote: The World Uncertainty Index measures broad uncertainty using Economist Intelligence Unit country reports. The Global Economic Policy Uncertainty Index measures uncertainty around economic policy using newspaper coverage and is aggregated across 20 economies using current price GDP weights. Both series are rebased so that their average value in 2000 equals 100. Data shown through 2026Q2.\n\n[para:idr-2026:p0086:001] (page 86)\nBox 2.1 The World Bank Group’s Sovereign Investor Relations Guidance Note Sovereign credit rating actions remained in flux throughout 2025. For instance, in the first half of 2025, Fitch recorded eight sovereign upgrades against four downgrades among emerging markets—a net positive trend—but revised its sector outlook for Asia-Pacific, Eastern Europe, and Sub-Saharan Africa to “deteriorating” from “neutral,” citing trade uncertainty and tightening fiscal space. Moody’s downgraded Bolivia and Botswana, while upgrading Costa Rica.",
+        "context_ids": [
+          "para:idr-2026:p0075:003",
+          "para:idr-2026:p0076:000",
+          "para:idr-2026:p0086:001"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0075:003"
+            ],
+            "page": 75,
+            "text": "Finally, food and nutrition security provides a concrete example of these interactions, illustrating how debt burdens may be closely associated with a decline in the affordability of a healthy diet during periods of global stress. Global uncertainty rose sharply in 2025 (figure 2.1) and remained elevated into 2026. The World Uncertainty Index measures broad uncertainty and rose more than fivefold between the third quarter of 2024 and the third quarter of 2025, nearly twice its COVID-19 peak. The Global Economic Policy Uncertainty Index showed a similar pattern, rising sharply in early 2025 and remaining elevated into 2026 (Ahir et al. 2022; Davis 2016).1"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0076:000"
+            ],
+            "page": 76,
+            "text": "Figure 2.1 Global Uncertainty amid Successive Shocks 1,200 1,000 800 600 400 200 100 0\nIndex (2000 = 100)\n\n2000 2005 2010 World Uncertainty Index Global Economic Policy Uncertainty Index 2015 2020 2025\nSources: Original calculations based on data from the World Uncertainty Index database and the Global Economic Policy Uncertainty Index database.\n\nNote: The World Uncertainty Index measures broad uncertainty using Economist Intelligence Unit country reports. The Global Economic Policy Uncertainty Index measures uncertainty around economic policy using newspaper coverage and is aggregated across 20 economies using current price GDP weights. Both series are rebased so that their average value in 2000 equals 100. Data shown through 2026Q2."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0086:001"
+            ],
+            "page": 86,
+            "text": "Box 2.1 The World Bank Group’s Sovereign Investor Relations Guidance Note Sovereign credit rating actions remained in flux throughout 2025. For instance, in the first half of 2025, Fitch recorded eight sovereign upgrades against four downgrades among emerging markets—a net positive trend—but revised its sector outlook for Asia-Pacific, Eastern Europe, and Sub-Saharan Africa to “deteriorating” from “neutral,” citing trade uncertainty and tightening fiscal space. Moody’s downgraded Bolivia and Botswana, while upgrading Costa Rica."
+          }
+        ],
+        "body_chars": 1940,
+        "context_chars": 2052
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "model_answer": "The World Uncertainty Index rose more than fivefold between the third quarter of 2024 and the third quarter of 2025, nearly doubling its peak during the COVID-19 pandemic. This indicates a significant increase in global uncertainty during that period.",
+        "model_citations": [
+          "para:idr-2026:p0075:003"
+        ]
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "How many policy performance actions (PPAs) have been agreed since the Sustainable Development Finance Policy became effective?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 4.212,
+    "usage": {
+      "prompt_tokens": 1378,
+      "completion_tokens": 196,
+      "llm_calls": 3,
+      "embedding_tokens": 16,
+      "cost_usd": 0.00032461999999999997
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "policy performance actions (PPAs) agreed since the Sustainable Development Finance Policy became effective",
+        "filter": null,
+        "rewritten_query": "policy performance actions (PPAs) established since the implementation of the Sustainable Development Finance Policy",
+        "rewrite_log": {},
+        "retrieval_ms": 1256.8,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0107:002",
+            "page": 107,
+            "score": 0.04918
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0108:000",
+            "page": 108,
+            "score": 0.047883
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0127:001",
+            "page": 127,
+            "score": 0.047154
+          }
+        ],
+        "context": "[para:idr-2026:p0107:002] (page 107)\nThe Sustainable Development Finance Policy (SDFP), which became effective in July 2020, requires IDA-eligible borrowers at moderate or elevated risk of debt distress to take concrete policy performance actions (PPAs) to enhance debt transparency, strengthen debt management, and promote fiscal sustainability.1 These PPAs have been instrumental in incentivizing countries to embrace sustainable development financing, embed debt transparency reforms into national policy frameworks, and institutionalize transparent disclosure of public debt data.\n\n[para:idr-2026:p0108:000] (page 108)\nnarrowed, further enhancing the coverage and accuracy of LMICs’ external debt data published by the World Bank Group in International Debt Statistics. Since the SDFP policy became effective, a total of 887 PPAs have been agreed, of which 60 percent focused on debt transparency and debt management and 40 percent on fiscal sustainability. In its first year in operation, fiscal year (FY) 2021, 55 IDA countries committed to 130 PPAs. By FY2026, these numbers had risen to 65 IDA countries implementing 159 PPAs, of which 55 percent focused on debt transparency and debt management. During the initial years of implementation, PPAs related to debt transparency focused on foundational measures aimed at disclosure of timely and comprehensive debt bulletins.\n\n[para:idr-2026:p0127:001] (page 127)\nOther important initiatives include the World Bank Group Debt Transparency Initiatives and the IDA Sustainable Development Finance Policy, both of which tie financial support to improvements in debt reporting.",
+        "context_ids": [
+          "para:idr-2026:p0107:002",
+          "para:idr-2026:p0108:000",
+          "para:idr-2026:p0127:001"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0107:002"
+            ],
+            "page": 107,
+            "text": "The Sustainable Development Finance Policy (SDFP), which became effective in July 2020, requires IDA-eligible borrowers at moderate or elevated risk of debt distress to take concrete policy performance actions (PPAs) to enhance debt transparency, strengthen debt management, and promote fiscal sustainability.1 These PPAs have been instrumental in incentivizing countries to embrace sustainable development financing, embed debt transparency reforms into national policy frameworks, and institutionalize transparent disclosure of public debt data."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0108:000"
+            ],
+            "page": 108,
+            "text": "narrowed, further enhancing the coverage and accuracy of LMICs’ external debt data published by the World Bank Group in International Debt Statistics. Since the SDFP policy became effective, a total of 887 PPAs have been agreed, of which 60 percent focused on debt transparency and debt management and 40 percent on fiscal sustainability. In its first year in operation, fiscal year (FY) 2021, 55 IDA countries committed to 130 PPAs. By FY2026, these numbers had risen to 65 IDA countries implementing 159 PPAs, of which 55 percent focused on debt transparency and debt management. During the initial years of implementation, PPAs related to debt transparency focused on foundational measures aimed at disclosure of timely and comprehensive debt bulletins."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0127:001"
+            ],
+            "page": 127,
+            "text": "Other important initiatives include the World Bank Group Debt Transparency Initiatives and the IDA Sustainable Development Finance Policy, both of which tie financial support to improvements in debt reporting."
+          }
+        ],
+        "body_chars": 1512,
+        "context_chars": 1627
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "model_answer": "Since the Sustainable Development Finance Policy (SDFP) became effective in July 2020, a total of 887 policy performance actions (PPAs) have been agreed. Of these, 60 percent focused on debt transparency and debt management, while 40 percent were aimed at fiscal sustainability. In the first year of the policy, fiscal year 2021, 55 IDA countries committed to 130 PPAs, and by fiscal year 2026, this number increased to 159 PPAs implemented by 65 IDA countries, with 55 percent focusing on debt transparency and debt management.",
+        "model_citations": [
+          "[para:idr-2026:p0108:000]"
+        ]
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "How big a part of governments' total borrowing is made up of home-market (local) debt in many developing economies?",
+    "filter": {
+      "chapter": 3
+    },
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 5.33,
+    "usage": {
+      "prompt_tokens": 2480,
+      "completion_tokens": 184,
+      "llm_calls": 5,
+      "embedding_tokens": 16,
+      "cost_usd": 0.00048271999999999996
+    },
+    "status": "answered",
+    "answer": "In many developing economies, domestic public debt accounts for 40–60 percent of total public debt, and in some countries, it exceeds these shares. This indicates that a significant part of governments' total borrowing is made up of home-market (local) debt in these regions. Despite its importance for fiscal sustainability and financial stability, data on domestic debt obligations are often fragmented and inconsistently defined [para:idr-2026:p0117:003].",
+    "citations": [
+      "para:idr-2026:p0117:003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "home-market local debt governments total borrowing developing economies",
+        "filter": {
+          "chapter": 3
+        },
+        "rewritten_query": "domestic public debt government total debt low- and middle-income countries",
+        "rewrite_log": {},
+        "retrieval_ms": 1077.6,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0108:002",
+            "page": 108,
+            "score": 0.046036
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0122:004",
+            "page": 122,
+            "score": 0.041873
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0118:001",
+            "page": 118,
+            "score": 0.040783
+          }
+        ],
+        "context": "[para:idr-2026:p0108:002] (page 108)\nIn addition, with tighter global financing conditions, some governments have turned to off-budget and increasingly complex debt instruments—including bilateral currency swaps, total return swaps, and collateralized loans—to meet financing needs, making it harder to assess public debt exposure.\n\n[para:idr-2026:p0122:004] (page 122)\nResponding to an Increasingly Complex Debt Landscape\nCapacity building has also expanded to address areas where weaknesses in coverage can have significant implications for assessments of public debt and fiscal risks. One such area is nonguaranteed borrowing by SOEs and other public sector entities. Identifying these liabilities can be difficult when information is dispersed across institutions or when debt management systems focus primarily on central government borrowing. Training therefore helps participants identify\n\n[para:idr-2026:p0118:001] (page 118)\nThis initiative presents institutional and technical challenges. Extensive diagnostic work, including surveys and pilot exercises conducted by the World Bank Group with DRS reporting countries and partner institutions that support them— including the IMF, the Commonwealth Secretariat, and UNCTAD—identified a vast and complex array of instruments for raising financing in domestic markets. In many LMICs, domestic debt is managed by multiple entities, including ministries of finance, central banks, and subnational governments, and recorded in different systems using a variety of classifications. An important element of the new reporting framework will be the introduction of a standardized reporting template based on international definitions and classifications.",
+        "context_ids": [
+          "para:idr-2026:p0108:002",
+          "para:idr-2026:p0122:004",
+          "para:idr-2026:p0118:001"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0108:002"
+            ],
+            "page": 108,
+            "text": "In addition, with tighter global financing conditions, some governments have turned to off-budget and increasingly complex debt instruments—including bilateral currency swaps, total return swaps, and collateralized loans—to meet financing needs, making it harder to assess public debt exposure."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0122:004"
+            ],
+            "page": 122,
+            "text": "Responding to an Increasingly Complex Debt Landscape\nCapacity building has also expanded to address areas where weaknesses in coverage can have significant implications for assessments of public debt and fiscal risks. One such area is nonguaranteed borrowing by SOEs and other public sector entities. Identifying these liabilities can be difficult when information is dispersed across institutions or when debt management systems focus primarily on central government borrowing. Training therefore helps participants identify"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0118:001"
+            ],
+            "page": 118,
+            "text": "This initiative presents institutional and technical challenges. Extensive diagnostic work, including surveys and pilot exercises conducted by the World Bank Group with DRS reporting countries and partner institutions that support them— including the IMF, the Commonwealth Secretariat, and UNCTAD—identified a vast and complex array of instruments for raising financing in domestic markets. In many LMICs, domestic debt is managed by multiple entities, including ministries of finance, central banks, and subnational governments, and recorded in different systems using a variety of classifications. An important element of the new reporting framework will be the introduction of a standardized reporting template based on international definitions and classifications."
+          }
+        ],
+        "body_chars": 1588,
+        "context_chars": 1703
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "local debt share total borrowing developing economies",
+        "filter": {
+          "chapter": 3
+        },
+        "rewritten_query": "local debt share total debt low- and middle-income countries",
+        "rewrite_log": {},
+        "retrieval_ms": 1063.8,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0117:003",
+            "page": 117,
+            "score": 0.045928
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0108:002",
+            "page": 108,
+            "score": 0.043176
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0108:001",
+            "page": 108,
+            "score": 0.042657
+          }
+        ],
+        "context": "[para:idr-2026:p0108:002] (page 108)\nIn addition, with tighter global financing conditions, some governments have turned to off-budget and increasingly complex debt instruments—including bilateral currency swaps, total return swaps, and collateralized loans—to meet financing needs, making it harder to assess public debt exposure.\n\n[para:idr-2026:p0122:004] (page 122)\nResponding to an Increasingly Complex Debt Landscape\nCapacity building has also expanded to address areas where weaknesses in coverage can have significant implications for assessments of public debt and fiscal risks. One such area is nonguaranteed borrowing by SOEs and other public sector entities. Identifying these liabilities can be difficult when information is dispersed across institutions or when debt management systems focus primarily on central government borrowing. Training therefore helps participants identify\n\n[para:idr-2026:p0118:001] (page 118)\nThis initiative presents institutional and technical challenges. Extensive diagnostic work, including surveys and pilot exercises conducted by the World Bank Group with DRS reporting countries and partner institutions that support them— including the IMF, the Commonwealth Secretariat, and UNCTAD—identified a vast and complex array of instruments for raising financing in domestic markets. In many LMICs, domestic debt is managed by multiple entities, including ministries of finance, central banks, and subnational governments, and recorded in different systems using a variety of classifications. An important element of the new reporting framework will be the introduction of a standardized reporting template based on international definitions and classifications.\n\n[para:idr-2026:p0117:003] (page 117)\nIntegrating Domestic Public Debt into the Debt Transparency Agenda\nA critical new frontier for the debt transparency agenda is the expansion of data coverage to domestic public debt, which has become an increasingly important share of LMICs’ public debt. In many of these countries, domestic public debt now accounts for 40–60 percent of total public debt, and in some of them it exceeds those shares. Despite the centrality of domestic debt levels to fiscal sustainability, sound monetary policy, and financial stability, data on domestic debt obligations remain fragmented, inconsistently defined, and only partially captured in international data sets.",
+        "context_ids": [
+          "para:idr-2026:p0108:002",
+          "para:idr-2026:p0122:004",
+          "para:idr-2026:p0118:001",
+          "para:idr-2026:p0117:003"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0108:002"
+            ],
+            "page": 108,
+            "text": "In addition, with tighter global financing conditions, some governments have turned to off-budget and increasingly complex debt instruments—including bilateral currency swaps, total return swaps, and collateralized loans—to meet financing needs, making it harder to assess public debt exposure."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0122:004"
+            ],
+            "page": 122,
+            "text": "Responding to an Increasingly Complex Debt Landscape\nCapacity building has also expanded to address areas where weaknesses in coverage can have significant implications for assessments of public debt and fiscal risks. One such area is nonguaranteed borrowing by SOEs and other public sector entities. Identifying these liabilities can be difficult when information is dispersed across institutions or when debt management systems focus primarily on central government borrowing. Training therefore helps participants identify"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0118:001"
+            ],
+            "page": 118,
+            "text": "This initiative presents institutional and technical challenges. Extensive diagnostic work, including surveys and pilot exercises conducted by the World Bank Group with DRS reporting countries and partner institutions that support them— including the IMF, the Commonwealth Secretariat, and UNCTAD—identified a vast and complex array of instruments for raising financing in domestic markets. In many LMICs, domestic debt is managed by multiple entities, including ministries of finance, central banks, and subnational governments, and recorded in different systems using a variety of classifications. An important element of the new reporting framework will be the introduction of a standardized reporting template based on international definitions and classifications."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0117:003"
+            ],
+            "page": 117,
+            "text": "Integrating Domestic Public Debt into the Debt Transparency Agenda\nA critical new frontier for the debt transparency agenda is the expansion of data coverage to domestic public debt, which has become an increasingly important share of LMICs’ public debt. In many of these countries, domestic public debt now accounts for 40–60 percent of total public debt, and in some of them it exceeds those shares. Despite the centrality of domestic debt levels to fiscal sustainability, sound monetary policy, and financial stability, data on domestic debt obligations remain fragmented, inconsistently defined, and only partially captured in international data sets."
+          }
+        ],
+        "body_chars": 2243,
+        "context_chars": 2397
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 2,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": false
+    }
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "How does the World Bank Group turn loan data reported by borrowing countries into policy analysis?",
+    "filter": {
+      "chapter": 3
+    },
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 4.528,
+    "usage": {
+      "prompt_tokens": 1466,
+      "completion_tokens": 246,
+      "llm_calls": 3,
+      "embedding_tokens": 17,
+      "cost_usd": 0.00036784
+    },
+    "status": "answered",
+    "answer": "The World Bank Group transforms loan data reported by borrowing countries into policy analysis through a structured process involving three tiers: the Debt Reporting System (DRS), the International Debt Statistics (IDS), and the International Debt Report (IDR). The DRS collects granular data, which IDS then converts into trusted statistical facts. Finally, the IDR analyzes these facts to produce actionable knowledge that informs debt management, sustainability assessments, financing decisions, and global policy debates. This process connects country-level debt reporting to broader development and policy agendas, ensuring comprehensive understanding of external debt statistics, including who owes what, the terms of borrowing, and the evolution of these obligations over time [para:idr-2026:p0128:000][para:idr-2026:p0127:003].",
+    "citations": [
+      "para:idr-2026:p0128:000",
+      "para:idr-2026:p0127:003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "How does the World Bank Group turn loan data reported by borrowing countries into policy analysis?",
+        "filter": {
+          "chapter": 3
+        },
+        "rewritten_query": "How does the World Bank Group transform debt data reported by low- and middle-income countries into policy analysis?",
+        "rewrite_log": {},
+        "retrieval_ms": 1303.7,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0128:000",
+            "page": 128,
+            "score": 0.046898
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0127:003",
+            "page": 127,
+            "score": 0.045945
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0121:003",
+            "page": 121,
+            "score": 0.045169
+          }
+        ],
+        "context": "[para:idr-2026:p0128:000] (page 128)\ninto evidence that can inform debt management, debt sustainability assessments, financing decisions, and the global policy debate.\n\nThe World Bank Group debt transparency work is built as a continuous chain of value through three-tier architecture (refer to annex 3B for more information on the World Bank Group Debt Statistics three-tier architecture): DRS provides the granular evidence, IDS transforms that evidence into trusted and transparent statistical facts, and the International Debt Report (IDR) converts those facts into analysis and actionable knowledge. Together, these three tiers connect country-level debt reporting to the broader development and policy agenda.\n\n[para:idr-2026:p0127:003] (page 127)\nEmerging technologies such as discrepancy detectors powered by artificial intelligence or SDMX-based data exchanges would further modernize data compilation workflows.\n\nFrom Granular Data to Actionable Knowledge\nFor more than seven decades, the World Bank Group DRS has transformed detailed information reported by borrowing countries into one of the world’s most comprehensive sources of internationally comparable external debt statistics. It provides a statistical infrastructure for understanding not simply how much countries owe but who borrowed from whom, through which instruments, and on what terms, and how those obligations evolve over time.\n\n[para:idr-2026:p0121:003] (page 121)\nThe modernization and expansion of the DRS serves as an important anchor for structuring the capacity-building program in debt data management. It currently covers about 120 World Bank Group borrowing countries and more than 50,000 active loan records, with approximately 2,500–3,000 new loans reported each year. Maintaining a system of this scale and ensuring the integrity of the data require sustained investment in national reporting capacity. Practical training sessions are not limited to familiarizing debt managers with the new and very different DRS reporting structure. They include equally, if not more, important training in how to implement international statistical standards to categorize and compile debt data.",
+        "context_ids": [
+          "para:idr-2026:p0128:000",
+          "para:idr-2026:p0127:003",
+          "para:idr-2026:p0121:003"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0128:000"
+            ],
+            "page": 128,
+            "text": "into evidence that can inform debt management, debt sustainability assessments, financing decisions, and the global policy debate.\n\nThe World Bank Group debt transparency work is built as a continuous chain of value through three-tier architecture (refer to annex 3B for more information on the World Bank Group Debt Statistics three-tier architecture): DRS provides the granular evidence, IDS transforms that evidence into trusted and transparent statistical facts, and the International Debt Report (IDR) converts those facts into analysis and actionable knowledge. Together, these three tiers connect country-level debt reporting to the broader development and policy agenda."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0127:003"
+            ],
+            "page": 127,
+            "text": "Emerging technologies such as discrepancy detectors powered by artificial intelligence or SDMX-based data exchanges would further modernize data compilation workflows.\n\nFrom Granular Data to Actionable Knowledge\nFor more than seven decades, the World Bank Group DRS has transformed detailed information reported by borrowing countries into one of the world’s most comprehensive sources of internationally comparable external debt statistics. It provides a statistical infrastructure for understanding not simply how much countries owe but who borrowed from whom, through which instruments, and on what terms, and how those obligations evolve over time."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0121:003"
+            ],
+            "page": 121,
+            "text": "The modernization and expansion of the DRS serves as an important anchor for structuring the capacity-building program in debt data management. It currently covers about 120 World Bank Group borrowing countries and more than 50,000 active loan records, with approximately 2,500–3,000 new loans reported each year. Maintaining a system of this scale and ensuring the integrity of the data require sustained investment in national reporting capacity. Practical training sessions are not limited to familiarizing debt managers with the new and very different DRS reporting structure. They include equally, if not more, important training in how to implement international statistical standards to categorize and compile debt data."
+          }
+        ],
+        "body_chars": 2057,
+        "context_chars": 2172
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "In extreme cases, how large have discrepancies been observed in debt stock figures purporting to have the same coverage?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_dev",
+    "elapsed_s": 3.855,
+    "usage": {
+      "prompt_tokens": 1325,
+      "completion_tokens": 144,
+      "llm_calls": 3,
+      "embedding_tokens": 16,
+      "cost_usd": 0.00028546999999999996
+    },
+    "status": "answered",
+    "answer": "In extreme cases, discrepancies as large as 30 percent of gross domestic product have been observed in debt stock figures purporting to have the same coverage. These discrepancies arise primarily from inconsistent methodological definitions and accounting practices in debtor and creditor countries and other institutions that compile and disseminate debt data [para:idr-2026:p0125:002].",
+    "citations": [
+      "para:idr-2026:p0125:002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "discrepancies in debt stock figures purporting to have the same coverage",
+        "filter": null,
+        "rewritten_query": "discrepancies in external debt stock figures purporting to have the same coverage",
+        "rewrite_log": {},
+        "retrieval_ms": 1458.5,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0125:002",
+            "page": 125,
+            "score": 0.048916
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0126:004",
+            "page": 126,
+            "score": 0.045772
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0125:001",
+            "page": 125,
+            "score": 0.044175
+          }
+        ],
+        "context": "[para:idr-2026:p0125:002] (page 125)\nAddressing Debt Asymmetries Is Key to Debt Transparency\nAsymmetries in debt data arise primarily from inconsistent methodological definitions and accounting practices in debtor and creditor countries and other institutions that compile and disseminate debt data. These divergent practices present a minefield for users trying to compare debtor and creditor data or to make cross-country comparisons across groups of debtors or creditors. In extreme cases discrepancies as large as 30 percent of gross domestic product have been observed in debt stock figures purporting to have the same coverage.\n\n[para:idr-2026:p0126:004] (page 126)\nDifferences in the classification of borrowers, particularly SOEs, central banks, and government-guaranteed entities, can lead to significant discrepancies between data sets. Some statistical systems treat SOEs as part of the public sector, whereas others classify them as private unless explicitly guaranteed. Similarly, contingent liabilities and guarantees may be included in debt totals in some frameworks but excluded until they are triggered in others, producing further divergence in reported figures.\n\n[para:idr-2026:p0125:001] (page 125)\nAlthough these situations are sometimes the case, the primary challenge to the accuracy, credibility, and comparability of debt data is asymmetries, particularly between debtor- and creditor-reported figures.",
+        "context_ids": [
+          "para:idr-2026:p0125:002",
+          "para:idr-2026:p0126:004",
+          "para:idr-2026:p0125:001"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0125:002"
+            ],
+            "page": 125,
+            "text": "Addressing Debt Asymmetries Is Key to Debt Transparency\nAsymmetries in debt data arise primarily from inconsistent methodological definitions and accounting practices in debtor and creditor countries and other institutions that compile and disseminate debt data. These divergent practices present a minefield for users trying to compare debtor and creditor data or to make cross-country comparisons across groups of debtors or creditors. In extreme cases discrepancies as large as 30 percent of gross domestic product have been observed in debt stock figures purporting to have the same coverage."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0126:004"
+            ],
+            "page": 126,
+            "text": "Differences in the classification of borrowers, particularly SOEs, central banks, and government-guaranteed entities, can lead to significant discrepancies between data sets. Some statistical systems treat SOEs as part of the public sector, whereas others classify them as private unless explicitly guaranteed. Similarly, contingent liabilities and guarantees may be included in debt totals in some frameworks but excluded until they are triggered in others, producing further divergence in reported figures."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0125:001"
+            ],
+            "page": 125,
+            "text": "Although these situations are sometimes the case, the primary challenge to the accuracy, credibility, and comparability of debt data is asymmetries, particularly between debtor- and creditor-reported figures."
+          }
+        ],
+        "body_chars": 1312,
+        "context_chars": 1427
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "u01",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "How much did low- and middle-income countries borrow through cryptocurrency- or stablecoin-backed loans in 2025?",
+    "filter": null,
+    "answerable": false,
+    "origin": "day7_new",
+    "elapsed_s": 3.255,
+    "usage": {
+      "prompt_tokens": 1452,
+      "completion_tokens": 94,
+      "llm_calls": 3,
+      "embedding_tokens": 19,
+      "cost_usd": 0.00027458
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "low- and middle-income countries borrow through cryptocurrency- or stablecoin-backed loans in 2025",
+        "filter": null,
+        "rewritten_query": "low- and middle-income countries access debt through cryptocurrency- or stablecoin-backed financing in 2025",
+        "rewrite_log": {},
+        "retrieval_ms": 1211.8,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0053:000",
+            "page": 53,
+            "score": 0.043636
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0060:003",
+            "page": 60,
+            "score": 0.032787
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0030:003",
+            "page": 30,
+            "score": 0.032002
+          }
+        ],
+        "context": "[para:idr-2026:p0053:000] (page 53)\nBox 1.5 Early 2026 Data Show No Signs of Slowdown in LMIC Bond Market Activity Preliminary data on public and publicly guaranteed (PPG) bond issuances for the first seven and a half months of 2026 show no signs of a slowdown in the appetite of low- and middle-income countries (LMICs) for external capital market financing. In fact, more than 10 countries had already surpassed their full-year 2025 PPG bond totals before 2026 reached its midpoint, and the share of bond issuances with maturities of 10 years or more rose as well.\n\n[para:idr-2026:p0060:003] (page 60)\nTotal debt service and interest payments relative to export earnings both declined Figure 1.16 Ratio of External Debt Stock to GNI of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 0 10 20 30 40 50 60 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: GNI = gross national income; IDA = International Development Association.\n\n[para:idr-2026:p0030:003] (page 30)\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 Low- and middle-income countries China IDA-eligible countries Other low- and middle-income countries\nSource: World Bank Group International Debt Statistics database.\n\nNote: IDA = International Development Association.",
+        "context_ids": [
+          "para:idr-2026:p0053:000",
+          "para:idr-2026:p0060:003",
+          "para:idr-2026:p0030:003"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0053:000"
+            ],
+            "page": 53,
+            "text": "Box 1.5 Early 2026 Data Show No Signs of Slowdown in LMIC Bond Market Activity Preliminary data on public and publicly guaranteed (PPG) bond issuances for the first seven and a half months of 2026 show no signs of a slowdown in the appetite of low- and middle-income countries (LMICs) for external capital market financing. In fact, more than 10 countries had already surpassed their full-year 2025 PPG bond totals before 2026 reached its midpoint, and the share of bond issuances with maturities of 10 years or more rose as well."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0060:003"
+            ],
+            "page": 60,
+            "text": "Total debt service and interest payments relative to export earnings both declined Figure 1.16 Ratio of External Debt Stock to GNI of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 0 10 20 30 40 50 60 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: GNI = gross national income; IDA = International Development Association."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0030:003"
+            ],
+            "page": 30,
+            "text": "2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 Low- and middle-income countries China IDA-eligible countries Other low- and middle-income countries\nSource: World Bank Group International Debt Statistics database.\n\nNote: IDA = International Development Association."
+          }
+        ],
+        "body_chars": 1385,
+        "context_chars": 1497
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The passages do not contain information about borrowing through cryptocurrency- or stablecoin-backed loans by low- and middle-income countries in 2025."
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true
+    }
+  },
+  {
+    "query_id": "u02",
+    "split": "dev",
+    "config": "BASE+C1",
+    "question": "How much did low- and middle-income countries raise through Panda bond issuance in 2025?",
+    "filter": null,
+    "answerable": false,
+    "origin": "day7_new",
+    "elapsed_s": 3.471,
+    "usage": {
+      "prompt_tokens": 1520,
+      "completion_tokens": 81,
+      "llm_calls": 3,
+      "embedding_tokens": 13,
+      "cost_usd": 0.00027686
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Panda bond issuance low- and middle-income countries 2025",
+        "filter": null,
+        "rewritten_query": "Panda bond issuance low-income and middle-income countries 2025",
+        "rewrite_log": {},
+        "retrieval_ms": 1400.8,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0043:002",
+            "page": 43,
+            "score": 0.048916
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0053:000",
+            "page": 53,
+            "score": 0.047643
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0071:002",
+            "page": 71,
+            "score": 0.042925
+          }
+        ],
+        "context": "[para:idr-2026:p0043:002] (page 43)\nArgentina ($9.8 billion) and Peru ($6.4 billion) also tapped international bond markets in 2025, recording increases of almost double and 64.5 percent, respectively, above the previous year, whereas Mexico’s new bond issuance ($8.2 billion) remained almost unchanged from 2024.\n\nFigure 1.5 Bond Flows to Low- and Middle-Income Countries, by Borrower Type, 2024–25 2024 2025 –150 –100 –50 0 50 100 150 200 250 30 0 Net flows Amortization Disbursements Net flows Amortization Disbursements PPG PNG US$ (billion)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: PNG = private nonguaranteed; PPG = public and publicly guaranteed.\n\n[para:idr-2026:p0053:000] (page 53)\nBox 1.5 Early 2026 Data Show No Signs of Slowdown in LMIC Bond Market Activity Preliminary data on public and publicly guaranteed (PPG) bond issuances for the first seven and a half months of 2026 show no signs of a slowdown in the appetite of low- and middle-income countries (LMICs) for external capital market financing. In fact, more than 10 countries had already surpassed their full-year 2025 PPG bond totals before 2026 reached its midpoint, and the share of bond issuances with maturities of 10 years or more rose as well.\n\n[para:idr-2026:p0071:002] (page 71)\nLiability Management Operations in 2025\nTenders by LMICs to buy back or exchange sovereign bonds increased markedly in 2025 as governments used new bond issuance to refinance existing obligations and actively manage their debt portfolios. Based on data reported to the Debtor Reporting System, 14 countries repurchased $34.5 billion in outstanding sovereign bonds in 2025, with the largest operations concentrated in MICs (figure 1.22). Although the scale and structure of these transactions varied, both middle-income and IDA-eligible countries sought to reduce near-term refinancing pressures, extend maturity profiles, manage currency and interest rate exposure, and, in some cases, support state-owned enterprises.",
+        "context_ids": [
+          "para:idr-2026:p0043:002",
+          "para:idr-2026:p0053:000",
+          "para:idr-2026:p0071:002"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0043:002"
+            ],
+            "page": 43,
+            "text": "Argentina ($9.8 billion) and Peru ($6.4 billion) also tapped international bond markets in 2025, recording increases of almost double and 64.5 percent, respectively, above the previous year, whereas Mexico’s new bond issuance ($8.2 billion) remained almost unchanged from 2024.\n\nFigure 1.5 Bond Flows to Low- and Middle-Income Countries, by Borrower Type, 2024–25 2024 2025 –150 –100 –50 0 50 100 150 200 250 30 0 Net flows Amortization Disbursements Net flows Amortization Disbursements PPG PNG US$ (billion)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: PNG = private nonguaranteed; PPG = public and publicly guaranteed."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0053:000"
+            ],
+            "page": 53,
+            "text": "Box 1.5 Early 2026 Data Show No Signs of Slowdown in LMIC Bond Market Activity Preliminary data on public and publicly guaranteed (PPG) bond issuances for the first seven and a half months of 2026 show no signs of a slowdown in the appetite of low- and middle-income countries (LMICs) for external capital market financing. In fact, more than 10 countries had already surpassed their full-year 2025 PPG bond totals before 2026 reached its midpoint, and the share of bond issuances with maturities of 10 years or more rose as well."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0071:002"
+            ],
+            "page": 71,
+            "text": "Liability Management Operations in 2025\nTenders by LMICs to buy back or exchange sovereign bonds increased markedly in 2025 as governments used new bond issuance to refinance existing obligations and actively manage their debt portfolios. Based on data reported to the Debtor Reporting System, 14 countries repurchased $34.5 billion in outstanding sovereign bonds in 2025, with the largest operations concentrated in MICs (figure 1.22). Although the scale and structure of these transactions varied, both middle-income and IDA-eligible countries sought to reduce near-term refinancing pressures, extend maturity profiles, manage currency and interest rate exposure, and, in some cases, support state-owned enterprises."
+          }
+        ],
+        "body_chars": 1897,
+        "context_chars": 2009
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The passages do not contain specific information about the total amount raised through Panda bond issuance by low- and middle-income countries in 2025."
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true
+    }
+  }
+]

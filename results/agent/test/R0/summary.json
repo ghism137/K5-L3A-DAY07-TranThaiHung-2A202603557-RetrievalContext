@@ -1,0 +1,41 @@
+{
+  "config": "R0",
+  "split": "test",
+  "model": "gpt-4o-mini",
+  "questions": 13,
+  "provider_errors": [],
+  "answerable": {
+    "n": 11,
+    "context_evidence_rate": "8/11",
+    "first_search_hit_at_3": "8/11",
+    "answered": 6,
+    "abstained_false": 5,
+    "context_missed": [
+      "n02",
+      "q17",
+      "s04"
+    ]
+  },
+  "unanswerable": {
+    "n": 2,
+    "abstained": 2,
+    "answered_anyway": [],
+    "note": "status only; whether the abstention is correct is a human label"
+  },
+  "tool_use": "13/13",
+  "searches_distribution": {
+    "0": 0,
+    "1": 11,
+    "2": 0,
+    "3": 2,
+    "4": 0
+  },
+  "median_seconds": 3.95,
+  "tokens": {
+    "llm_prompt": 23172,
+    "llm_completion": 1642,
+    "embedding": 277
+  },
+  "estimated_cost_usd": 0.004467,
+  "cost_note": "list prices are assumptions (src/agent.py, src/embeddings.py); verify before quoting"
+}

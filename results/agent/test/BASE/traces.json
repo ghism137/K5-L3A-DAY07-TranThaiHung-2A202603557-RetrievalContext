@@ -1,0 +1,1549 @@
+[
+  {
+    "query_id": "n01",
+    "split": "test",
+    "config": "BASE",
+    "question": "Within Sub-Saharan Africa, which country was the largest international bond issuer in 2025, and how much did it raise?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day7_new",
+    "elapsed_s": 3.278,
+    "usage": {
+      "prompt_tokens": 1318,
+      "completion_tokens": 114,
+      "llm_calls": 2,
+      "embedding_tokens": 12,
+      "cost_usd": 0.00026633999999999995
+    },
+    "status": "answered",
+    "answer": "In 2025, Kenya was the largest international bond issuer in Sub-Saharan Africa, raising $3.5 billion. This issuance was part of a strategy to prepay its 2027 and 2028 maturity obligations ahead of schedule [para:idr-2026:p0064:002].",
+    "citations": [
+      "para:idr-2026:p0064:002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "largest international bond issuer in Sub-Saharan Africa 2025",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 304.7,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0064:002",
+            "page": 64,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0066:002",
+            "page": 66,
+            "score": 0.031754
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0064:003",
+            "page": 64,
+            "score": 0.030798
+          }
+        ],
+        "context": "[para:idr-2026:p0064:002] (page 64)\nThe restoration of access to capital markets has been particularly consequential for Sub-Saharan Africa, which accounted for 64 percent of IDA-eligible countries’ total public sector issuances (figure 1.19). The public sectors of eight countries in Sub-Saharan Africa collectively raised approximately $11.8 billion by end-December 2025, a marked 36.2 percent increase over 2024. Several issuers returned after prolonged absences: Kenya, the largest issuer in the region, raised $3.5 billion in 2025. The country returned to bond markets to prepay its 2027 and 2028 maturity obligations ahead of schedule. Côte d’Ivoire raised a total of $2.5 billion in 2025.\n\n[para:idr-2026:p0066:002] (page 66)\nAverage interest rates on new bond issuances among IDA-eligible countries in Sub-Saharan Africa increased 1.1 percentage point in 2025, to 9.8 percent. As IDA-eligible countries’ reliance on bond markets grows, it comes at much higher risk and cost relative to official lending.\n\n[para:idr-2026:p0064:003] (page 64)\nImportantly, a substantial share of proceeds from the two countries’ debt offerings funded their liability management operations, refinancing upcoming bullet maturities, and thereby easing rollover pressures. Nigeria, the third-largest issuer in the region, raised $2.3 billion in a dual-tranche international bond issue that was divided into one tranche with a 10-year maturity at 8.625 percent and a second, 20-year maturity tranche at 9.125 percent. Remarkably, Uganda’s share of domestic currency government debt held by nonresidents reached $2.8 billion in 2025, indicating strong demand for high-yield debt from international investors. Among countries in other regions, Uzbekistan recorded the highest international bond issuance among IDA-eligible countries in 2025, at $3.9 billion.",
+        "context_ids": [
+          "para:idr-2026:p0064:002",
+          "para:idr-2026:p0066:002",
+          "para:idr-2026:p0064:003"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0064:002"
+            ],
+            "page": 64,
+            "text": "The restoration of access to capital markets has been particularly consequential for Sub-Saharan Africa, which accounted for 64 percent of IDA-eligible countries’ total public sector issuances (figure 1.19). The public sectors of eight countries in Sub-Saharan Africa collectively raised approximately $11.8 billion by end-December 2025, a marked 36.2 percent increase over 2024. Several issuers returned after prolonged absences: Kenya, the largest issuer in the region, raised $3.5 billion in 2025. The country returned to bond markets to prepay its 2027 and 2028 maturity obligations ahead of schedule. Côte d’Ivoire raised a total of $2.5 billion in 2025."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0066:002"
+            ],
+            "page": 66,
+            "text": "Average interest rates on new bond issuances among IDA-eligible countries in Sub-Saharan Africa increased 1.1 percentage point in 2025, to 9.8 percent. As IDA-eligible countries’ reliance on bond markets grows, it comes at much higher risk and cost relative to official lending."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0064:003"
+            ],
+            "page": 64,
+            "text": "Importantly, a substantial share of proceeds from the two countries’ debt offerings funded their liability management operations, refinancing upcoming bullet maturities, and thereby easing rollover pressures. Nigeria, the third-largest issuer in the region, raised $2.3 billion in a dual-tranche international bond issue that was divided into one tranche with a 10-year maturity at 8.625 percent and a second, 20-year maturity tranche at 9.125 percent. Remarkably, Uganda’s share of domestic currency government debt held by nonresidents reached $2.8 billion in 2025, indicating strong demand for high-yield debt from international investors. Among countries in other regions, Uzbekistan recorded the highest international bond issuance among IDA-eligible countries in 2025, at $3.9 billion."
+          }
+        ],
+        "body_chars": 1728,
+        "context_chars": 1840
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "n02",
+    "split": "test",
+    "config": "BASE",
+    "question": "For which food groups do countries with heavier debt burdens relative to exports import from a wider variety of suppliers?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day7_new",
+    "elapsed_s": 8.024,
+    "usage": {
+      "prompt_tokens": 3357,
+      "completion_tokens": 251,
+      "llm_calls": 4,
+      "embedding_tokens": 32,
+      "cost_usd": 0.0006547899999999999
+    },
+    "status": "answered",
+    "answer": "Countries with heavier debt burdens relative to exports tend to import from a wider variety of suppliers across different food groups. This is indicated by the relationship between import reliance and source diversification, which captures complementary dimensions of food import exposure. The variation in reliance on imported supply across food groups reflects differences in domestic production capacity, tradability, storability, perishability, and the structure of global suppliers. Specifically, net import reliance varies substantially across the six food groups that make up the Healthy Diet Basket, suggesting that countries with high debt-to-export ratios may diversify their import sources to enhance resilience against external shocks [para:idr-2026:p0096:001][para:idr-2026:p0101:002].",
+    "citations": [
+      "para:idr-2026:p0096:001",
+      "para:idr-2026:p0101:002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "food groups countries heavier debt burdens relative to exports import wider variety of suppliers",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 392.6,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0096:001",
+            "page": 96,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0096:000",
+            "page": 96,
+            "score": 0.031514
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0095:004",
+            "page": 95,
+            "score": 0.031498
+          }
+        ],
+        "context": "[para:idr-2026:p0096:001] (page 96)\nDuring external shocks, higher import costs can therefore coincide with weaker economic and external buffers; export earnings may also decline, further increasing pressure on foreign exchange resources and raising the debt-to-exports ratio, even without an increase in the debt stock. Import Reliance and Debt Burdens Across Food Groups Aggregate food import shares do not show how strongly the domestic supply of individual food groups depends on international markets. Net import reliance— net imports as a share of domestic supply quantity—varies substantially across the six food groups making up the Healthy Diet Basket (Bai, Herforth et al. 2025; Herforth et al. 2025).\n\n[para:idr-2026:p0096:000] (page 96)\nin healthy diet unaffordability over time, a broader outcome that reflects both food costs and people’s economic resources.\n\nFood Import Shares in Poorer Economies\nAcross the sample, which consists predominantly of LMICs, the share of food in merchandise imports generally declines as income per capita rises (figure 2.13, panel a). By contrast, economies with larger external debt burdens relative to exports also tend to have higher food import shares (figure 2.13, panel b).5 Both relationships matter for an economy’s capacity to manage food import exposure. Lower-income economies may have less room to absorb increases in import costs, and a high debt-to-exports ratio indicates that external debt is large relative to export earnings.\n\n[para:idr-2026:p0095:004] (page 95)\nPrevious analysis in International Debt Report 2025 showed that higher external debt burdens were associated with higher levels of unaffordability of healthy diets across countries (World Bank 2025). This section extends that analysis by examining food import exposure as one important source of vulnerability to external shocks, including the importance of food in merchandise imports, reliance on imported supply across food groups, and the diversification of import sources. It also examines associations between external debt burdens and changes",
+        "context_ids": [
+          "para:idr-2026:p0096:001",
+          "para:idr-2026:p0096:000",
+          "para:idr-2026:p0095:004"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0096:001"
+            ],
+            "page": 96,
+            "text": "During external shocks, higher import costs can therefore coincide with weaker economic and external buffers; export earnings may also decline, further increasing pressure on foreign exchange resources and raising the debt-to-exports ratio, even without an increase in the debt stock. Import Reliance and Debt Burdens Across Food Groups Aggregate food import shares do not show how strongly the domestic supply of individual food groups depends on international markets. Net import reliance— net imports as a share of domestic supply quantity—varies substantially across the six food groups making up the Healthy Diet Basket (Bai, Herforth et al. 2025; Herforth et al. 2025)."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0096:000"
+            ],
+            "page": 96,
+            "text": "in healthy diet unaffordability over time, a broader outcome that reflects both food costs and people’s economic resources.\n\nFood Import Shares in Poorer Economies\nAcross the sample, which consists predominantly of LMICs, the share of food in merchandise imports generally declines as income per capita rises (figure 2.13, panel a). By contrast, economies with larger external debt burdens relative to exports also tend to have higher food import shares (figure 2.13, panel b).5 Both relationships matter for an economy’s capacity to manage food import exposure. Lower-income economies may have less room to absorb increases in import costs, and a high debt-to-exports ratio indicates that external debt is large relative to export earnings."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0095:004"
+            ],
+            "page": 95,
+            "text": "Previous analysis in International Debt Report 2025 showed that higher external debt burdens were associated with higher levels of unaffordability of healthy diets across countries (World Bank 2025). This section extends that analysis by examining food import exposure as one important source of vulnerability to external shocks, including the importance of food in merchandise imports, reliance on imported supply across food groups, and the diversification of import sources. It also examines associations between external debt burdens and changes"
+          }
+        ],
+        "body_chars": 1965,
+        "context_chars": 2077
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "food groups import reliance diversification suppliers debt burdens",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 291.5,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0096:001",
+            "page": 96,
+            "score": 0.032266
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0101:002",
+            "page": 101,
+            "score": 0.032266
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0095:004",
+            "page": 95,
+            "score": 0.031514
+          }
+        ],
+        "context": "[para:idr-2026:p0096:001] (page 96)\nDuring external shocks, higher import costs can therefore coincide with weaker economic and external buffers; export earnings may also decline, further increasing pressure on foreign exchange resources and raising the debt-to-exports ratio, even without an increase in the debt stock. Import Reliance and Debt Burdens Across Food Groups Aggregate food import shares do not show how strongly the domestic supply of individual food groups depends on international markets. Net import reliance— net imports as a share of domestic supply quantity—varies substantially across the six food groups making up the Healthy Diet Basket (Bai, Herforth et al. 2025; Herforth et al. 2025).\n\n[para:idr-2026:p0096:000] (page 96)\nin healthy diet unaffordability over time, a broader outcome that reflects both food costs and people’s economic resources.\n\nFood Import Shares in Poorer Economies\nAcross the sample, which consists predominantly of LMICs, the share of food in merchandise imports generally declines as income per capita rises (figure 2.13, panel a). By contrast, economies with larger external debt burdens relative to exports also tend to have higher food import shares (figure 2.13, panel b).5 Both relationships matter for an economy’s capacity to manage food import exposure. Lower-income economies may have less room to absorb increases in import costs, and a high debt-to-exports ratio indicates that external debt is large relative to export earnings.\n\n[para:idr-2026:p0095:004] (page 95)\nPrevious analysis in International Debt Report 2025 showed that higher external debt burdens were associated with higher levels of unaffordability of healthy diets across countries (World Bank 2025). This section extends that analysis by examining food import exposure as one important source of vulnerability to external shocks, including the importance of food in merchandise imports, reliance on imported supply across food groups, and the diversification of import sources. It also examines associations between external debt burdens and changes\n\n[para:idr-2026:p0101:002] (page 101)\nImport reliance and source diversification capture complementary dimensions of food import exposure and together provide a broader indication of resilience in access to healthy diets when external shocks occur. Heterogeneity across food groups in both dimensions may reflect differences in domestic production capacity, tradability, storability, and perishability, as well as in the structure and concentration of global suppliers.",
+        "context_ids": [
+          "para:idr-2026:p0096:001",
+          "para:idr-2026:p0096:000",
+          "para:idr-2026:p0095:004",
+          "para:idr-2026:p0101:002"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0096:001"
+            ],
+            "page": 96,
+            "text": "During external shocks, higher import costs can therefore coincide with weaker economic and external buffers; export earnings may also decline, further increasing pressure on foreign exchange resources and raising the debt-to-exports ratio, even without an increase in the debt stock. Import Reliance and Debt Burdens Across Food Groups Aggregate food import shares do not show how strongly the domestic supply of individual food groups depends on international markets. Net import reliance— net imports as a share of domestic supply quantity—varies substantially across the six food groups making up the Healthy Diet Basket (Bai, Herforth et al. 2025; Herforth et al. 2025)."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0096:000"
+            ],
+            "page": 96,
+            "text": "in healthy diet unaffordability over time, a broader outcome that reflects both food costs and people’s economic resources.\n\nFood Import Shares in Poorer Economies\nAcross the sample, which consists predominantly of LMICs, the share of food in merchandise imports generally declines as income per capita rises (figure 2.13, panel a). By contrast, economies with larger external debt burdens relative to exports also tend to have higher food import shares (figure 2.13, panel b).5 Both relationships matter for an economy’s capacity to manage food import exposure. Lower-income economies may have less room to absorb increases in import costs, and a high debt-to-exports ratio indicates that external debt is large relative to export earnings."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0095:004"
+            ],
+            "page": 95,
+            "text": "Previous analysis in International Debt Report 2025 showed that higher external debt burdens were associated with higher levels of unaffordability of healthy diets across countries (World Bank 2025). This section extends that analysis by examining food import exposure as one important source of vulnerability to external shocks, including the importance of food in merchandise imports, reliance on imported supply across food groups, and the diversification of import sources. It also examines associations between external debt burdens and changes"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0101:002"
+            ],
+            "page": 101,
+            "text": "Import reliance and source diversification capture complementary dimensions of food import exposure and together provide a broader indication of resilience in access to healthy diets when external shocks occur. Heterogeneity across food groups in both dimensions may reflect differences in domestic production capacity, tradability, storability, and perishability, as well as in the structure and concentration of global suppliers."
+          }
+        ],
+        "body_chars": 2396,
+        "context_chars": 2547
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "food groups import reliance diversification suppliers debt burdens",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 317.3,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0096:001",
+            "page": 96,
+            "score": 0.032266
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0101:002",
+            "page": 101,
+            "score": 0.032266
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0095:004",
+            "page": 95,
+            "score": 0.031514
+          }
+        ],
+        "context": "[para:idr-2026:p0096:001] (page 96)\nDuring external shocks, higher import costs can therefore coincide with weaker economic and external buffers; export earnings may also decline, further increasing pressure on foreign exchange resources and raising the debt-to-exports ratio, even without an increase in the debt stock. Import Reliance and Debt Burdens Across Food Groups Aggregate food import shares do not show how strongly the domestic supply of individual food groups depends on international markets. Net import reliance— net imports as a share of domestic supply quantity—varies substantially across the six food groups making up the Healthy Diet Basket (Bai, Herforth et al. 2025; Herforth et al. 2025).\n\n[para:idr-2026:p0096:000] (page 96)\nin healthy diet unaffordability over time, a broader outcome that reflects both food costs and people’s economic resources.\n\nFood Import Shares in Poorer Economies\nAcross the sample, which consists predominantly of LMICs, the share of food in merchandise imports generally declines as income per capita rises (figure 2.13, panel a). By contrast, economies with larger external debt burdens relative to exports also tend to have higher food import shares (figure 2.13, panel b).5 Both relationships matter for an economy’s capacity to manage food import exposure. Lower-income economies may have less room to absorb increases in import costs, and a high debt-to-exports ratio indicates that external debt is large relative to export earnings.\n\n[para:idr-2026:p0095:004] (page 95)\nPrevious analysis in International Debt Report 2025 showed that higher external debt burdens were associated with higher levels of unaffordability of healthy diets across countries (World Bank 2025). This section extends that analysis by examining food import exposure as one important source of vulnerability to external shocks, including the importance of food in merchandise imports, reliance on imported supply across food groups, and the diversification of import sources. It also examines associations between external debt burdens and changes\n\n[para:idr-2026:p0101:002] (page 101)\nImport reliance and source diversification capture complementary dimensions of food import exposure and together provide a broader indication of resilience in access to healthy diets when external shocks occur. Heterogeneity across food groups in both dimensions may reflect differences in domestic production capacity, tradability, storability, and perishability, as well as in the structure and concentration of global suppliers.",
+        "context_ids": [
+          "para:idr-2026:p0096:001",
+          "para:idr-2026:p0096:000",
+          "para:idr-2026:p0095:004",
+          "para:idr-2026:p0101:002"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0096:001"
+            ],
+            "page": 96,
+            "text": "During external shocks, higher import costs can therefore coincide with weaker economic and external buffers; export earnings may also decline, further increasing pressure on foreign exchange resources and raising the debt-to-exports ratio, even without an increase in the debt stock. Import Reliance and Debt Burdens Across Food Groups Aggregate food import shares do not show how strongly the domestic supply of individual food groups depends on international markets. Net import reliance— net imports as a share of domestic supply quantity—varies substantially across the six food groups making up the Healthy Diet Basket (Bai, Herforth et al. 2025; Herforth et al. 2025)."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0096:000"
+            ],
+            "page": 96,
+            "text": "in healthy diet unaffordability over time, a broader outcome that reflects both food costs and people’s economic resources.\n\nFood Import Shares in Poorer Economies\nAcross the sample, which consists predominantly of LMICs, the share of food in merchandise imports generally declines as income per capita rises (figure 2.13, panel a). By contrast, economies with larger external debt burdens relative to exports also tend to have higher food import shares (figure 2.13, panel b).5 Both relationships matter for an economy’s capacity to manage food import exposure. Lower-income economies may have less room to absorb increases in import costs, and a high debt-to-exports ratio indicates that external debt is large relative to export earnings."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0095:004"
+            ],
+            "page": 95,
+            "text": "Previous analysis in International Debt Report 2025 showed that higher external debt burdens were associated with higher levels of unaffordability of healthy diets across countries (World Bank 2025). This section extends that analysis by examining food import exposure as one important source of vulnerability to external shocks, including the importance of food in merchandise imports, reliance on imported supply across food groups, and the diversification of import sources. It also examines associations between external debt burdens and changes"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0101:002"
+            ],
+            "page": 101,
+            "text": "Import reliance and source diversification capture complementary dimensions of food import exposure and together provide a broader indication of resilience in access to healthy diets when external shocks occur. Heterogeneity across food groups in both dimensions may reflect differences in domestic production capacity, tradability, storability, and perishability, as well as in the structure and concentration of global suppliers."
+          }
+        ],
+        "body_chars": 2396,
+        "context_chars": 2547
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 3,
+      "tool_use": true,
+      "context_has_evidence": false,
+      "first_search_hit_at_3": false
+    }
+  },
+  {
+    "query_id": "q16",
+    "split": "test",
+    "config": "BASE",
+    "question": "When the European Union's support to Ukraine is excluded, by how much did LMICs' debt stock owed to multilateral creditors increase?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_test_reused",
+    "elapsed_s": 10.957,
+    "usage": {
+      "prompt_tokens": 1367,
+      "completion_tokens": 165,
+      "llm_calls": 2,
+      "embedding_tokens": 28,
+      "cost_usd": 0.0003046099999999999
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "When the European Union's support to Ukraine is excluded, by how much did LMICs' debt stock owed to multilateral creditors increase?",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 394.4,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0038:001",
+            "page": 38,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0044:003",
+            "page": 44,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0031:000",
+            "page": 31,
+            "score": 0.031258
+          }
+        ],
+        "context": "[para:idr-2026:p0038:001] (page 38)\nExcept for the multilateral support to Ukraine provided under the Extraordinary Revenue Acceleration Loans for Ukraine initiative, the cumulative countercyclical lending by these institutions decelerated in 2025. (Box 1.4 describes the international support for Ukraine through this initiative.) LMICs’ debt stock owed to multilateral creditors increased 9.6 percent to $1.5 trillion in 2025. However, when the European Union’s support to Ukraine is excluded, debt stock owed to multilateral creditors increased 7.0 percent to $1.4 trillion in 2026.\n\n[para:idr-2026:p0044:003] (page 44)\nIncreased extraordinary financing from the European Union and select bilateral creditors toward the Extraordinary Revenue Acceleration Loans for Ukraine initiative raised the total official inflows of LMICs in 2025. When Ukraine is excluded, LMICs’ net debt inflows from official multilateral creditors decreased 42.4 percent to $42.7 billion in 2025. For this group of countries, official bilateral creditors recorded a strong increase of 43.7 percent in 2025, to $5.3 billion, which remained below the $17.2 billion decade average recorded, before plummeting in 2024.\n\n[para:idr-2026:p0031:000] (page 31)\nWhen China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025. An increase of that magnitude has not been seen since 2017 and was concentrated among the 10 largest LMIC borrowers other than China. 1 These borrowers account for 59.5 percent of all LMIC external debt. Half of them recorded double-digit increases in their borrowing levels in 2025, led by a 29.2 percent increase in Ukraine’s debt stock, to $250.3 billion, following continued and unprecedented support from the Group of Seven countries and multilateral creditors. Argentina, Colombia, South Africa, and Türkiye also experienced double-digit increases in their external debt positions.",
+        "context_ids": [
+          "para:idr-2026:p0038:001",
+          "para:idr-2026:p0044:003",
+          "para:idr-2026:p0031:000"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0038:001"
+            ],
+            "page": 38,
+            "text": "Except for the multilateral support to Ukraine provided under the Extraordinary Revenue Acceleration Loans for Ukraine initiative, the cumulative countercyclical lending by these institutions decelerated in 2025. (Box 1.4 describes the international support for Ukraine through this initiative.) LMICs’ debt stock owed to multilateral creditors increased 9.6 percent to $1.5 trillion in 2025. However, when the European Union’s support to Ukraine is excluded, debt stock owed to multilateral creditors increased 7.0 percent to $1.4 trillion in 2026."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0044:003"
+            ],
+            "page": 44,
+            "text": "Increased extraordinary financing from the European Union and select bilateral creditors toward the Extraordinary Revenue Acceleration Loans for Ukraine initiative raised the total official inflows of LMICs in 2025. When Ukraine is excluded, LMICs’ net debt inflows from official multilateral creditors decreased 42.4 percent to $42.7 billion in 2025. For this group of countries, official bilateral creditors recorded a strong increase of 43.7 percent in 2025, to $5.3 billion, which remained below the $17.2 billion decade average recorded, before plummeting in 2024."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0031:000"
+            ],
+            "page": 31,
+            "text": "When China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025. An increase of that magnitude has not been seen since 2017 and was concentrated among the 10 largest LMIC borrowers other than China. 1 These borrowers account for 59.5 percent of all LMIC external debt. Half of them recorded double-digit increases in their borrowing levels in 2025, led by a 29.2 percent increase in Ukraine’s debt stock, to $250.3 billion, following continued and unprecedented support from the Group of Seven countries and multilateral creditors. Argentina, Colombia, South Africa, and Türkiye also experienced double-digit increases in their external debt positions."
+          }
+        ],
+        "body_chars": 1854,
+        "context_chars": 1966
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "model_answer": "When the European Union's support to Ukraine is excluded, LMICs' debt stock owed to multilateral creditors increased by 7.0 percent to $1.4 trillion in 2026. In contrast, the overall debt stock owed to multilateral creditors increased by 9.6 percent to $1.5 trillion in 2025, including the EU's support to Ukraine. This indicates a significant difference in the growth rates when EU support is considered or excluded.",
+        "model_citations": [
+          "[para:idr-2026:p0038:001]"
+        ]
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "config": "BASE",
+    "question": "Which kind of repayment weighs most heavily on the cash-borrowing requirements of the poorest countries?",
+    "filter": {
+      "chapter": 2
+    },
+    "answerable": true,
+    "origin": "day6_test_reused",
+    "elapsed_s": 3.171,
+    "usage": {
+      "prompt_tokens": 1251,
+      "completion_tokens": 73,
+      "llm_calls": 2,
+      "embedding_tokens": 19,
+      "cost_usd": 0.00023182999999999998
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Which kind of repayment weighs most heavily on the cash-borrowing requirements of the poorest countries?",
+        "filter": {
+          "chapter": 2
+        },
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 396.4,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0084:002",
+            "page": 84,
+            "score": 0.031498
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0092:000",
+            "page": 92,
+            "score": 0.031281
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0084:001",
+            "page": 84,
+            "score": 0.030478
+          }
+        ],
+        "context": "[para:idr-2026:p0084:002] (page 84)\nIn many countries, shocks that initially generated temporary financing needs have contributed to persistently higher debt stocks, debt service burdens, and rollover requirements.\n\nThe Impact of Higher Debt on Fiscal Space and Financing Pressures\nThe accumulation of public debt has been accompanied by a substantial increase in debt service burdens in LMICs over the past 25 years. The median total debt service in countries eligible for International Development Association (IDA) assistance increased from about 15 percent of government revenues (excluding grants) in 2000 to over 40 percent in 2025. During the same period,\n\n[para:idr-2026:p0092:000] (page 92)\nborrowing increases exposure to exchange rate and refinancing shocks. At the same time, high debt limits countries’ ability to borrow to close financing gaps. Countries are therefore left increasingly exposed to shocks, with minimal fiscal and financial buffers.\n\n[para:idr-2026:p0084:001] (page 84)\nDebt Sustainability and Fiscal Pressures\nExternal shocks have compounded preexisting fiscal pressures and increased debt vulnerabilities in LMICs. These countries require substantial investment to raise productivity, create jobs, and advance broader development objectives. Financing these needs depends on mobilizing domestic resources, attracting domestic and foreign private capital, and, where necessary, borrowing through public channels. In this context, part of the increase in public debt reflects efforts to finance infrastructure, human capital, and other investments that can support long-term growth. However, slower global growth, policy uncertainty, trade fragmentation, geopolitical tensions, and commodity-price volatility have affected both the availability and cost of financing.",
+        "context_ids": [
+          "para:idr-2026:p0084:002",
+          "para:idr-2026:p0092:000",
+          "para:idr-2026:p0084:001"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0084:002"
+            ],
+            "page": 84,
+            "text": "In many countries, shocks that initially generated temporary financing needs have contributed to persistently higher debt stocks, debt service burdens, and rollover requirements.\n\nThe Impact of Higher Debt on Fiscal Space and Financing Pressures\nThe accumulation of public debt has been accompanied by a substantial increase in debt service burdens in LMICs over the past 25 years. The median total debt service in countries eligible for International Development Association (IDA) assistance increased from about 15 percent of government revenues (excluding grants) in 2000 to over 40 percent in 2025. During the same period,"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0092:000"
+            ],
+            "page": 92,
+            "text": "borrowing increases exposure to exchange rate and refinancing shocks. At the same time, high debt limits countries’ ability to borrow to close financing gaps. Countries are therefore left increasingly exposed to shocks, with minimal fiscal and financial buffers."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0084:001"
+            ],
+            "page": 84,
+            "text": "Debt Sustainability and Fiscal Pressures\nExternal shocks have compounded preexisting fiscal pressures and increased debt vulnerabilities in LMICs. These countries require substantial investment to raise productivity, create jobs, and advance broader development objectives. Financing these needs depends on mobilizing domestic resources, attracting domestic and foreign private capital, and, where necessary, borrowing through public channels. In this context, part of the increase in public debt reflects efforts to finance infrastructure, human capital, and other investments that can support long-term growth. However, slower global growth, policy uncertainty, trade fragmentation, geopolitical tensions, and commodity-price volatility have affected both the availability and cost of financing."
+          }
+        ],
+        "body_chars": 1685,
+        "context_chars": 1797
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The passages do not contain specific information about which kind of repayment weighs most heavily on the cash-borrowing requirements of the poorest countries."
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": false,
+      "first_search_hit_at_3": false
+    }
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "config": "BASE",
+    "question": "In the food import analysis, what external-debt-to-exports threshold is used as a reference point, and where does it come from?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_test_reused",
+    "elapsed_s": 4.239,
+    "usage": {
+      "prompt_tokens": 1343,
+      "completion_tokens": 153,
+      "llm_calls": 2,
+      "embedding_tokens": 12,
+      "cost_usd": 0.00029349
+    },
+    "status": "answered",
+    "answer": "In the food import analysis, the external-debt-to-exports threshold used as a reference point is 150 percent. This threshold is based on the criteria applied under the Heavily Indebted Poor Countries (HIPC) Initiative. The analysis aims to identify economies where high reliance on food imports coincides with elevated external debt burdens, specifically where net imports account for at least 30 percent of domestic supply in a given food group [para:idr-2026:p0096:003].",
+    "citations": [
+      "para:idr-2026:p0096:003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "food import analysis external-debt-to-exports threshold reference point",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 280.3,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0096:003",
+            "page": 96,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0095:004",
+            "page": 95,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0097:000",
+            "page": 97,
+            "score": 0.031258
+          }
+        ],
+        "context": "[para:idr-2026:p0096:003] (page 96)\nTo identify economies where high reliance on food imports and elevated external debt burdens overlap, figure 2.13 applies two reference thresholds. For many economies, high import reliance coincides with elevated external debt burdens. Figure 2.14 highlights economies where external debt stocks are at least 150 percent of exports, as a reference point based on the threshold applied under the Heavily Indebted Poor Countries (HIPC) Initiative,6 and where net imports account for at least 30 percent of domestic supply in a given food group. The figure intends to identify the coexistence of these two sources of vulnerability, rather than to assess whether higher external debt is associated with greater reliance on food imports.\n\n[para:idr-2026:p0095:004] (page 95)\nPrevious analysis in International Debt Report 2025 showed that higher external debt burdens were associated with higher levels of unaffordability of healthy diets across countries (World Bank 2025). This section extends that analysis by examining food import exposure as one important source of vulnerability to external shocks, including the importance of food in merchandise imports, reliance on imported supply across food groups, and the diversification of import sources. It also examines associations between external debt burdens and changes\n\n[para:idr-2026:p0097:000] (page 97)\nFigure 2.13 Food Import Exposure, Income, and External Debt Burdens, 2025 a. Food-import share and income level b. Food-import share and debt burden Food imports (% of merchandise imports) Food imports (% of merchandise imports) 50 40 30 20 10 0 50 40 30 20 10 0 103,000 10,000 GNI per capita, 2025 (log scale)\n\nExternal debt stocks\n(% of exports, log scale)\n\n30,000 100,000 20 50 100 200 400 700\nPopulation, 2025 5 million 25 million 100 million 500 million 1,000 million Sources: Original calculations based on data from the World Bank Group International Debt Statistics and World Development Indicators databases.",
+        "context_ids": [
+          "para:idr-2026:p0096:003",
+          "para:idr-2026:p0095:004",
+          "para:idr-2026:p0097:000"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0096:003"
+            ],
+            "page": 96,
+            "text": "To identify economies where high reliance on food imports and elevated external debt burdens overlap, figure 2.13 applies two reference thresholds. For many economies, high import reliance coincides with elevated external debt burdens. Figure 2.14 highlights economies where external debt stocks are at least 150 percent of exports, as a reference point based on the threshold applied under the Heavily Indebted Poor Countries (HIPC) Initiative,6 and where net imports account for at least 30 percent of domestic supply in a given food group. The figure intends to identify the coexistence of these two sources of vulnerability, rather than to assess whether higher external debt is associated with greater reliance on food imports."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0095:004"
+            ],
+            "page": 95,
+            "text": "Previous analysis in International Debt Report 2025 showed that higher external debt burdens were associated with higher levels of unaffordability of healthy diets across countries (World Bank 2025). This section extends that analysis by examining food import exposure as one important source of vulnerability to external shocks, including the importance of food in merchandise imports, reliance on imported supply across food groups, and the diversification of import sources. It also examines associations between external debt burdens and changes"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0097:000"
+            ],
+            "page": 97,
+            "text": "Figure 2.13 Food Import Exposure, Income, and External Debt Burdens, 2025 a. Food-import share and income level b. Food-import share and debt burden Food imports (% of merchandise imports) Food imports (% of merchandise imports) 50 40 30 20 10 0 50 40 30 20 10 0 103,000 10,000 GNI per capita, 2025 (log scale)\n\nExternal debt stocks\n(% of exports, log scale)\n\n30,000 100,000 20 50 100 200 400 700\nPopulation, 2025 5 million 25 million 100 million 500 million 1,000 million Sources: Original calculations based on data from the World Bank Group International Debt Statistics and World Development Indicators databases."
+          }
+        ],
+        "body_chars": 1898,
+        "context_chars": 2010
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "config": "BASE",
+    "question": "In 2020, how many IDA-eligible countries published fully accessible public debt data according to the Debt Reporting Heat Map?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_test_reused",
+    "elapsed_s": 3.895,
+    "usage": {
+      "prompt_tokens": 1308,
+      "completion_tokens": 137,
+      "llm_calls": 2,
+      "embedding_tokens": 26,
+      "cost_usd": 0.00027892
+    },
+    "status": "answered",
+    "answer": "In 2020, 36 IDA-eligible countries, which is 47 percent of the 76 countries covered by the Debt Reporting Heat Map, published fully accessible public debt data. This represents a significant improvement in public debt disclosure practices among IDA-eligible borrowers over the years [para:idr-2026:p0109:002].",
+    "citations": [
+      "para:idr-2026:p0109:002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "In 2020, how many IDA-eligible countries published fully accessible public debt data according to the Debt Reporting Heat Map?",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 250.9,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0109:002",
+            "page": 109,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0110:000",
+            "page": 110,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0109:001",
+            "page": 109,
+            "score": 0.031746
+          }
+        ],
+        "context": "[para:idr-2026:p0109:002] (page 109)\nIn 2020, only 36 IDA-eligible countries, 47 percent of the 76 countries covered by the heat map, published fully accessible public debt data. The 2025 heat map found that 54 countries, or 72 percent, had fully accessible public debt data, a 25-percentage-point gain from 2020 (figure 3.1). Data accessibility in Sub-Saharan African countries has also improved significantly, rising from 19 countries (50 percent of countries in the region) that published fully accessible data in 2020, to 29 countries (or 76 percent) in 2025 despite a regression in accessibility of data in some countries.\n\n[para:idr-2026:p0110:000] (page 110)\nFigure 3.1 Public Debt Disclosures by IDA-Eligible Countries, Accessibility and Coverage, 2020 and 2025 0 10 20 30 40 50 60 2020 2025 2020 2025 Accessibility Coverage All IDA-eligible countries Sub-Saharan Africa Other regions Source: World Bank Debt Reporting Heat Map, 2020 and 2025.\n\nNote: IDA = International Development Association.\n\n[para:idr-2026:p0109:001] (page 109)\nThe World Bank Group tracks progress in borrowing countries’ public debt dissemination practices on an annual basis. Its assessment of these outcomes is presented in a heat map that measures the strengths and weaknesses of the dissemination practices in 76 IDA-eligible countries across nine key indicators: data accessibility, instrument coverage, sectoral coverage, information on recently contracted external loans, periodicity, time lag, debt management strategy, annual borrowing plan, and additional statistics and memo items.2 The Debt Reporting Heat Map shows that, over the past five years, IDA-eligible borrowers have made significant progress in public debt disclosure practices.",
+        "context_ids": [
+          "para:idr-2026:p0109:002",
+          "para:idr-2026:p0110:000",
+          "para:idr-2026:p0109:001"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0109:002"
+            ],
+            "page": 109,
+            "text": "In 2020, only 36 IDA-eligible countries, 47 percent of the 76 countries covered by the heat map, published fully accessible public debt data. The 2025 heat map found that 54 countries, or 72 percent, had fully accessible public debt data, a 25-percentage-point gain from 2020 (figure 3.1). Data accessibility in Sub-Saharan African countries has also improved significantly, rising from 19 countries (50 percent of countries in the region) that published fully accessible data in 2020, to 29 countries (or 76 percent) in 2025 despite a regression in accessibility of data in some countries."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0110:000"
+            ],
+            "page": 110,
+            "text": "Figure 3.1 Public Debt Disclosures by IDA-Eligible Countries, Accessibility and Coverage, 2020 and 2025 0 10 20 30 40 50 60 2020 2025 2020 2025 Accessibility Coverage All IDA-eligible countries Sub-Saharan Africa Other regions Source: World Bank Debt Reporting Heat Map, 2020 and 2025.\n\nNote: IDA = International Development Association."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0109:001"
+            ],
+            "page": 109,
+            "text": "The World Bank Group tracks progress in borrowing countries’ public debt dissemination practices on an annual basis. Its assessment of these outcomes is presented in a heat map that measures the strengths and weaknesses of the dissemination practices in 76 IDA-eligible countries across nine key indicators: data accessibility, instrument coverage, sectoral coverage, information on recently contracted external loans, periodicity, time lag, debt management strategy, annual borrowing plan, and additional statistics and memo items.2 The Debt Reporting Heat Map shows that, over the past five years, IDA-eligible borrowers have made significant progress in public debt disclosure practices."
+          }
+        ],
+        "body_chars": 1617,
+        "context_chars": 1732
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "config": "BASE",
+    "question": "What rules govern how the World Bank handles loan data supplied by lenders for reconciliation?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_test_reused",
+    "elapsed_s": 6.008,
+    "usage": {
+      "prompt_tokens": 1314,
+      "completion_tokens": 268,
+      "llm_calls": 2,
+      "embedding_tokens": 14,
+      "cost_usd": 0.00035818
+    },
+    "status": "answered",
+    "answer": "The World Bank handles loan data supplied by lenders for reconciliation under specific rules outlined in the \"Protocol on the Handling of Creditor Data Submitted to the World Bank Debtor Reporting System,\" published in July 2026. This protocol establishes the terms for data sharing and confidentiality rules, ensuring that the data is used strictly for reconciliation purposes. Additionally, the World Bank is evaluating new standards and protocols for debt data reconciliation, supported by technology solutions to improve data quality and efficiency. A pilot project in Indonesia has demonstrated the feasibility of continuous synchronization and validation of debtor and creditor data, facilitating better information sharing between creditors and local debt management offices. As of May 2026, this platform had successfully exchanged and validated 761 loan records, indicating progress in the reconciliation process ([para:idr-2026:p0119:001], [para:idr-2026:p0120:000], [para:idr-2026:p0120:002]).",
+    "citations": [
+      "para:idr-2026:p0119:001",
+      "para:idr-2026:p0120:000",
+      "para:idr-2026:p0120:002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "rules govern how the World Bank handles loan data supplied by lenders for reconciliation",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 271.5,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0120:000",
+            "page": 120,
+            "score": 0.031498
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0119:001",
+            "page": 119,
+            "score": 0.031319
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0120:002",
+            "page": 120,
+            "score": 0.030536
+          }
+        ],
+        "context": "[para:idr-2026:p0120:000] (page 120)\nBox 3.1 The Indonesia Loan Clearing Module Pilot Project\nNew standards and protocols for debt data reconciliation supported by innovative information technology solutions to systematically digitalize and automatically reconcile public loan data have the potential to ensure better quality recording and save time and effort. The World Bank Group is already evaluating such standards and protocols. In 2025, it launched a pilot project in Indonesia, funded by the Japanese Ministry of Finance, to develop a Loan Clearing Module to facilitate information sharing between borrowers and official creditors. This module acts as a platform for information sharing between creditors’ data systems and those of local debt management offices.\n\n[para:idr-2026:p0119:001] (page 119)\nEfforts are already under way to broaden participation beyond the\ncurrent group of G-7 and Paris Club bilateral creditors. Ongoing discussions with key Group of Twenty creditors are positive, and the expectation is that additional bilateral creditors will participate in the next end-2025 data reconciliation exercise. In this context, an important development is the publication in July 2026 by the World Bank Group Chief Statistician of the “Protocol on the Handling of Creditor Data Submitted to the World Bank Debtor Reporting System” (Chief Statistician 2026). It sets out the terms on which these data are shared and the confidentiality rules that apply to them, providing reassurance for creditors that the data will be used strictly for purposes of data reconciliation.\n\n[para:idr-2026:p0120:002] (page 120)\nImplementation of the pilot project in Indonesia has already demonstrated the technical feasibility of continuous synchronization and validation of debtor and creditor data. The debt office has already automatically transferred World Bank Group loan data and uploaded them into the local debt system; as of May 2026, the platform had successfully exchanged and validated a total of 761 loan records, and 642 subefforts are under way to cover other official creditors. Once fully operational, the Loan Clearing Module codes could be made available to other countries, potentially serving as an international platform for debt data reconciliation, providing a new, real-time source of fully validated debt statistics.",
+        "context_ids": [
+          "para:idr-2026:p0120:000",
+          "para:idr-2026:p0119:001",
+          "para:idr-2026:p0120:002"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0120:000"
+            ],
+            "page": 120,
+            "text": "Box 3.1 The Indonesia Loan Clearing Module Pilot Project\nNew standards and protocols for debt data reconciliation supported by innovative information technology solutions to systematically digitalize and automatically reconcile public loan data have the potential to ensure better quality recording and save time and effort. The World Bank Group is already evaluating such standards and protocols. In 2025, it launched a pilot project in Indonesia, funded by the Japanese Ministry of Finance, to develop a Loan Clearing Module to facilitate information sharing between borrowers and official creditors. This module acts as a platform for information sharing between creditors’ data systems and those of local debt management offices."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0119:001"
+            ],
+            "page": 119,
+            "text": "Efforts are already under way to broaden participation beyond the\ncurrent group of G-7 and Paris Club bilateral creditors. Ongoing discussions with key Group of Twenty creditors are positive, and the expectation is that additional bilateral creditors will participate in the next end-2025 data reconciliation exercise. In this context, an important development is the publication in July 2026 by the World Bank Group Chief Statistician of the “Protocol on the Handling of Creditor Data Submitted to the World Bank Debtor Reporting System” (Chief Statistician 2026). It sets out the terms on which these data are shared and the confidentiality rules that apply to them, providing reassurance for creditors that the data will be used strictly for purposes of data reconciliation."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0120:002"
+            ],
+            "page": 120,
+            "text": "Implementation of the pilot project in Indonesia has already demonstrated the technical feasibility of continuous synchronization and validation of debtor and creditor data. The debt office has already automatically transferred World Bank Group loan data and uploaded them into the local debt system; as of May 2026, the platform had successfully exchanged and validated a total of 761 loan records, and 642 subefforts are under way to cover other official creditors. Once fully operational, the Loan Clearing Module codes could be made available to other countries, potentially serving as an international platform for debt data reconciliation, providing a new, real-time source of fully validated debt statistics."
+          }
+        ],
+        "body_chars": 2225,
+        "context_chars": 2340
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "s01",
+    "split": "test",
+    "config": "BASE",
+    "question": "What share of the long-term component of LMICs' net debt inflows in 2025 came from private creditors?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_spare_new",
+    "elapsed_s": 5.14,
+    "usage": {
+      "prompt_tokens": 1453,
+      "completion_tokens": 182,
+      "llm_calls": 2,
+      "embedding_tokens": 22,
+      "cost_usd": 0.00032758999999999995
+    },
+    "status": "answered",
+    "answer": "In 2025, private creditors accounted for 75.2 percent of the total long-term component of LMICs' net debt inflows, which amounted to $251.1 billion. When excluding China, this share increased to 80.8 percent, with net debt inflows from private creditors reaching $358.3 billion, reflecting a significant increase in lending volume from both bondholders and commercial banks [para:idr-2026:p0040:000][para:idr-2026:p0041:000].",
+    "citations": [
+      "para:idr-2026:p0040:000",
+      "para:idr-2026:p0041:000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "share of the long-term component of LMICs' net debt inflows in 2025 from private creditors",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 352.3,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0040:000",
+            "page": 40,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0041:000",
+            "page": 41,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0044:002",
+            "page": 44,
+            "score": 0.031498
+          }
+        ],
+        "context": "[para:idr-2026:p0040:000] (page 40)\nTrends in External Debt Flows, 2015–25\nNet debt inflows (disbursements minus principal repayments) to LMICs grew for a third consecutive year, more than doubling in 2025 to $423.5 billion. From a maturity standpoint, short-term net debt inflows recorded a more than fivefold increase in 2025, to $89.4 billion, and long-term net debt inflows doubled, to $334.1 billion, approximately 78.9 percent of the total volume of net inflows. This increase in long-term net debt inflows was due to the return to lending to LMICs by private creditors in 2025; these creditors accounted for 75.2 percent of the total long-term component and increased their lending volume by 180.5 percent to $251.1 billion.\n\n[para:idr-2026:p0041:000] (page 41)\nWhen China, which has recorded four consecutive years of net debt outflows, is excluded, LMICs’ net debt inflows increased to a record $527.6 billion in 2025 (figure 1.4). The yearly increase is more than twice the 2024 total volume and is due to record-high net debt inflows from private creditors, which accounted for 80.8 percent of long-term inflows. This group of countries’ net debt inflows from private creditors more than tripled in 2025, to $358.3 billion, with lending from both bondholders and commercial banks recording nearly threefold increases of $177.0 billion and $181.4 billion, respectively. PNG and PPG sector borrowers held an equal share of the volume of these inflows, but obligations to bondholders and commercial banks differed.\n\n[para:idr-2026:p0044:002] (page 44)\nNet debt flows from official creditors to LMICs increased 7.7 percent to $83.0 billion in 2025, after an 18.2 percent decrease in 2024. As financing from the aftermath of the COVID-19 pandemic has continued to taper off, official creditors’ share of total long-term debt inflows decreased from 46.2 percent in 2024 to 24.8 percent in 2025. Net debt inflows from official multilateral creditors accounted for 89.4 percent of the official flows, increasing 3.8 percent to $74.1 billion in 2025. Inflows from official bilateral creditors almost doubled to $8.8 billion but accounted for a moderate 10.6 percent share of total official flows.",
+        "context_ids": [
+          "para:idr-2026:p0040:000",
+          "para:idr-2026:p0041:000",
+          "para:idr-2026:p0044:002"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0040:000"
+            ],
+            "page": 40,
+            "text": "Trends in External Debt Flows, 2015–25\nNet debt inflows (disbursements minus principal repayments) to LMICs grew for a third consecutive year, more than doubling in 2025 to $423.5 billion. From a maturity standpoint, short-term net debt inflows recorded a more than fivefold increase in 2025, to $89.4 billion, and long-term net debt inflows doubled, to $334.1 billion, approximately 78.9 percent of the total volume of net inflows. This increase in long-term net debt inflows was due to the return to lending to LMICs by private creditors in 2025; these creditors accounted for 75.2 percent of the total long-term component and increased their lending volume by 180.5 percent to $251.1 billion."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0041:000"
+            ],
+            "page": 41,
+            "text": "When China, which has recorded four consecutive years of net debt outflows, is excluded, LMICs’ net debt inflows increased to a record $527.6 billion in 2025 (figure 1.4). The yearly increase is more than twice the 2024 total volume and is due to record-high net debt inflows from private creditors, which accounted for 80.8 percent of long-term inflows. This group of countries’ net debt inflows from private creditors more than tripled in 2025, to $358.3 billion, with lending from both bondholders and commercial banks recording nearly threefold increases of $177.0 billion and $181.4 billion, respectively. PNG and PPG sector borrowers held an equal share of the volume of these inflows, but obligations to bondholders and commercial banks differed."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0044:002"
+            ],
+            "page": 44,
+            "text": "Net debt flows from official creditors to LMICs increased 7.7 percent to $83.0 billion in 2025, after an 18.2 percent decrease in 2024. As financing from the aftermath of the COVID-19 pandemic has continued to taper off, official creditors’ share of total long-term debt inflows decreased from 46.2 percent in 2024 to 24.8 percent in 2025. Net debt inflows from official multilateral creditors accounted for 89.4 percent of the official flows, increasing 3.8 percent to $74.1 billion in 2025. Inflows from official bilateral creditors almost doubled to $8.8 billion but accounted for a moderate 10.6 percent share of total official flows."
+          }
+        ],
+        "body_chars": 2086,
+        "context_chars": 2198
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "s02",
+    "split": "test",
+    "config": "BASE",
+    "question": "Among net importing economies, for which food group is median net import reliance highest, and what is the value?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_spare_new",
+    "elapsed_s": 4.15,
+    "usage": {
+      "prompt_tokens": 1406,
+      "completion_tokens": 105,
+      "llm_calls": 2,
+      "embedding_tokens": 22,
+      "cost_usd": 0.00027434
+    },
+    "status": "answered",
+    "answer": "Among net importing economies, the food group with the highest median net import reliance is oils and fats, with a value of 63.6 percent [para:idr-2026:p0096:002].",
+    "citations": [
+      "para:idr-2026:p0096:002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Among net importing economies, for which food group is median net import reliance highest, and what is the value?",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 316.1,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0096:002",
+            "page": 96,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0099:001",
+            "page": 99,
+            "score": 0.032258
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0098:000",
+            "page": 98,
+            "score": 0.031498
+          }
+        ],
+        "context": "[para:idr-2026:p0096:002] (page 96)\nAmong net importing economies, median reliance is highest for oils and fats, at 63.6 percent, followed by starchy staples, at 36.9 percent, and legumes, nuts, and seeds, at 34.1 percent. Median reliance is lower for animal-source foods, at 28.0 percent, and for vegetables and fruits, at 17.4 percent and 13.4 percent, respectively.\n\n[para:idr-2026:p0099:001] (page 99)\nNote: The figure includes only economy-food-group observations with positive net import reliance; it does not show observations with zero net import reliance or net exporters. Net import reliance is calculated as net imports (imports minus exports) relative to domestic supply quantity after aggregating commodities within each Healthy Diet Basket food group. Values may exceed 100 percent because of stock changes or timing and measurement differences between trade and supply data. Panels include 87, 80, 64, 84, 55, and 73 economies, respectively. Two observations with net import reliance above 150 percent are omitted from the display. External debt data refer to 2025 for 101 economies and to 2024 for Algeria and Guinea, for which 2025 data are unavailable.\n\n[para:idr-2026:p0098:000] (page 98)\nFigure 2.14 Net Importing Economies and External Debt Burdens, by Food Group, Income Group, and Population, 2025 Share of exports (%)\n\n100 200 300 400 500 700 600 800\nNet import reliance (%)\n\n150 CPV MNE VCT TUN COM BTN YEM LBN GNB COLSLVSTP MNG SENVUTKENECU FJ I NIC DOM HND JOR JAM GMB 125 100 75 50 25 0\nNet import reliance (%)\n\n150 125 100 75 50 25 0\nShare of exports (%)\n\n100 200 300 400 500 700 600 800 a. Starchy staples b. Oils and fats\nShare of exports (%)\n\n100 200 300 400 500 700 600 800\nShare of exports (%)\n\n100 200 300 400 500 700 600 800\nNet import reliance (%)\n\n150 125 100 75 50 25 0\nNet import reliance (%)",
+        "context_ids": [
+          "para:idr-2026:p0096:002",
+          "para:idr-2026:p0099:001",
+          "para:idr-2026:p0098:000"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0096:002"
+            ],
+            "page": 96,
+            "text": "Among net importing economies, median reliance is highest for oils and fats, at 63.6 percent, followed by starchy staples, at 36.9 percent, and legumes, nuts, and seeds, at 34.1 percent. Median reliance is lower for animal-source foods, at 28.0 percent, and for vegetables and fruits, at 17.4 percent and 13.4 percent, respectively."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0099:001"
+            ],
+            "page": 99,
+            "text": "Note: The figure includes only economy-food-group observations with positive net import reliance; it does not show observations with zero net import reliance or net exporters. Net import reliance is calculated as net imports (imports minus exports) relative to domestic supply quantity after aggregating commodities within each Healthy Diet Basket food group. Values may exceed 100 percent because of stock changes or timing and measurement differences between trade and supply data. Panels include 87, 80, 64, 84, 55, and 73 economies, respectively. Two observations with net import reliance above 150 percent are omitted from the display. External debt data refer to 2025 for 101 economies and to 2024 for Algeria and Guinea, for which 2025 data are unavailable."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0098:000"
+            ],
+            "page": 98,
+            "text": "Figure 2.14 Net Importing Economies and External Debt Burdens, by Food Group, Income Group, and Population, 2025 Share of exports (%)\n\n100 200 300 400 500 700 600 800\nNet import reliance (%)\n\n150 CPV MNE VCT TUN COM BTN YEM LBN GNB COLSLVSTP MNG SENVUTKENECU FJ I NIC DOM HND JOR JAM GMB 125 100 75 50 25 0\nNet import reliance (%)\n\n150 125 100 75 50 25 0\nShare of exports (%)\n\n100 200 300 400 500 700 600 800 a. Starchy staples b. Oils and fats\nShare of exports (%)\n\n100 200 300 400 500 700 600 800\nShare of exports (%)\n\n100 200 300 400 500 700 600 800\nNet import reliance (%)\n\n150 125 100 75 50 25 0\nNet import reliance (%)"
+          }
+        ],
+        "body_chars": 1720,
+        "context_chars": 1832
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "s03",
+    "split": "test",
+    "config": "BASE",
+    "question": "How do accrual-based and cash-basis recording of debt transactions differ?",
+    "filter": {
+      "chapter": 3
+    },
+    "answerable": true,
+    "origin": "day6_spare_new",
+    "elapsed_s": 2.688,
+    "usage": {
+      "prompt_tokens": 1315,
+      "completion_tokens": 64,
+      "llm_calls": 2,
+      "embedding_tokens": 15,
+      "cost_usd": 0.00023595000000000002
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "How do accrual-based and cash-basis recording of debt transactions differ?",
+        "filter": {
+          "chapter": 3
+        },
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 265.9,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0126:001",
+            "page": 126,
+            "score": 0.032787
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0112:003",
+            "page": 112,
+            "score": 0.031054
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0114:000",
+            "page": 114,
+            "score": 0.030536
+          }
+        ],
+        "context": "[para:idr-2026:p0126:001] (page 126)\nAsymmetries in debt data also stem from a whole range of factors, including differences in coverage, timing of recording, institutional practice, and delayed reporting by borrowers and creditors. Coverage often differs—debtor-based systems may exclude private nonguaranteed borrowing, whereas creditor-side data likely capture these flows more comprehensively. Recording practices vary: some compilers adopt accrual-based accounting (recognizing transactions when obligations arise), whereas others use the cash basis method (recording payments when they are made). These divergent practices lead to timing and value mismatches. Another common source of asymmetry is valuation, which uses different exchange rates or accounting methods.\n\n[para:idr-2026:p0112:003] (page 112)\nRather, they arise from several factors including differences in definitions, reporting practices, and institutional coordination. On the debtor side, these factors include (a) weak debt management, which limits timely, comprehensive recording of debt liabilities; (b) time lags in reporting new commitments and disbursements; (c) understatement of arrears, particularly penalty interest charges, often due to the complexity of how these are calculated; (d) failure to report, which results in estimated data by World Bank Group staff; and (e) misclassification of direct and guaranteed export credits.\n\n[para:idr-2026:p0114:000] (page 114)\nOther reasons for asymmetries between the debtor and creditor data include recording of indemnification of payment arrears to private creditors on guaranteed export credits typically captured in debtor data only when a formal debt restructuring takes place. This problem is compounded by the fact that most creditors do not publish information on loans they have guaranteed. There is also an absence of a standard methodology applicable to both debtors and creditors for recording forgiveness of bilateral claims and bilateral debt swaps that extinguish external debt obligations in return for investment of the local currency equivalent in a dedicated fund for specific expenditures such as education or measures to mitigate climate change.",
+        "context_ids": [
+          "para:idr-2026:p0126:001",
+          "para:idr-2026:p0112:003",
+          "para:idr-2026:p0114:000"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0126:001"
+            ],
+            "page": 126,
+            "text": "Asymmetries in debt data also stem from a whole range of factors, including differences in coverage, timing of recording, institutional practice, and delayed reporting by borrowers and creditors. Coverage often differs—debtor-based systems may exclude private nonguaranteed borrowing, whereas creditor-side data likely capture these flows more comprehensively. Recording practices vary: some compilers adopt accrual-based accounting (recognizing transactions when obligations arise), whereas others use the cash basis method (recording payments when they are made). These divergent practices lead to timing and value mismatches. Another common source of asymmetry is valuation, which uses different exchange rates or accounting methods."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0112:003"
+            ],
+            "page": 112,
+            "text": "Rather, they arise from several factors including differences in definitions, reporting practices, and institutional coordination. On the debtor side, these factors include (a) weak debt management, which limits timely, comprehensive recording of debt liabilities; (b) time lags in reporting new commitments and disbursements; (c) understatement of arrears, particularly penalty interest charges, often due to the complexity of how these are calculated; (d) failure to report, which results in estimated data by World Bank Group staff; and (e) misclassification of direct and guaranteed export credits."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0114:000"
+            ],
+            "page": 114,
+            "text": "Other reasons for asymmetries between the debtor and creditor data include recording of indemnification of payment arrears to private creditors on guaranteed export credits typically captured in debtor data only when a formal debt restructuring takes place. This problem is compounded by the fact that most creditors do not publish information on loans they have guaranteed. There is also an absence of a standard methodology applicable to both debtors and creditors for recording forgiveness of bilateral claims and bilateral debt swaps that extinguish external debt obligations in return for investment of the local currency equivalent in a dedicated fund for specific expenditures such as education or measures to mitigate climate change."
+          }
+        ],
+        "body_chars": 2079,
+        "context_chars": 2194
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The passages do not contain sufficient evidence to directly compare accrual-based and cash-basis recording of debt transactions."
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true,
+      "context_has_evidence": true,
+      "first_search_hit_at_3": true
+    }
+  },
+  {
+    "query_id": "s04",
+    "split": "test",
+    "config": "BASE",
+    "question": "In what year was the Debtor Reporting System (DRS) initially established?",
+    "filter": null,
+    "answerable": true,
+    "origin": "day6_spare_new",
+    "elapsed_s": 4.985,
+    "usage": {
+      "prompt_tokens": 2152,
+      "completion_tokens": 121,
+      "llm_calls": 3,
+      "embedding_tokens": 21,
+      "cost_usd": 0.00039581999999999996
+    },
+    "status": "answered",
+    "answer": "The Debtor Reporting System (DRS) was instituted in 1951, originating from the World Bank Group's need to monitor and assess the financial position of its borrowers [para:idr-2026:p0028:004].",
+    "citations": [
+      "para:idr-2026:p0028:004"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Debtor Reporting System (DRS) established year",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 233.2,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0121:003",
+            "page": 121,
+            "score": 0.030077
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0116:004",
+            "page": 116,
+            "score": 0.029958
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0116:000",
+            "page": 116,
+            "score": 0.029911
+          }
+        ],
+        "context": "[para:idr-2026:p0121:003] (page 121)\nThe modernization and expansion of the DRS serves as an important anchor for structuring the capacity-building program in debt data management. It currently covers about 120 World Bank Group borrowing countries and more than 50,000 active loan records, with approximately 2,500–3,000 new loans reported each year. Maintaining a system of this scale and ensuring the integrity of the data require sustained investment in national reporting capacity. Practical training sessions are not limited to familiarizing debt managers with the new and very different DRS reporting structure. They include equally, if not more, important training in how to implement international statistical standards to categorize and compile debt data.\n\n[para:idr-2026:p0116:004] (page 116)\nThe development of the new DRS platform and its rollout are being coordinated with the Commonwealth Secretariat (Meridian) and the Debt Management and Financial Analysis System of UN Trade and Development (UNCTAD), which provide the debt management software currently used by about 80 percent of DRS reporting countries. The goal is a seamless extraction, validation, and automated pass-through of data recorded by the borrowers in these systems to\n\n[para:idr-2026:p0116:000] (page 116)\nwhere appropriate artificial intelligence, to streamline and simplify the reporting process, assist reporters with queries about reporting protocols, and validate the consistency of data. The new DRS framework, which will be finalized and rolled out in the coming year, represents a major step forward in strengthening the global debt data architecture.",
+        "context_ids": [
+          "para:idr-2026:p0121:003",
+          "para:idr-2026:p0116:004",
+          "para:idr-2026:p0116:000"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0121:003"
+            ],
+            "page": 121,
+            "text": "The modernization and expansion of the DRS serves as an important anchor for structuring the capacity-building program in debt data management. It currently covers about 120 World Bank Group borrowing countries and more than 50,000 active loan records, with approximately 2,500–3,000 new loans reported each year. Maintaining a system of this scale and ensuring the integrity of the data require sustained investment in national reporting capacity. Practical training sessions are not limited to familiarizing debt managers with the new and very different DRS reporting structure. They include equally, if not more, important training in how to implement international statistical standards to categorize and compile debt data."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0116:004"
+            ],
+            "page": 116,
+            "text": "The development of the new DRS platform and its rollout are being coordinated with the Commonwealth Secretariat (Meridian) and the Debt Management and Financial Analysis System of UN Trade and Development (UNCTAD), which provide the debt management software currently used by about 80 percent of DRS reporting countries. The goal is a seamless extraction, validation, and automated pass-through of data recorded by the borrowers in these systems to"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0116:000"
+            ],
+            "page": 116,
+            "text": "where appropriate artificial intelligence, to streamline and simplify the reporting process, assist reporters with queries about reporting protocols, and validate the consistency of data. The new DRS framework, which will be finalized and rolled out in the coming year, represents a major step forward in strengthening the global debt data architecture."
+          }
+        ],
+        "body_chars": 1528,
+        "context_chars": 1643
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "history of Debtor Reporting System (DRS)",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 352.9,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0116:004",
+            "page": 116,
+            "score": 0.030579
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0028:004",
+            "page": 28,
+            "score": 0.030536
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0121:003",
+            "page": 121,
+            "score": 0.028992
+          }
+        ],
+        "context": "[para:idr-2026:p0121:003] (page 121)\nThe modernization and expansion of the DRS serves as an important anchor for structuring the capacity-building program in debt data management. It currently covers about 120 World Bank Group borrowing countries and more than 50,000 active loan records, with approximately 2,500–3,000 new loans reported each year. Maintaining a system of this scale and ensuring the integrity of the data require sustained investment in national reporting capacity. Practical training sessions are not limited to familiarizing debt managers with the new and very different DRS reporting structure. They include equally, if not more, important training in how to implement international statistical standards to categorize and compile debt data.\n\n[para:idr-2026:p0116:004] (page 116)\nThe development of the new DRS platform and its rollout are being coordinated with the Commonwealth Secretariat (Meridian) and the Debt Management and Financial Analysis System of UN Trade and Development (UNCTAD), which provide the debt management software currently used by about 80 percent of DRS reporting countries. The goal is a seamless extraction, validation, and automated pass-through of data recorded by the borrowers in these systems to\n\n[para:idr-2026:p0116:000] (page 116)\nwhere appropriate artificial intelligence, to streamline and simplify the reporting process, assist reporters with queries about reporting protocols, and validate the consistency of data. The new DRS framework, which will be finalized and rolled out in the coming year, represents a major step forward in strengthening the global debt data architecture.\n\n[para:idr-2026:p0028:004] (page 28)\nThe primary source for these data is reports to the World Bank Group’s Debtor Reporting System (DRS) from member countries that have received either International Bank for Reconstruction and Development loans or International Development Association credits, and that have outstanding obligations to the World Bank Group. The DRS, instituted in 1951, has its origins in the World Bank Group’s need to monitor and assess the financial position of its borrowers. Comprehensive information on data sources and the methodology used to compile the statistics presented in this report can be found in the appendix under “Data Sources.” The following describes the key concepts and data sources.",
+        "context_ids": [
+          "para:idr-2026:p0121:003",
+          "para:idr-2026:p0116:004",
+          "para:idr-2026:p0116:000",
+          "para:idr-2026:p0028:004"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0121:003"
+            ],
+            "page": 121,
+            "text": "The modernization and expansion of the DRS serves as an important anchor for structuring the capacity-building program in debt data management. It currently covers about 120 World Bank Group borrowing countries and more than 50,000 active loan records, with approximately 2,500–3,000 new loans reported each year. Maintaining a system of this scale and ensuring the integrity of the data require sustained investment in national reporting capacity. Practical training sessions are not limited to familiarizing debt managers with the new and very different DRS reporting structure. They include equally, if not more, important training in how to implement international statistical standards to categorize and compile debt data."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0116:004"
+            ],
+            "page": 116,
+            "text": "The development of the new DRS platform and its rollout are being coordinated with the Commonwealth Secretariat (Meridian) and the Debt Management and Financial Analysis System of UN Trade and Development (UNCTAD), which provide the debt management software currently used by about 80 percent of DRS reporting countries. The goal is a seamless extraction, validation, and automated pass-through of data recorded by the borrowers in these systems to"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0116:000"
+            ],
+            "page": 116,
+            "text": "where appropriate artificial intelligence, to streamline and simplify the reporting process, assist reporters with queries about reporting protocols, and validate the consistency of data. The new DRS framework, which will be finalized and rolled out in the coming year, represents a major step forward in strengthening the global debt data architecture."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0028:004"
+            ],
+            "page": 28,
+            "text": "The primary source for these data is reports to the World Bank Group’s Debtor Reporting System (DRS) from member countries that have received either International Bank for Reconstruction and Development loans or International Development Association credits, and that have outstanding obligations to the World Bank Group. The DRS, instituted in 1951, has its origins in the World Bank Group’s need to monitor and assess the financial position of its borrowers. Comprehensive information on data sources and the methodology used to compile the statistics presented in this report can be found in the appendix under “Data Sources.” The following describes the key concepts and data sources."
+          }
+        ],
+        "body_chars": 2216,
+        "context_chars": 2369
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "eval": {
+      "n_searches": 2,
+      "tool_use": true,
+      "context_has_evidence": false,
+      "first_search_hit_at_3": false
+    }
+  },
+  {
+    "query_id": "u03",
+    "split": "test",
+    "config": "BASE",
+    "question": "What does the report project the total external debt stock of low- and middle-income countries will be at the end of 2028?",
+    "filter": null,
+    "answerable": false,
+    "origin": "day7_new",
+    "elapsed_s": 6.311,
+    "usage": {
+      "prompt_tokens": 3545,
+      "completion_tokens": 127,
+      "llm_calls": 4,
+      "embedding_tokens": 47,
+      "cost_usd": 0.00060889
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "total external debt stock of low- and middle-income countries at the end of 2028",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 359.4,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0028:000",
+            "page": 28,
+            "score": 0.032266
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0027:000",
+            "page": 27,
+            "score": 0.031498
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0061:002",
+            "page": 61,
+            "score": 0.030835
+          }
+        ],
+        "context": "[para:idr-2026:p0028:000] (page 28)\nTable 1.1 External Debt Stock of Low- and Middle-Income Countries, 2015–25 US$ (billion)\n\n[para:idr-2026:p0027:000] (page 27)\nand Debt Flows as of End-2025 Trends in External Debt, 2015–25\nRenewed global inflationary pressures, geopolitical tensions, and decreased fiscal space continued to put substantial pressure on the external debt positions of low- and middle-income countries (LMICs) in 2025. LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024. LMIC external debt has grown about 60 percent over the past decade, and the 2025 increase was the largest since the easing of the COVID-19 pandemic in 2021. The change in debt stock was driven by net debt inflows of $423.5 billion, a more than twofold increase from 2024, as well as by some debt forgiveness and the upward accounting effect of US dollar depreciation.\n\n[para:idr-2026:p0061:002] (page 61)\nThe Middle East, North Africa, Afghanistan, and Pakistan region, despite recording improvements in debt service and interest ratios, saw its external debt-to-GNI ratio rise from 26.7 percent to 29.4 percent, the largest single-year increase of any region, signaling continued debt stock accumulation.\n\nFigure 1.17 External Debt Stock to Exports of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 202 5 0 50 100 150 200 250 300 350 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: IDA = International Development Association.",
+        "context_ids": [
+          "para:idr-2026:p0028:000",
+          "para:idr-2026:p0027:000",
+          "para:idr-2026:p0061:002"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0028:000"
+            ],
+            "page": 28,
+            "text": "Table 1.1 External Debt Stock of Low- and Middle-Income Countries, 2015–25 US$ (billion)"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0027:000"
+            ],
+            "page": 27,
+            "text": "and Debt Flows as of End-2025 Trends in External Debt, 2015–25\nRenewed global inflationary pressures, geopolitical tensions, and decreased fiscal space continued to put substantial pressure on the external debt positions of low- and middle-income countries (LMICs) in 2025. LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024. LMIC external debt has grown about 60 percent over the past decade, and the 2025 increase was the largest since the easing of the COVID-19 pandemic in 2021. The change in debt stock was driven by net debt inflows of $423.5 billion, a more than twofold increase from 2024, as well as by some debt forgiveness and the upward accounting effect of US dollar depreciation."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0061:002"
+            ],
+            "page": 61,
+            "text": "The Middle East, North Africa, Afghanistan, and Pakistan region, despite recording improvements in debt service and interest ratios, saw its external debt-to-GNI ratio rise from 26.7 percent to 29.4 percent, the largest single-year increase of any region, signaling continued debt stock accumulation.\n\nFigure 1.17 External Debt Stock to Exports of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 202 5 0 50 100 150 200 250 300 350 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: IDA = International Development Association."
+          }
+        ],
+        "body_chars": 1646,
+        "context_chars": 1758
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "project total external debt stock low- and middle-income countries end of 2028",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 296.2,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0028:000",
+            "page": 28,
+            "score": 0.032266
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0027:000",
+            "page": 27,
+            "score": 0.031498
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0061:002",
+            "page": 61,
+            "score": 0.030835
+          }
+        ],
+        "context": "[para:idr-2026:p0028:000] (page 28)\nTable 1.1 External Debt Stock of Low- and Middle-Income Countries, 2015–25 US$ (billion)\n\n[para:idr-2026:p0027:000] (page 27)\nand Debt Flows as of End-2025 Trends in External Debt, 2015–25\nRenewed global inflationary pressures, geopolitical tensions, and decreased fiscal space continued to put substantial pressure on the external debt positions of low- and middle-income countries (LMICs) in 2025. LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024. LMIC external debt has grown about 60 percent over the past decade, and the 2025 increase was the largest since the easing of the COVID-19 pandemic in 2021. The change in debt stock was driven by net debt inflows of $423.5 billion, a more than twofold increase from 2024, as well as by some debt forgiveness and the upward accounting effect of US dollar depreciation.\n\n[para:idr-2026:p0061:002] (page 61)\nThe Middle East, North Africa, Afghanistan, and Pakistan region, despite recording improvements in debt service and interest ratios, saw its external debt-to-GNI ratio rise from 26.7 percent to 29.4 percent, the largest single-year increase of any region, signaling continued debt stock accumulation.\n\nFigure 1.17 External Debt Stock to Exports of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 202 5 0 50 100 150 200 250 300 350 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: IDA = International Development Association.",
+        "context_ids": [
+          "para:idr-2026:p0028:000",
+          "para:idr-2026:p0027:000",
+          "para:idr-2026:p0061:002"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0028:000"
+            ],
+            "page": 28,
+            "text": "Table 1.1 External Debt Stock of Low- and Middle-Income Countries, 2015–25 US$ (billion)"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0027:000"
+            ],
+            "page": 27,
+            "text": "and Debt Flows as of End-2025 Trends in External Debt, 2015–25\nRenewed global inflationary pressures, geopolitical tensions, and decreased fiscal space continued to put substantial pressure on the external debt positions of low- and middle-income countries (LMICs) in 2025. LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024. LMIC external debt has grown about 60 percent over the past decade, and the 2025 increase was the largest since the easing of the COVID-19 pandemic in 2021. The change in debt stock was driven by net debt inflows of $423.5 billion, a more than twofold increase from 2024, as well as by some debt forgiveness and the upward accounting effect of US dollar depreciation."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0061:002"
+            ],
+            "page": 61,
+            "text": "The Middle East, North Africa, Afghanistan, and Pakistan region, despite recording improvements in debt service and interest ratios, saw its external debt-to-GNI ratio rise from 26.7 percent to 29.4 percent, the largest single-year increase of any region, signaling continued debt stock accumulation.\n\nFigure 1.17 External Debt Stock to Exports of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 202 5 0 50 100 150 200 250 300 350 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: IDA = International Development Association."
+          }
+        ],
+        "body_chars": 1646,
+        "context_chars": 1758
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "external debt stock low- and middle-income countries projection 2028",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 235.7,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0028:000",
+            "page": 28,
+            "score": 0.032266
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0061:002",
+            "page": 61,
+            "score": 0.032266
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0060:003",
+            "page": 60,
+            "score": 0.031754
+          }
+        ],
+        "context": "[para:idr-2026:p0028:000] (page 28)\nTable 1.1 External Debt Stock of Low- and Middle-Income Countries, 2015–25 US$ (billion)\n\n[para:idr-2026:p0027:000] (page 27)\nand Debt Flows as of End-2025 Trends in External Debt, 2015–25\nRenewed global inflationary pressures, geopolitical tensions, and decreased fiscal space continued to put substantial pressure on the external debt positions of low- and middle-income countries (LMICs) in 2025. LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024. LMIC external debt has grown about 60 percent over the past decade, and the 2025 increase was the largest since the easing of the COVID-19 pandemic in 2021. The change in debt stock was driven by net debt inflows of $423.5 billion, a more than twofold increase from 2024, as well as by some debt forgiveness and the upward accounting effect of US dollar depreciation.\n\n[para:idr-2026:p0061:002] (page 61)\nThe Middle East, North Africa, Afghanistan, and Pakistan region, despite recording improvements in debt service and interest ratios, saw its external debt-to-GNI ratio rise from 26.7 percent to 29.4 percent, the largest single-year increase of any region, signaling continued debt stock accumulation.\n\nFigure 1.17 External Debt Stock to Exports of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 202 5 0 50 100 150 200 250 300 350 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: IDA = International Development Association.\n\n[para:idr-2026:p0060:003] (page 60)\nTotal debt service and interest payments relative to export earnings both declined Figure 1.16 Ratio of External Debt Stock to GNI of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 0 10 20 30 40 50 60 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: GNI = gross national income; IDA = International Development Association.",
+        "context_ids": [
+          "para:idr-2026:p0028:000",
+          "para:idr-2026:p0027:000",
+          "para:idr-2026:p0061:002",
+          "para:idr-2026:p0060:003"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0028:000"
+            ],
+            "page": 28,
+            "text": "Table 1.1 External Debt Stock of Low- and Middle-Income Countries, 2015–25 US$ (billion)"
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0027:000"
+            ],
+            "page": 27,
+            "text": "and Debt Flows as of End-2025 Trends in External Debt, 2015–25\nRenewed global inflationary pressures, geopolitical tensions, and decreased fiscal space continued to put substantial pressure on the external debt positions of low- and middle-income countries (LMICs) in 2025. LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024. LMIC external debt has grown about 60 percent over the past decade, and the 2025 increase was the largest since the easing of the COVID-19 pandemic in 2021. The change in debt stock was driven by net debt inflows of $423.5 billion, a more than twofold increase from 2024, as well as by some debt forgiveness and the upward accounting effect of US dollar depreciation."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0061:002"
+            ],
+            "page": 61,
+            "text": "The Middle East, North Africa, Afghanistan, and Pakistan region, despite recording improvements in debt service and interest ratios, saw its external debt-to-GNI ratio rise from 26.7 percent to 29.4 percent, the largest single-year increase of any region, signaling continued debt stock accumulation.\n\nFigure 1.17 External Debt Stock to Exports of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 202 5 0 50 100 150 200 250 300 350 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: IDA = International Development Association."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0060:003"
+            ],
+            "page": 60,
+            "text": "Total debt service and interest payments relative to export earnings both declined Figure 1.16 Ratio of External Debt Stock to GNI of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 0 10 20 30 40 50 60 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: GNI = gross national income; IDA = International Development Association."
+          }
+        ],
+        "body_chars": 2229,
+        "context_chars": 2379
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The passages do not contain projections for the total external debt stock of low- and middle-income countries at the end of 2028."
+      }
+    ],
+    "eval": {
+      "n_searches": 3,
+      "tool_use": true
+    }
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "config": "BASE",
+    "question": "By how much did changes in gold prices alter the external-debt-to-exports ratios of commodity-exporting low- and middle-income countries in 2025?",
+    "filter": null,
+    "answerable": false,
+    "origin": "day7_new",
+    "elapsed_s": 3.704,
+    "usage": {
+      "prompt_tokens": 1449,
+      "completion_tokens": 89,
+      "llm_calls": 2,
+      "embedding_tokens": 23,
+      "cost_usd": 0.00027121
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "changes in gold prices external-debt-to-exports ratios commodity-exporting low- and middle-income countries 2025",
+        "filter": null,
+        "rewritten_query": null,
+        "rewrite_log": {},
+        "retrieval_ms": 332.5,
+        "seeds": [
+          {
+            "rank": 1,
+            "id": "para:idr-2026:p0083:001",
+            "page": 83,
+            "score": 0.031545
+          },
+          {
+            "rank": 2,
+            "id": "para:idr-2026:p0061:002",
+            "page": 61,
+            "score": 0.031319
+          },
+          {
+            "rank": 3,
+            "id": "para:idr-2026:p0060:003",
+            "page": 60,
+            "score": 0.030579
+          }
+        ],
+        "context": "[para:idr-2026:p0083:001] (page 83)\nEconomies with weaker capacity need to strengthen tax revenue mobilization and improve fiscal transparency.\n\nFigure 2.6 Foreign Exchange Accumulation in Low- and Middle-Income Countries, 2026 –2 0 Percent change from a year earlier 4 2 8 6 Jan Feb Mar Apr May Jun Commodity exporters Commodity importers Commodity importers (excl. China) Sources: Original calculations based on data from Haver Analytics; International Monetary Fund; World Bank Group.\n\nNote: Figure shows year-on-year changes in foreign exchange in US dollars. Aggregates are computed as weighted averages. Sample includes up to 40 commodity exporters and 34 commodity importers.\n\n[para:idr-2026:p0061:002] (page 61)\nThe Middle East, North Africa, Afghanistan, and Pakistan region, despite recording improvements in debt service and interest ratios, saw its external debt-to-GNI ratio rise from 26.7 percent to 29.4 percent, the largest single-year increase of any region, signaling continued debt stock accumulation.\n\nFigure 1.17 External Debt Stock to Exports of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 202 5 0 50 100 150 200 250 300 350 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: IDA = International Development Association.\n\n[para:idr-2026:p0060:003] (page 60)\nTotal debt service and interest payments relative to export earnings both declined Figure 1.16 Ratio of External Debt Stock to GNI of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 0 10 20 30 40 50 60 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: GNI = gross national income; IDA = International Development Association.",
+        "context_ids": [
+          "para:idr-2026:p0083:001",
+          "para:idr-2026:p0061:002",
+          "para:idr-2026:p0060:003"
+        ],
+        "passages": [
+          {
+            "ids": [
+              "para:idr-2026:p0083:001"
+            ],
+            "page": 83,
+            "text": "Economies with weaker capacity need to strengthen tax revenue mobilization and improve fiscal transparency.\n\nFigure 2.6 Foreign Exchange Accumulation in Low- and Middle-Income Countries, 2026 –2 0 Percent change from a year earlier 4 2 8 6 Jan Feb Mar Apr May Jun Commodity exporters Commodity importers Commodity importers (excl. China) Sources: Original calculations based on data from Haver Analytics; International Monetary Fund; World Bank Group.\n\nNote: Figure shows year-on-year changes in foreign exchange in US dollars. Aggregates are computed as weighted averages. Sample includes up to 40 commodity exporters and 34 commodity importers."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0061:002"
+            ],
+            "page": 61,
+            "text": "The Middle East, North Africa, Afghanistan, and Pakistan region, despite recording improvements in debt service and interest ratios, saw its external debt-to-GNI ratio rise from 26.7 percent to 29.4 percent, the largest single-year increase of any region, signaling continued debt stock accumulation.\n\nFigure 1.17 External Debt Stock to Exports of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 202 5 0 50 100 150 200 250 300 350 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: IDA = International Development Association."
+          },
+          {
+            "ids": [
+              "para:idr-2026:p0060:003"
+            ],
+            "page": 60,
+            "text": "Total debt service and interest payments relative to export earnings both declined Figure 1.16 Ratio of External Debt Stock to GNI of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 0 10 20 30 40 50 60 Percent Low-income countries IDA-eligible countries Middle-income countries Low- and middle-income countries (excl. China)\n\nSource: World Bank Group International Debt Statistics database.\n\nNote: GNI = gross national income; IDA = International Development Association."
+          }
+        ],
+        "body_chars": 2007,
+        "context_chars": 2119
+      },
+      {
+        "event": "model_abstain",
+        "reason": "The passages do not contain evidence regarding the specific impact of changes in gold prices on the external-debt-to-exports ratios of commodity-exporting low- and middle-income countries in 2025."
+      }
+    ],
+    "eval": {
+      "n_searches": 1,
+      "tool_use": true
+    }
+  }
+]

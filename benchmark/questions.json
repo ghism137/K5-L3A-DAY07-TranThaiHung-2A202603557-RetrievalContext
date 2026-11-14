@@ -1,0 +1,676 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "truc_tiep",
+    "chapter_of_gold": 1,
+    "question": "What record level did the external debt of low- and middle-income countries reach at the end of 2025?",
+    "expected_answer": "$9.4 trillion, up 5.5 percent from $8.9 trillion in 2024.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 27,
+        "evidence": "LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024."
+      }
+    ],
+    "key_facts": [
+      "$9.4 trillion",
+      "$8.9 trillion"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "truc_tiep",
+    "chapter_of_gold": 1,
+    "question": "How does the report define a total return swap (TRS) in its box on sovereign financing?",
+    "expected_answer": "A financial derivative contract in which one party transfers the total economic return of a reference asset (income and changes in market value) to another party in exchange for a predetermined stream of payments.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 31,
+        "evidence": "A TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments"
+      }
+    ],
+    "key_facts": [
+      "A TRS is a financial derivative contract",
+      "total economic return of a reference asset"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "dien_dat_lai",
+    "chapter_of_gold": 1,
+    "question": "How much more collateral than the amount borrowed do countries typically pledge when they use total return swap financing?",
+    "expected_answer": "Disclosed collateralization ratios have typically been between 133 and 198 percent.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 32,
+        "evidence": "disclosed collateralization ratios have typically been between 133 and 198 percent"
+      }
+    ],
+    "key_facts": [
+      "collateralization ratios have typically been between 133 and 198 percent"
+    ],
+    "filter": {
+      "chapter": 1
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "dieu_kien",
+    "chapter_of_gold": 1,
+    "question": "Under what condition is a total return swap financing recorded as debt of the sovereign?",
+    "expected_answer": "When the sovereign receives cash up front and must repay it regardless of the performance of the underlying assets (an unconditional repayment obligation); the derivative component is recorded separately.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 33,
+        "evidence": "If the sovereign receives cash up front and is required to repay it regardless of the performance of the underlying assets, the financing creates an unconditional repayment obligation and is therefore recorded as debt."
+      }
+    ],
+    "key_facts": [
+      "receives cash up front",
+      "therefore recorded as debt"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "dien_dat_lai",
+    "chapter_of_gold": 1,
+    "question": "How much of last year's rise in public-sector external obligations merely reflected the weaker US dollar rather than new borrowing?",
+    "expected_answer": "At least 28.2 percent of the $301.8 billion increase in LMICs' PPG debt stock was attributable to the depreciation of the US dollar.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 34,
+        "evidence": "Of the $301.8 billion increase in LMICs’ PPG debt stock (external debt obligations of a country’s government and any private sector debts backed by a public sector guarantee) recorded in 2025, at least 28.2 percent can be attributed to the depreciation of the US dollar."
+      }
+    ],
+    "key_facts": [
+      "$301.8 billion",
+      "28.2 percent"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "dieu_kien",
+    "chapter_of_gold": 1,
+    "question": "How did total debt service of LMICs change in 2025 once the $34.5 billion of buyback and prepayment principal is removed?",
+    "expected_answer": "Total debt service decreased by a moderate 0.7 percent.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 49,
+        "evidence": "When the total prepaid or buyback amount of $34.5 billion in principal repayments is removed from these payments, total debt service of LMICs decreased by a moderate 0.7 percent in 2025."
+      }
+    ],
+    "key_facts": [
+      "$34.5 billion in principal repayments is removed",
+      "decreased by a moderate 0.7 percent"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "dien_dat_lai",
+    "chapter_of_gold": 1,
+    "question": "Under the restructuring deal with bilateral creditors, how cheap was Zambia's borrowing in the early years and where does the rate eventually top out?",
+    "expected_answer": "Interest set at 1.0 percent for the first 14 years, gradually increasing to a maximum of 2.5 percent.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 70,
+        "evidence": "Interest rates were reduced according to a structured schedule and set at 1.0 percent for the first 14 years, gradually increasing thereafter to a maximum of 2.5 percent."
+      }
+    ],
+    "key_facts": [
+      "1.0 percent for the first 14 years",
+      "maximum of 2.5 percent"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "dieu_kien",
+    "chapter_of_gold": 2,
+    "question": "Excluding China, how did inflation in commodity-importing LMICs change between January and June 2026?",
+    "expected_answer": "It increased from 7.0 percent to 8.3 percent.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 80,
+        "evidence": "Excluding China, which has been relatively insulated from the shock, partly because of its large petroleum reserves, inflation in commodity-importing LMICs increased from 7.0 percent to 8.3 percent between January and June"
+      }
+    ],
+    "key_facts": [
+      "increased from 7.0 percent to 8.3 percent"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "truc_tiep",
+    "chapter_of_gold": 2,
+    "question": "At end-December 2025, how many IDA LIC-DSF countries were in debt distress or had unsustainable public debt, out of how many?",
+    "expected_answer": "11 out of 68 IDA LIC-DSF countries.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 88,
+        "evidence": "out of 68 IDA LIC-DSF countries, only 11 are in debt distress or have unsustainable public debt"
+      }
+    ],
+    "key_facts": [
+      "out of 68 IDA LIC-DSF countries",
+      "only 11 are in debt distress"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "dieu_kien",
+    "chapter_of_gold": 2,
+    "question": "Where large sustainability gaps persisted for four years or more, by how much did the median debt ratio rise?",
+    "expected_answer": "By 17 percentage points of GDP.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 93,
+        "evidence": "Where large sustainability gaps (that is, the primary deficit was significantly larger than what would stabilize debt) persisted for four years or more, the median debt ratio increased by 17 percentage points of gross domestic product."
+      }
+    ],
+    "key_facts": [
+      "persisted for four years or more",
+      "17 percentage points"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "truc_tiep",
+    "chapter_of_gold": 2,
+    "question": "By how much did the World Uncertainty Index rise between the third quarter of 2024 and the third quarter of 2025?",
+    "expected_answer": "More than fivefold, nearly twice its COVID-19 peak.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 75,
+        "evidence": "rose more than fivefold between the third quarter of 2024 and the third quarter of 2025"
+      }
+    ],
+    "key_facts": [
+      "World Uncertainty Index",
+      "more than fivefold"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "truc_tiep",
+    "chapter_of_gold": 3,
+    "question": "How many policy performance actions (PPAs) have been agreed since the Sustainable Development Finance Policy became effective?",
+    "expected_answer": "887 PPAs (60 percent on debt transparency and debt management, 40 percent on fiscal sustainability).",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 108,
+        "evidence": "Since the SDFP policy became effective, a total of 887 PPAs have been agreed, of which 60 percent focused on debt transparency and debt management and 40 percent on fiscal sustainability."
+      }
+    ],
+    "key_facts": [
+      "887 PPAs"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "dien_dat_lai",
+    "chapter_of_gold": 3,
+    "question": "How big a part of governments' total borrowing is made up of home-market (local) debt in many developing economies?",
+    "expected_answer": "Domestic public debt accounts for 40–60 percent of total public debt in many of these countries, and more in some.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 117,
+        "evidence": "In many of these countries, domestic public debt now accounts for 40–60 percent of total public debt, and in some of them it exceeds those shares."
+      }
+    ],
+    "key_facts": [
+      "40–60 percent of total public debt"
+    ],
+    "filter": {
+      "chapter": 3
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "dien_dat_lai",
+    "chapter_of_gold": 3,
+    "question": "How does the World Bank Group turn loan data reported by borrowing countries into policy analysis?",
+    "expected_answer": "Through a three-tier chain: DRS provides granular evidence, IDS transforms it into trusted statistical facts, and the IDR converts those facts into analysis and actionable knowledge.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 128,
+        "evidence": "DRS provides the granular evidence, IDS transforms that evidence into trusted and transparent statistical facts, and the International Debt Report (IDR) converts those facts into analysis and actionable knowledge"
+      }
+    ],
+    "key_facts": [
+      "DRS provides the granular evidence",
+      "converts those facts into analysis and actionable knowledge"
+    ],
+    "filter": {
+      "chapter": 3
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "origin": "day6_dev",
+    "type": "truc_tiep",
+    "chapter_of_gold": 3,
+    "question": "In extreme cases, how large have discrepancies been observed in debt stock figures purporting to have the same coverage?",
+    "expected_answer": "As large as 30 percent of gross domestic product.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 125,
+        "evidence": "In extreme cases discrepancies as large as 30 percent of gross domestic product have been observed in debt stock figures purporting to have the same coverage."
+      }
+    ],
+    "key_facts": [
+      "as large as 30 percent of gross domestic product"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "How much did low- and middle-income countries borrow through cryptocurrency- or stablecoin-backed loans in 2025?",
+    "absence_reason": "The report covers bonds, bank loans and total return swaps, but never discusses crypto-assets or stablecoin-backed borrowing.",
+    "absence_check": {
+      "terms": [
+        "stablecoin",
+        "crypto",
+        "bitcoin",
+        "digital asset",
+        "blockchain"
+      ],
+      "manual": null
+    },
+    "origin": "day7_new",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "How much did low- and middle-income countries raise through Panda bond issuance in 2025?",
+    "absence_reason": "The report gives bond issuance by country and region but never mentions Panda bonds. The Chinese yuan appears only as a valuation currency and as a loan-repayment currency in a Zambia restructuring (physical pages 33, 71, 74), with no bond issuance amounts.",
+    "absence_check": {
+      "terms": [
+        "panda"
+      ],
+      "manual": "Read the 3 pages that mention the yuan (p33, p71, p74): none gives issuance amounts."
+    },
+    "origin": "day7_new",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "n01",
+    "split": "test",
+    "origin": "day7_new",
+    "type": "dien_dat_lai",
+    "chapter_of_gold": 1,
+    "question": "Within Sub-Saharan Africa, which country was the largest international bond issuer in 2025, and how much did it raise?",
+    "expected_answer": "Kenya, which raised $3.5 billion in 2025.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 64,
+        "evidence": "Kenya, the largest issuer in the region, raised $3.5 billion in 2025."
+      }
+    ],
+    "key_facts": [
+      "Kenya, the largest issuer in the region",
+      "$3.5 billion in 2025"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "n02",
+    "split": "test",
+    "origin": "day7_new",
+    "type": "dien_dat_lai",
+    "chapter_of_gold": 2,
+    "question": "For which food groups do countries with heavier debt burdens relative to exports import from a wider variety of suppliers?",
+    "expected_answer": "Oils and fats, and legumes, nuts, and seeds.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 100,
+        "evidence": "By contrast, higher debt burdens are associated with greater import source diversity for oils and fats, and for legumes, nuts, and seeds."
+      }
+    ],
+    "key_facts": [
+      "greater import source diversity for oils and fats",
+      "legumes, nuts, and seeds"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "origin": "day6_test_reused",
+    "type": "dieu_kien",
+    "chapter_of_gold": 1,
+    "question": "When the European Union's support to Ukraine is excluded, by how much did LMICs' debt stock owed to multilateral creditors increase?",
+    "expected_answer": "It increased 7.0 percent, to $1.4 trillion.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 38,
+        "evidence": "when the European Union’s support to Ukraine is excluded, debt stock owed to multilateral creditors increased 7.0 percent to $1.4 trillion"
+      }
+    ],
+    "key_facts": [
+      "support to Ukraine is excluded",
+      "7.0 percent to $1.4 trillion"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "origin": "day6_test_reused",
+    "type": "dien_dat_lai",
+    "chapter_of_gold": 2,
+    "question": "Which kind of repayment weighs most heavily on the cash-borrowing requirements of the poorest countries?",
+    "expected_answer": "Domestic debt amortization dominates gross financing needs for low-income countries.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 90,
+        "evidence": "Consequently, domestic debt amortization dominates GFNs for LICs"
+      }
+    ],
+    "key_facts": [
+      "domestic debt amortization dominates GFNs for LICs"
+    ],
+    "filter": {
+      "chapter": 2
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "origin": "day6_test_reused",
+    "type": "dieu_kien",
+    "chapter_of_gold": 2,
+    "question": "In the food import analysis, what external-debt-to-exports threshold is used as a reference point, and where does it come from?",
+    "expected_answer": "External debt stocks of at least 150 percent of exports, based on the threshold applied under the Heavily Indebted Poor Countries (HIPC) Initiative.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 96,
+        "evidence": "external debt stocks are at least 150 percent of exports, as a reference point based on the threshold applied under the Heavily Indebted Poor Countries (HIPC) Initiative"
+      }
+    ],
+    "key_facts": [
+      "150 percent of exports",
+      "Heavily Indebted Poor Countries"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "origin": "day6_test_reused",
+    "type": "truc_tiep",
+    "chapter_of_gold": 3,
+    "question": "In 2020, how many IDA-eligible countries published fully accessible public debt data according to the Debt Reporting Heat Map?",
+    "expected_answer": "36 countries, 47 percent of the 76 countries covered.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 109,
+        "evidence": "In 2020, only 36 IDA-eligible countries, 47 percent of the 76 countries covered by the heat map, published fully accessible public debt data."
+      }
+    ],
+    "key_facts": [
+      "only 36 IDA-eligible countries",
+      "47 percent of the 76 countries"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "origin": "day6_test_reused",
+    "type": "dien_dat_lai",
+    "chapter_of_gold": 3,
+    "question": "What rules govern how the World Bank handles loan data supplied by lenders for reconciliation?",
+    "expected_answer": "A July 2026 protocol by the Chief Statistician sets out the terms on which creditor data are shared and the confidentiality rules, assuring creditors the data are used strictly for reconciliation.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 119,
+        "evidence": "It sets out the terms on which these data are shared and the confidentiality rules that apply to them, providing reassurance for creditors that the data will be used strictly for purposes of data reconciliation."
+      }
+    ],
+    "key_facts": [
+      "confidentiality rules that apply",
+      "strictly for purposes of data reconciliation"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "s01",
+    "split": "test",
+    "origin": "day6_spare_new",
+    "type": "truc_tiep",
+    "chapter_of_gold": 1,
+    "question": "What share of the long-term component of LMICs' net debt inflows in 2025 came from private creditors?",
+    "expected_answer": "75.2 percent.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 40,
+        "evidence": "these creditors accounted for 75.2 percent of the total long-term component"
+      }
+    ],
+    "key_facts": [
+      "75.2 percent of the total long-term component"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "s02",
+    "split": "test",
+    "origin": "day6_spare_new",
+    "type": "truc_tiep",
+    "chapter_of_gold": 2,
+    "question": "Among net importing economies, for which food group is median net import reliance highest, and what is the value?",
+    "expected_answer": "Oils and fats, at 63.6 percent.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 96,
+        "evidence": "median reliance is highest for oils and fats, at 63.6 percent"
+      }
+    ],
+    "key_facts": [
+      "oils and fats, at 63.6 percent"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "s03",
+    "split": "test",
+    "origin": "day6_spare_new",
+    "type": "dien_dat_lai",
+    "chapter_of_gold": 3,
+    "question": "How do accrual-based and cash-basis recording of debt transactions differ?",
+    "expected_answer": "Accrual-based accounting recognizes transactions when obligations arise; the cash basis method records payments when they are made.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 126,
+        "evidence": "some compilers adopt accrual-based accounting (recognizing transactions when obligations arise), whereas others use the cash basis method (recording payments when they are made)"
+      }
+    ],
+    "key_facts": [
+      "accrual-based accounting",
+      "cash basis method"
+    ],
+    "filter": {
+      "chapter": 3
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "s04",
+    "split": "test",
+    "origin": "day6_spare_new",
+    "type": "truc_tiep",
+    "chapter_of_gold": 3,
+    "question": "In what year was the Debtor Reporting System (DRS) initially established?",
+    "expected_answer": "1951.",
+    "gold": [
+      {
+        "source_id": "idr-2026",
+        "page": 114,
+        "evidence": "Initially established in 1951 for institutional purposes to collect accurate and timely data on external public debt"
+      }
+    ],
+    "key_facts": [
+      "established in 1951"
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "What does the report project the total external debt stock of low- and middle-income countries will be at the end of 2028?",
+    "absence_reason": "The report analyses 2025 outcomes. Its only forward-looking statements are that IDA-eligible countries' borrowing costs are 'projected to increase' (no figure, p67) and timelines for the revised debt framework (p88-89); it gives no projected debt stock.",
+    "absence_check": {
+      "terms": [
+        "forecast",
+        "debt stocks? .{0,60}\\b2028\\b",
+        "\\b2028\\b.{0,60}debt stocks?"
+      ],
+      "manual": "Scanned chapters 1-3 for 'projected', 'projection', 'expected to', 'outlook', 'will rise/reach': no projected debt stock value."
+    },
+    "origin": "day7_new",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "By how much did changes in gold prices alter the external-debt-to-exports ratios of commodity-exporting low- and middle-income countries in 2025?",
+    "absence_reason": "The report discusses commodity price shocks and debt but never mentions gold.",
+    "absence_check": {
+      "terms": [
+        "\\bgold\\b",
+        "bullion"
+      ],
+      "manual": null
+    },
+    "origin": "day7_new",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  }
+]

@@ -1,0 +1,264 @@
+[
+  {
+    "item": "n01#1",
+    "query_id": "n01",
+    "system": 1,
+    "notes": "Kenya, 3,5 tỷ USD; ý về trả nợ trước hạn 2027/2028 có trong chunk.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "item": "n01#2",
+    "query_id": "n01",
+    "system": 2,
+    "notes": "Lõi đúng (Kenya, 3,5 tỷ USD). Ý 'phần lớn tiền dùng cho quản lý nợ' trong nguồn nói về hai nước (Kenya và Côte d'Ivoire) nhưng câu trả lời gán cho Kenya.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "item": "n02#1",
+    "query_id": "n02",
+    "system": 1,
+    "notes": "Không nêu nhóm thực phẩm nào; context không có đoạn gold (p100, đa dạng nguồn nhập). Hai citation nói về phụ thuộc nhập khẩu và khái niệm đa dạng nói chung, không hỗ trợ kết luận.",
+    "context_grade": 0,
+    "answer_grade": 0,
+    "citation_support": [
+      false,
+      false
+    ]
+  },
+  {
+    "item": "n02#2",
+    "query_id": "n02",
+    "system": 2,
+    "notes": "Nêu dầu mỡ nhưng dựa trên chỉ số phụ thuộc nhập khẩu (63%), không phải đa dạng nguồn; thiếu nhóm đậu/hạt; con số 63% không có trong chunk được trích; context không có đoạn gold.",
+    "context_grade": 0,
+    "answer_grade": 0,
+    "citation_support": [
+      false
+    ]
+  },
+  {
+    "item": "q16#1",
+    "query_id": "q16",
+    "system": 1,
+    "notes": "Từ chối vì citation sai định dạng; bản nháp bị loại khớp đáp án (7,0% lên 1,4 nghìn tỷ USD).",
+    "context_grade": 2,
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "item": "q16#2",
+    "query_id": "q16",
+    "system": 2,
+    "notes": "Như q16#1: từ chối vì citation sai định dạng (có dấu ngoặc thừa); bản nháp khớp đáp án.",
+    "context_grade": 2,
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "item": "q17#1",
+    "query_id": "q17",
+    "system": 1,
+    "notes": "Context không có đoạn gold (p90); model từ chối vì thiếu bằng chứng.",
+    "context_grade": 0,
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "item": "q17#2",
+    "query_id": "q17",
+    "system": 2,
+    "notes": "Như q17#1.",
+    "context_grade": 0,
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "item": "q18#1",
+    "query_id": "q18",
+    "system": 1,
+    "notes": "150% xuất khẩu, ngưỡng HIPC; đủ.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "item": "q18#2",
+    "query_id": "q18",
+    "system": 2,
+    "notes": "Đúng; câu trả lời viết 'is 150 percent', bỏ 'at least'.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "item": "q19#1",
+    "query_id": "q19",
+    "system": 1,
+    "notes": "36 nước, 47% của 76.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "item": "q19#2",
+    "query_id": "q19",
+    "system": 2,
+    "notes": "Từ chối vì citation sai định dạng; bản nháp bị loại đúng (36 nước, 47%).",
+    "context_grade": 2,
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "item": "q20#1",
+    "query_id": "q20",
+    "system": 1,
+    "notes": "Giao thức tháng 7/2026, điều khoản chia sẻ và quy tắc bảo mật, chỉ dùng cho đối chiếu dữ liệu.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "item": "q20#2",
+    "query_id": "q20",
+    "system": 2,
+    "notes": "Đúng phần giao thức; thêm thông tin dự án thí điểm Indonesia (761 khoản vay) có nguồn nhưng không trả lời trực tiếp câu hỏi.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "item": "s01#1",
+    "query_id": "s01",
+    "system": 1,
+    "notes": "75,2% đúng. $251,1 tỷ là khối lượng cho vay của chủ nợ tư nhân, cách viết 'which amounted to' hơi mơ hồ; phần 80,8% và $358,3 tỷ (không tính Trung Quốc) có trong nguồn.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ]
+  },
+  {
+    "item": "s01#2",
+    "query_id": "s01",
+    "system": 2,
+    "notes": "Từ chối vì citation sai định dạng; bản nháp bị loại nêu 80,8% thay vì 75,2%, nên sẽ sai nếu được tính.",
+    "context_grade": 2,
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "item": "s02#1",
+    "query_id": "s02",
+    "system": 1,
+    "notes": "Dầu mỡ, 63,6%.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "item": "s02#2",
+    "query_id": "s02",
+    "system": 2,
+    "notes": "Dầu mỡ, 63,6%.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "item": "s03#1",
+    "query_id": "s03",
+    "system": 1,
+    "notes": "Từ chối nhầm: context có câu p126 định nghĩa accrual-based và cash basis.",
+    "context_grade": 2,
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "item": "s03#2",
+    "query_id": "s03",
+    "system": 2,
+    "notes": "Như s03#1.",
+    "context_grade": 2,
+    "answer_grade": 0,
+    "citation_support": []
+  },
+  {
+    "item": "s04#1",
+    "query_id": "s04",
+    "system": 1,
+    "notes": "1951. Gold ghi p114 nhưng chunk p28 được trích cũng nêu 'DRS, instituted in 1951'.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "item": "s04#2",
+    "query_id": "s04",
+    "system": 2,
+    "notes": "1951; xem ghi chú s04#1.",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ]
+  },
+  {
+    "item": "u03#1",
+    "query_id": "u03",
+    "system": 1,
+    "notes": "Từ chối, không thêm khẳng định.",
+    "abstention_correct": true,
+    "citation_support": []
+  },
+  {
+    "item": "u03#2",
+    "query_id": "u03",
+    "system": 2,
+    "notes": "Từ chối, không thêm khẳng định.",
+    "abstention_correct": true,
+    "citation_support": []
+  },
+  {
+    "item": "u04#1",
+    "query_id": "u04",
+    "system": 1,
+    "notes": "Từ chối, không thêm khẳng định.",
+    "abstention_correct": true,
+    "citation_support": []
+  },
+  {
+    "item": "u04#2",
+    "query_id": "u04",
+    "system": 2,
+    "notes": "Từ chối, không thêm khẳng định.",
+    "abstention_correct": true,
+    "citation_support": []
+  }
+]
