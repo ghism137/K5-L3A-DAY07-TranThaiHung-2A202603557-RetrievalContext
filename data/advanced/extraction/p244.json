@@ -1,0 +1,308 @@
+{
+ "page": 244,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 26.2,
+ "usage": {
+  "prompt_tokens": 3337,
+  "completion_tokens": 2180,
+  "reasoning_tokens": 233
+ },
+ "page_type": "profile",
+ "elements": [
+  {
+   "kind": "infographic",
+   "label": "",
+   "title": "TOTAL EXTERNAL DEBT STOCK, 2025",
+   "chart_type": "other",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "Total external debt stock, 2025",
+     "series": "",
+     "value": "24,183",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Change from 2024",
+     "series": "",
+     "value": "+3.4%",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Sudan's total external debt stock was US$24,183 million in 2025. It increased by 3.4% from 2024.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 1",
+   "title": "Total external debt, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Total external debt (US$ million)"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "2015",
+     "series": "Total external debt",
+     "value": "21,685",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Total external debt",
+     "value": "24,183",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The line shows total external debt from 2015 through 2025. Debt rose from US$21,685 million in 2015 to US$24,183 million in 2025, with a higher peak in the middle of the period.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 2",
+   "title": "External debt by creditor and creditor type in 2025, including IMF credit and SDR allocations",
+   "chart_type": "stacked bar",
+   "axes": {
+    "x": "External debt (US$ million)",
+    "y": "Creditor and creditor type"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "Total external debt",
+     "series": "",
+     "value": "24,183",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Public & publicly guaranteed",
+     "series": "Total external debt",
+     "value": "18,316",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Short-term",
+     "series": "Total external debt",
+     "value": "5,867",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Multilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "4,764",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Bilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "8,484",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Private creditors",
+     "series": "Public & publicly guaranteed",
+     "value": "5,068",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "IMF credit",
+     "series": "Multilateral",
+     "value": "1,358",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "AFESD",
+     "series": "Multilateral",
+     "value": "1,123",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Other multilateral",
+     "series": "Multilateral",
+     "value": "2,282",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Saudi Arabia",
+     "series": "Bilateral",
+     "value": "2,120",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "China",
+     "series": "Bilateral",
+     "value": "1,360",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Other bilateral",
+     "series": "Bilateral",
+     "value": "5,005",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The chart breaks down total external debt in 2025 into public and publicly guaranteed and short-term debt, then splits public debt by creditor type and selected creditors. Bilateral creditors account for the largest public debt category at US$8,484 million, while multilateral creditors account for the smallest at US$4,764 million. Other bilateral creditors are the largest named bilateral subdivision, and AFESD is the smallest multilateral subdivision.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 3",
+   "title": "Debt ratios, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Debt ratio (%)"
+   },
+   "legend": [
+    "Sudan (teal line)",
+    "25th–75th percentile range of DRS reporting countries (shaded band)"
+   ],
+   "data": [
+    {
+     "label": "External debt / exports",
+     "series": "2025 ratio",
+     "value": "829%",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "External debt / exports",
+     "series": "Change",
+     "value": "+20.1%",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "External debt / GNI",
+     "series": "2025 ratio",
+     "value": "41%",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "External debt / GNI",
+     "series": "Change",
+     "value": "-15.4%",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Debt service / exports",
+     "series": "2025 ratio",
+     "value": "4%",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Debt service / exports",
+     "series": "Change",
+     "value": "+0.6%",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Debt service / GNI",
+     "series": "2025 ratio",
+     "value": "0.2%",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Debt service / GNI",
+     "series": "Change",
+     "value": "-29.1%",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Four line charts show debt and debt service relative to exports and GNI from 2015 to 2025, with shaded interquartile bands for DRS reporting countries. The 2025 ratios range from 829% for external debt to exports to 0.2% for debt service to GNI. Both debt service charts show a pronounced spike during the period.",
+   "notes": "Shaded band shows the 25th–75th percentile range of DRS reporting countries. Source: World Bank Group International Debt Statistics database. Note: Figure 3 shows no data values for the exports-based ratios in 2023."
+  },
+  {
+   "kind": "infographic",
+   "label": "Figure 4",
+   "title": "Average terms on new commitments from official and private creditors, 2025",
+   "chart_type": "other",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "Maturity",
+     "series": "Official creditors",
+     "value": "..",
+     "unit": "",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Official creditors",
+     "value": "..",
+     "unit": "",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Official creditors",
+     "value": "..",
+     "unit": "",
+     "estimate": false
+    },
+    {
+     "label": "Maturity",
+     "series": "Private creditors",
+     "value": "..",
+     "unit": "",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Private creditors",
+     "value": "..",
+     "unit": "",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Private creditors",
+     "value": "..",
+     "unit": "",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Two side-by-side boxes show official creditors and private creditors. Each box lists maturity, grace period and interest rate, all marked '..' because there were no new commitments in 2025.",
+   "notes": "Source: World Bank Group International Debt Statistics database. Note: Figure 4 shows no data values for official or private creditors because the country did not have new commitments in 2025."
+  }
+ ]
+}

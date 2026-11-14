@@ -1,0 +1,298 @@
+{
+ "page": 226,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 24.5,
+ "usage": {
+  "prompt_tokens": 3329,
+  "completion_tokens": 2051,
+  "reasoning_tokens": 124
+ },
+ "page_type": "profile",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1",
+   "title": "Total external debt, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Total external debt (US$ million)"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "2015",
+     "series": "Total external debt",
+     "value": "6,592",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Total external debt",
+     "value": "14,332",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Total external debt rose from US$6,592 million in 2015 to US$14,332 million in 2025. The line rises throughout the period, with the highest printed value in 2025 and the lowest in 2015.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "infographic",
+   "label": "Figure 2",
+   "title": "External debt by creditor and creditor type in 2025, including IMF credit and SDR allocations",
+   "chart_type": "stacked bar",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [
+    "Public & publicly guaranteed (dark blue)",
+    "Private nonguaranteed (orange)",
+    "Short-term (gold)",
+    "Multilateral (teal)",
+    "Bilateral (blue)",
+    "Private creditors (blue-gray)",
+    "World Bank-IBRD (dark teal)",
+    "EBRD (teal)",
+    "Other multilateral (light teal)",
+    "Hungary (blue)",
+    "China (light blue)",
+    "Other bilateral (pale blue)"
+   ],
+   "data": [
+    {
+     "label": "Total external debt",
+     "series": "Total",
+     "value": "14,332",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Public & publicly guaranteed",
+     "series": "Total external debt",
+     "value": "6,730",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Private nonguaranteed",
+     "series": "Total external debt",
+     "value": "3,864",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Short-term",
+     "series": "Total external debt",
+     "value": "3,739",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Multilateral",
+     "series": "Public & publicly guaranteed - by creditor type",
+     "value": "2,563",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Bilateral",
+     "series": "Public & publicly guaranteed - by creditor type",
+     "value": "1,931",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Private creditors",
+     "series": "Public & publicly guaranteed - by creditor type",
+     "value": "2,236",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "World Bank-IBRD",
+     "series": "Multilateral",
+     "value": "718",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "EBRD",
+     "series": "Multilateral",
+     "value": "401",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Other multilateral",
+     "series": "Multilateral",
+     "value": "1,444",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Hungary",
+     "series": "Bilateral",
+     "value": "1,175",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "China",
+     "series": "Bilateral",
+     "value": "441",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Other bilateral",
+     "series": "Bilateral",
+     "value": "315",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The first stacked bar divides total external debt of US$14,332 million into public and publicly guaranteed, private nonguaranteed, and short-term debt. A shaded connector expands public and publicly guaranteed debt into multilateral, bilateral, and private creditors; further connectors expand multilateral debt into World Bank-IBRD, EBRD, and other multilateral creditors, and bilateral debt into Hungary, China, and other bilateral creditors. Public and publicly guaranteed debt is the largest top-level component, while other bilateral is the smallest named subcomponent.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 3",
+   "title": "Debt ratios, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Debt ratio (%)"
+   },
+   "legend": [
+    "North Macedonia (teal line)",
+    "25th–75th percentile range of DRS reporting countries (shaded band)"
+   ],
+   "data": [
+    {
+     "label": "External debt / exports",
+     "series": "2025 ratio",
+     "value": "123",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "External debt / exports",
+     "series": "Change",
+     "value": "+3.1",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "External debt / GNI",
+     "series": "2025 ratio",
+     "value": "79",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "External debt / GNI",
+     "series": "Change",
+     "value": "-0.4",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Debt service / exports",
+     "series": "2025 ratio",
+     "value": "20",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Debt service / exports",
+     "series": "Change",
+     "value": "+41.0",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Debt service / GNI",
+     "series": "2025 ratio",
+     "value": "13",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Debt service / GNI",
+     "series": "Change",
+     "value": "+36.1",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Four small line charts show external debt relative to exports and GNI and debt service relative to exports and GNI from 2015 to 2025. The printed 2025 ratios range from 13% for debt service / GNI to 123% for external debt / exports. A shaded band in each chart shows the range for reporting countries.",
+   "notes": "Shaded band shows the 25th–75th percentile range of DRS reporting countries. Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "infographic",
+   "label": "Figure 4",
+   "title": "Average terms on new commitments from official and private creditors, 2025",
+   "chart_type": "other",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "Maturity",
+     "series": "Official creditors",
+     "value": "16",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Official creditors",
+     "value": "4",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Official creditors",
+     "value": "3.0",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Maturity",
+     "series": "Private creditors",
+     "value": "..",
+     "unit": "",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Private creditors",
+     "value": "..",
+     "unit": "",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Private creditors",
+     "value": "..",
+     "unit": "",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The left box lists official creditors' maturity, grace period, and interest rate, with small bars beneath each value. The right box lists the same three terms for private creditors, each shown as '..' with an empty bar. Official terms are 16 years maturity, 4 years grace, and 3.0% interest; private creditor values are not available because there were no new commitments.",
+   "notes": "Source: World Bank Group International Debt Statistics database. Note: Figure 4 shows no data values for private creditors because the country did not have new commitments in 2025."
+  }
+ ]
+}

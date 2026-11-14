@@ -1,0 +1,352 @@
+{
+ "page": 140,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 28.3,
+ "usage": {
+  "prompt_tokens": 3285,
+  "completion_tokens": 2397,
+  "reasoning_tokens": 153
+ },
+ "page_type": "profile",
+ "elements": [
+  {
+   "kind": "infographic",
+   "label": "",
+   "title": "TOTAL EXTERNAL DEBT STOCK, 2025",
+   "chart_type": "other",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "Countries",
+     "series": "Latin America and the Caribbean",
+     "value": "21",
+     "unit": "countries",
+     "estimate": false
+    },
+    {
+     "label": "Population",
+     "series": "Latin America and the Caribbean",
+     "value": "587",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "GNI",
+     "series": "Latin America and the Caribbean",
+     "value": "6,051",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Total external debt stock, 2025",
+     "series": "Latin America and the Caribbean",
+     "value": "2,219",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Change from 2024",
+     "series": "Total external debt stock",
+     "value": "+9.3",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The regional snapshot lists 21 countries, a population of 587 million, and GNI of US$6,051 billion. Total external debt stock in 2025 was US$2,219 billion, up 9.3% from 2024.",
+   "notes": "US$ billion, unless otherwise indicated"
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 1",
+   "title": "Total external debt, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Total external debt (US$ billion)"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "2015",
+     "series": "Total external debt",
+     "value": "1,601",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Total external debt",
+     "value": "2,219",
+     "unit": "US$ billion",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The line shows total external debt from 2015 to 2025. Debt rises from US$1,601 billion to US$2,219 billion, with some flat periods and a pronounced increase at the end.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "infographic",
+   "label": "Figure 2",
+   "title": "External debt by creditor and creditor type in 2025, including IMF credit and SDR allocations",
+   "chart_type": "stacked bar",
+   "axes": {
+    "x": "External debt (US$ billion)",
+    "y": "Debt and creditor category"
+   },
+   "legend": [
+    "Public & publicly guaranteed (dark blue)",
+    "Private nonguaranteed (orange)",
+    "Short-term (gold)",
+    "Multilateral (dark teal)",
+    "Bilateral (blue)",
+    "Private creditors (gray-blue)",
+    "IDB (dark teal)",
+    "World Bank-IBRD (teal)",
+    "Other multilateral (light teal)",
+    "China (blue)",
+    "France (light blue)",
+    "Other bilateral (pale blue)"
+   ],
+   "data": [
+    {
+     "label": "Total external debt",
+     "series": "Total",
+     "value": "2,219",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Public & publicly guaranteed",
+     "series": "Total external debt",
+     "value": "1,149",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Private nonguaranteed",
+     "series": "Total external debt",
+     "value": "807",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Short-term",
+     "series": "Total external debt",
+     "value": "264",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Multilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "350",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Bilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "37",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Private creditors",
+     "series": "Public & publicly guaranteed",
+     "value": "761",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "IDB",
+     "series": "Multilateral",
+     "value": "97",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "World Bank-IBRD",
+     "series": "Multilateral",
+     "value": "80",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Other multilateral",
+     "series": "Multilateral",
+     "value": "174",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "China",
+     "series": "Bilateral",
+     "value": "11",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "France",
+     "series": "Bilateral",
+     "value": "10",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Other bilateral",
+     "series": "Bilateral",
+     "value": "16",
+     "unit": "US$ billion",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "A stacked bar divides total external debt into public and publicly guaranteed, private nonguaranteed, and short-term debt. Shaded connectors lead from public and publicly guaranteed debt to a second bar for multilateral, bilateral, and private creditors, then to separate bars detailing multilateral and bilateral creditors. Private creditors are the largest public and publicly guaranteed creditor category at US$761 billion, while bilateral creditors are the smallest at US$37 billion. Other multilateral is the largest detailed multilateral category, and France is the smallest detailed bilateral category.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 3",
+   "title": "Debt ratios, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Debt ratio (%)"
+   },
+   "legend": [
+    "Debt ratio (teal line)",
+    "25th–75th percentile range (shaded band)"
+   ],
+   "data": [
+    {
+     "label": "2025",
+     "series": "External debt / exports",
+     "value": "133",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "External debt / exports",
+     "value": "+2.8",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "External debt / GNI",
+     "value": "37",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "External debt / GNI",
+     "value": "+4.7",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Debt service / exports",
+     "value": "22",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "Debt service / exports",
+     "value": "-4.7",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Debt service / GNI",
+     "value": "6",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "Debt service / GNI",
+     "value": "-2.9",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Four small line charts show external debt relative to exports and GNI and debt service relative to exports and GNI from 2015 to 2025. The displayed 2025 ratios range from 6% for debt service / GNI to 133% for external debt / exports. The two external debt ratios show positive changes, while both debt service ratios show negative changes.",
+   "notes": "Shaded band shows the 25th–75th percentile range of Latin America and the Caribbean DRS reporting countries. Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "infographic",
+   "label": "Figure 4",
+   "title": "Average terms on new commitments from official and private creditors, 2025",
+   "chart_type": "bar",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [
+    "Maturity and grace period (teal)",
+    "Interest rate (gold)"
+   ],
+   "data": [
+    {
+     "label": "Maturity",
+     "series": "Official creditors",
+     "value": "20",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Official creditors",
+     "value": "5",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Official creditors",
+     "value": "5.4",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Maturity",
+     "series": "Private creditors",
+     "value": "14",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Private creditors",
+     "value": "8",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Private creditors",
+     "value": "6.0",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Two side-by-side boxes compare official and private creditors, each showing maturity, grace period, and interest rate with small horizontal bars. Official creditors have a longer average maturity, at 20 versus 14 years, but a shorter grace period, at 5 versus 8 years. Their average interest rate is 5.4%, compared with 6.0% for private creditors.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  }
+ ]
+}

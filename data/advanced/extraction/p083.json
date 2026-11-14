@@ -1,0 +1,161 @@
+{
+ "page": 83,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 13.9,
+ "usage": {
+  "prompt_tokens": 3190,
+  "completion_tokens": 1047,
+  "reasoning_tokens": 114
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 2.6",
+   "title": "Foreign Exchange Accumulation in Low- and Middle-Income Countries, 2026",
+   "chart_type": "line",
+   "axes": {
+    "x": "Month, 2026",
+    "y": "Percent change from a year earlier"
+   },
+   "legend": [
+    "Commodity exporters (dark blue)",
+    "Commodity importers (light blue)",
+    "Commodity importers (excl. China) (dotted light blue)"
+   ],
+   "data": [
+    {
+     "label": "Jan",
+     "series": "Commodity exporters",
+     "value": "6.0",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Feb",
+     "series": "Commodity exporters",
+     "value": "6.6",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Mar",
+     "series": "Commodity exporters",
+     "value": "4.0",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Apr",
+     "series": "Commodity exporters",
+     "value": "2.3",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "May",
+     "series": "Commodity exporters",
+     "value": "3.2",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Jun",
+     "series": "Commodity exporters",
+     "value": "4.3",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Jan",
+     "series": "Commodity importers",
+     "value": "6.3",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Feb",
+     "series": "Commodity importers",
+     "value": "6.2",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Mar",
+     "series": "Commodity importers",
+     "value": "2.4",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Apr",
+     "series": "Commodity importers",
+     "value": "3.2",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "May",
+     "series": "Commodity importers",
+     "value": "3.4",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Jun",
+     "series": "Commodity importers",
+     "value": "2.0",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Jan",
+     "series": "Commodity importers (excl. China)",
+     "value": "7.1",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Feb",
+     "series": "Commodity importers (excl. China)",
+     "value": "6.2",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Mar",
+     "series": "Commodity importers (excl. China)",
+     "value": "0.9",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Apr",
+     "series": "Commodity importers (excl. China)",
+     "value": "1.5",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "May",
+     "series": "Commodity importers (excl. China)",
+     "value": "0.4",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Jun",
+     "series": "Commodity importers (excl. China)",
+     "value": "-0.2",
+     "unit": "percent",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart shows year-on-year changes in foreign exchange for commodity exporters and importers from January to June 2026. All three series decline overall, with importers excluding China falling from the highest starting point to slightly below zero in June. Exporters decline through April and then recover, finishing above both importer series.",
+   "notes": "Sources: Original calculations based on data from Haver Analytics; International Monetary Fund; World Bank Group.\nNote: Figure shows year-on-year changes in foreign exchange in US dollars. Aggregates are computed as weighted averages. Sample includes up to 40 commodity exporters and 34 commodity importers."
+  }
+ ]
+}

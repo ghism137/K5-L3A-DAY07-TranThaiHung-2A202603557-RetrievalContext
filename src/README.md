@@ -13,6 +13,7 @@ Code dùng lại từ Day 6 (`store`, `embeddings`, `chunking`, `ingestion`, `co
 | `check_setup.py` | Kiểm tra DB, key và một truy vấn thật |
 | `retrieval.py` | Ba phương pháp retrieval: dense (pgvector), BM25 (tự cài), hybrid RRF |
 | `run_retrieval.py` | So sánh 3 phương pháp × index A/B, chỉ retrieval (không LLM); mặc định chỉ dev |
+| `run_retrieval_variants.py` | Đánh giá riêng C1 (viết lại truy vấn) và C2 (gộp chunk) ở mức retrieval, kèm đối chứng; chỉ dev, phân tích bổ sung |
 | `agent.py` | Agent OpenAI tool calling (`search_documents`, `answer`, `abstain`), dựng context, cấu hình R0 / BASE / C1 / C2 |
 | `run_agent.py` | Chạy agent trên benchmark, ghi trace và tổng hợp tự động; `--final-test` chỉ chạy một lần |
 | `make_review_sheet.py`, `finish_review.py` | Dựng bảng chấm tay ẩn tên cấu hình; tổng hợp nhãn bằng `starter/agent_metrics.py` |

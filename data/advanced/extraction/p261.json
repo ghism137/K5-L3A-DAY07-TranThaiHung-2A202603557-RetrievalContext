@@ -1,0 +1,273 @@
+{
+ "page": 261,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 21.9,
+ "usage": {
+  "prompt_tokens": 3358,
+  "completion_tokens": 1841,
+  "reasoning_tokens": 117
+ },
+ "page_type": "profile",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1",
+   "title": "Total external debt, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Total external debt (US$ million)"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "2015",
+     "series": "Total external debt",
+     "value": "7,296",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Total external debt",
+     "value": "7,481",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The line shows total external debt from 2015 to 2025. It fluctuates, reaching its highest plotted point around 2021 and ending at US$7,481 million in 2025.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 2",
+   "title": "External debt by creditor and creditor type in 2025, including IMF credit and SDR allocations",
+   "chart_type": "treemap",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [
+    "Short-term (gold)"
+   ],
+   "data": [
+    {
+     "label": "Total external debt",
+     "series": "Total",
+     "value": "7,481",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Public & publicly guaranteed",
+     "series": "Total external debt",
+     "value": "6,882",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Short-term",
+     "series": "Total external debt",
+     "value": "599",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Multilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "3,541",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Bilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "3,341",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "World Bank-IDA",
+     "series": "Multilateral",
+     "value": "1,009",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "IMF-SDR allocations",
+     "series": "Multilateral",
+     "value": "957",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Other multilateral",
+     "series": "Multilateral",
+     "value": "1,574",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Saudi Arabia",
+     "series": "Bilateral",
+     "value": "1,306",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Russian Federation",
+     "series": "Bilateral",
+     "value": "1,203",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Other bilateral",
+     "series": "Bilateral",
+     "value": "833",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The graphic breaks 2025 external debt into public and publicly guaranteed and short-term debt, then subdivides public and publicly guaranteed debt by creditor. Multilateral debt is slightly larger than bilateral debt. Other multilateral is the largest named component of multilateral debt, while Saudi Arabia is the largest listed bilateral creditor.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 3",
+   "title": "Debt ratios, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Debt ratio (%)"
+   },
+   "legend": [
+    "Yemen, Republic of (teal line)",
+    "25th–75th percentile range of DRS reporting countries (shaded band)"
+   ],
+   "data": [
+    {
+     "label": "2025",
+     "series": "External debt / exports",
+     "value": "676",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "External debt / exports",
+     "value": "+3.4",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2018",
+     "series": "External debt / GNI",
+     "value": "34",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "External debt / GNI",
+     "value": "+21.8",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Debt service / exports",
+     "value": "11",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "Debt service / exports",
+     "value": "-13.7",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2018",
+     "series": "Debt service / GNI",
+     "value": "1",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "Debt service / GNI",
+     "value": "+39.8",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Four small line charts show external debt and debt service relative to exports and GNI, with shaded bands for the 25th–75th percentile of reporting countries. The displayed external debt-to-exports ratio is highest at 676%, and debt service-to-GNI is lowest at 1%. Export-based series have gaps, while GNI-based series end in 2018.",
+   "notes": "Shaded band shows the 25th–75th percentile range of DRS reporting countries. Source: World Bank Group International Debt Statistics database. Note: Figure 3 shows no data values for the exports-based ratios in 2017–20, or for the GNI-based ratios after 2018."
+  },
+  {
+   "kind": "infographic",
+   "label": "Figure 4",
+   "title": "Average terms on new commitments from official and private creditors, 2025",
+   "chart_type": "other",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "Maturity",
+     "series": "Official creditors",
+     "value": "4",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Official creditors",
+     "value": "2",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Official creditors",
+     "value": "3.7",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Maturity",
+     "series": "Private creditors",
+     "value": "..",
+     "unit": "",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Private creditors",
+     "value": "..",
+     "unit": "",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Private creditors",
+     "value": "..",
+     "unit": "",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Two side-by-side boxes compare official and private creditors. The official-creditor box lists maturity of 4 years, grace period of 2 years and interest rate of 3.7%, with small bars below each measure. The private-creditor box lists maturity, grace period and interest rate as '..', with empty bars.",
+   "notes": "Source: World Bank Group International Debt Statistics database. Note: Figure 4 shows no data values for private creditors because the country did not have new commitments in 2025."
+  }
+ ]
+}

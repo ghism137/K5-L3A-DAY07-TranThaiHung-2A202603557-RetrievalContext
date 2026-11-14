@@ -1,0 +1,309 @@
+{
+ "page": 139,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 24.4,
+ "usage": {
+  "prompt_tokens": 3278,
+  "completion_tokens": 2060,
+  "reasoning_tokens": 153
+ },
+ "page_type": "profile",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1",
+   "title": "Total external debt, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Total external debt (US$ billion)"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "2015",
+     "series": "Total external debt",
+     "value": "854",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Total external debt",
+     "value": "1,340",
+     "unit": "US$ billion",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The chart shows total external debt from 2015 to 2025. Debt rises overall from 854 to 1,340 US$ billion, with the highest shown value in 2025 and the lowest in 2015.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 2",
+   "title": "External debt by creditor and creditor type in 2025, including IMF credit and SDR allocations",
+   "chart_type": "stacked bar",
+   "axes": {
+    "x": "External debt (US$ billion)",
+    "y": "Debt and creditor categories"
+   },
+   "legend": [
+    "China (blue)",
+    "Russian Federation (light blue)"
+   ],
+   "data": [
+    {
+     "label": "Total external debt",
+     "series": "Total",
+     "value": "1,340",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Public & publicly guaranteed",
+     "series": "Total external debt",
+     "value": "588",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Private nonguaranteed",
+     "series": "Total external debt",
+     "value": "493",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Short-term",
+     "series": "Total external debt",
+     "value": "259",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Public & publicly guaranteed - by creditor type",
+     "series": "Total",
+     "value": "588",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Multilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "254",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Bilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "67",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Private creditors",
+     "series": "Public & publicly guaranteed",
+     "value": "267",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Multilateral",
+     "series": "Total",
+     "value": "254",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "European Union",
+     "series": "Multilateral",
+     "value": "84",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "World Bank-IBRD",
+     "series": "Multilateral",
+     "value": "50",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Other multilateral",
+     "series": "Multilateral",
+     "value": "120",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Bilateral",
+     "series": "Total",
+     "value": "67",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "China",
+     "series": "Bilateral",
+     "value": "18",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Russian Federation",
+     "series": "Bilateral",
+     "value": "9",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "Other bilateral",
+     "series": "Bilateral",
+     "value": "40",
+     "unit": "US$ billion",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Stacked bars break down 2025 external debt first by debt category, then public and publicly guaranteed debt by creditor type, and finally multilateral and bilateral debt by creditor. Public and publicly guaranteed debt is the largest top-level category at 588 US$ billion, while short-term debt is the smallest at 259 US$ billion. Among the named bilateral creditors, China accounts for 18 US$ billion and the Russian Federation for 9 US$ billion.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 3",
+   "title": "Debt ratios, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Debt ratio (%)"
+   },
+   "legend": [
+    "Debt ratio (teal line)",
+    "25th–75th percentile range (shaded band)"
+   ],
+   "data": [
+    {
+     "label": "2025",
+     "series": "External debt / exports",
+     "value": "152",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "External debt / exports",
+     "value": "+10.7",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "External debt / GNI",
+     "value": "49",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "External debt / GNI",
+     "value": "+0.3",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Debt service / exports",
+     "value": "25",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "Debt service / exports",
+     "value": "+8.1",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Debt service / GNI",
+     "value": "8",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "Debt service / GNI",
+     "value": "-2.1",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Four small line charts show external debt relative to exports and GNI and debt service relative to exports and GNI from 2015 to 2025. The displayed 2025 ratios range from 152% for external debt / exports to 8% for debt service / GNI. Each chart has a shaded percentile band around the line.",
+   "notes": "Shaded band shows the 25th–75th percentile range of Europe and Central Asia DRS reporting countries. Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "infographic",
+   "label": "Figure 4",
+   "title": "Average terms on new commitments from official and private creditors, 2025",
+   "chart_type": "bar",
+   "axes": {
+    "x": "Average commitment terms",
+    "y": "Creditor type and term"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "Maturity",
+     "series": "Official creditors",
+     "value": "29",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Official creditors",
+     "value": "7",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Official creditors",
+     "value": "1.9",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Maturity",
+     "series": "Private creditors",
+     "value": "7",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Private creditors",
+     "value": "5",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Private creditors",
+     "value": "5.3",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Two side-by-side boxes compare average 2025 commitment terms, with small bars beneath each value. The Official creditors box lists 29 yrs maturity, 7 yrs grace period and 1.9% interest rate. The Private creditors box lists 7 yrs maturity, 5 yrs grace period and 5.3% interest rate.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  }
+ ]
+}

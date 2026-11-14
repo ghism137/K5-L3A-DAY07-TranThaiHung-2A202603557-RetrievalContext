@@ -1,0 +1,62 @@
+{
+ "page": 76,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 8.7,
+ "usage": {
+  "prompt_tokens": 3278,
+  "completion_tokens": 670,
+  "reasoning_tokens": 179
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 2.1",
+   "title": "Global Uncertainty amid Successive Shocks",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Index (2000 = 100)"
+   },
+   "legend": [
+    "World Uncertainty Index (dark blue)",
+    "Global Economic Policy Uncertainty Index (light blue)"
+   ],
+   "data": [
+    {
+     "label": "2025 peak",
+     "series": "World Uncertainty Index",
+     "value": "1,150",
+     "unit": "index",
+     "estimate": true
+    },
+    {
+     "label": "2025 peak",
+     "series": "Global Economic Policy Uncertainty Index",
+     "value": "830",
+     "unit": "index",
+     "estimate": true
+    },
+    {
+     "label": "2026Q2",
+     "series": "World Uncertainty Index",
+     "value": "850",
+     "unit": "index",
+     "estimate": true
+    },
+    {
+     "label": "2026Q2",
+     "series": "Global Economic Policy Uncertainty Index",
+     "value": "380",
+     "unit": "index",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart compares two global uncertainty indexes from 2000 through 2026Q2, with a dashed reference line at 100. Both fluctuate and rise sharply in 2025, when the World Uncertainty Index reaches the highest peak. Both fall from their peaks but remain elevated at the end of the series.",
+   "notes": "Sources: Original calculations based on data from the World Uncertainty Index database and the Global Economic Policy Uncertainty Index database.\nNote: The World Uncertainty Index measures broad uncertainty using Economist Intelligence Unit country reports. The Global Economic Policy Uncertainty Index measures uncertainty around economic policy using newspaper coverage and is aggregated across 20 economies using current price GDP weights. Both series are rebased so that their average value in 2000 equals 100. Data shown through 2026Q2."
+  }
+ ]
+}

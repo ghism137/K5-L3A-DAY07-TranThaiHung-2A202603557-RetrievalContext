@@ -1,0 +1,188 @@
+{
+ "page": 52,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 15.5,
+ "usage": {
+  "prompt_tokens": 3246,
+  "completion_tokens": 1235,
+  "reasoning_tokens": 172
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.11",
+   "title": "Average Interest Rates on New External Debt Commitments for IBRD and IDA-Eligible Countries, by Bondholders, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Percent"
+   },
+   "legend": [
+    "IDA-eligible countries (dark blue)",
+    "IBRD countries (light blue)"
+   ],
+   "data": [
+    {
+     "label": "2015",
+     "series": "IDA-eligible countries",
+     "value": 7.7,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "IDA-eligible countries",
+     "value": 7.2,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "IDA-eligible countries",
+     "value": 6.2,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "IDA-eligible countries",
+     "value": 7.2,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "IDA-eligible countries",
+     "value": 7.2,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "IDA-eligible countries",
+     "value": 5.9,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "IDA-eligible countries",
+     "value": 6.6,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "IDA-eligible countries",
+     "value": 7.9,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "IDA-eligible countries",
+     "value": 11.9,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "IDA-eligible countries",
+     "value": 8.4,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "IDA-eligible countries",
+     "value": 9.4,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "IBRD countries",
+     "value": 5.2,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "IBRD countries",
+     "value": 6.5,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "IBRD countries",
+     "value": 4.8,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "IBRD countries",
+     "value": 6.1,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "IBRD countries",
+     "value": 5.5,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "IBRD countries",
+     "value": 4.5,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "IBRD countries",
+     "value": 4.6,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "IBRD countries",
+     "value": 4.6,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "IBRD countries",
+     "value": 6.1,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "IBRD countries",
+     "value": 5.8,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "IBRD countries",
+     "value": 5.5,
+     "unit": "percent",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The line chart compares average interest rates on new external debt commitments by bondholders for IDA-eligible and IBRD countries from 2015 to 2025. IDA-eligible countries have higher rates throughout, peaking at approximately 12 percent in 2023 and reaching their low in 2020. IBRD countries peak at approximately 6.5 percent in 2016 and reach their low in 2020.",
+   "notes": "Source: World Bank Group International Debt Statistics database. Note: IBRD = International Bank for Reconstruction and Development; IDA = International Development Association."
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "page": 65,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 16.4,
+ "usage": {
+  "prompt_tokens": 3433,
+  "completion_tokens": 1352,
+  "reasoning_tokens": 278
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.19",
+   "title": "Net Flows to IDA-Eligible Countries, by Region and Creditor Type, 2025",
+   "chart_type": "stacked bar",
+   "axes": {
+    "x": "Creditor type",
+    "y": "US$ (billion)"
+   },
+   "legend": [
+    "East Asia and Pacific (excl. China) (dark blue)",
+    "Europe and Central Asia (light blue)",
+    "Latin America and the Caribbean (orange)",
+    "Middle East, North Africa, Afghanistan, and Pakistan (gold)",
+    "South Asia (green)",
+    "Sub-Saharan Africa (gray)"
+   ],
+   "data": [
+    {
+     "label": "Bilateral",
+     "series": "East Asia and Pacific (excl. China)",
+     "value": "-0.3",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Bilateral",
+     "series": "Europe and Central Asia",
+     "value": "0.6",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Bilateral",
+     "series": "Latin America and the Caribbean",
+     "value": "0.4",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Bilateral",
+     "series": "South Asia",
+     "value": "1.1",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Bilateral",
+     "series": "Sub-Saharan Africa",
+     "value": "-0.6",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Multilateral (incl. IMF)",
+     "series": "East Asia and Pacific (excl. China)",
+     "value": "0.9",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Multilateral (incl. IMF)",
+     "series": "Europe and Central Asia",
+     "value": "3.1",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Multilateral (incl. IMF)",
+     "series": "Latin America and the Caribbean",
+     "value": "0.6",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Multilateral (incl. IMF)",
+     "series": "Middle East, North Africa, Afghanistan, and Pakistan",
+     "value": "3.0",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Multilateral (incl. IMF)",
+     "series": "South Asia",
+     "value": "5.3",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Multilateral (incl. IMF)",
+     "series": "Sub-Saharan Africa",
+     "value": "15.9",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Bondholders",
+     "series": "Europe and Central Asia",
+     "value": "4.8",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Bondholders",
+     "series": "Latin America and the Caribbean",
+     "value": "1.1",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Bondholders",
+     "series": "Sub-Saharan Africa",
+     "value": "8.2",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Other private creditors",
+     "series": "East Asia and Pacific (excl. China)",
+     "value": "-3.8",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Other private creditors",
+     "series": "Europe and Central Asia",
+     "value": "7.4",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Other private creditors",
+     "series": "Latin America and the Caribbean",
+     "value": "1.6",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Other private creditors",
+     "series": "Middle East, North Africa, Afghanistan, and Pakistan",
+     "value": "-0.7",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Other private creditors",
+     "series": "Sub-Saharan Africa",
+     "value": "5.8",
+     "unit": "US$ billion",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart shows net flows to IDA-eligible countries in 2025, divided by creditor type and region. Multilateral creditors have the largest positive stack, dominated by Sub-Saharan Africa. Bilateral flows are smallest, while other private creditors include a substantial negative contribution from East Asia and Pacific.",
+   "notes": "Source: World Bank Group International Debt Statistics database.\nNote: IDA = International Development Association; IMF = International Monetary Fund."
+  }
+ ]
+}

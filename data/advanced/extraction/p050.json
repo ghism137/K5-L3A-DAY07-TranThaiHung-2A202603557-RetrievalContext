@@ -1,0 +1,476 @@
+{
+ "page": 50,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 37.2,
+ "usage": {
+  "prompt_tokens": 3407,
+  "completion_tokens": 3198,
+  "reasoning_tokens": 629
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.9",
+   "title": "Average Terms on New External Debt Commitments for Low- and Middle-Income Countries, by Creditor Type, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Grace period and maturity (years); Percent (right axis)"
+   },
+   "legend": [
+    "Grace period (dark blue)",
+    "Maturity (light blue)",
+    "Interest (orange; right axis)"
+   ],
+   "data": [
+    {
+     "label": "Private creditors, 2015",
+     "series": "Grace period",
+     "value": "10",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2016",
+     "series": "Grace period",
+     "value": "8",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2017",
+     "series": "Grace period",
+     "value": "11",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2018",
+     "series": "Grace period",
+     "value": "9",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2019",
+     "series": "Grace period",
+     "value": "12",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2020",
+     "series": "Grace period",
+     "value": "13",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2021",
+     "series": "Grace period",
+     "value": "13",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2022",
+     "series": "Grace period",
+     "value": "6",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2023",
+     "series": "Grace period",
+     "value": "8",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2024",
+     "series": "Grace period",
+     "value": "7",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2025",
+     "series": "Grace period",
+     "value": "6",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2015",
+     "series": "Maturity",
+     "value": "12",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2016",
+     "series": "Maturity",
+     "value": "14",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2017",
+     "series": "Maturity",
+     "value": "16",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2018",
+     "series": "Maturity",
+     "value": "11",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2019",
+     "series": "Maturity",
+     "value": "16",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2020",
+     "series": "Maturity",
+     "value": "15",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2021",
+     "series": "Maturity",
+     "value": "15",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2022",
+     "series": "Maturity",
+     "value": "10",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2023",
+     "series": "Maturity",
+     "value": "13",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2024",
+     "series": "Maturity",
+     "value": "13",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2025",
+     "series": "Maturity",
+     "value": "13",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2015",
+     "series": "Interest",
+     "value": "4.1",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2016",
+     "series": "Interest",
+     "value": "5.4",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2017",
+     "series": "Interest",
+     "value": "4.6",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2018",
+     "series": "Interest",
+     "value": "5.2",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2019",
+     "series": "Interest",
+     "value": "5.2",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2020",
+     "series": "Interest",
+     "value": "4.3",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2021",
+     "series": "Interest",
+     "value": "4.3",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2022",
+     "series": "Interest",
+     "value": "4.3",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2023",
+     "series": "Interest",
+     "value": "6.0",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2024",
+     "series": "Interest",
+     "value": "5.9",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2025",
+     "series": "Interest",
+     "value": "5.7",
+     "unit": "percent",
+     "estimate": false
+    },
+    {
+     "label": "Official creditors, 2015",
+     "series": "Grace period",
+     "value": "7",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2016",
+     "series": "Grace period",
+     "value": "6",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2017",
+     "series": "Grace period",
+     "value": "6",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2018",
+     "series": "Grace period",
+     "value": "6",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2019",
+     "series": "Grace period",
+     "value": "5",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2020",
+     "series": "Grace period",
+     "value": "6",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2021",
+     "series": "Grace period",
+     "value": "5",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2022",
+     "series": "Grace period",
+     "value": "6",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2024",
+     "series": "Grace period",
+     "value": "6",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2025",
+     "series": "Grace period",
+     "value": "6.0",
+     "unit": "years",
+     "estimate": false
+    },
+    {
+     "label": "Official creditors, 2015",
+     "series": "Maturity",
+     "value": "24",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2016",
+     "series": "Maturity",
+     "value": "22",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2017",
+     "series": "Maturity",
+     "value": "22",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2018",
+     "series": "Maturity",
+     "value": "22",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2019",
+     "series": "Maturity",
+     "value": "22",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2020",
+     "series": "Maturity",
+     "value": "21",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2021",
+     "series": "Maturity",
+     "value": "20",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2022",
+     "series": "Maturity",
+     "value": "21",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2024",
+     "series": "Maturity",
+     "value": "23",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2025",
+     "series": "Maturity",
+     "value": "24",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2015",
+     "series": "Interest",
+     "value": "2.0",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2016",
+     "series": "Interest",
+     "value": "2.0",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2017",
+     "series": "Interest",
+     "value": "2.1",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2018",
+     "series": "Interest",
+     "value": "2.5",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2019",
+     "series": "Interest",
+     "value": "2.3",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2020",
+     "series": "Interest",
+     "value": "1.5",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2021",
+     "series": "Interest",
+     "value": "1.5",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2022",
+     "series": "Interest",
+     "value": "2.0",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2024",
+     "series": "Interest",
+     "value": "3.6",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2025",
+     "series": "Interest",
+     "value": "3.0",
+     "unit": "percent",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Two panels compare average grace periods, maturities, and interest rates on new external debt commitments to low- and middle-income countries. Private creditor interest rates rose sharply in 2023 and remained above official creditor rates, while official creditor maturities were consistently longer. The private-creditor panel labels every year from 2015 to 2025; the official-creditor panel omits 2023 from its year labels.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  }
+ ]
+}

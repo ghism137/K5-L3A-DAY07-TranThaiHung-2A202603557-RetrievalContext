@@ -1,0 +1,90 @@
+{
+ "page": 80,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 14.1,
+ "usage": {
+  "prompt_tokens": 3320,
+  "completion_tokens": 1154,
+  "reasoning_tokens": 408
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 2.4",
+   "title": "Headline Consumer Prices in Commodity-Importing Low- and Middle-Income Countries, 2024–26",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Percent change from a year earlier"
+   },
+   "legend": [
+    "Commodity-importing LMICs (dark blue)",
+    "Commodity-importing LMICs (excl. China) (light blue)"
+   ],
+   "data": [
+    {
+     "label": "February 2024",
+     "series": "Commodity-importing LMICs",
+     "value": "4.9",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "May 2024",
+     "series": "Commodity-importing LMICs (excl. China)",
+     "value": "13.0",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "August–September 2025",
+     "series": "Commodity-importing LMICs",
+     "value": "2.2",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "October–November 2025",
+     "series": "Commodity-importing LMICs (excl. China)",
+     "value": "6.4",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Preconflict",
+     "series": "Commodity-importing LMICs",
+     "value": "2.6",
+     "unit": "percent",
+     "estimate": false
+    },
+    {
+     "label": "January 2026",
+     "series": "Commodity-importing LMICs (excl. China)",
+     "value": "7.0",
+     "unit": "percent",
+     "estimate": false
+    },
+    {
+     "label": "June 2026",
+     "series": "Commodity-importing LMICs",
+     "value": "3.6",
+     "unit": "percent",
+     "estimate": false
+    },
+    {
+     "label": "June 2026",
+     "series": "Commodity-importing LMICs (excl. China)",
+     "value": "8.3",
+     "unit": "percent",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The chart shows year-on-year headline consumer price changes from 2024 through June 2026 for commodity-importing LMICs, with and without China. Both series generally declined into late 2025 before rising in 2026. The series excluding China remained higher throughout, peaking at approximately 13 percent in 2024; the overall series reached a low of approximately 2.2 percent in 2025.",
+   "notes": "Sources: Original calculations based on data from Haver Analytics; International Monetary Fund; World Bank Group.\nNote: Figure shows year-on-year changes in nonseasonally adjusted headline consumer prices. Aggregates are computed as geometric weighted averages using nominal GDP in US dollars as weights. Sample includes up to 40 economies. Last observation is June 2026. LMICs = low- and middle-income countries."
+  }
+ ]
+}

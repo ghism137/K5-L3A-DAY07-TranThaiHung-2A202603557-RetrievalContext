@@ -1,0 +1,305 @@
+{
+ "page": 255,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 26.7,
+ "usage": {
+  "prompt_tokens": 3309,
+  "completion_tokens": 2220,
+  "reasoning_tokens": 302
+ },
+ "page_type": "profile",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1",
+   "title": "Total external debt, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Total external debt (US$ million)"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "2015",
+     "series": "Total external debt",
+     "value": "7,004",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Total external debt",
+     "value": "2,851",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Total external debt rose initially and then declined through 2025. The printed values are 7,004 in 2015 and 2,851 in 2025.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 2",
+   "title": "External debt by creditor and creditor type in 2025, including IMF credit and SDR allocations",
+   "chart_type": "stacked bar",
+   "axes": {
+    "x": "External debt (US$ million)",
+    "y": "Debt and creditor type"
+   },
+   "legend": [
+    "Public & publicly guaranteed (dark blue)",
+    "Private nonguaranteed (orange)",
+    "Short-term (gold)",
+    "Multilateral (teal)",
+    "Bilateral (blue)",
+    "Private creditors (gray-blue)",
+    "Islamic Dev. Bank (dark teal)",
+    "Asian Dev. Bank (teal)",
+    "Other multilateral (light teal)",
+    "Japan (blue)",
+    "United Arab Emirates (light blue)",
+    "Other bilateral (pale blue)"
+   ],
+   "data": [
+    {
+     "label": "Total external debt",
+     "series": "Total",
+     "value": "2,851",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Public & publicly guaranteed",
+     "series": "Total external debt",
+     "value": "2,808",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Private nonguaranteed",
+     "series": "Total external debt",
+     "value": "3",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Short-term",
+     "series": "Total external debt",
+     "value": "41",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Public & publicly guaranteed - by creditor type",
+     "series": "Total",
+     "value": "2,808",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Multilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "1,739",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Bilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "828",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Private creditors",
+     "series": "Public & publicly guaranteed",
+     "value": "240",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Multilateral",
+     "series": "Total",
+     "value": "1,739",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Islamic Dev. Bank",
+     "series": "Multilateral",
+     "value": "811",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Asian Dev. Bank",
+     "series": "Multilateral",
+     "value": "500",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Other multilateral",
+     "series": "Multilateral",
+     "value": "429",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Bilateral",
+     "series": "Total",
+     "value": "828",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Japan",
+     "series": "Bilateral",
+     "value": "674",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "United Arab Emirates",
+     "series": "Bilateral",
+     "value": "81",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Other bilateral",
+     "series": "Bilateral",
+     "value": "73",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The stacked bars break down 2025 external debt into debt categories, creditor types and selected multilateral and bilateral creditors. Public and publicly guaranteed debt dominates the total; multilateral creditors are its largest creditor type. Islamic Dev. Bank is the largest listed multilateral creditor, and Japan is the largest listed bilateral creditor.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 3",
+   "title": "Debt ratios, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Debt ratio (%)"
+   },
+   "legend": [
+    "Turkmenistan ratio (teal line)",
+    "25th–75th percentile range of DRS reporting countries (shaded band)"
+   ],
+   "data": [
+    {
+     "label": "2025",
+     "series": "External debt / exports",
+     "value": "..",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "External debt / GNI",
+     "value": "6%",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025 change",
+     "series": "External debt / GNI",
+     "value": "-25.3%",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Debt service / exports",
+     "value": "..",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Debt service / GNI",
+     "value": "1%",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025 change",
+     "series": "Debt service / GNI",
+     "value": "-35.8%",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Four panels show external debt and debt service relative to exports and GNI from 2015 to 2025. The exports-based panels have no data; the GNI-based lines end at 6% for external debt and 1% for debt service. Shaded bands show the 25th–75th percentile range of DRS reporting countries.",
+   "notes": "Source: World Bank Group International Debt Statistics database. Note: Figure 3 shows no data values for the exports-based ratios."
+  },
+  {
+   "kind": "infographic",
+   "label": "Figure 4",
+   "title": "Average terms on new commitments from official and private creditors, 2025",
+   "chart_type": "other",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "Maturity",
+     "series": "Official creditors",
+     "value": "17",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Official creditors",
+     "value": "4",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Official creditors",
+     "value": "2.8%",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Maturity",
+     "series": "Private creditors",
+     "value": "..",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Private creditors",
+     "value": "..",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Private creditors",
+     "value": "..",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Two side-by-side boxes compare official and private creditors. The official creditors box shows maturity of 17 yrs, grace period of 4 yrs and interest rate of 2.8%, each with a small horizontal indicator. The private creditors box shows '..' for maturity, grace period and interest rate, with empty indicators.",
+   "notes": "Source: World Bank Group International Debt Statistics database. Note: Figure 4 shows no data values for private creditors because the country did not have new commitments in 2025."
+  }
+ ]
+}

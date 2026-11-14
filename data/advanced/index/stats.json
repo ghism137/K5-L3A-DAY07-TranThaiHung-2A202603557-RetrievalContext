@@ -1,0 +1,29 @@
+{
+  "text_chunks": 840,
+  "visual_chunks": 597,
+  "pages": 280,
+  "pages_without_content": [
+    2,
+    12,
+    16,
+    18,
+    22,
+    26,
+    106,
+    264,
+    266,
+    278,
+    279
+  ],
+  "extraction_failed": [],
+  "elements_by_kind": {
+    "table": 3,
+    "chart": 424,
+    "diagram": 1,
+    "infographic": 169
+  },
+  "embedding_model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "embedding_tokens": 283923,
+  "embedding_cost_usd_assumed": 0.005678
+}

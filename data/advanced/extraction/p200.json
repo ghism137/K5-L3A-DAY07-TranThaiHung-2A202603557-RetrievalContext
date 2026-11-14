@@ -1,0 +1,301 @@
+{
+ "page": 200,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 24.2,
+ "usage": {
+  "prompt_tokens": 3321,
+  "completion_tokens": 2001,
+  "reasoning_tokens": 89
+ },
+ "page_type": "profile",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1",
+   "title": "Total external debt, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Total external debt (US$ million)"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "2015",
+     "series": "Total external debt",
+     "value": "25,598",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Total external debt",
+     "value": "50,519",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Total external debt generally rises from 2015 to 2025, with a slight dip near the end of the period. The printed endpoints are the lowest and highest values shown.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 2",
+   "title": "External debt by creditor and creditor type in 2025, including IMF credit and SDR allocations",
+   "chart_type": "stacked bar",
+   "axes": {
+    "x": "External debt (US$ million)",
+    "y": "Creditor and creditor type"
+   },
+   "legend": [
+    "Public & publicly guaranteed (dark blue)",
+    "Private nonguaranteed (orange)",
+    "Short-term (gold)",
+    "Multilateral (dark teal)",
+    "Bilateral (blue)",
+    "Private creditors (gray-blue)",
+    "World Bank-IBRD (dark teal)",
+    "IMF credit (teal)",
+    "Other multilateral (light teal)",
+    "Germany (blue)",
+    "Japan (light blue)",
+    "Other bilateral (pale blue)"
+   ],
+   "data": [
+    {
+     "label": "Total external debt",
+     "series": "Total",
+     "value": "50,519",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Public & publicly guaranteed",
+     "series": "Total external debt",
+     "value": "29,241",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Private nonguaranteed",
+     "series": "Total external debt",
+     "value": "2,333",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Short-term",
+     "series": "Total external debt",
+     "value": "18,944",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Multilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "12,758",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Bilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "4,980",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Private creditors",
+     "series": "Public & publicly guaranteed",
+     "value": "11,503",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "World Bank-IBRD",
+     "series": "Multilateral",
+     "value": "5,854",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "IMF credit",
+     "series": "Multilateral",
+     "value": "2,273",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Other multilateral",
+     "series": "Multilateral",
+     "value": "4,632",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Germany",
+     "series": "Bilateral",
+     "value": "1,178",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Japan",
+     "series": "Bilateral",
+     "value": "1,160",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Other bilateral",
+     "series": "Bilateral",
+     "value": "2,642",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The 2025 debt total is divided into public and publicly guaranteed, private nonguaranteed, and short-term debt; public and publicly guaranteed debt is further divided by creditor type. Multilateral creditors are the largest public creditor group, while bilateral creditors are the smallest. The lower bars detail multilateral creditors and bilateral creditors, with World Bank-IBRD the largest named component and Japan the smallest named bilateral component.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 3",
+   "title": "Debt ratios, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Debt ratio (%)"
+   },
+   "legend": [
+    "Jordan debt ratio (teal line)",
+    "25th–75th percentile range of DRS reporting countries (shaded band)"
+   ],
+   "data": [
+    {
+     "label": "2025",
+     "series": "External debt / exports",
+     "value": "182",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "External debt / exports",
+     "value": "-4.2",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "External debt / GNI",
+     "value": "83",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "External debt / GNI",
+     "value": "+1.3",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Debt service / exports",
+     "value": "23",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "Debt service / exports",
+     "value": "+29.2",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Debt service / GNI",
+     "value": "11",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change",
+     "series": "Debt service / GNI",
+     "value": "+36.6",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Four panels show debt and debt-service ratios from 2015 to 2025 against shaded country percentile ranges. External debt / exports spikes mid-period before declining, while external debt / GNI generally rises. Both debt-service ratios fluctuate and end higher; external debt / exports is the highest printed 2025 ratio and debt service / GNI the lowest.",
+   "notes": "Shaded band shows the 25th–75th percentile range of DRS reporting countries. Source: World Bank Group International Debt Statistics database."
+  },
+  {
+   "kind": "infographic",
+   "label": "Figure 4",
+   "title": "Average terms on new commitments from official and private creditors, 2025",
+   "chart_type": "bar",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [
+    "Maturity and grace period (teal)",
+    "Interest rate (gold)"
+   ],
+   "data": [
+    {
+     "label": "Maturity",
+     "series": "Official creditors",
+     "value": "22",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Official creditors",
+     "value": "5",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Official creditors",
+     "value": "4.0",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Maturity",
+     "series": "Private creditors",
+     "value": "4",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Private creditors",
+     "value": "4",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Private creditors",
+     "value": "5.7",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The left box shows official creditors: maturity 22 yrs, grace period 5 yrs, and interest rate 4.0%, each with a small bar below. The right box shows private creditors: maturity 4 yrs, grace period 4 yrs, and interest rate 5.7%, also with bars below. Official terms have longer maturity and grace periods, while the private interest rate is higher.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  }
+ ]
+}

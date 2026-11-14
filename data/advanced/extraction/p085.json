@@ -1,0 +1,398 @@
+{
+ "page": 85,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 31.8,
+ "usage": {
+  "prompt_tokens": 3370,
+  "completion_tokens": 2735,
+  "reasoning_tokens": 441
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 2.8",
+   "title": "Debt Service as Percentage of Government Revenues for IDA-Eligible Countries, 2000–25",
+   "chart_type": "stacked bar",
+   "axes": {
+    "x": "Year",
+    "y": "Percent of revenues"
+   },
+   "legend": [
+    "Domestic debt service (average) (dark blue)",
+    "External debt service (average) (light blue)"
+   ],
+   "data": [
+    {
+     "label": "2000",
+     "series": "Domestic debt service (average)",
+     "value": "8",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2000",
+     "series": "External debt service (average)",
+     "value": "14",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2001",
+     "series": "Domestic debt service (average)",
+     "value": "9",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2001",
+     "series": "External debt service (average)",
+     "value": "12",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2002",
+     "series": "Domestic debt service (average)",
+     "value": "8",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2002",
+     "series": "External debt service (average)",
+     "value": "13",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2003",
+     "series": "Domestic debt service (average)",
+     "value": "8",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2003",
+     "series": "External debt service (average)",
+     "value": "12",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2004",
+     "series": "Domestic debt service (average)",
+     "value": "7",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2004",
+     "series": "External debt service (average)",
+     "value": "12",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2005",
+     "series": "Domestic debt service (average)",
+     "value": "6",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2005",
+     "series": "External debt service (average)",
+     "value": "10",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2006",
+     "series": "Domestic debt service (average)",
+     "value": "7",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2006",
+     "series": "External debt service (average)",
+     "value": "9",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2007",
+     "series": "Domestic debt service (average)",
+     "value": "6",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2007",
+     "series": "External debt service (average)",
+     "value": "8",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2008",
+     "series": "Domestic debt service (average)",
+     "value": "5",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2008",
+     "series": "External debt service (average)",
+     "value": "8",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2009",
+     "series": "Domestic debt service (average)",
+     "value": "8",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2009",
+     "series": "External debt service (average)",
+     "value": "8",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2010",
+     "series": "Domestic debt service (average)",
+     "value": "6",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2010",
+     "series": "External debt service (average)",
+     "value": "6",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2011",
+     "series": "Domestic debt service (average)",
+     "value": "6",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2011",
+     "series": "External debt service (average)",
+     "value": "6",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2012",
+     "series": "Domestic debt service (average)",
+     "value": "5",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2012",
+     "series": "External debt service (average)",
+     "value": "7",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2013",
+     "series": "Domestic debt service (average)",
+     "value": "9",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2013",
+     "series": "External debt service (average)",
+     "value": "6",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2014",
+     "series": "Domestic debt service (average)",
+     "value": "14",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2014",
+     "series": "External debt service (average)",
+     "value": "7",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Domestic debt service (average)",
+     "value": "18",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "External debt service (average)",
+     "value": "7",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Domestic debt service (average)",
+     "value": "21",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "External debt service (average)",
+     "value": "8",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Domestic debt service (average)",
+     "value": "21",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "External debt service (average)",
+     "value": "9",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Domestic debt service (average)",
+     "value": "20",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "External debt service (average)",
+     "value": "9",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Domestic debt service (average)",
+     "value": "21",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "External debt service (average)",
+     "value": "10",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Domestic debt service (average)",
+     "value": "26",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "External debt service (average)",
+     "value": "11",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Domestic debt service (average)",
+     "value": "27",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "External debt service (average)",
+     "value": "12",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Domestic debt service (average)",
+     "value": "28",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "External debt service (average)",
+     "value": "12",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Domestic debt service (average)",
+     "value": "26",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "External debt service (average)",
+     "value": "12",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Domestic debt service (average)",
+     "value": "30",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "External debt service (average)",
+     "value": "14",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Domestic debt service (average)",
+     "value": "30",
+     "unit": "percent of revenues",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "External debt service (average)",
+     "value": "17",
+     "unit": "percent of revenues",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The stacked bars show average domestic and external debt service as a percentage of government revenues for IDA-eligible countries from 2000 to 2025. Combined debt service declined to its lowest level around 2011 before rising sharply, reaching its highest level in 2025. Domestic debt service rose especially strongly after 2012, while external debt service followed a broadly U-shaped path.",
+   "notes": "Sources: Original calculations based on the World Bank Group’s International Debt Statistics database, the World Bank Group’s Macro Poverty Outlook, the World Economic Outlook database, and the International Monetary Fund–World Bank Low-Income Country Debt Sustainability Framework database (as of December 2025). Note: Debt service is interest payments plus amortization; revenues exclude grants. The ratio of debt service to revenues is calculated as the sum of debt service (domestic or external) for all countries with available data. This analysis excludes Liberia, Somalia, Turkmenistan, and Zimbabwe because of valuation anomalies associated with currency volatilities. IDA= International Development Association."
+  }
+ ]
+}

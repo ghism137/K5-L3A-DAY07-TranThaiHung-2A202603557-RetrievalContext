@@ -1,0 +1,129 @@
+{
+ "page": 72,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 9.2,
+ "usage": {
+  "prompt_tokens": 3422,
+  "completion_tokens": 696,
+  "reasoning_tokens": 0
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.22",
+   "title": "Bond Buyback in Low- and Middle-Income Countries, 2025",
+   "chart_type": "bar",
+   "axes": {
+    "x": "US$ (million)",
+    "y": "Country"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "Mexico",
+     "series": "Bond buyback",
+     "value": "17,618",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Colombia",
+     "series": "Bond buyback",
+     "value": "6,606",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Argentina",
+     "series": "Bond buyback",
+     "value": "2,816",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Dominican Republic",
+     "series": "Bond buyback",
+     "value": "1,818",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Kenya",
+     "series": "Bond buyback",
+     "value": "1,208",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Peru",
+     "series": "Bond buyback",
+     "value": "1,080",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Côte d’Ivoire",
+     "series": "Bond buyback",
+     "value": "759",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Mongolia",
+     "series": "Bond buyback",
+     "value": "500",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Indonesia",
+     "series": "Bond buyback",
+     "value": "462",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Suriname",
+     "series": "Bond buyback",
+     "value": "420",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Jordan",
+     "series": "Bond buyback",
+     "value": "388",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Paraguay",
+     "series": "Bond buyback",
+     "value": "300",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Benin",
+     "series": "Bond buyback",
+     "value": "261",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Gabon",
+     "series": "Bond buyback",
+     "value": "225",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The horizontal bar chart compares bond buybacks in 14 low- and middle-income countries in 2025. Mexico has the highest value at US$17,618 million, followed by Colombia at US$6,606 million; Gabon has the lowest at US$225 million.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  }
+ ]
+}

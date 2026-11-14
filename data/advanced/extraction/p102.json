@@ -1,0 +1,100 @@
+{
+ "page": 102,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 12.6,
+ "usage": {
+  "prompt_tokens": 3469,
+  "completion_tokens": 969,
+  "reasoning_tokens": 112
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 2.16",
+   "title": "External Debt Burdens and Healthy Diet Affordability, by Income Group and Population, 2017–25",
+   "chart_type": "scatter",
+   "axes": {
+    "x": "External debt stocks as share of exports (%, log scale)",
+    "y": "Change in prevalence of those unable to afford a healthy diet (percentage points)"
+   },
+   "legend": [
+    "Low income (blue)",
+    "Lower-middle income (orange)",
+    "Upper-middle income (green)",
+    "High income (purple)",
+    "Population, 2025 (gray bubble size)"
+   ],
+   "data": [
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size key",
+     "value": "5",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size key",
+     "value": "25",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size key",
+     "value": "100",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size key",
+     "value": "500",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size key",
+     "value": "1,000",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "a. Prepandemic years, 2017–19",
+     "series": "Observations",
+     "value": "93",
+     "unit": "",
+     "estimate": false
+    },
+    {
+     "label": "b. Pandemic shock, 2019–21",
+     "series": "Observations",
+     "value": "95",
+     "unit": "",
+     "estimate": false
+    },
+    {
+     "label": "c. Food price and inflation shock, 2021–23",
+     "series": "Observations",
+     "value": "94",
+     "unit": "",
+     "estimate": false
+    },
+    {
+     "label": "d. Postshock adjustment, 2023–25",
+     "series": "Observations",
+     "value": "93",
+     "unit": "",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Four bubble scatterplots show changes in healthy diet unaffordability against external debt burdens for the prepandemic years, pandemic shock, food price and inflation shock, and postshock adjustment. The fitted relationships slope upward most visibly in the 2019–21 and 2021–23 panels and are comparatively flat in the other two. The highest visible point is in 2021–23 at about 15 percentage points, while the lowest is also in that panel at about −17 percentage points.",
+   "notes": "Sources: Original calculations based on data from the World Bank Group’s International Debt Statistics, Food Prices for Nutrition, and World Development Indicators databases.\nNote: Each panel relates the two-year change in the prevalence of people unable to afford a healthy diet to the external debt burden in the midpoint year: 2017–19 with 2018 debt, 2019–21 with 2020 debt, 2021–23 with 2022 debt, and 2023–25 with 2024 debt. Observations: panel a, N = 93; panel b, N = 95; panel c, N = 94; and panel d, N = 93. Changes in healthy diet unaffordability are expressed in percentage points. Bubble size indicates population in 2025, and colors indicate income classification. Fitted lines are population-weighted ordinary least squares regressions of changes in healthy diet unaffordability on log external debt stocks relative to exports, with 95 percent confidence intervals. The relationships are descriptive and do not imply causality."
+  }
+ ]
+}

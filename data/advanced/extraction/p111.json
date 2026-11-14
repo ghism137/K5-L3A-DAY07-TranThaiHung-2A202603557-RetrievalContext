@@ -1,0 +1,204 @@
+{
+ "page": 111,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 14.6,
+ "usage": {
+  "prompt_tokens": 3272,
+  "completion_tokens": 1165,
+  "reasoning_tokens": 139
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 3.2",
+   "title": "Debtor Reporting System Reporting Timetable, 2020–25",
+   "chart_type": "bar",
+   "axes": {
+    "x": "Year",
+    "y": "Percent"
+   },
+   "legend": [
+    "March (dark blue)",
+    "April (light blue)",
+    "June (orange)",
+    "Late reporters and nonreporters (gold)"
+   ],
+   "data": [
+    {
+     "label": "2020",
+     "series": "March",
+     "value": "47",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "April",
+     "value": "68",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "June",
+     "value": "87",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Late reporters and nonreporters",
+     "value": "13",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "March",
+     "value": "45",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "April",
+     "value": "66",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "June",
+     "value": "88",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Late reporters and nonreporters",
+     "value": "12",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "March",
+     "value": "48",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "April",
+     "value": "74",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "June",
+     "value": "90",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Late reporters and nonreporters",
+     "value": "9",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "March",
+     "value": "51",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "April",
+     "value": "80",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "June",
+     "value": "95",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Late reporters and nonreporters",
+     "value": "7",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "March",
+     "value": "48",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "April",
+     "value": "72",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "June",
+     "value": "92",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Late reporters and nonreporters",
+     "value": "8",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "March",
+     "value": "56",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "April",
+     "value": "82",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "June",
+     "value": "94",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Late reporters and nonreporters",
+     "value": "6",
+     "unit": "percent",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The grouped bar chart shows reporting percentages for March, April, June, and late reporters and nonreporters from 2020 through 2025. June has the highest percentage in every year, peaking at approximately 95 percent in 2023. Late reporters and nonreporters have the lowest percentages, declining overall from approximately 13 percent in 2020 to 6 percent in 2025.",
+   "notes": "Source: World Bank Group Debtor Reporting System database."
+  }
+ ]
+}

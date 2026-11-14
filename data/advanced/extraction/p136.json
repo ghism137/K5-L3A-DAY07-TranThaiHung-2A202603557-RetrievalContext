@@ -1,0 +1,341 @@
+{
+ "page": 136,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 29.1,
+ "usage": {
+  "prompt_tokens": 3988,
+  "completion_tokens": 2376,
+  "reasoning_tokens": 289
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "infographic",
+   "label": "",
+   "title": "BELIZE",
+   "chart_type": "other",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "Population",
+     "series": "",
+     "value": "423",
+     "unit": "thousand",
+     "estimate": false
+    },
+    {
+     "label": "GNI",
+     "series": "",
+     "value": "3,162",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Total external debt stock, 2025",
+     "series": "",
+     "value": "1,609",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Change from 2024",
+     "series": "",
+     "value": "+2.6",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "An annotated example country profile for Belize shows the tags Latin America & the Caribbean, Upper-middle-income, Blend, Data as reported (A), population and GNI. Numbered callouts identify 1, the header and units; 2, the country profile tags; and 3, the total external debt stock. Callouts 4 through 7 identify the historical debt trend, creditor breakdown, debt ratios and terms on new commitments, respectively. The four labeled figures are transcribed separately.",
+   "notes": "US$ million, unless otherwise indicated. Source: World Bank International Debt Statistics database."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 1",
+   "title": "Total external debt, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Total external debt (US$ million)"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "2015",
+     "series": "Total external debt",
+     "value": "1,283",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Total external debt",
+     "value": "1,609",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The line shows Belize's total external debt from 2015 to 2025. It rises overall from 1,283 to 1,609 US$ million, with fluctuations in between.",
+   "notes": ""
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 2",
+   "title": "External debt by creditor and creditor type in 2025, including IMF credit and SDR allocations",
+   "chart_type": "stacked bar",
+   "axes": {
+    "x": "External debt (US$ million)",
+    "y": "Debt and creditor category"
+   },
+   "legend": [
+    "Public & publicly guaranteed (dark blue)",
+    "Private nonguaranteed (orange)",
+    "Short-term (yellow)",
+    "Multilateral (teal)",
+    "Bilateral (blue)",
+    "Private creditors (gray)",
+    "Other bilateral (light blue)"
+   ],
+   "data": [
+    {
+     "label": "Total external debt",
+     "series": "",
+     "value": "1,609",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Public & publicly guaranteed",
+     "series": "Total external debt",
+     "value": "1,488",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Private nonguaranteed",
+     "series": "Total external debt",
+     "value": "107",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Short-term",
+     "series": "Total external debt",
+     "value": "13",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Multilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "608",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Bilateral",
+     "series": "Public & publicly guaranteed",
+     "value": "492",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Private creditors",
+     "series": "Public & publicly guaranteed",
+     "value": "388",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Caribbean Dev. Bank",
+     "series": "Multilateral",
+     "value": "219",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "IDB",
+     "series": "Multilateral",
+     "value": "166",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Other multilateral",
+     "series": "Multilateral",
+     "value": "224",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Multiple lenders",
+     "series": "Bilateral",
+     "value": "247",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Venezuela, RB",
+     "series": "Bilateral",
+     "value": "215",
+     "unit": "US$ million",
+     "estimate": false
+    },
+    {
+     "label": "Other bilateral",
+     "series": "Bilateral",
+     "value": "30",
+     "unit": "US$ million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Proportional stacked blocks break total external debt down into public and publicly guaranteed, private nonguaranteed and short-term debt, then divide public and publicly guaranteed debt by creditor type. Multilateral and bilateral debt are further divided into named creditors and other creditors. Public and publicly guaranteed debt is the largest component of the total, and short-term debt is the smallest.",
+   "notes": ""
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 3",
+   "title": "Debt ratios, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Debt ratio (%)"
+   },
+   "legend": [
+    "Belize (teal line)",
+    "25th–75th percentile range of DRS reporting countries (shaded band)"
+   ],
+   "data": [
+    {
+     "label": "2025",
+     "series": "External debt / exports",
+     "value": "96",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change from 2024",
+     "series": "External debt / exports",
+     "value": "+2.4",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "External debt / GNI",
+     "value": "51",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change from 2024",
+     "series": "External debt / GNI",
+     "value": "-0.2",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Debt service / exports",
+     "value": "8",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change from 2024",
+     "series": "Debt service / exports",
+     "value": "-11.7",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "Debt service / GNI",
+     "value": "4",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Change from 2024",
+     "series": "Debt service / GNI",
+     "value": "-13.9",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Four small line charts show debt ratios from 2015 to 2025 against shaded percentile bands. In 2025, external debt relative to exports is the highest displayed ratio at 96%, while debt service relative to GNI is the lowest at 4%. Both debt service ratios show a sharp spike during the period.",
+   "notes": "Shaded band shows the 25th–75th percentile range of DRS reporting countries"
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 4",
+   "title": "Average terms on new commitments from official and private creditors, 2025",
+   "chart_type": "bar",
+   "axes": {
+    "x": "Term value (years or percent)",
+    "y": "Creditor type and term"
+   },
+   "legend": [
+    "Maturity (teal)",
+    "Grace period (teal)",
+    "Interest rate (yellow)"
+   ],
+   "data": [
+    {
+     "label": "Maturity",
+     "series": "Official creditors",
+     "value": "24",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Official creditors",
+     "value": "4",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Official creditors",
+     "value": "3.6",
+     "unit": "%",
+     "estimate": false
+    },
+    {
+     "label": "Maturity",
+     "series": "Private creditors",
+     "value": "17",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Grace period",
+     "series": "Private creditors",
+     "value": "17",
+     "unit": "yrs",
+     "estimate": false
+    },
+    {
+     "label": "Interest rate",
+     "series": "Private creditors",
+     "value": "2.0",
+     "unit": "%",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Two panels compare average terms on new commitments from official and private creditors in 2025. Official creditors have a longer maturity and higher interest rate, while private creditors have a longer grace period.",
+   "notes": ""
+  }
+ ]
+}

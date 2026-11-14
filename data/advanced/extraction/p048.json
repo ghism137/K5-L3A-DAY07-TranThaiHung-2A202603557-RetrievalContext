@@ -1,0 +1,344 @@
+{
+ "page": 48,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 22.2,
+ "usage": {
+  "prompt_tokens": 3359,
+  "completion_tokens": 1858,
+  "reasoning_tokens": 225
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.8",
+   "title": "Long-Term Net Transfers on Public and Publicly Guaranteed External Debt in Low- and Middle-Income Countries (Excluding China), by Creditor Type, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "US$ (billion)"
+   },
+   "legend": [
+    "PPG, multilateral + IMF (dark blue)",
+    "PPG, bonds (light blue)",
+    "PPG, bilateral (orange)",
+    "PPG, commercial banks + other private creditors (gold)"
+   ],
+   "data": [
+    {
+     "label": "2015",
+     "series": "PPG, multilateral + IMF",
+     "value": "34",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "PPG, multilateral + IMF",
+     "value": "31",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "PPG, multilateral + IMF",
+     "value": "25",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "PPG, multilateral + IMF",
+     "value": "49",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "PPG, multilateral + IMF",
+     "value": "39",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "PPG, multilateral + IMF",
+     "value": "94",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "PPG, multilateral + IMF",
+     "value": "35",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "PPG, multilateral + IMF",
+     "value": "60",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "PPG, multilateral + IMF",
+     "value": "30",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "PPG, multilateral + IMF",
+     "value": "22",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "PPG, multilateral + IMF",
+     "value": "26",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "PPG, bonds",
+     "value": "17",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "PPG, bonds",
+     "value": "48",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "PPG, bonds",
+     "value": "97",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "PPG, bonds",
+     "value": "33",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "PPG, bonds",
+     "value": "24",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "PPG, bonds",
+     "value": "-5",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "PPG, bonds",
+     "value": "-18",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "PPG, bonds",
+     "value": "-69",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "PPG, bonds",
+     "value": "-8",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "PPG, bonds",
+     "value": "-9",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "PPG, bonds",
+     "value": "70.1",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "2015",
+     "series": "PPG, bilateral",
+     "value": "11",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "PPG, bilateral",
+     "value": "13",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "PPG, bilateral",
+     "value": "21",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "PPG, bilateral",
+     "value": "17",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "PPG, bilateral",
+     "value": "-1",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "PPG, bilateral",
+     "value": "8",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "PPG, bilateral",
+     "value": "4",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "PPG, bilateral",
+     "value": "7",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "PPG, bilateral",
+     "value": "8",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "PPG, bilateral",
+     "value": "-7",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "PPG, bilateral",
+     "value": "-2",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "PPG, commercial banks + other private creditors",
+     "value": "9",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "PPG, commercial banks + other private creditors",
+     "value": "-4",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "PPG, commercial banks + other private creditors",
+     "value": "-11",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "PPG, commercial banks + other private creditors",
+     "value": "14",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "PPG, commercial banks + other private creditors",
+     "value": "-20",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "PPG, commercial banks + other private creditors",
+     "value": "6",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "PPG, commercial banks + other private creditors",
+     "value": "-2",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "PPG, commercial banks + other private creditors",
+     "value": "-4",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "PPG, commercial banks + other private creditors",
+     "value": "-16",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "PPG, commercial banks + other private creditors",
+     "value": "-3",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "PPG, commercial banks + other private creditors",
+     "value": "24.1",
+     "unit": "US$ billion",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The chart compares net transfers by four creditor types from 2015 to 2025. Bond transfers fluctuate most, reaching the chart’s highest point in 2017 and lowest point in 2022 before turning strongly positive in 2025. Multilateral and IMF transfers remain positive throughout, while bilateral and commercial bank transfers are generally smaller.",
+   "notes": "Source: World Bank Group International Debt Statistics database. Note: IMF = International Monetary Fund; PPG = public and publicly guaranteed."
+  }
+ ]
+}

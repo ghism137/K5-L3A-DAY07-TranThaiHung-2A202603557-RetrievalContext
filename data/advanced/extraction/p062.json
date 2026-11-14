@@ -1,0 +1,344 @@
+{
+ "page": 62,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 22.5,
+ "usage": {
+  "prompt_tokens": 3427,
+  "completion_tokens": 1890,
+  "reasoning_tokens": 375
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.18",
+   "title": "Creditor Composition of IDA-Eligible Countries’ Long-Term Public and Publicly Guaranteed External Debt, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "US$ (billion)"
+   },
+   "legend": [
+    "Multilateral creditors (incl. IMF) (dark blue)",
+    "Bilateral creditors (light blue)",
+    "Bondholders (orange)",
+    "Other private creditors (ochre)"
+   ],
+   "data": [
+    {
+     "label": "2015",
+     "series": "Multilateral creditors (incl. IMF)",
+     "value": "190",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Multilateral creditors (incl. IMF)",
+     "value": "195",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Multilateral creditors (incl. IMF)",
+     "value": "220",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Multilateral creditors (incl. IMF)",
+     "value": "235",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Multilateral creditors (incl. IMF)",
+     "value": "255",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Multilateral creditors (incl. IMF)",
+     "value": "310",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Multilateral creditors (incl. IMF)",
+     "value": "350",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Multilateral creditors (incl. IMF)",
+     "value": "370",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Multilateral creditors (incl. IMF)",
+     "value": "405",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Multilateral creditors (incl. IMF)",
+     "value": "430",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Multilateral creditors (incl. IMF)",
+     "value": "480",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Bilateral creditors",
+     "value": "130",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Bilateral creditors",
+     "value": "140",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Bilateral creditors",
+     "value": "160",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Bilateral creditors",
+     "value": "180",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Bilateral creditors",
+     "value": "200",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Bilateral creditors",
+     "value": "220",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Bilateral creditors",
+     "value": "230",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Bilateral creditors",
+     "value": "230",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Bilateral creditors",
+     "value": "240",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Bilateral creditors",
+     "value": "235",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Bilateral creditors",
+     "value": "240",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Bondholders",
+     "value": "35",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Bondholders",
+     "value": "40",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Bondholders",
+     "value": "50",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Bondholders",
+     "value": "65",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Bondholders",
+     "value": "75",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Bondholders",
+     "value": "80",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Bondholders",
+     "value": "90",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Bondholders",
+     "value": "90",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Bondholders",
+     "value": "90",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Bondholders",
+     "value": "90",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Bondholders",
+     "value": "105",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Other private creditors",
+     "value": "30",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Other private creditors",
+     "value": "30",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Other private creditors",
+     "value": "40",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Other private creditors",
+     "value": "45",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Other private creditors",
+     "value": "45",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Other private creditors",
+     "value": "55",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Other private creditors",
+     "value": "60",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Other private creditors",
+     "value": "60",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Other private creditors",
+     "value": "60",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Other private creditors",
+     "value": "60",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Other private creditors",
+     "value": "65",
+     "unit": "US$ billion",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart shows long-term public and publicly guaranteed external debt by creditor type from 2015 to 2025, with the COVID-19 pandemic period shaded. Multilateral creditors were the largest category throughout and rose most sharply, reaching approximately $480 billion in 2025. Other private creditors were the smallest category throughout, reaching approximately $65 billion in 2025.",
+   "notes": "Source: World Bank Group International Debt Statistics database.\nNote: IDA = International Development Association; IMF = International Monetary Fund."
+  }
+ ]
+}

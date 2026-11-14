@@ -1,0 +1,6 @@
+{
+  "file": "benchmark/advanced/questions.json",
+  "sha256": "028f30557f7517b87cd10535eac738cb4cbaa9b055363a51bd2aa91261b08021",
+  "frozen_at": "2026-11-15T02:11:50+07:00",
+  "note": "Frozen before any advanced pipeline run on dev or test; the runner refuses to run if the hash differs."
+}

@@ -1,0 +1,203 @@
+{
+ "page": 68,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 19.6,
+ "usage": {
+  "prompt_tokens": 3339,
+  "completion_tokens": 1583,
+  "reasoning_tokens": 352
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.21",
+   "title": "Net Transfers on Public and Publicly Guaranteed Debt in IDA-Eligible Countries, by Creditor Type, 2023–25",
+   "chart_type": "bar",
+   "axes": {
+    "x": "US$ (billions)",
+    "y": "Creditor type and flow: net transfers, disbursements, amortization, and interest"
+   },
+   "legend": [
+    "2023 (dark blue)",
+    "2024 (light blue)",
+    "2025 (orange)"
+   ],
+   "data": [
+    {
+     "label": "PPG private: Net transfers",
+     "series": "2023",
+     "value": "-2.8",
+     "unit": "US$ billions",
+     "estimate": false
+    },
+    {
+     "label": "PPG private: Net transfers",
+     "series": "2024",
+     "value": "3.6",
+     "unit": "US$ billions",
+     "estimate": false
+    },
+    {
+     "label": "PPG private: Net transfers",
+     "series": "2025",
+     "value": "4.9",
+     "unit": "US$ billions",
+     "estimate": false
+    },
+    {
+     "label": "PPG private: Disbursements",
+     "series": "2023",
+     "value": "13",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Disbursements",
+     "series": "2024",
+     "value": "24",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Disbursements",
+     "series": "2025",
+     "value": "28",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Amortization",
+     "series": "2023",
+     "value": "10",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Amortization",
+     "series": "2024",
+     "value": "13",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Amortization",
+     "series": "2025",
+     "value": "13",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Interest",
+     "series": "2023",
+     "value": "6",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Interest",
+     "series": "2024",
+     "value": "7",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Interest",
+     "series": "2025",
+     "value": "9",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Net transfers",
+     "series": "2023",
+     "value": "33",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Net transfers",
+     "series": "2024",
+     "value": "22",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Net transfers",
+     "series": "2025",
+     "value": "15.1",
+     "unit": "US$ billions",
+     "estimate": false
+    },
+    {
+     "label": "PPG official: Disbursements",
+     "series": "2023",
+     "value": "75",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Disbursements",
+     "series": "2024",
+     "value": "71",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Disbursements",
+     "series": "2025",
+     "value": "64",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Amortization",
+     "series": "2023",
+     "value": "29",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Amortization",
+     "series": "2024",
+     "value": "33",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Amortization",
+     "series": "2025",
+     "value": "33",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Interest",
+     "series": "2023",
+     "value": "13",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Interest",
+     "series": "2024",
+     "value": "16",
+     "unit": "US$ billions",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Interest",
+     "series": "2025",
+     "value": "15",
+     "unit": "US$ billions",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart compares net transfers, disbursements, amortization, and interest for private and official creditors in IDA-eligible countries from 2023 to 2025. Official net transfers and disbursements declined over the period, while private net transfers moved from negative to positive. Official disbursements in 2023 were the largest item, and private net transfers in 2023 were the lowest.",
+   "notes": "Source: World Bank Group International Debt Statistics database.\nNote: IDA = International Development Association; PPG = public and publicly guaranteed."
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "config": "TEXT",
+  "split": "dev",
+  "model": "gpt-6.1-terra",
+  "questions": 18,
+  "pass_auto": "5/18",
+  "by_group": {
+    "abstain": "3/3",
+    "chart": "0/4",
+    "diagram": "0/3",
+    "multihop": "1/2",
+    "table": "1/4",
+    "text": "0/2"
+  },
+  "errors": [],
+  "failed": [
+    "d01",
+    "d03",
+    "d04",
+    "d05",
+    "d06",
+    "d07",
+    "d08",
+    "d09",
+    "d10",
+    "d11",
+    "d12",
+    "d14",
+    "d15"
+  ],
+  "median_seconds": 11.2,
+  "tokens": {
+    "agent_input": 174824,
+    "agent_output": 5527,
+    "agent_reasoning": 2577,
+    "judge_input": 1476,
+    "judge_output": 633,
+    "embedding": 891
+  },
+  "note": "pass_auto is a first-pass grade (LLM judge + citation pages); prices of gpt-6.1-terra are unknown, so cost is reported in tokens"
+}

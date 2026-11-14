@@ -1,0 +1,14 @@
+{
+ "page": 32,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 2.1,
+ "usage": {
+  "prompt_tokens": 3463,
+  "completion_tokens": 40,
+  "reasoning_tokens": 19
+ },
+ "page_type": "text",
+ "elements": []
+}

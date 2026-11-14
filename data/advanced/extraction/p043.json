@@ -1,0 +1,118 @@
+{
+ "page": 43,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 13.0,
+ "usage": {
+  "prompt_tokens": 3419,
+  "completion_tokens": 1035,
+  "reasoning_tokens": 314
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.5",
+   "title": "Bond Flows to Low- and Middle-Income Countries, by Borrower Type, 2024–25",
+   "chart_type": "bar",
+   "axes": {
+    "x": "US$ (billion)",
+    "y": "Borrower type and flow: disbursements, amortization, net flows"
+   },
+   "legend": [
+    "2024 (dark blue)",
+    "2025 (light blue)"
+   ],
+   "data": [
+    {
+     "label": "PNG disbursements",
+     "series": "2024",
+     "value": "110",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG disbursements",
+     "series": "2025",
+     "value": "130",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG amortization",
+     "series": "2024",
+     "value": "-90",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG amortization",
+     "series": "2025",
+     "value": "-110",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG net flows",
+     "series": "2024",
+     "value": "20",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG net flows",
+     "series": "2025",
+     "value": "25",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG disbursements",
+     "series": "2024",
+     "value": "185",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG disbursements",
+     "series": "2025",
+     "value": "250",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG amortization",
+     "series": "2024",
+     "value": "-135",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG amortization",
+     "series": "2025",
+     "value": "-145",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG net flows",
+     "series": "2024",
+     "value": "50",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG net flows",
+     "series": "2025",
+     "value": "105",
+     "unit": "US$ billion",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart compares bond disbursements, amortization and net flows for PNG and PPG borrowers in 2024 and 2025. Disbursements and net flows increased for both borrower types, while amortization became more negative. PPG disbursements in 2025 were the highest value, at approximately US$250 billion; PPG amortization in 2025 was the lowest, at approximately −US$145 billion.",
+   "notes": "Source: World Bank Group International Debt Statistics database. Note: PNG = private nonguaranteed; PPG = public and publicly guaranteed."
+  }
+ ]
+}

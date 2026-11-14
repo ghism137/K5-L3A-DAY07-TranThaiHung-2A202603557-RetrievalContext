@@ -1,0 +1,212 @@
+{
+ "page": 99,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 26.4,
+ "usage": {
+  "prompt_tokens": 3545,
+  "completion_tokens": 2230,
+  "reasoning_tokens": 824
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 2.14",
+   "title": "Net Importing Economies and External Debt Burdens, by Food Group, Income Group, and Population, 2025 (continued)",
+   "chart_type": "scatter",
+   "axes": {
+    "x": "Share of exports (%)",
+    "y": "Net import reliance (%)"
+   },
+   "legend": [
+    "Low income (blue)",
+    "Lower-middle income (orange)",
+    "Upper-middle income (green)",
+    "Other economies (gray)",
+    "Population, 2025 (bubble size)"
+   ],
+   "data": [
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size",
+     "value": "5",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size",
+     "value": "25",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size",
+     "value": "100",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size",
+     "value": "500",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size",
+     "value": "1,000",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Fruits: MNG",
+     "series": "Share of exports",
+     "value": "270",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Fruits: MNG",
+     "series": "Net import reliance",
+     "value": "97",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Fruits: CPV",
+     "series": "Share of exports",
+     "value": "210",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Fruits: CPV",
+     "series": "Net import reliance",
+     "value": "82",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Fruits: KAZ",
+     "series": "Share of exports",
+     "value": "200",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Fruits: KAZ",
+     "series": "Net import reliance",
+     "value": "69",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Fruits: MNE",
+     "series": "Share of exports",
+     "value": "260",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Fruits: MNE",
+     "series": "Net import reliance",
+     "value": "60",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Fruits: SLV",
+     "series": "Share of exports",
+     "value": "240",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Fruits: SLV",
+     "series": "Net import reliance",
+     "value": "52",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Vegetables: GMB",
+     "series": "Share of exports",
+     "value": "210",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Vegetables: GMB",
+     "series": "Net import reliance",
+     "value": "83",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Vegetables: SLV",
+     "series": "Share of exports",
+     "value": "235",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Vegetables: SLV",
+     "series": "Net import reliance",
+     "value": "71",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Vegetables: MNE",
+     "series": "Share of exports",
+     "value": "260",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Vegetables: MNE",
+     "series": "Net import reliance",
+     "value": "67",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Vegetables: SUR",
+     "series": "Share of exports",
+     "value": "305",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Vegetables: SUR",
+     "series": "Net import reliance",
+     "value": "62",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Vegetables: BTN",
+     "series": "Share of exports",
+     "value": "310",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "Vegetables: BTN",
+     "series": "Net import reliance",
+     "value": "48",
+     "unit": "%",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "Two bubble scatterplots, e. Fruits and f. Vegetables, compare net import reliance with external debt stocks as a share of exports. Most observations cluster at relatively low import reliance and below about 300 percent of exports, while a few extend to around 800 percent. The highest displayed reliance values in each panel are near 100 percent; highlighted MNG is among the highest for fruits, and GMB is the highest highlighted observation for vegetables. Bubble size represents 2025 population, and dashed lines mark the two analytical benchmarks.",
+   "notes": "Sources: Original calculations based on data from the World Bank Group’s International Debt Statistics and World Development Indicators databases, and from the Food and Agriculture Organization of the United Nations’ Food Balance Sheets.\nNote: The figure includes only economy-food-group observations with positive net import reliance; it does not show observations with zero net import reliance or net exporters. Net import reliance is calculated as net imports (imports minus exports) relative to domestic supply quantity after aggregating commodities within each Healthy Diet Basket food group. Values may exceed 100 percent because of stock changes or timing and measurement differences between trade and supply data. Panels include 87, 80, 64, 84, 55, and 73 economies, respectively. Two observations with net import reliance above 150 percent are omitted from the display. External debt data refer to 2025 for 101 economies and to 2024 for Algeria and Guinea, for which 2025 data are unavailable. Colors identify the income classification of highlighted economies; all other economies are shown in gray. Dashed lines mark analytical benchmarks of 150 percent for external debt stocks relative to exports and 30 percent for net import reliance."
+  }
+ ]
+}

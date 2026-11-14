@@ -1,0 +1,30 @@
+{
+ "page": 132,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 6.3,
+ "usage": {
+  "prompt_tokens": 3308,
+  "completion_tokens": 356,
+  "reasoning_tokens": 73
+ },
+ "page_type": "diagram",
+ "elements": [
+  {
+   "kind": "diagram",
+   "label": "Figure 3B.1",
+   "title": "World Bank Group Debt Statistics Program Three-Tier Architecture",
+   "chart_type": "",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [],
+   "data": [],
+   "table": "",
+   "description": "Three boxes run from left to right: Tier 1, DRS, “Granular date foundation,” with a document icon; Tier 2, IDS, “Trusted, transparent statistics,” with a bar chart icon; and Tier 3, IDR, “Actionable knowledge,” with a computer icon. Solid arrows connect Tier 1 to Tier 2 and Tier 2 to Tier 3; a dashed feedback arrow returns from Tier 3 to Tier 1, labeled “Gaps and findings strengthen reporting.” A box below is headed “Debt transparency as a continuous cycle” and describes coordinated action across borrowers, bilateral and multilateral creditors, private lenders, international financial institutions, and other stakeholders.",
+   "notes": "Source: Original figure for this publication. Note: DRS = Debtor Reporting System; IDR = International Debt Report; IDS = International Debt Statistics."
+  }
+ ]
+}

@@ -1,0 +1,268 @@
+{
+ "page": 113,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 29.3,
+ "usage": {
+  "prompt_tokens": 3251,
+  "completion_tokens": 2505,
+  "reasoning_tokens": 683
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 3.3",
+   "title": "Three Years of the Creditor Data-Sharing Exercise",
+   "chart_type": "other",
+   "axes": {
+    "x": "End-2021, End-2023, End-2024",
+    "y": "US$ (billions); Loans and tranches"
+   },
+   "legend": [
+    "Debt outstanding reported (dark blue)",
+    "Loans and tranches reported (light blue)",
+    "Loans matched (orange)"
+   ],
+   "data": [
+    {
+     "label": "End-2021",
+     "series": "Debt outstanding reported",
+     "value": "62.9",
+     "unit": "US$ billions",
+     "estimate": false
+    },
+    {
+     "label": "End-2023",
+     "series": "Debt outstanding reported",
+     "value": "61.8",
+     "unit": "US$ billions",
+     "estimate": false
+    },
+    {
+     "label": "End-2024",
+     "series": "Debt outstanding reported",
+     "value": "63.4",
+     "unit": "US$ billions",
+     "estimate": false
+    },
+    {
+     "label": "End-2021",
+     "series": "Loans and tranches reported",
+     "value": "3,655",
+     "unit": "loans and tranches",
+     "estimate": false
+    },
+    {
+     "label": "End-2023",
+     "series": "Loans and tranches reported",
+     "value": "4,692",
+     "unit": "loans and tranches",
+     "estimate": false
+    },
+    {
+     "label": "End-2024",
+     "series": "Loans and tranches reported",
+     "value": "4,875",
+     "unit": "loans and tranches",
+     "estimate": false
+    },
+    {
+     "label": "End-2021",
+     "series": "Loans matched",
+     "value": "2,904",
+     "unit": "loans",
+     "estimate": false
+    },
+    {
+     "label": "End-2023",
+     "series": "Loans matched",
+     "value": "3,437",
+     "unit": "loans",
+     "estimate": false
+    },
+    {
+     "label": "End-2024",
+     "series": "Loans matched",
+     "value": "3,762",
+     "unit": "loans",
+     "estimate": false
+    },
+    {
+     "label": "Participating creditors",
+     "series": "Current",
+     "value": "18",
+     "unit": "creditors",
+     "estimate": false
+    },
+    {
+     "label": "Participating creditors in 2023",
+     "series": "Comparison",
+     "value": "17",
+     "unit": "creditors",
+     "estimate": false
+    },
+    {
+     "label": "Loans reported",
+     "series": "Increase from 2021",
+     "value": "33",
+     "unit": "percent",
+     "estimate": false
+    },
+    {
+     "label": "Debt reported",
+     "series": "Increase from 2023",
+     "value": "3",
+     "unit": "percent",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "A combined bar and line chart compares reported debt, reported loans and tranches, and matched loans at end-2021, end-2023, and end-2024. Both loan counts rose throughout, while reported debt dipped from $62.9 billion to $61.8 billion before reaching $63.4 billion. Callouts report 18 participating creditors, 4,875 loans reported, and $63.4 billion in debt reported.",
+   "notes": "Sources: Original calculations based on Group of Seven and Paris Club creditor files; World Bank Group Debtor Reporting System."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure 3.4",
+   "title": "Asymmetries Between Creditor and Borrower Claims on Debt Outstanding Position at End-2024",
+   "chart_type": "scatter",
+   "axes": {
+    "x": "Total reported by borrowers (US$, million)",
+    "y": "Total reported by creditors (US$, million)"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "Point 1: borrower; creditor",
+     "series": "Reported debt",
+     "value": "50; 160",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 2: borrower; creditor",
+     "series": "Reported debt",
+     "value": "65; 1,000",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 3: borrower; creditor",
+     "series": "Reported debt",
+     "value": "70; 110",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 4: borrower; creditor",
+     "series": "Reported debt",
+     "value": "75; 45",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 5: borrower; creditor",
+     "series": "Reported debt",
+     "value": "150; 450",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 6: borrower; creditor",
+     "series": "Reported debt",
+     "value": "250; 190",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 7: borrower; creditor",
+     "series": "Reported debt",
+     "value": "400; 480",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 8: borrower; creditor",
+     "series": "Reported debt",
+     "value": "490; 500",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 9: borrower; creditor",
+     "series": "Reported debt",
+     "value": "720; 110",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 10: borrower; creditor",
+     "series": "Reported debt",
+     "value": "1,100; 2,800",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 11: borrower; creditor",
+     "series": "Reported debt",
+     "value": "1,400; 760",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 12: borrower; creditor",
+     "series": "Reported debt",
+     "value": "1,900; 1,000",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 13: borrower; creditor",
+     "series": "Reported debt",
+     "value": "2,300; 2,400",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 14: borrower; creditor",
+     "series": "Reported debt",
+     "value": "3,900; 4,300",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 15: borrower; creditor",
+     "series": "Reported debt",
+     "value": "4,200; 530",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 16: borrower; creditor",
+     "series": "Reported debt",
+     "value": "6,100; 950",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 17: borrower; creditor",
+     "series": "Reported debt",
+     "value": "13,000; 15,000",
+     "unit": "US$ million",
+     "estimate": true
+    },
+    {
+     "label": "Point 18: borrower; creditor",
+     "series": "Reported debt",
+     "value": "32,000; 33,000",
+     "unit": "US$ million",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The scatter plot compares creditor and borrower reports of debt outstanding at end-2024, with both axes on logarithmic scales. A dotted diagonal marks equal reports; points appear both above and below it, with several substantial discrepancies. The highest point is approximately $32 billion reported by borrowers and $33 billion by creditors, while the lowest creditor report is approximately $45 million.",
+   "notes": "Sources: Original calculations based on Group of Seven and Paris Club creditor files; World Bank Group Debtor Reporting System. Note: Data for selected International Development Association debtors and Group of Seven/Paris Club creditors. Both axes are on a logarithmic scale."
+  }
+ ]
+}

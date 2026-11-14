@@ -1,0 +1,104 @@
+{
+ "page": 57,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 13.5,
+ "usage": {
+  "prompt_tokens": 3405,
+  "completion_tokens": 1037,
+  "reasoning_tokens": 358
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.14",
+   "title": "Foreign Direct Investment and Remittances for IBRD (Excluding China) and IDA-Eligible Countries, 2000–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "US$ (billion)"
+   },
+   "legend": [
+    "FDI (dark blue)",
+    "Remittances (light blue)"
+   ],
+   "data": [
+    {
+     "label": "IBRD countries, 2000",
+     "series": "FDI",
+     "value": "75",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "IBRD countries, 2000",
+     "series": "Remittances",
+     "value": "55",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "IBRD countries, 2019",
+     "series": "FDI",
+     "value": "260.9",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "IBRD countries, 2020",
+     "series": "FDI",
+     "value": "194.8",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "IBRD countries, 2025",
+     "series": "FDI",
+     "value": "275",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "IBRD countries, 2025",
+     "series": "Remittances",
+     "value": "483.5",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "IDA-eligible countries, 2000",
+     "series": "FDI",
+     "value": "5",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "IDA-eligible countries, 2000",
+     "series": "Remittances",
+     "value": "10",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "IDA-eligible countries, 2025",
+     "series": "FDI",
+     "value": "65",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "IDA-eligible countries, 2025",
+     "series": "Remittances",
+     "value": "205",
+     "unit": "US$ billion",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "Two panels compare FDI and remittances from 2000 to 2025 for IBRD countries excluding China and for IDA-eligible countries. Remittances rise substantially in both groups and exceed FDI by the end of the period. IBRD remittances are the highest series at the end, while IDA FDI is the lowest.",
+   "notes": "Source: World Bank Group International Debt Statistics database. Note: FDI = foreign direct investment; IBRD = International Bank for Reconstruction and Development; IDA = International Development Association."
+  }
+ ]
+}

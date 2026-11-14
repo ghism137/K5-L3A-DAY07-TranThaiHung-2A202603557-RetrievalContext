@@ -1,0 +1,62 @@
+{
+ "page": 56,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 17.4,
+ "usage": {
+  "prompt_tokens": 3307,
+  "completion_tokens": 1437,
+  "reasoning_tokens": 1024
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.13",
+   "title": "Foreign Direct Investment and Remittances in Low- and Middle-Income Countries (Excluding China), 2000–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year, 2000–25",
+    "y": "US$ (billion)"
+   },
+   "legend": [
+    "FDI (dark blue)",
+    "Remittances (light blue)"
+   ],
+   "data": [
+    {
+     "label": "2000",
+     "series": "FDI",
+     "value": "110",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2000",
+     "series": "Remittances",
+     "value": "70",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "FDI",
+     "value": "330",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Remittances",
+     "value": "690",
+     "unit": "US$ billion",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart compares FDI and remittance flows to low- and middle-income countries excluding China from 2000 to 2025. Remittances rise substantially and exceed FDI by a widening margin after the early 2010s, while FDI fluctuates. Both series are highest in 2025; remittances are lowest in 2000 and FDI is lowest around 2003.",
+   "notes": "Source: World Bank Group International Debt Statistics database.\nNote: FDI = foreign direct investment."
+  }
+ ]
+}

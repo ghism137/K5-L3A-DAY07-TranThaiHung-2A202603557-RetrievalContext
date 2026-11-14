@@ -1,0 +1,63 @@
+{
+ "page": 39,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 12.0,
+ "usage": {
+  "prompt_tokens": 3344,
+  "completion_tokens": 922,
+  "reasoning_tokens": 512
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure B1.4.1",
+   "title": "Ukraine’s Long-Term External Debt Stock, by Creditor Type, 2015–25",
+   "chart_type": "area",
+   "axes": {
+    "x": "Year",
+    "y": "US$ (billion)"
+   },
+   "legend": [
+    "Private creditors (dark blue)",
+    "Multilateral creditors (light blue)",
+    "Bilateral creditors (orange)"
+   ],
+   "data": [
+    {
+     "label": "2016",
+     "series": "Total",
+     "value": "95",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Private creditors",
+     "value": "80",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Multilateral creditors",
+     "value": "130",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Bilateral creditors",
+     "value": "15",
+     "unit": "US$ billion",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The stacked area chart shows Ukraine’s long-term external debt stock by creditor type from 2015 to 2025. Total debt is lowest in 2016 and rises sharply after 2021 to its highest level in 2025. Multilateral creditors account for most of the later increase, while bilateral creditors remain the smallest category.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  }
+ ]
+}

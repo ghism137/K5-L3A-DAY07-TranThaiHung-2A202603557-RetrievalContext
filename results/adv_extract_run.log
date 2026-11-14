@@ -1,0 +1,15 @@
+model gpt-6.1-terra: 280 page(s) requested, 275 to do, 6 workers
+  20/275 done (failed so far: 0)
+  40/275 done (failed so far: 0)
+  60/275 done (failed so far: 0)
+  80/275 done (failed so far: 0)
+  100/275 done (failed so far: 0)
+  120/275 done (failed so far: 0)
+  140/275 done (failed so far: 0)
+  160/275 done (failed so far: 0)
+  180/275 done (failed so far: 0)
+  200/275 done (failed so far: 0)
+  220/275 done (failed so far: 0)
+  240/275 done (failed so far: 0)
+  260/275 done (failed so far: 0)
+{"ok": 275, "failed_pages": [], "prompt_tokens": 917693, "completion_tokens": 345799}

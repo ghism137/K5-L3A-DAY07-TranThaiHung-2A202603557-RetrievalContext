@@ -1,0 +1,73 @@
+{
+ "page": 66,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 12.9,
+ "usage": {
+  "prompt_tokens": 3363,
+  "completion_tokens": 1000,
+  "reasoning_tokens": 426
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.20",
+   "title": "Average Interest Rates on New External Debt Commitments for IDA-Eligible Countries, by Region and Creditor Type, 2015–25",
+   "chart_type": "scatter",
+   "axes": {
+    "x": "Year, 2015–25",
+    "y": "Percent"
+   },
+   "legend": [
+    "East Asia and Pacific (excl. China) (dark blue)",
+    "Europe and Central Asia (light blue)",
+    "Latin America and the Caribbean (orange)",
+    "Middle East, North Africa, Afghanistan, and Pakistan (purple)",
+    "South Asia (green)",
+    "Sub-Saharan Africa (gray)"
+   ],
+   "data": [
+    {
+     "label": "2025, official creditors",
+     "series": "Latin America and the Caribbean",
+     "value": "4.2",
+     "unit": "percent",
+     "estimate": false
+    },
+    {
+     "label": "2025, official creditors",
+     "series": "Sub-Saharan Africa",
+     "value": "2",
+     "unit": "percent",
+     "estimate": false
+    },
+    {
+     "label": "2023, private creditors",
+     "series": "Latin America and the Caribbean",
+     "value": "14.3",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2017, private creditors",
+     "series": "Latin America and the Caribbean",
+     "value": "0.5",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2025, private creditors",
+     "series": "East Asia and Pacific (excl. China)",
+     "value": "11.3",
+     "unit": "percent",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "Two panels show regional average interest rates on new external debt commitments from official and private creditors from 2015 to 2025. Official-creditor rates are generally lower than private-creditor rates. The highest plotted private-creditor rate is approximately 14.3 percent for Latin America and the Caribbean in 2023; its lowest is approximately 0.5 percent for the same region in 2017. In 2025, official-creditor rates were highest in Latin America and the Caribbean and lowest in Sub-Saharan Africa.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "page": 77,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 14.3,
+ "usage": {
+  "prompt_tokens": 3310,
+  "completion_tokens": 1163,
+  "reasoning_tokens": 321
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 2.2",
+   "title": "Trade Exposure Across Income Groups, 2000–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Percent of GDP"
+   },
+   "legend": [
+    "World (dark blue dotted)",
+    "Low income (light blue)",
+    "Lower-middle income (orange)",
+    "Upper-middle income (green)",
+    "High income (purple)"
+   ],
+   "data": [
+    {
+     "label": "Imports, 2025",
+     "series": "World",
+     "value": "29",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Imports, 2025",
+     "series": "Low income",
+     "value": "34",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Imports, 2025",
+     "series": "Lower-middle income",
+     "value": "26",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Imports, 2025",
+     "series": "Upper-middle income",
+     "value": "24",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Imports, 2025",
+     "series": "High income",
+     "value": "31",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Exports, 2025",
+     "series": "World",
+     "value": "29",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Exports, 2025",
+     "series": "Low income",
+     "value": "24",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Exports, 2025",
+     "series": "Lower-middle income",
+     "value": "23",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Exports, 2025",
+     "series": "Upper-middle income",
+     "value": "26",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Exports, 2025",
+     "series": "High income",
+     "value": "32",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Imports, 2013",
+     "series": "Low income",
+     "value": "35",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Imports, 2000",
+     "series": "Lower-middle income",
+     "value": "19",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Exports, 2022",
+     "series": "High income",
+     "value": "34",
+     "unit": "percent of GDP",
+     "estimate": true
+    },
+    {
+     "label": "Exports, 2016",
+     "series": "Low income",
+     "value": "16",
+     "unit": "percent of GDP",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "Two panels show imports and exports of goods and services as shares of GDP for the world and four income groups from 2000 to 2025. Low-income imports are generally the highest, peaking at approximately 35 percent in 2013; lower-middle-income imports start at approximately 19 percent in 2000. In the exports panel, low-income exports fall to approximately 16 percent in 2016, while high-income exports peak at approximately 34 percent in 2022.",
+   "notes": "Source: World Bank Group World Development Indicators database.\nNote: This figure shows imports and exports of goods and services as a share of GDP for World Bank Group income groups and the world, 2000–25. Income group and world values are World Development Indicators aggregates."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "page": 270,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 16.7,
+ "usage": {
+  "prompt_tokens": 3520,
+  "completion_tokens": 1355,
+  "reasoning_tokens": 440
+ },
+ "page_type": "table",
+ "elements": [
+  {
+   "kind": "table",
+   "label": "",
+   "title": "Income Groups",
+   "chart_type": "",
+   "axes": {
+    "x": "",
+    "y": ""
+   },
+   "legend": [],
+   "data": [],
+   "table": "| Low-income countries | Middle-income countries |  |  |\n|---|---|---|---|\n| *Afghanistan* | Albania | Georgia | Pakistan |\n| *Burkina Faso* | Algeria | *Ghana* | Papua New Guinea |\n| *Burundi* | Angola | Grenada | Paraguay |\n| *Central African Republic* | Argentina | Guatemala | Peru |\n| *Chad* | Armenia | *Guinea* | Philippines |\n| *Congo, Dem. Rep.* | Azerbaijan | *Haiti* | *Samoa* |\n| *Eritrea* | *Bangladesh* | *Honduras* | *São Tomé and Príncipe* |\n| *Ethiopia* | Belarus | India | *Senegal* |\n| *Gambia, The* | Belize | Indonesia | Serbia |\n| *Guinea-Bissau* | *Benin* | Iran, Islamic Rep. | *Solomon Islands* |\n| *Liberia* | *Bhutan* | Iraq | South Africa |\n| *Madagascar* | Bolivia | Jamaica | *Sri Lanka* |\n| *Malawi* | Bosnia and Herzegovina | Jordan | St. Lucia |\n| *Mali* | Botswana | Kazakhstan | St. Vincent and the Grenadines |\n| *Mozambique* | Brazil | Kenya | Suriname |\n| *Niger* | Cabo Verde | *Kosovo* | *Tajikistan* |\n| *Rwanda* | *Cambodia* | *Kyrgyz Republic* | *Tanzania* |\n| *Sierra Leone* | Cameroon | *Lao PDR* | Thailand |\n| *Somalia, Fed. Rep.* | China | Lebanon | Timor-Leste |\n| *Sudan* | Colombia | *Lesotho* | *Togo* |\n| *Syrian Arab Republic* | *Comoros* | *Maldives* | *Tonga* |\n| *Uganda* | Congo, Rep. | *Mauritania* | Tunisia |\n| *Yemen, Rep.* | Côte d’Ivoire | Mauritius | Türkiye |\n|  | *Djibouti* | Mexico | Turkmenistan |\n|  | Dominica | Moldova | Ukraine |\n|  | Dominican Republic | Mongolia | Uzbekistan |\n|  | Ecuador | Montenegro | *Vanuatu* |\n|  | Egypt, Arab Rep. | Morocco | Viet Nam |\n|  | El Salvador | *Myanmar* | *Zambia* |\n|  | Equatorial Guinea | *Nepal* | Zimbabwe |\n|  | Eswatini | *Nicaragua* |  |\n|  | Fiji | Nigeria |  |\n|  | Gabon | North Macedonia |  |",
+   "description": "The table lists low-income and middle-income countries, with the middle-income list continuing across three columns. Italics identify IDA-only countries as of July 1, 2026.",
+   "notes": "Source: World Bank Group. Note: Low-income countries are those with a GNI per capita of US$1,175 or less in 2025. Middle-income countries are those with a GNI per capita equal to or more than US$1,176 but equal to or less than US$14,375. Italicized countries are IDA-only countries as of July 1, 2026; IDA-only excludes blend and IBRD countries. Guyana was classified as a high-income country as of July 1, 2025, so it does not appear in this table or in the low- and middle-income countries’ aggregates; however, as an IDA-only country, its data are included in this report. FY = fiscal year; GNI = gross national income; IBRD = International Bank for Reconstruction and Development; IDA = International Development Association."
+  }
+ ]
+}

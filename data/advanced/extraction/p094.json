@@ -1,0 +1,106 @@
+{
+ "page": 94,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 11.0,
+ "usage": {
+  "prompt_tokens": 3165,
+  "completion_tokens": 836,
+  "reasoning_tokens": 138
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure B2.3.1",
+   "title": "Success of Maintaining Growth During Consolidation",
+   "chart_type": "stacked bar",
+   "axes": {
+    "x": "Shock or no shock",
+    "y": "Number of episodes"
+   },
+   "legend": [
+    "Success (dark blue)",
+    "No success (light blue)"
+   ],
+   "data": [
+    {
+     "label": "Shock",
+     "series": "Success",
+     "value": "26",
+     "unit": "episodes",
+     "estimate": true
+    },
+    {
+     "label": "Shock",
+     "series": "No success",
+     "value": "24",
+     "unit": "episodes",
+     "estimate": true
+    },
+    {
+     "label": "No shock",
+     "series": "Success",
+     "value": "55",
+     "unit": "episodes",
+     "estimate": true
+    },
+    {
+     "label": "No shock",
+     "series": "No success",
+     "value": "18",
+     "unit": "episodes",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart compares successful and unsuccessful episodes of maintaining growth during consolidation, with and without a terms-of-trade shock. Episodes without a shock have more successes and fewer failures than episodes with a shock.",
+   "notes": "Source: Original calculations. Note: Terms-of-trade shock defined as a country’s terms-of-trade index score (2012 = 100) falling by 15 percent or more in at least one of the three years before consolidation. Success defined as maintaining average GDP per capita growth during consolidation equal to 90 percent or more of average GDP per capita growth rates in the 10 years before consolidation. Significant in a Chi-squared test at p<0.01."
+  },
+  {
+   "kind": "chart",
+   "label": "Figure B2.3.2",
+   "title": "Consecutive Years of Unsustainable Debt Before Consolidation Started",
+   "chart_type": "bar",
+   "axes": {
+    "x": "Years since debt became unsustainable",
+    "y": "Percent"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "1",
+     "series": "",
+     "value": "15",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2",
+     "series": "",
+     "value": "39",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "3",
+     "series": "",
+     "value": "25",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "4",
+     "series": "",
+     "value": "7",
+     "unit": "percent",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart shows the percentage of consolidation cases by consecutive years of unsustainable debt before consolidation started, from one to four years. Two years is the highest category, while four years is the lowest.",
+   "notes": "Source: Di Lorenzo and Lacey 2024. Note: Unsustainable debt identified as a primary balance lying at least 2 percentage points of GDP below its debt-stabilizing level. Based on 389 consolidation cases."
+  }
+ ]
+}

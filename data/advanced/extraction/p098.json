@@ -1,0 +1,106 @@
+{
+ "page": 98,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 15.1,
+ "usage": {
+  "prompt_tokens": 3388,
+  "completion_tokens": 1223,
+  "reasoning_tokens": 512
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 2.14",
+   "title": "Net Importing Economies and External Debt Burdens, by Food Group, Income Group, and Population, 2025",
+   "chart_type": "scatter",
+   "axes": {
+    "x": "Share of exports (%)",
+    "y": "Net import reliance (%)"
+   },
+   "legend": [
+    "Low income (blue)",
+    "Lower-middle income (orange)",
+    "Upper-middle income (green)",
+    "Population, 2025 (bubble size)"
+   ],
+   "data": [
+    {
+     "label": "Population, 2025",
+     "series": "Bubble-size legend",
+     "value": "5",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble-size legend",
+     "value": "25",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble-size legend",
+     "value": "100",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble-size legend",
+     "value": "500",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble-size legend",
+     "value": "1,000",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "YEM",
+     "series": "Starchy staples; low income",
+     "value": "690, 78",
+     "unit": "% of exports, % net import reliance",
+     "estimate": true
+    },
+    {
+     "label": "YEM",
+     "series": "Oils and fats; low income",
+     "value": "690, 93",
+     "unit": "% of exports, % net import reliance",
+     "estimate": true
+    },
+    {
+     "label": "MOZ",
+     "series": "Oils and fats; low income",
+     "value": "800, 62",
+     "unit": "% of exports, % net import reliance",
+     "estimate": true
+    },
+    {
+     "label": "YEM",
+     "series": "Legumes, nuts, and seeds; low income",
+     "value": "690, 42",
+     "unit": "% of exports, % net import reliance",
+     "estimate": true
+    },
+    {
+     "label": "YEM",
+     "series": "Animal-source foods; low income",
+     "value": "690, 55",
+     "unit": "% of exports, % net import reliance",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "Four bubble scatterplots show net import reliance against share of exports in 2025 for starchy staples, oils and fats, legumes, nuts, and seeds, and animal-source foods. Bubble color indicates income group and bubble size indicates population; many points cluster below 300 percent of exports. An unlabeled oils-and-fats point reaches roughly 130 percent net import reliance, while some points in each panel lie close to zero. YEM is a high-share outlier in all four panels, and MOZ is near 800 percent of exports in oils and fats.",
+   "notes": "(Figure continues on next page)"
+  }
+ ]
+}

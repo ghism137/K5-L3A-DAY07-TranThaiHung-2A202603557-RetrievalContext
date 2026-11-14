@@ -1,0 +1,6 @@
+{
+  "file": "docs/ADVANCED_CRITERIA.md",
+  "sha256": "4288ba8f47497669da129e079c835d4fbcd7f97236b9e8d2068ede18aa644a04",
+  "frozen_at": "2026-11-15T02:14:56+07:00",
+  "note": "Frozen before any advanced agent run on dev or test. sha256 over LF-normalised bytes (same as src.textutil.sha256_lf)."
+}

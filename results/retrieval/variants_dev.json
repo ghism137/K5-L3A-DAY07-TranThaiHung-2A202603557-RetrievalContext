@@ -1,0 +1,1316 @@
+{
+  "split": "dev",
+  "answerable": 15,
+  "query": "original question",
+  "rrf_k": 60,
+  "depth": 20,
+  "rewrites": {
+    "q01": {
+      "accepted": "What record level did the external debt of low- and middle-income countries reach at the end of 2025?"
+    },
+    "q02": {
+      "accepted": null,
+      "rewrite_proposed": "What is the definition of a total return swap (TRS) in the box on sovereign financing in the International Debt Report 2026?",
+      "rewrite_rejected_added": [
+        "2026"
+      ]
+    },
+    "q03": {
+      "accepted": "What is the typical collateral amount pledged by countries in relation to the debt incurred through total return swap financing?"
+    },
+    "q04": {
+      "accepted": "Under what circumstances is a total return swap financing classified as sovereign debt?"
+    },
+    "q05": {
+      "accepted": null,
+      "rewrite_proposed": "What portion of the increase in public-sector external debt in 2025 was attributable to the depreciation of the US dollar rather than new debt accumulation?",
+      "rewrite_rejected_added": [
+        "2025"
+      ]
+    },
+    "q06": {
+      "accepted": "How did total debt service of low- and middle-income countries change in 2025 once the $34.5 billion of buyback and prepayment principal is excluded?"
+    },
+    "q07": {
+      "accepted": "Under the restructuring agreement with bilateral creditors, how low was Zambia's debt service in the initial years and what is the maximum rate it ultimately reaches?"
+    },
+    "q08": {
+      "accepted": "Excluding China, what was the change in inflation rates for commodity-importing low- and middle-income countries between January and June 2026?"
+    },
+    "q09": {
+      "accepted": "At end-December 2025, how many IDA low-income countries under the Debt Sustainability Framework were in debt distress or had unsustainable public debt, out of how many?"
+    },
+    "q10": {
+      "accepted": null,
+      "rewrite_proposed": "Where large sustainability gaps persisted for four years or more, by how much did the median debt-to-GDP ratio increase?",
+      "rewrite_rejected_added": [
+        "GDP"
+      ]
+    },
+    "q11": {
+      "accepted": null,
+      "rewrite_proposed": "By how much did the World Uncertainty Index increase between Q3 2024 and Q3 2025?",
+      "rewrite_rejected_added": [
+        "3"
+      ]
+    },
+    "q12": {
+      "accepted": "How many policy performance actions (PPAs) have been agreed since the implementation of the Sustainable Development Finance Policy?"
+    },
+    "q13": {
+      "accepted": "What proportion of governments' total debt consists of domestic debt in many low- and middle-income countries?"
+    },
+    "q14": {
+      "accepted": "How does the World Bank Group transform debt data reported by low- and middle-income countries into policy analysis?"
+    },
+    "q15": {
+      "accepted": "In extreme cases, how large have discrepancies been observed in external debt stock figures purporting to have the same coverage?"
+    }
+  },
+  "rows": [
+    {
+      "config": "dense A",
+      "part": 1,
+      "reference": "dense A",
+      "budget_chars": 2400,
+      "seeds": 3,
+      "hit_at_1": 9,
+      "hit_at_3": 12,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.7317,
+      "context_evidence": 12
+    },
+    {
+      "config": "dense A + C2",
+      "part": 1,
+      "reference": "dense A",
+      "budget_chars": 2400,
+      "seeds": 3,
+      "hit_at_1": 9,
+      "hit_at_3": 12,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.7317,
+      "context_evidence": 12
+    },
+    {
+      "config": "dense A + C2 @3200",
+      "part": 2,
+      "reference": "dense A",
+      "budget_chars": 3200,
+      "seeds": 3,
+      "hit_at_1": 9,
+      "hit_at_3": 12,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.7317,
+      "context_evidence": 13
+    },
+    {
+      "config": "dense A + C2 @4000",
+      "part": 2,
+      "reference": "dense A",
+      "budget_chars": 4000,
+      "seeds": 3,
+      "hit_at_1": 9,
+      "hit_at_3": 12,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.7317,
+      "context_evidence": 13
+    },
+    {
+      "config": "dense A top-5 seeds @4000 (C2 control)",
+      "part": 2,
+      "reference": "dense A",
+      "budget_chars": 4000,
+      "seeds": 5,
+      "hit_at_1": 9,
+      "hit_at_3": 12,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.7317,
+      "context_evidence": 14
+    },
+    {
+      "config": "hybrid A",
+      "part": 1,
+      "reference": "hybrid A",
+      "budget_chars": 2400,
+      "seeds": 3,
+      "hit_at_1": 7,
+      "hit_at_3": 14,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.6852,
+      "context_evidence": 14
+    },
+    {
+      "config": "hybrid A + C2",
+      "part": 1,
+      "reference": "hybrid A",
+      "budget_chars": 2400,
+      "seeds": 3,
+      "hit_at_1": 7,
+      "hit_at_3": 14,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.6852,
+      "context_evidence": 14
+    },
+    {
+      "config": "hybrid A + C1",
+      "part": 1,
+      "reference": "hybrid A",
+      "budget_chars": 2400,
+      "seeds": 3,
+      "hit_at_1": 9,
+      "hit_at_3": 12,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.7356,
+      "context_evidence": 12
+    },
+    {
+      "config": "hybrid A + C1 + C2",
+      "part": 1,
+      "reference": "hybrid A",
+      "budget_chars": 2400,
+      "seeds": 3,
+      "hit_at_1": 9,
+      "hit_at_3": 12,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.7356,
+      "context_evidence": 12
+    },
+    {
+      "config": "hybrid A + BM25 twice (C1 control)",
+      "part": 2,
+      "reference": "hybrid A",
+      "budget_chars": 2400,
+      "seeds": 3,
+      "hit_at_1": 8,
+      "hit_at_3": 14,
+      "hit_at_10": 14,
+      "mrr_at_10": 0.7111,
+      "context_evidence": 14
+    },
+    {
+      "config": "hybrid A + C2 @3200",
+      "part": 2,
+      "reference": "hybrid A",
+      "budget_chars": 3200,
+      "seeds": 3,
+      "hit_at_1": 7,
+      "hit_at_3": 14,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.6852,
+      "context_evidence": 14
+    },
+    {
+      "config": "hybrid A + C2 @4000",
+      "part": 2,
+      "reference": "hybrid A",
+      "budget_chars": 4000,
+      "seeds": 3,
+      "hit_at_1": 7,
+      "hit_at_3": 14,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.6852,
+      "context_evidence": 14
+    },
+    {
+      "config": "hybrid A top-5 seeds @4000 (C2 control)",
+      "part": 2,
+      "reference": "hybrid A",
+      "budget_chars": 4000,
+      "seeds": 5,
+      "hit_at_1": 7,
+      "hit_at_3": 14,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.6852,
+      "context_evidence": 14
+    },
+    {
+      "config": "hybrid B",
+      "part": 1,
+      "reference": "hybrid B",
+      "budget_chars": 2400,
+      "seeds": 3,
+      "hit_at_1": 11,
+      "hit_at_3": 13,
+      "hit_at_10": 14,
+      "mrr_at_10": 0.8133,
+      "context_evidence": 13
+    },
+    {
+      "config": "hybrid B + C2",
+      "part": 1,
+      "reference": "hybrid B",
+      "budget_chars": 2400,
+      "seeds": 3,
+      "hit_at_1": 11,
+      "hit_at_3": 13,
+      "hit_at_10": 14,
+      "mrr_at_10": 0.8133,
+      "context_evidence": 13
+    },
+    {
+      "config": "hybrid B + C1",
+      "part": 1,
+      "reference": "hybrid B",
+      "budget_chars": 2400,
+      "seeds": 3,
+      "hit_at_1": 9,
+      "hit_at_3": 12,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.7383,
+      "context_evidence": 12
+    },
+    {
+      "config": "hybrid B + C1 + C2",
+      "part": 1,
+      "reference": "hybrid B",
+      "budget_chars": 2400,
+      "seeds": 3,
+      "hit_at_1": 9,
+      "hit_at_3": 12,
+      "hit_at_10": 15,
+      "mrr_at_10": 0.7383,
+      "context_evidence": 12
+    },
+    {
+      "config": "hybrid B + BM25 twice (C1 control)",
+      "part": 2,
+      "reference": "hybrid B",
+      "budget_chars": 2400,
+      "seeds": 3,
+      "hit_at_1": 9,
+      "hit_at_3": 13,
+      "hit_at_10": 14,
+      "mrr_at_10": 0.7444,
+      "context_evidence": 13
+    },
+    {
+      "config": "hybrid B + C2 @3200",
+      "part": 2,
+      "reference": "hybrid B",
+      "budget_chars": 3200,
+      "seeds": 3,
+      "hit_at_1": 11,
+      "hit_at_3": 13,
+      "hit_at_10": 14,
+      "mrr_at_10": 0.8133,
+      "context_evidence": 13
+    },
+    {
+      "config": "hybrid B + C2 @4000",
+      "part": 2,
+      "reference": "hybrid B",
+      "budget_chars": 4000,
+      "seeds": 3,
+      "hit_at_1": 11,
+      "hit_at_3": 13,
+      "hit_at_10": 14,
+      "mrr_at_10": 0.8133,
+      "context_evidence": 13
+    },
+    {
+      "config": "hybrid B top-5 seeds @4000 (C2 control)",
+      "part": 2,
+      "reference": "hybrid B",
+      "budget_chars": 4000,
+      "seeds": 5,
+      "hit_at_1": 11,
+      "hit_at_3": 13,
+      "hit_at_10": 14,
+      "mrr_at_10": 0.8133,
+      "context_evidence": 14
+    }
+  ],
+  "vs_reference": {
+    "dense A + C2": {
+      "vs": "dense A",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "dense A + C2 @3200": {
+      "vs": "dense A",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [
+          "q11"
+        ],
+        "lost": []
+      }
+    },
+    "dense A + C2 @4000": {
+      "vs": "dense A",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [
+          "q11"
+        ],
+        "lost": []
+      }
+    },
+    "dense A top-5 seeds @4000 (C2 control)": {
+      "vs": "dense A",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [
+          "q03",
+          "q15"
+        ],
+        "lost": []
+      }
+    },
+    "hybrid A + C2": {
+      "vs": "hybrid A",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "hybrid A + C1": {
+      "vs": "hybrid A",
+      "hit_at_3": {
+        "gained": [],
+        "lost": [
+          "q03",
+          "q04"
+        ]
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": [
+          "q03",
+          "q04"
+        ]
+      }
+    },
+    "hybrid A + C1 + C2": {
+      "vs": "hybrid A",
+      "hit_at_3": {
+        "gained": [],
+        "lost": [
+          "q03",
+          "q04"
+        ]
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": [
+          "q03",
+          "q04"
+        ]
+      }
+    },
+    "hybrid A + BM25 twice (C1 control)": {
+      "vs": "hybrid A",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "hybrid A + C2 @3200": {
+      "vs": "hybrid A",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "hybrid A + C2 @4000": {
+      "vs": "hybrid A",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "hybrid A top-5 seeds @4000 (C2 control)": {
+      "vs": "hybrid A",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "hybrid B + C2": {
+      "vs": "hybrid B",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "hybrid B + C1": {
+      "vs": "hybrid B",
+      "hit_at_3": {
+        "gained": [],
+        "lost": [
+          "q04"
+        ]
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": [
+          "q04"
+        ]
+      }
+    },
+    "hybrid B + C1 + C2": {
+      "vs": "hybrid B",
+      "hit_at_3": {
+        "gained": [],
+        "lost": [
+          "q04"
+        ]
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": [
+          "q04"
+        ]
+      }
+    },
+    "hybrid B + BM25 twice (C1 control)": {
+      "vs": "hybrid B",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "hybrid B + C2 @3200": {
+      "vs": "hybrid B",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "hybrid B + C2 @4000": {
+      "vs": "hybrid B",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [],
+        "lost": []
+      }
+    },
+    "hybrid B top-5 seeds @4000 (C2 control)": {
+      "vs": "hybrid B",
+      "hit_at_3": {
+        "gained": [],
+        "lost": []
+      },
+      "context_evidence": {
+        "gained": [
+          "q03"
+        ],
+        "lost": []
+      }
+    }
+  },
+  "per_question": {
+    "dense A": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 4,
+        "q04": 1,
+        "q05": 2,
+        "q06": 1,
+        "q07": 1,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 7,
+        "q12": 1,
+        "q13": 3,
+        "q14": 1,
+        "q15": 4
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": false,
+        "q12": true,
+        "q13": true,
+        "q14": true,
+        "q15": false
+      }
+    },
+    "dense A + C2": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 4,
+        "q04": 1,
+        "q05": 2,
+        "q06": 1,
+        "q07": 1,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 7,
+        "q12": 1,
+        "q13": 3,
+        "q14": 1,
+        "q15": 4
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": false,
+        "q12": true,
+        "q13": true,
+        "q14": true,
+        "q15": false
+      }
+    },
+    "dense A + C2 @3200": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 4,
+        "q04": 1,
+        "q05": 2,
+        "q06": 1,
+        "q07": 1,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 7,
+        "q12": 1,
+        "q13": 3,
+        "q14": 1,
+        "q15": 4
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": true,
+        "q14": true,
+        "q15": false
+      }
+    },
+    "dense A + C2 @4000": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 4,
+        "q04": 1,
+        "q05": 2,
+        "q06": 1,
+        "q07": 1,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 7,
+        "q12": 1,
+        "q13": 3,
+        "q14": 1,
+        "q15": 4
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": true,
+        "q14": true,
+        "q15": false
+      }
+    },
+    "dense A top-5 seeds @4000 (C2 control)": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 4,
+        "q04": 1,
+        "q05": 2,
+        "q06": 1,
+        "q07": 1,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 7,
+        "q12": 1,
+        "q13": 3,
+        "q14": 1,
+        "q15": 4
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": true,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": false,
+        "q12": true,
+        "q13": true,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid A": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 3,
+        "q04": 2,
+        "q05": 1,
+        "q06": 1,
+        "q07": 2,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 3,
+        "q12": 2,
+        "q13": 9,
+        "q14": 1,
+        "q15": 2
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": true,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid A + C2": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 3,
+        "q04": 2,
+        "q05": 1,
+        "q06": 1,
+        "q07": 2,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 3,
+        "q12": 2,
+        "q13": 9,
+        "q14": 1,
+        "q15": 2
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": true,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid A + C1": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 4,
+        "q04": 4,
+        "q05": 1,
+        "q06": 1,
+        "q07": 1,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 3,
+        "q12": 2,
+        "q13": 5,
+        "q14": 1,
+        "q15": 1
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": false,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid A + C1 + C2": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 4,
+        "q04": 4,
+        "q05": 1,
+        "q06": 1,
+        "q07": 1,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 3,
+        "q12": 2,
+        "q13": 5,
+        "q14": 1,
+        "q15": 1
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": false,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid A + BM25 twice (C1 control)": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 3,
+        "q04": 2,
+        "q05": 1,
+        "q06": 1,
+        "q07": 2,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 3,
+        "q12": 2,
+        "q13": null,
+        "q14": 1,
+        "q15": 1
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": true,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid A + C2 @3200": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 3,
+        "q04": 2,
+        "q05": 1,
+        "q06": 1,
+        "q07": 2,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 3,
+        "q12": 2,
+        "q13": 9,
+        "q14": 1,
+        "q15": 2
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": true,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid A + C2 @4000": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 3,
+        "q04": 2,
+        "q05": 1,
+        "q06": 1,
+        "q07": 2,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 3,
+        "q12": 2,
+        "q13": 9,
+        "q14": 1,
+        "q15": 2
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": true,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid A top-5 seeds @4000 (C2 control)": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 3,
+        "q04": 2,
+        "q05": 1,
+        "q06": 1,
+        "q07": 2,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 3,
+        "q12": 2,
+        "q13": 9,
+        "q14": 1,
+        "q15": 2
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": true,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid B": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 5,
+        "q04": 2,
+        "q05": 1,
+        "q06": 1,
+        "q07": 1,
+        "q08": 1,
+        "q09": 1,
+        "q10": 1,
+        "q11": 1,
+        "q12": 2,
+        "q13": null,
+        "q14": 1,
+        "q15": 1
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid B + C2": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 5,
+        "q04": 2,
+        "q05": 1,
+        "q06": 1,
+        "q07": 1,
+        "q08": 1,
+        "q09": 1,
+        "q10": 1,
+        "q11": 1,
+        "q12": 2,
+        "q13": null,
+        "q14": 1,
+        "q15": 1
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid B + C1": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 8,
+        "q04": 4,
+        "q05": 1,
+        "q06": 1,
+        "q07": 1,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 1,
+        "q12": 2,
+        "q13": 5,
+        "q14": 2,
+        "q15": 1
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": false,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid B + C1 + C2": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 8,
+        "q04": 4,
+        "q05": 1,
+        "q06": 1,
+        "q07": 1,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 1,
+        "q12": 2,
+        "q13": 5,
+        "q14": 2,
+        "q15": 1
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": false,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid B + BM25 twice (C1 control)": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 6,
+        "q04": 2,
+        "q05": 1,
+        "q06": 1,
+        "q07": 2,
+        "q08": 2,
+        "q09": 1,
+        "q10": 1,
+        "q11": 1,
+        "q12": 2,
+        "q13": null,
+        "q14": 1,
+        "q15": 1
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid B + C2 @3200": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 5,
+        "q04": 2,
+        "q05": 1,
+        "q06": 1,
+        "q07": 1,
+        "q08": 1,
+        "q09": 1,
+        "q10": 1,
+        "q11": 1,
+        "q12": 2,
+        "q13": null,
+        "q14": 1,
+        "q15": 1
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid B + C2 @4000": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 5,
+        "q04": 2,
+        "q05": 1,
+        "q06": 1,
+        "q07": 1,
+        "q08": 1,
+        "q09": 1,
+        "q10": 1,
+        "q11": 1,
+        "q12": 2,
+        "q13": null,
+        "q14": 1,
+        "q15": 1
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": false,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    },
+    "hybrid B top-5 seeds @4000 (C2 control)": {
+      "first_hit_rank": {
+        "q01": 1,
+        "q02": 1,
+        "q03": 5,
+        "q04": 2,
+        "q05": 1,
+        "q06": 1,
+        "q07": 1,
+        "q08": 1,
+        "q09": 1,
+        "q10": 1,
+        "q11": 1,
+        "q12": 2,
+        "q13": null,
+        "q14": 1,
+        "q15": 1
+      },
+      "context_evidence": {
+        "q01": true,
+        "q02": true,
+        "q03": true,
+        "q04": true,
+        "q05": true,
+        "q06": true,
+        "q07": true,
+        "q08": true,
+        "q09": true,
+        "q10": true,
+        "q11": true,
+        "q12": true,
+        "q13": false,
+        "q14": true,
+        "q15": true
+      }
+    }
+  },
+  "llm_tokens": {
+    "prompt": 2478,
+    "completion": 377
+  },
+  "note": "exploratory, dev only; not used to select the configuration"
+}

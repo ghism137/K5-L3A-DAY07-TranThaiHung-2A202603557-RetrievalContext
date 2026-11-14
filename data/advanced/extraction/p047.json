@@ -1,0 +1,266 @@
+{
+ "page": 47,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 20.3,
+ "usage": {
+  "prompt_tokens": 3443,
+  "completion_tokens": 1657,
+  "reasoning_tokens": 173
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.7",
+   "title": "Long-Term Net Transfers on External Debt in Low- and Middle-Income Countries, by Debtor Type, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "US$ (billion)"
+   },
+   "legend": [
+    "Long-term + IMF (dark blue)",
+    "Private nonguaranteed (orange)",
+    "Public and publicly guaranteed + IMF (light blue)"
+   ],
+   "data": [
+    {
+     "label": "2015",
+     "series": "Long-term + IMF",
+     "value": "90",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Long-term + IMF",
+     "value": "120",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Long-term + IMF",
+     "value": "290",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Long-term + IMF",
+     "value": "210",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Long-term + IMF",
+     "value": "130",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Long-term + IMF",
+     "value": "210",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Long-term + IMF",
+     "value": "180",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Long-term + IMF",
+     "value": "-170",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Long-term + IMF",
+     "value": "-190",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Long-term + IMF",
+     "value": "-120",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Long-term + IMF",
+     "value": "50",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Private nonguaranteed",
+     "value": "30",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Private nonguaranteed",
+     "value": "30",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Private nonguaranteed",
+     "value": "130",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Private nonguaranteed",
+     "value": "40",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Private nonguaranteed",
+     "value": "30",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Private nonguaranteed",
+     "value": "40",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Private nonguaranteed",
+     "value": "10",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Private nonguaranteed",
+     "value": "-140",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Private nonguaranteed",
+     "value": "-130",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Private nonguaranteed",
+     "value": "-120",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Private nonguaranteed",
+     "value": "-10",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Public and publicly guaranteed + IMF",
+     "value": "60",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Public and publicly guaranteed + IMF",
+     "value": "90",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Public and publicly guaranteed + IMF",
+     "value": "160",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Public and publicly guaranteed + IMF",
+     "value": "170",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Public and publicly guaranteed + IMF",
+     "value": "90",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Public and publicly guaranteed + IMF",
+     "value": "160",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Public and publicly guaranteed + IMF",
+     "value": "170",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Public and publicly guaranteed + IMF",
+     "value": "-40",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Public and publicly guaranteed + IMF",
+     "value": "-60",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Public and publicly guaranteed + IMF",
+     "value": "10",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Public and publicly guaranteed + IMF",
+     "value": "50",
+     "unit": "US$ billion",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart shows long-term net transfers on external debt by debtor type from 2015 to 2025. All three series fell sharply in 2022 and recovered by 2025. The highest plotted value is for long-term transfers plus IMF in 2017, and the lowest is for the same series in 2023.",
+   "notes": "Source: World Bank Group International Debt Statistics database.\nNote: IMF = International Monetary Fund."
+  }
+ ]
+}

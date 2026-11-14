@@ -1,0 +1,70 @@
+{
+ "page": 37,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 8.1,
+ "usage": {
+  "prompt_tokens": 3402,
+  "completion_tokens": 587,
+  "reasoning_tokens": 67
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure B1.3.1",
+   "title": "Number of Low-, Middle-, and High-Income Countries Covered in International Debt Report 2026, by FY27 Income and Lending Groups",
+   "chart_type": "stacked bar",
+   "axes": {
+    "x": "Lending group",
+    "y": "Number"
+   },
+   "legend": [
+    "Low-income (dark blue)",
+    "Middle-income (light blue)",
+    "High-income (orange)"
+   ],
+   "data": [
+    {
+     "label": "IDA-only countries",
+     "series": "Low-income",
+     "value": "23",
+     "unit": "countries",
+     "estimate": false
+    },
+    {
+     "label": "IDA-only countries",
+     "series": "Middle-income",
+     "value": "30",
+     "unit": "countries",
+     "estimate": false
+    },
+    {
+     "label": "IDA-only countries",
+     "series": "High-income",
+     "value": "1",
+     "unit": "countries",
+     "estimate": false
+    },
+    {
+     "label": "Blend countries",
+     "series": "Middle-income",
+     "value": "19",
+     "unit": "countries",
+     "estimate": false
+    },
+    {
+     "label": "IBRD-only countries",
+     "series": "Middle-income",
+     "value": "47",
+     "unit": "countries",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The chart shows countries covered by the report by FY27 lending and income groups. IDA-only countries total 54, IBRD-only countries 47, and blend countries 19. The largest printed segment is the 47 middle-income IBRD-only countries; the smallest is the single high-income IDA-only country.",
+   "notes": "Sources: World Bank Group, “World Bank Country and Lending Groups,” https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups; World Bank Group IDA, https://ida.worldbank.org/en/home. Note: IBRD = International Bank for Reconstruction and Development; IDA = International Development Association; FY = fiscal year."
+  }
+ ]
+}

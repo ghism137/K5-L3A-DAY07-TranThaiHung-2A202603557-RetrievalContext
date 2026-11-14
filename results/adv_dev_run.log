@@ -1,0 +1,157 @@
+TEXT    d01  table    abstain  pass_auto=False  16.9s refused (model_abstain)
+TEXT    d02  table    answered pass_auto=True   12.8s ok
+TEXT    d03  table    abstain  pass_auto=False  11.2s refused (model_abstain)
+TEXT    d04  table    answered pass_auto=False  22.8s wrong or incomplete answer
+TEXT    d05  chart    abstain  pass_auto=False  10.6s refused (model_abstain)
+TEXT    d06  chart    answered pass_auto=False  13.7s citations do not cover every gold page
+TEXT    d07  chart    abstain  pass_auto=False  10.9s refused (model_abstain)
+TEXT    d08  chart    abstain  pass_auto=False  11.1s refused (model_abstain)
+TEXT    d09  diagram  abstain  pass_auto=False  15.9s refused (model_abstain)
+TEXT    d10  diagram  abstain  pass_auto=False  14.1s refused (model_abstain)
+TEXT    d11  diagram  abstain  pass_auto=False  13.6s refused (model_abstain)
+TEXT    d12  multihop abstain  pass_auto=False  14.0s refused (model_abstain)
+TEXT    d13  multihop answered pass_auto=True    6.8s ok
+TEXT    d14  text     answered pass_auto=False   6.1s citations do not cover every gold page
+TEXT    d15  text     answered pass_auto=False   5.4s wrong or incomplete answer
+TEXT    d16  abstain  abstain  pass_auto=True    7.3s abstained
+TEXT    d17  abstain  abstain  pass_auto=True   10.2s abstained
+TEXT    d18  abstain  abstain  pass_auto=True   10.7s abstained
+{
+  "config": "TEXT",
+  "split": "dev",
+  "model": "gpt-6.1-terra",
+  "questions": 18,
+  "pass_auto": "5/18",
+  "by_group": {
+    "abstain": "3/3",
+    "chart": "0/4",
+    "diagram": "0/3",
+    "multihop": "1/2",
+    "table": "1/4",
+    "text": "0/2"
+  },
+  "errors": [],
+  "failed": [
+    "d01",
+    "d03",
+    "d04",
+    "d05",
+    "d06",
+    "d07",
+    "d08",
+    "d09",
+    "d10",
+    "d11",
+    "d12",
+    "d14",
+    "d15"
+  ],
+  "median_seconds": 11.2,
+  "tokens": {
+    "agent_input": 174824,
+    "agent_output": 5527,
+    "agent_reasoning": 2577,
+    "judge_input": 1476,
+    "judge_output": 633,
+    "embedding": 891
+  },
+  "note": "pass_auto is a first-pass grade (LLM judge + citation pages); prices of gpt-6.1-terra are unknown, so cost is reported in tokens"
+}
+VISUAL  d01  table    answered pass_auto=True    5.3s ok
+VISUAL  d02  table    answered pass_auto=True    5.4s ok
+VISUAL  d03  table    answered pass_auto=True    5.1s ok
+VISUAL  d04  table    answered pass_auto=False   5.1s wrong or incomplete answer
+VISUAL  d05  chart    answered pass_auto=True   11.9s ok
+VISUAL  d06  chart    answered pass_auto=True    5.9s ok
+VISUAL  d07  chart    answered pass_auto=True    6.2s ok
+VISUAL  d08  chart    answered pass_auto=True    4.8s ok
+VISUAL  d09  diagram  answered pass_auto=True    5.2s ok
+VISUAL  d10  diagram  answered pass_auto=True    5.5s ok
+VISUAL  d11  diagram  answered pass_auto=True    5.3s ok
+VISUAL  d12  multihop answered pass_auto=True    5.6s ok
+VISUAL  d13  multihop answered pass_auto=True    6.5s ok
+VISUAL  d14  text     answered pass_auto=False   5.4s citations do not cover every gold page
+VISUAL  d15  text     answered pass_auto=False   4.8s wrong or incomplete answer
+VISUAL  d16  abstain  abstain  pass_auto=True    8.4s abstained
+VISUAL  d17  abstain  abstain  pass_auto=True   10.3s abstained
+VISUAL  d18  abstain  abstain  pass_auto=True   11.1s abstained
+{
+  "config": "VISUAL",
+  "split": "dev",
+  "model": "gpt-6.1-terra",
+  "questions": 18,
+  "pass_auto": "15/18",
+  "by_group": {
+    "abstain": "3/3",
+    "chart": "4/4",
+    "diagram": "3/3",
+    "multihop": "2/2",
+    "table": "3/4",
+    "text": "0/2"
+  },
+  "errors": [],
+  "failed": [
+    "d04",
+    "d14",
+    "d15"
+  ],
+  "median_seconds": 5.4,
+  "tokens": {
+    "agent_input": 76643,
+    "agent_output": 2183,
+    "agent_reasoning": 94,
+    "judge_input": 3348,
+    "judge_output": 791,
+    "embedding": 352
+  },
+  "note": "pass_auto is a first-pass grade (LLM judge + citation pages); prices of gpt-6.1-terra are unknown, so cost is reported in tokens"
+}
+PAGES   d01  table    answered pass_auto=True    9.0s ok
+PAGES   d02  table    answered pass_auto=True    7.8s ok
+PAGES   d03  table    answered pass_auto=True    6.2s ok
+PAGES   d04  table    answered pass_auto=False   6.3s wrong or incomplete answer
+PAGES   d05  chart    answered pass_auto=True    6.4s ok
+PAGES   d06  chart    answered pass_auto=True    5.6s ok
+PAGES   d07  chart    answered pass_auto=True    5.7s ok
+PAGES   d08  chart    answered pass_auto=True    6.3s ok
+PAGES   d09  diagram  answered pass_auto=True    5.5s ok
+PAGES   d10  diagram  answered pass_auto=True    5.9s ok
+PAGES   d11  diagram  answered pass_auto=True    5.7s ok
+PAGES   d12  multihop answered pass_auto=True    5.5s ok
+PAGES   d13  multihop answered pass_auto=True    6.6s ok
+PAGES   d14  text     answered pass_auto=False   6.9s citations do not cover every gold page
+PAGES   d15  text     answered pass_auto=False   6.5s wrong or incomplete answer
+PAGES   d16  abstain  abstain  pass_auto=True   14.1s abstained
+PAGES   d17  abstain  abstain  pass_auto=True   14.3s abstained
+PAGES   d18  abstain  abstain  pass_auto=True   15.7s abstained
+{
+  "config": "PAGES",
+  "split": "dev",
+  "model": "gpt-6.1-terra",
+  "questions": 18,
+  "pass_auto": "15/18",
+  "by_group": {
+    "abstain": "3/3",
+    "chart": "4/4",
+    "diagram": "3/3",
+    "multihop": "2/2",
+    "table": "3/4",
+    "text": "0/2"
+  },
+  "errors": [],
+  "failed": [
+    "d04",
+    "d14",
+    "d15"
+  ],
+  "median_seconds": 6.4,
+  "tokens": {
+    "agent_input": 312655,
+    "agent_output": 2177,
+    "agent_reasoning": 95,
+    "judge_input": 3330,
+    "judge_output": 859,
+    "embedding": 352
+  },
+  "note": "pass_auto is a first-pass grade (LLM judge + citation pages); prices of gpt-6.1-terra are unknown, so cost is reported in tokens"
+}

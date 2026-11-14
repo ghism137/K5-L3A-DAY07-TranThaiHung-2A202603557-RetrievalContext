@@ -1,0 +1,72 @@
+{
+ "page": 100,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 9.3,
+ "usage": {
+  "prompt_tokens": 3335,
+  "completion_tokens": 703,
+  "reasoning_tokens": 203
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 2.15",
+   "title": "Import Source Diversity and External Debt Burdens, by Food Group, Income Group, and Population, 2025",
+   "chart_type": "scatter",
+   "axes": {
+    "x": "External debt stocks as share of exports (%, log scale)",
+    "y": "Shannon Diversity Index"
+   },
+   "legend": [
+    "Low income (blue)",
+    "Lower-middle income (orange)",
+    "Upper-middle income (green)",
+    "High income (purple)",
+    "Population, 2025 (bubble size): 5 million, 25 million, 100 million, 500 million, 1,000 million"
+   ],
+   "data": [
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size",
+     "value": "5",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size",
+     "value": "25",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size",
+     "value": "100",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size",
+     "value": "500",
+     "unit": "million",
+     "estimate": false
+    },
+    {
+     "label": "Population, 2025",
+     "series": "Bubble size",
+     "value": "1,000",
+     "unit": "million",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "Four bubble scatter plots for 2025 show import source diversity against external debt stocks relative to exports: a. Starchy staples, b. Oils and fats, c. Legumes, nuts, and seeds, and d. Animal-source foods. Bubble color represents income group and bubble size represents population. Fitted lines slope downward for starchy staples and animal-source foods and upward for oils and fats and legumes, nuts, and seeds. Each panel also has a shaded band around the fitted line and a vertical dashed line.",
+   "notes": "(Figure continues on next page)"
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "page": 110,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 9.7,
+ "usage": {
+  "prompt_tokens": 3282,
+  "completion_tokens": 761,
+  "reasoning_tokens": 66
+ },
+ "page_type": "chart",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 3.1",
+   "title": "Public Debt Disclosures by IDA-Eligible Countries, Accessibility and Coverage, 2020 and 2025",
+   "chart_type": "bar",
+   "axes": {
+    "x": "Accessibility and coverage, 2020 and 2025",
+    "y": "Not labeled"
+   },
+   "legend": [
+    "All IDA-eligible countries (dark blue)",
+    "Sub-Saharan Africa (light blue)",
+    "Other regions (orange)"
+   ],
+   "data": [
+    {
+     "label": "Accessibility, 2020",
+     "series": "All IDA-eligible countries",
+     "value": "36",
+     "unit": "",
+     "estimate": true
+    },
+    {
+     "label": "Accessibility, 2020",
+     "series": "Sub-Saharan Africa",
+     "value": "19",
+     "unit": "",
+     "estimate": true
+    },
+    {
+     "label": "Accessibility, 2020",
+     "series": "Other regions",
+     "value": "17",
+     "unit": "",
+     "estimate": true
+    },
+    {
+     "label": "Accessibility, 2025",
+     "series": "All IDA-eligible countries",
+     "value": "54",
+     "unit": "",
+     "estimate": true
+    },
+    {
+     "label": "Accessibility, 2025",
+     "series": "Sub-Saharan Africa",
+     "value": "29",
+     "unit": "",
+     "estimate": true
+    },
+    {
+     "label": "Accessibility, 2025",
+     "series": "Other regions",
+     "value": "25",
+     "unit": "",
+     "estimate": true
+    },
+    {
+     "label": "Coverage, 2020",
+     "series": "All IDA-eligible countries",
+     "value": "33",
+     "unit": "",
+     "estimate": true
+    },
+    {
+     "label": "Coverage, 2020",
+     "series": "Sub-Saharan Africa",
+     "value": "18",
+     "unit": "",
+     "estimate": true
+    },
+    {
+     "label": "Coverage, 2020",
+     "series": "Other regions",
+     "value": "15",
+     "unit": "",
+     "estimate": true
+    },
+    {
+     "label": "Coverage, 2025",
+     "series": "All IDA-eligible countries",
+     "value": "45",
+     "unit": "",
+     "estimate": true
+    },
+    {
+     "label": "Coverage, 2025",
+     "series": "Sub-Saharan Africa",
+     "value": "24",
+     "unit": "",
+     "estimate": true
+    },
+    {
+     "label": "Coverage, 2025",
+     "series": "Other regions",
+     "value": "21",
+     "unit": "",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart compares public debt disclosure accessibility and coverage in 2020 and 2025 for all IDA-eligible countries and two regional groups. All series rise between 2020 and 2025. The highest bar is accessibility for all IDA-eligible countries in 2025, and the lowest is coverage for other regions in 2020.",
+   "notes": "Source: World Bank Debt Reporting Heat Map, 2020 and 2025.\nNote: IDA = International Development Association."
+  }
+ ]
+}

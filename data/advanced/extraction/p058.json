@@ -1,0 +1,332 @@
+{
+ "page": 58,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 22.2,
+ "usage": {
+  "prompt_tokens": 3363,
+  "completion_tokens": 1867,
+  "reasoning_tokens": 337
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.15",
+   "title": "Remittances, by Region, 2019–25",
+   "chart_type": "bar",
+   "axes": {
+    "x": "Year",
+    "y": "US$ (billion)"
+   },
+   "legend": [
+    "Sub-Saharan Africa (dark blue)",
+    "East Asia and Pacific (excl. China) (orange)",
+    "Latin America and the Caribbean (green)",
+    "Europe and Central Asia (light blue)",
+    "Middle East, North Africa, Afghanistan, and Pakistan (gold)",
+    "South Asia (gray)"
+   ],
+   "data": [
+    {
+     "label": "2019",
+     "series": "Sub-Saharan Africa",
+     "value": "50",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Europe and Central Asia",
+     "value": "50",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "East Asia and Pacific (excl. China)",
+     "value": "85",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Middle East, North Africa, Afghanistan, and Pakistan",
+     "value": "80",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Latin America and the Caribbean",
+     "value": "95",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "South Asia",
+     "value": "115",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Sub-Saharan Africa",
+     "value": "45",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Europe and Central Asia",
+     "value": "45",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "East Asia and Pacific (excl. China)",
+     "value": "85",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Middle East, North Africa, Afghanistan, and Pakistan",
+     "value": "85",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Latin America and the Caribbean",
+     "value": "100",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "South Asia",
+     "value": "120",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Sub-Saharan Africa",
+     "value": "50",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Europe and Central Asia",
+     "value": "55",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "East Asia and Pacific (excl. China)",
+     "value": "90",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Middle East, North Africa, Afghanistan, and Pakistan",
+     "value": "100",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Latin America and the Caribbean",
+     "value": "130",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "South Asia",
+     "value": "125",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Sub-Saharan Africa",
+     "value": "55",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Europe and Central Asia",
+     "value": "70",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "East Asia and Pacific (excl. China)",
+     "value": "100",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Middle East, North Africa, Afghanistan, and Pakistan",
+     "value": "95",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Latin America and the Caribbean",
+     "value": "145",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "South Asia",
+     "value": "145",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Sub-Saharan Africa",
+     "value": "55",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Europe and Central Asia",
+     "value": "65",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "East Asia and Pacific (excl. China)",
+     "value": "110",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Middle East, North Africa, Afghanistan, and Pakistan",
+     "value": "80",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Latin America and the Caribbean",
+     "value": "155",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "South Asia",
+     "value": "160",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Sub-Saharan Africa",
+     "value": "60",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Europe and Central Asia",
+     "value": "65",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "East Asia and Pacific (excl. China)",
+     "value": "115",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Middle East, North Africa, Afghanistan, and Pakistan",
+     "value": "100",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Latin America and the Caribbean",
+     "value": "165",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "South Asia",
+     "value": "185",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Sub-Saharan Africa",
+     "value": "50",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Europe and Central Asia",
+     "value": "70",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "East Asia and Pacific (excl. China)",
+     "value": "110",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Middle East, North Africa, Afghanistan, and Pakistan",
+     "value": "110",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Latin America and the Caribbean",
+     "value": "165",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "South Asia",
+     "value": "205",
+     "unit": "US$ billion",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The grouped bars show annual remittances to six regions from 2019 through 2025. South Asia and Latin America and the Caribbean generally received the most, with South Asia reaching the highest value in 2025. Sub-Saharan Africa and Europe and Central Asia had the lowest bars, at roughly $45 billion in 2020.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  }
+ ]
+}

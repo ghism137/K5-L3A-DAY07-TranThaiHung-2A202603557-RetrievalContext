@@ -1,0 +1,213 @@
+{
+ "page": 55,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 18.1,
+ "usage": {
+  "prompt_tokens": 3458,
+  "completion_tokens": 1441,
+  "reasoning_tokens": 328
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.12",
+   "title": "Portfolio Equity to Low- and Middle-Income Countries (Excluding China), 2000–25",
+   "chart_type": "bar",
+   "axes": {
+    "x": "Year",
+    "y": "US$ (billion)"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "2000",
+     "series": "Portfolio equity",
+     "value": "10",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2001",
+     "series": "Portfolio equity",
+     "value": "5",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2002",
+     "series": "Portfolio equity",
+     "value": "5",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2003",
+     "series": "Portfolio equity",
+     "value": "15",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2004",
+     "series": "Portfolio equity",
+     "value": "21.2",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "2005",
+     "series": "Portfolio equity",
+     "value": "45",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2006",
+     "series": "Portfolio equity",
+     "value": "55",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2007",
+     "series": "Portfolio equity",
+     "value": "95",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2008",
+     "series": "Portfolio equity",
+     "value": "-43.0",
+     "unit": "US$ billion",
+     "estimate": false
+    },
+    {
+     "label": "2009",
+     "series": "Portfolio equity",
+     "value": "90",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2010",
+     "series": "Portfolio equity",
+     "value": "100",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2011",
+     "series": "Portfolio equity",
+     "value": "10",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2012",
+     "series": "Portfolio equity",
+     "value": "65",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2013",
+     "series": "Portfolio equity",
+     "value": "45",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2014",
+     "series": "Portfolio equity",
+     "value": "45",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Portfolio equity",
+     "value": "10",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Portfolio equity",
+     "value": "25",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Portfolio equity",
+     "value": "40",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Portfolio equity",
+     "value": "-20",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Portfolio equity",
+     "value": "10",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Portfolio equity",
+     "value": "-5",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Portfolio equity",
+     "value": "-15",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Portfolio equity",
+     "value": "-10",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Portfolio equity",
+     "value": "15",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Portfolio equity",
+     "value": "-25",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Portfolio equity",
+     "value": "-21.0",
+     "unit": "US$ billion",
+     "estimate": false
+    }
+   ],
+   "table": "",
+   "description": "The chart shows annual portfolio equity flows to low- and middle-income countries excluding China from 2000 to 2025. Flows fluctuated substantially, peaking at approximately US$100 billion in 2010 and reaching their lowest point of US$−43.0 billion in 2008. Several years after 2017 recorded negative flows, including 2025.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  }
+ ]
+}

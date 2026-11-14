@@ -1,0 +1,99 @@
+{
+ "page": 30,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 11.6,
+ "usage": {
+  "prompt_tokens": 3367,
+  "completion_tokens": 900,
+  "reasoning_tokens": 292
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.1",
+   "title": "External Debt Stocks of Low- and Middle-Income Countries, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "US$ (trillion)"
+   },
+   "legend": [
+    "Low- and middle-income countries (dark blue)",
+    "China (gray)",
+    "IDA-eligible countries (gold)",
+    "Other low- and middle-income countries (light blue)"
+   ],
+   "data": [
+    {
+     "label": "2015",
+     "series": "Low- and middle-income countries",
+     "value": "5.9",
+     "unit": "US$ trillion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Low- and middle-income countries",
+     "value": "9.4",
+     "unit": "US$ trillion",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "China",
+     "value": "1.3",
+     "unit": "US$ trillion",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "China",
+     "value": "2.7",
+     "unit": "US$ trillion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "China",
+     "value": "2.3",
+     "unit": "US$ trillion",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "IDA-eligible countries",
+     "value": "0.6",
+     "unit": "US$ trillion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "IDA-eligible countries",
+     "value": "1.3",
+     "unit": "US$ trillion",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Other low- and middle-income countries",
+     "value": "3.9",
+     "unit": "US$ trillion",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Other low- and middle-income countries",
+     "value": "5.9",
+     "unit": "US$ trillion",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart shows external debt stocks from 2015 to 2025 for low- and middle-income countries and three selected groups. Total debt rises overall, while China’s debt peaks around 2021 and then declines. The total for low- and middle-income countries is the highest series throughout, and IDA-eligible countries are the lowest.",
+   "notes": "Source: World Bank Group International Debt Statistics database.\nNote: IDA = International Development Association."
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "page": 46,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 17.9,
+ "usage": {
+  "prompt_tokens": 3410,
+  "completion_tokens": 1410,
+  "reasoning_tokens": 235
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.6",
+   "title": "Composition of Debt Flows, Top 10 Borrowers (Excluding China)",
+   "chart_type": "stacked bar",
+   "axes": {
+    "x": "Borrower",
+    "y": "US$ (billion)"
+   },
+   "legend": [
+    "Public and publicly guaranteed (dark blue)",
+    "Private nonguaranteed (light blue)",
+    "Short-term (orange)"
+   ],
+   "data": [
+    {
+     "label": "India",
+     "series": "Public and publicly guaranteed",
+     "value": "12",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "India",
+     "series": "Private nonguaranteed",
+     "value": "21",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "India",
+     "series": "Short-term",
+     "value": "11",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Brazil",
+     "series": "Public and publicly guaranteed",
+     "value": "1",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Brazil",
+     "series": "Private nonguaranteed",
+     "value": "26",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Brazil",
+     "series": "Short-term",
+     "value": "28",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Mexico",
+     "series": "Public and publicly guaranteed",
+     "value": "25",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Mexico",
+     "series": "Private nonguaranteed",
+     "value": "16",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Mexico",
+     "series": "Short-term",
+     "value": "-1",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Türkiye",
+     "series": "Public and publicly guaranteed",
+     "value": "24",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Türkiye",
+     "series": "Private nonguaranteed",
+     "value": "45",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Türkiye",
+     "series": "Short-term",
+     "value": "-5",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Indonesia",
+     "series": "Public and publicly guaranteed",
+     "value": "13",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Indonesia",
+     "series": "Short-term",
+     "value": "-1",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Argentina",
+     "series": "Public and publicly guaranteed",
+     "value": "26",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Argentina",
+     "series": "Private nonguaranteed",
+     "value": "14",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Colombia",
+     "series": "Public and publicly guaranteed",
+     "value": "20",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Colombia",
+     "series": "Private nonguaranteed",
+     "value": "9",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Colombia",
+     "series": "Short-term",
+     "value": "1",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Ukraine",
+     "series": "Public and publicly guaranteed",
+     "value": "39",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Ukraine",
+     "series": "Private nonguaranteed",
+     "value": "2",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Ukraine",
+     "series": "Short-term",
+     "value": "3",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Thailand",
+     "series": "Public and publicly guaranteed",
+     "value": "4",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Thailand",
+     "series": "Private nonguaranteed",
+     "value": "11",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "Thailand",
+     "series": "Short-term",
+     "value": "-1",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "South Africa",
+     "series": "Public and publicly guaranteed",
+     "value": "15",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "South Africa",
+     "series": "Short-term",
+     "value": "14",
+     "unit": "US$ billion",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart compares debt flows by category for ten borrowers, excluding China; no time period is specified on the graphic. Türkiye has the highest positive stack, dominated by private nonguaranteed flows, while Indonesia has the lowest. Short-term flows are negative for Türkiye, Mexico, Indonesia, and Thailand.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  }
+ ]
+}

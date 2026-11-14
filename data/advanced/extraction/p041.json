@@ -1,0 +1,224 @@
+{
+ "page": 41,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 20.6,
+ "usage": {
+  "prompt_tokens": 3444,
+  "completion_tokens": 1663,
+  "reasoning_tokens": 302
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.4",
+   "title": "Long-Term External Debt Flows to Low- and Middle-Income Countries (Excluding China), by Borrower Type, 2023–25",
+   "chart_type": "bar",
+   "axes": {
+    "x": "US$ (billion)",
+    "y": "Borrower type and flow: disbursements, amortization, net flows"
+   },
+   "legend": [
+    "2023 (dark blue)",
+    "2024 (light blue)",
+    "2025 (orange)"
+   ],
+   "data": [
+    {
+     "label": "PNG private: Disbursements",
+     "series": "2023",
+     "value": "430",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG private: Disbursements",
+     "series": "2024",
+     "value": "450",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG private: Disbursements",
+     "series": "2025",
+     "value": "570",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG private: Amortization",
+     "series": "2023",
+     "value": "390",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG private: Amortization",
+     "series": "2024",
+     "value": "400",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG private: Amortization",
+     "series": "2025",
+     "value": "390",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG private: Net flows",
+     "series": "2023",
+     "value": "40",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG private: Net flows",
+     "series": "2024",
+     "value": "40",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PNG private: Net flows",
+     "series": "2025",
+     "value": "180",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Disbursements",
+     "series": "2023",
+     "value": "170",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Disbursements",
+     "series": "2024",
+     "value": "250",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Disbursements",
+     "series": "2025",
+     "value": "340",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Amortization",
+     "series": "2023",
+     "value": "120",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Amortization",
+     "series": "2024",
+     "value": "180",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Amortization",
+     "series": "2025",
+     "value": "160",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Net flows",
+     "series": "2023",
+     "value": "50",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Net flows",
+     "series": "2024",
+     "value": "70",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG private: Net flows",
+     "series": "2025",
+     "value": "180",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Disbursements",
+     "series": "2023",
+     "value": "190",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Disbursements",
+     "series": "2024",
+     "value": "180",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Disbursements",
+     "series": "2025",
+     "value": "180",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Amortization",
+     "series": "2023",
+     "value": "120",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Amortization",
+     "series": "2024",
+     "value": "130",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Amortization",
+     "series": "2025",
+     "value": "130",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Net flows",
+     "series": "2023",
+     "value": "100",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Net flows",
+     "series": "2024",
+     "value": "80",
+     "unit": "US$ billion",
+     "estimate": true
+    },
+    {
+     "label": "PPG official: Net flows",
+     "series": "2025",
+     "value": "90",
+     "unit": "US$ billion",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "Horizontal bars compare disbursements, amortization, and net flows for PNG private, PPG private, and PPG official borrowers in 2023–25. PNG private disbursements in 2025 are the largest item, at approximately US$570 billion; PNG private net flows in 2023 and 2024 are the smallest, at approximately US$40 billion each. Net flows to both private borrower groups rose substantially in 2025, while PPG official flows changed less.",
+   "notes": "Source: World Bank Group International Debt Statistics database.\nNote: PNG = private nonguaranteed; PPG = public and publicly guaranteed."
+  }
+ ]
+}

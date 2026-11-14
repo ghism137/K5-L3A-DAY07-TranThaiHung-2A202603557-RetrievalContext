@@ -1,0 +1,91 @@
+{
+ "page": 51,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 16.2,
+ "usage": {
+  "prompt_tokens": 3475,
+  "completion_tokens": 1342,
+  "reasoning_tokens": 686
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.10",
+   "title": "Average Terms on New External Debt Commitments for IDA-Eligible Countries, by Creditor Type, 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year",
+    "y": "Grace period and maturity (years); interest (percent, right axis)"
+   },
+   "legend": [
+    "Grace period (dark blue)",
+    "Maturity (light blue)",
+    "Interest (right axis) (orange)"
+   ],
+   "data": [
+    {
+     "label": "Private creditors, 2025",
+     "series": "Interest",
+     "value": "8.2",
+     "unit": "percent",
+     "estimate": false
+    },
+    {
+     "label": "Private creditors, 2020",
+     "series": "Interest",
+     "value": "3.9",
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2019",
+     "series": "Maturity",
+     "value": "14",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2024",
+     "series": "Maturity",
+     "value": "8",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Private creditors, 2023",
+     "series": "Grace period",
+     "value": "4",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2019",
+     "series": "Maturity",
+     "value": "23",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2024",
+     "series": "Maturity",
+     "value": "26",
+     "unit": "years",
+     "estimate": true
+    },
+    {
+     "label": "Official creditors, 2023",
+     "series": "Interest",
+     "value": "3.0",
+     "unit": "percent",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "Two panels show grace periods, maturities and interest rates on new external debt commitments to IDA-eligible countries from 2015 to 2025, for private and official creditors respectively. Private-creditor interest falls to a low in 2020 before rising to its highest level in 2025, while private maturities peak around 2019 and grace periods fall sharply after 2021. Official-creditor maturities remain much longer, at roughly 23–26 years, and official interest rates peak around 2023.",
+   "notes": "Source: World Bank Group International Debt Statistics database."
+  }
+ ]
+}

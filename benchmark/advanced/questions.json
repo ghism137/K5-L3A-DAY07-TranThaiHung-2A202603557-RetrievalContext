@@ -1,0 +1,1461 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "group": "table",
+    "tags": [
+      "lookup"
+    ],
+    "question": "In Table 1.1, what was the debt stock owed to multilateral creditors in 2022, in US$ billion?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "1,236.5 (US$ billion)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 28,
+        "kind": "table",
+        "locator": "Table 1.1, row 'Multilateral creditors', column 2022",
+        "evidence": "1,236.5"
+      }
+    ],
+    "checks": [
+      {
+        "page": 28,
+        "contains": [
+          "1,236.5"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Single cell lookup with row, column and unit.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "group": "table",
+    "tags": [
+      "calculation"
+    ],
+    "question": "By how much did the long-term external debt stock of low- and middle-income countries increase between 2015 and 2025 according to Table 1.1?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "2,624.3 US$ billion (7,020.9 in 2025 minus 4,396.6 in 2015)",
+    "tolerance": "±0.1",
+    "gold": [
+      {
+        "page": 28,
+        "kind": "table",
+        "locator": "Table 1.1, row 'Long-term', columns 2015 and 2025",
+        "evidence": "4,396.6 and 7,020.9"
+      }
+    ],
+    "checks": [
+      {
+        "page": 28,
+        "contains": [
+          "7,020.9",
+          "4,396.6"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Difference of two cells in one row.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "group": "table",
+    "tags": [
+      "calculation"
+    ],
+    "question": "By how much did the debt stock owed to the World Bank (IBRD and IDA) increase between 2015 and 2025 in Table 1.1?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "220.7 US$ billion (498.7 minus 278.0)",
+    "tolerance": "±0.1",
+    "gold": [
+      {
+        "page": 28,
+        "kind": "table",
+        "locator": "Table 1.1, row 'World Bank (IBRD and IDA)', columns 2015 and 2025",
+        "evidence": "278.0 and 498.7"
+      }
+    ],
+    "checks": [
+      {
+        "page": 28,
+        "contains": [
+          "498.7",
+          "278.0"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Difference of two cells in a row whose label spans two lines.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "group": "table",
+    "tags": [
+      "threshold"
+    ],
+    "question": "In Table 1.1, in which year did the debt stock owed to the IMF (use of credit and SDR allocations) first exceed US$300 billion, and what was it?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "2021, at 386.4 US$ billion (it was 214.6 in 2020)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 28,
+        "kind": "table",
+        "locator": "Table 1.1, row 'IMF (Use of credit and SDR allocations)', columns 2020-2021",
+        "evidence": "214.6 then 386.4"
+      }
+    ],
+    "checks": [
+      {
+        "page": 28,
+        "contains": [
+          "386.4",
+          "214.6"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Scan a row for a threshold crossing.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "group": "chart",
+    "tags": [
+      "label"
+    ],
+    "question": "In Figure B1.3.1, how many low-income countries are in the IDA-only group?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "23",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 37,
+        "kind": "chart",
+        "locator": "Figure B1.3.1, stacked bar 'IDA-only countries', dark-blue (low-income) segment label",
+        "evidence": "23"
+      }
+    ],
+    "checks": [],
+    "why": "Read a printed data label for one stack segment.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "group": "chart",
+    "tags": [
+      "legend"
+    ],
+    "question": "In Figure B1.3.1, which lending group contains the single high-income country?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "The IDA-only group (orange high-income segment labelled 1 on top of the IDA-only bar)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 37,
+        "kind": "chart",
+        "locator": "Figure B1.3.1, orange segment labelled 1 above 'IDA-only countries'",
+        "evidence": "1 high-income"
+      }
+    ],
+    "checks": [],
+    "why": "Identify a legend colour and map it to a bar.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "group": "chart",
+    "tags": [
+      "label"
+    ],
+    "question": "According to Figure 2.10 panel b, how many LIC-DSF upgrades were recorded in 2025?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "6",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 88,
+        "kind": "chart",
+        "locator": "Figure 2.10 panel b 'Number of upgrades', bar 2025, label 6",
+        "evidence": "6"
+      }
+    ],
+    "checks": [],
+    "why": "Read a printed value from the right panel of a two-panel waterfall chart.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "group": "chart",
+    "tags": [
+      "extreme",
+      "sign"
+    ],
+    "question": "In Figure 2.10 panel a, in which year was the number of LIC-DSF downgrades highest, and how many were there?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "2021, with 7 downgrades (plotted as -7)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 88,
+        "kind": "chart",
+        "locator": "Figure 2.10 panel a 'Number of downgrades', bar 2021, label -7",
+        "evidence": "-7"
+      }
+    ],
+    "checks": [],
+    "why": "Compare bars with negative labels.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "group": "diagram",
+    "tags": [
+      "blocks"
+    ],
+    "question": "In Azerbaijan's country profile, how much of its public and publicly guaranteed debt is owed to the Asian Development Bank, in US$ million?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "1,925 (US$ million)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 150,
+        "kind": "diagram",
+        "locator": "Figure 2 creditor block diagram, 'MULTILATERAL' row, block 'Asian Dev. Bank'",
+        "evidence": "1,925"
+      }
+    ],
+    "checks": [],
+    "why": "Read a block of a hierarchical creditor diagram.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "group": "diagram",
+    "tags": [
+      "blocks",
+      "comparison"
+    ],
+    "question": "In Azerbaijan's country profile, which creditor type holds the largest share of public and publicly guaranteed debt: multilateral, bilateral or private creditors? Give the amounts.",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Private creditors, 5,133 US$ million, just above multilateral at 5,111; bilateral is 797",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 150,
+        "kind": "diagram",
+        "locator": "Figure 2, row 'PUBLIC & PUBLICLY GUARANTEED - BY CREDITOR TYPE'",
+        "evidence": "Multilateral 5,111; bilateral 797; private creditors 5,133"
+      }
+    ],
+    "checks": [],
+    "why": "Compare three labelled blocks that are almost equal in width.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "group": "diagram",
+    "tags": [
+      "blocks"
+    ],
+    "question": "In Kenya's country profile, which bilateral creditor is the largest, and how much is owed to it, in US$ million?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "China, 4,923 (US$ million)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 202,
+        "kind": "diagram",
+        "locator": "Figure 2 creditor block diagram, 'BILATERAL' row, block 'China'",
+        "evidence": "4,923"
+      }
+    ],
+    "checks": [],
+    "why": "Read the largest block of a second-level creditor row.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "group": "multihop",
+    "tags": [
+      "two panels",
+      "calculation"
+    ],
+    "question": "Between 2020 and 2025, how many more LIC-DSF downgrades than upgrades were recorded according to Figure 2.10?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "7 more downgrades (22 downgrades in panel a minus 15 upgrades in panel b)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 88,
+        "kind": "chart",
+        "locator": "Figure 2.10 panel a, final bar '2020-25'",
+        "evidence": "-22"
+      },
+      {
+        "page": 88,
+        "kind": "chart",
+        "locator": "Figure 2.10 panel b, final bar '2020-25'",
+        "evidence": "15"
+      }
+    ],
+    "checks": [
+      {
+        "page": 88,
+        "contains": [
+          "22 were downgraded"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Combine the totals of two panels.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "group": "multihop",
+    "tags": [
+      "two pages",
+      "calculation"
+    ],
+    "question": "Which country had the larger total external debt stock in 2025, Kenya or Azerbaijan, and by how much, in US$ million?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Kenya, by 33,986 US$ million (46,313 minus 12,327)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 202,
+        "kind": "diagram",
+        "locator": "Kenya profile, headline 'TOTAL EXTERNAL DEBT STOCK, 2025'",
+        "evidence": "46,313"
+      },
+      {
+        "page": 150,
+        "kind": "diagram",
+        "locator": "Azerbaijan profile, headline 'TOTAL EXTERNAL DEBT STOCK, 2025'",
+        "evidence": "12,327"
+      }
+    ],
+    "checks": [
+      {
+        "page": 202,
+        "contains": [
+          "46,313"
+        ],
+        "required": true
+      },
+      {
+        "page": 150,
+        "contains": [
+          "12,327"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Compare headline figures from two country pages.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "group": "text",
+    "tags": [],
+    "question": "What average interest rate did IDA-eligible countries face on new commitments in 2025, and how does that compare with the past?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "8.2 percent, the highest since the late 1980s",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 20,
+        "kind": "text",
+        "locator": "Key Takeaways, bullet 'The countries that can least afford it are paying the most to borrow'",
+        "evidence": "average interest rate of 8.2 percent on new commitments during the year, the highest since the late 1980s"
+      }
+    ],
+    "checks": [
+      {
+        "page": 20,
+        "contains": [
+          "8.2 percent",
+          "highest since the late 1980s"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Conditional statement with a historical comparison.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "group": "text",
+    "tags": [],
+    "question": "What share of LMICs' new disbursements in 2025 came from public sector bond issuances, and how large was the issuance?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "68.1 percent of new disbursements; $250.6 billion, up 34.6 percent",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 20,
+        "kind": "text",
+        "locator": "Key Takeaways, bullet 'The bond market reopened for LMICs'",
+        "evidence": "public sector bond issuances accounted for 68.1 percent of new disbursements in 2025, increasing 34.6 percent to $250.6 billion"
+      }
+    ],
+    "checks": [
+      {
+        "page": 20,
+        "contains": [
+          "68.1 percent",
+          "$250.6 billion"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Two linked facts from one sentence.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "group": "abstain",
+    "tags": [],
+    "question": "What was Ireland's total external debt stock at the end of 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Ireland is not covered: the report profiles low- and middle-income countries and the word never appears.",
+    "absence_check": {
+      "regexes_over_all_pages": [
+        "\\bIreland\\b"
+      ],
+      "visual_note": null
+    },
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "group": "abstain",
+    "tags": [],
+    "question": "According to the report, what was the average inflation rate in Kenya in 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Kenya's profile gives debt ratios and terms, not inflation; 'inflation rate' never appears.",
+    "absence_check": {
+      "regexes_over_all_pages": [
+        "\\binflation rate\\b",
+        "Kenya.{0,80}inflation",
+        "inflation.{0,80}Kenya"
+      ],
+      "visual_note": null
+    },
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "d18",
+    "split": "dev",
+    "group": "abstain",
+    "tags": [],
+    "question": "What does Figure 2.30 show about debt service in IDA-eligible countries?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chapter 2 ends at Figure 2.16; Figure 2.30 does not exist.",
+    "absence_check": {
+      "regexes_over_all_pages": [
+        "Figure 2\\.(1[7-9]|[2-9]\\d)\\b"
+      ],
+      "visual_note": null
+    },
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "group": "table",
+    "tags": [
+      "lookup"
+    ],
+    "question": "In Table 1.2, what were net debt inflows from the IMF to IDA-eligible countries in 2020, in US$ billion?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "15.2 (US$ billion)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 63,
+        "kind": "table",
+        "locator": "Table 1.2, row 'IMF', column 2020",
+        "evidence": "15.2"
+      }
+    ],
+    "checks": [
+      {
+        "page": 63,
+        "contains": [
+          "15.2"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Single cell lookup in a nested row.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "group": "table",
+    "tags": [
+      "calculation",
+      "sign"
+    ],
+    "question": "By how much did long-term PPG net debt inflows to IDA-eligible countries change between 2020 and 2025 in Table 1.2?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "A fall of 21.9 US$ billion (66.3 in 2020 to 44.4 in 2025)",
+    "tolerance": "±0.1",
+    "gold": [
+      {
+        "page": 63,
+        "kind": "table",
+        "locator": "Table 1.2, memorandum row 'Long-term PPG', columns 2020 and 2025",
+        "evidence": "66.3 and 44.4"
+      }
+    ],
+    "checks": [
+      {
+        "page": 63,
+        "contains": [
+          "66.3",
+          "44.4"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Difference of two cells in a memorandum row; sign matters.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "group": "table",
+    "tags": [
+      "extreme"
+    ],
+    "question": "In Table 1.2, in which year were total net debt inflows to IDA-eligible countries highest, and what was the amount?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "2021, at 85.9 US$ billion",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 63,
+        "kind": "table",
+        "locator": "Table 1.2, row 'Net debt inflows', maximum over 2015-2025",
+        "evidence": "85.9 in 2021"
+      }
+    ],
+    "checks": [
+      {
+        "page": 63,
+        "contains": [
+          "85.9"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Find the maximum of a row.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "group": "table",
+    "tags": [
+      "calculation"
+    ],
+    "question": "By how much did net debt inflows from the World Bank to IDA-eligible countries change between 2020 and 2025 in Table 1.2?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "An increase of 1.5 US$ billion (13.3 in 2020 to 14.8 in 2025)",
+    "tolerance": "±0.1",
+    "gold": [
+      {
+        "page": 63,
+        "kind": "table",
+        "locator": "Table 1.2, row 'World Bank', columns 2020 and 2025",
+        "evidence": "13.3 and 14.8"
+      }
+    ],
+    "checks": [
+      {
+        "page": 63,
+        "contains": [
+          "13.3",
+          "14.8"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Difference of two cells.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "group": "table",
+    "tags": [
+      "count"
+    ],
+    "question": "How many countries are listed in the East Asia and Pacific regional group in the Country Groups appendix?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "16",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 269,
+        "kind": "table",
+        "locator": "Country Groups, Regional Groups, list 'East Asia and Pacific'",
+        "evidence": "Cambodia ... Viet Nam (16 names)"
+      }
+    ],
+    "checks": [
+      {
+        "page": 269,
+        "contains": [
+          "East Asia and Pacific",
+          "Viet Nam"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Count the entries of one list; the region page p138 also states '16 countries'.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "group": "table",
+    "tags": [
+      "lookup"
+    ],
+    "question": "In the Country Groups appendix, which data-reporting status code is shown next to China?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "(P), meaning preliminary data",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 269,
+        "kind": "table",
+        "locator": "Country Groups, East Asia and Pacific list, entry 'China (P)'",
+        "evidence": "China (P)"
+      }
+    ],
+    "checks": [
+      {
+        "page": 269,
+        "contains": [
+          "China (P)"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Read a code in a list; the code legend is on p136 (A as reported, E estimated, P preliminary).",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "group": "chart",
+    "tags": [
+      "label"
+    ],
+    "question": "In Figure 3.3, how many loans and tranches were matched at End-2024?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "3,762",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 113,
+        "kind": "chart",
+        "locator": "Figure 3.3, orange line 'Loans matched', End-2024 point label",
+        "evidence": "3,762"
+      }
+    ],
+    "checks": [
+      {
+        "page": 113,
+        "contains": [
+          "Figure 3.3"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Read a printed point label on the right axis series.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "group": "chart",
+    "tags": [
+      "label"
+    ],
+    "question": "In Figure 3.3, what was the debt outstanding reported at End-2023, in US$ billion?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "61.8 (US$ billion)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 113,
+        "kind": "chart",
+        "locator": "Figure 3.3, dark-blue bar End-2023, label 61.8",
+        "evidence": "61.8"
+      }
+    ],
+    "checks": [],
+    "why": "Read a bar label on the left axis series.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t09",
+    "split": "test",
+    "group": "chart",
+    "tags": [
+      "extreme"
+    ],
+    "question": "In Figure 3.2, in which year was the share of countries reporting by March the highest?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "2025 (about 56 percent)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 111,
+        "kind": "chart",
+        "locator": "Figure 3.2, dark-blue 'March' bars, maximum over 2020-2025",
+        "evidence": "2025, about 56"
+      }
+    ],
+    "checks": [
+      {
+        "page": 111,
+        "contains": [
+          "Figure 3.2"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Compare unlabeled bars of one series across years.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t10",
+    "split": "test",
+    "group": "chart",
+    "tags": [
+      "extreme"
+    ],
+    "question": "In Figure 3.2, in which year was the share of late reporters and nonreporters the lowest?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "2025 (about 6 percent; p110 text gives 5.8 percent)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 111,
+        "kind": "chart",
+        "locator": "Figure 3.2, gold 'Late reporters and nonreporters' bars, minimum",
+        "evidence": "2025, about 6"
+      }
+    ],
+    "checks": [
+      {
+        "page": 111,
+        "contains": [
+          "Figure 3.2"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Compare small unlabeled bars; 2023 is close (about 7).",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t11",
+    "split": "test",
+    "group": "chart",
+    "tags": [
+      "estimate"
+    ],
+    "question": "In Figure 3.1, approximately how many Sub-Saharan African countries are shown with debt coverage in 2025?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "About 24 (accept 23 to 25)",
+    "tolerance": "23-25",
+    "gold": [
+      {
+        "page": 110,
+        "kind": "chart",
+        "locator": "Figure 3.1, 'Coverage' group, 2025, light-blue bar (Sub-Saharan Africa)",
+        "evidence": "about 24"
+      }
+    ],
+    "checks": [
+      {
+        "page": 110,
+        "contains": [
+          "Figure 3.1"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Estimate a bar height from the axis.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t12",
+    "split": "test",
+    "group": "diagram",
+    "tags": [
+      "schematic"
+    ],
+    "question": "In Figure 3B.1, what is Tier 2 called and what does it provide?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Tier 2 is IDS (International Debt Statistics): 'Trusted, transparent statistics'",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 132,
+        "kind": "diagram",
+        "locator": "Figure 3B.1, middle box",
+        "evidence": "Tier 2 / IDS / Trusted, transparent statistics"
+      }
+    ],
+    "checks": [
+      {
+        "page": 132,
+        "contains": [
+          "Figure 3B.1",
+          "IDS"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Identify one box of a three-box schematic.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t13",
+    "split": "test",
+    "group": "diagram",
+    "tags": [
+      "schematic",
+      "arrow"
+    ],
+    "question": "What text is written on the dashed feedback arrow in Figure 3B.1?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "'Gaps and findings strengthen reporting' (it runs from Tier 3 back to Tier 1)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 132,
+        "kind": "diagram",
+        "locator": "Figure 3B.1, dashed loop below the three tiers",
+        "evidence": "Gaps and findings strengthen reporting"
+      }
+    ],
+    "checks": [
+      {
+        "page": 132,
+        "contains": [
+          "Gaps and findings strengthen reporting"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Read an arrow label; text alone does not say where the arrow goes.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t14",
+    "split": "test",
+    "group": "diagram",
+    "tags": [
+      "schematic"
+    ],
+    "question": "Which tier is described as 'Actionable knowledge' in Figure 3B.1, and what does its acronym stand for?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Tier 3, IDR, the International Debt Report",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 132,
+        "kind": "diagram",
+        "locator": "Figure 3B.1, right box and Note line",
+        "evidence": "Tier 3 / IDR / Actionable knowledge; IDR = International Debt Report"
+      }
+    ],
+    "checks": [
+      {
+        "page": 132,
+        "contains": [
+          "Actionable knowledge"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Combine a box label with the acronym note below the figure.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t15",
+    "split": "test",
+    "group": "diagram",
+    "tags": [
+      "annotated sample"
+    ],
+    "question": "In the sample country profile on the reading-guide page, which country is shown, and what are its total external debt stock and its change from 2024?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Belize; 1,609 US$ million; up 2.6 percent from 2024",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 136,
+        "kind": "diagram",
+        "locator": "Annotated sample profile, header and headline figure",
+        "evidence": "BELIZE, 1,609, +2.6% from 2024"
+      }
+    ],
+    "checks": [
+      {
+        "page": 136,
+        "contains": [
+          "BELIZE"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Read the headline of a screenshot-style sample.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t16",
+    "split": "test",
+    "group": "diagram",
+    "tags": [
+      "annotated sample",
+      "small text"
+    ],
+    "question": "In the sample profile on the reading-guide page, what are the average maturity and interest rate on new commitments from official creditors?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "24 years maturity and 3.6 percent interest rate (grace period 4 years)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 136,
+        "kind": "diagram",
+        "locator": "Annotated sample profile, Figure 4 card 'Official creditors'",
+        "evidence": "24 yrs, 4 yrs, 3.6%"
+      }
+    ],
+    "checks": [],
+    "why": "Read small text inside a sample card.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t17",
+    "split": "test",
+    "group": "multihop",
+    "tags": [
+      "two pages",
+      "calculation"
+    ],
+    "question": "Which country had the larger total external debt stock in 2025, Jordan or Peru, and by how much, in US$ million?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Peru, by 43,751 US$ million (94,270 minus 50,519)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 230,
+        "kind": "diagram",
+        "locator": "Peru profile, headline total external debt stock 2025",
+        "evidence": "94,270"
+      },
+      {
+        "page": 200,
+        "kind": "diagram",
+        "locator": "Jordan profile, headline",
+        "evidence": "50,519"
+      }
+    ],
+    "checks": [
+      {
+        "page": 230,
+        "contains": [
+          "94,270"
+        ],
+        "required": true
+      },
+      {
+        "page": 200,
+        "contains": [
+          "50,519"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Compare headline figures from two country pages.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t18",
+    "split": "test",
+    "group": "multihop",
+    "tags": [
+      "two pages",
+      "calculation"
+    ],
+    "question": "What was the combined total external debt stock of Zambia and the Dominican Republic in 2025, in US$ million?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "84,917 US$ million (28,633 plus 56,284)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 262,
+        "kind": "diagram",
+        "locator": "Zambia profile, headline",
+        "evidence": "28,633"
+      },
+      {
+        "page": 175,
+        "kind": "diagram",
+        "locator": "Dominican Republic profile, headline",
+        "evidence": "56,284"
+      }
+    ],
+    "checks": [
+      {
+        "page": 262,
+        "contains": [
+          "28,633"
+        ],
+        "required": true
+      },
+      {
+        "page": 175,
+        "contains": [
+          "56,284"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Sum of headline figures from two country pages.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t19",
+    "split": "test",
+    "group": "multihop",
+    "tags": [
+      "two pages",
+      "calculation"
+    ],
+    "question": "What share of the total external debt stock of all low- and middle-income countries at end-2025 was owed by Sub-Saharan African countries?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "About 10.8 percent (1,020 of 9,445 US$ billion)",
+    "tolerance": "10.7-10.9",
+    "gold": [
+      {
+        "page": 143,
+        "kind": "diagram",
+        "locator": "Sub-Saharan Africa profile, headline",
+        "evidence": "1,020 US$ billion"
+      },
+      {
+        "page": 137,
+        "kind": "diagram",
+        "locator": "All low- and middle-income countries profile, headline",
+        "evidence": "9,445 US$ billion"
+      }
+    ],
+    "checks": [
+      {
+        "page": 143,
+        "contains": [
+          "1,020"
+        ],
+        "required": true
+      },
+      {
+        "page": 137,
+        "contains": [
+          "9,445"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Ratio of a regional headline to the aggregate headline; both pages are in US$ billion.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t20",
+    "split": "test",
+    "group": "multihop",
+    "tags": [
+      "two pages",
+      "calculation"
+    ],
+    "question": "By how much did the total external debt stock of East Asia and Pacific exceed that of South Asia at end-2025, in US$ billion?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "2,358 US$ billion (3,313 minus 955)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 138,
+        "kind": "diagram",
+        "locator": "East Asia and Pacific profile, headline",
+        "evidence": "3,313"
+      },
+      {
+        "page": 142,
+        "kind": "diagram",
+        "locator": "South Asia profile, headline",
+        "evidence": "955"
+      }
+    ],
+    "checks": [
+      {
+        "page": 138,
+        "contains": [
+          "3,313"
+        ],
+        "required": true
+      },
+      {
+        "page": 142,
+        "contains": [
+          "955"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Difference of two regional headlines.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t21",
+    "split": "test",
+    "group": "text",
+    "tags": [],
+    "question": "By how much did the external debt of low-income countries rise in 2025?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "8.9 percent, to $262.4 billion (the biggest increase since 2020)",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 19,
+        "kind": "text",
+        "locator": "Key Takeaways, bullet 'Debt accumulation accelerated sharply in 2025'",
+        "evidence": "for low-income countries, climbing 8.9 percent to $262.4 billion, the biggest increase since 2020"
+      }
+    ],
+    "checks": [
+      {
+        "page": 19,
+        "contains": [
+          "8.9 percent to $262.4 billion"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Pick the low-income sub-clause out of a sentence that also covers LMICs and IDA-eligible countries.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t22",
+    "split": "test",
+    "group": "text",
+    "tags": [],
+    "question": "In 2025, how much more did remittances to LMICs exceed foreign direct investment, and what happened to FDI between 2011 and 2025?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Remittances were about $294.5 billion more than FDI; FDI contracted by 25.5 percent from 2011 to 2025",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 21,
+        "kind": "text",
+        "locator": "Key Takeaways, bullet 'Other financial flows to LMICs continue to diverge'",
+        "evidence": "FDI contract by 25.5 percent from 2011 to 2025 ... remittances were about $294.5 billion more than FDI"
+      }
+    ],
+    "checks": [
+      {
+        "page": 21,
+        "contains": [
+          "25.5 percent",
+          "$294.5 billion"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Two conditioned facts from one bullet.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t23",
+    "split": "test",
+    "group": "text",
+    "tags": [],
+    "question": "What happened to the debt-to-income ratio of IDA-eligible countries in 2025, and why?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "It fell from 42.1 percent to 41.2 percent, because economic growth outpaced debt accumulation and some countries benefited from debt restructuring",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 21,
+        "kind": "text",
+        "locator": "Key Takeaways, bullet 'Debt burdens eased in IDA-eligible countries but rose elsewhere'",
+        "evidence": "debt-to-income ratio fell from 42.1 percent to 41.2 percent, as economic growth outpaced debt accumulation, and some countries benefited from debt restructuring"
+      }
+    ],
+    "checks": [
+      {
+        "page": 21,
+        "contains": [
+          "42.1 percent to 41.2 percent"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Value change plus its stated causes.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t24",
+    "split": "test",
+    "group": "text",
+    "tags": [],
+    "question": "Which source mainly supplies the report's data on exports and imports, and which edition of the Balance of Payments Manual do the balance of payments data follow?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "The International Monetary Fund (supplemented by UN Trade and Development reports and country data); the sixth edition of the IMF Balance of Payments Manual",
+    "tolerance": null,
+    "gold": [
+      {
+        "page": 267,
+        "kind": "text",
+        "locator": "Data Sources, second half of the page",
+        "evidence": "Data on exports and imports ... are drawn mainly from the International Monetary Fund ... sixth edition of the International Monetary Fund's Balance of Payments Manual"
+      }
+    ],
+    "checks": [
+      {
+        "page": 267,
+        "contains": [
+          "sixth edition",
+          "drawn mainly from the International Monetary Fund"
+        ],
+        "required": true
+      }
+    ],
+    "why": "Two linked facts from different sentences.",
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t25",
+    "split": "test",
+    "group": "abstain",
+    "tags": [],
+    "question": "What was Switzerland's total external debt stock at the end of 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Switzerland is not covered and is not even named as a creditor.",
+    "absence_check": {
+      "regexes_over_all_pages": [
+        "\\bSwitzerland\\b"
+      ],
+      "visual_note": null
+    },
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t26",
+    "split": "test",
+    "group": "abstain",
+    "tags": [],
+    "question": "In Figure 3.3, how many loans and tranches were reported at End-2022?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Figure 3.3 shows only End-2021, End-2023 and End-2024; no End-2022 exercise is reported.",
+    "absence_check": {
+      "regexes_over_all_pages": [
+        "end-2022"
+      ],
+      "visual_note": "Figure 3.3 (p113) has exactly three bars: End-2021, End-2023, End-2024."
+    },
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t27",
+    "split": "test",
+    "group": "abstain",
+    "tags": [],
+    "question": "What does Figure 3.7 show about creditor data sharing?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chapter 3 ends at Figure 3.4 (plus Figure 3B.1); Figure 3.7 does not exist.",
+    "absence_check": {
+      "regexes_over_all_pages": [
+        "Figure 3\\.[5-9]\\b"
+      ],
+      "visual_note": null
+    },
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t28",
+    "split": "test",
+    "group": "abstain",
+    "tags": [],
+    "question": "What does the report project the total external debt stock of low- and middle-income countries will be at the end of 2027?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No projection of the debt stock is given; the only forward-looking statement is that borrowing costs are projected to increase (p67).",
+    "absence_check": {
+      "regexes_over_all_pages": [
+        "projected (to )?(total )?external debt",
+        "external debt[^.]{0,60}(2027|2028|2030)"
+      ],
+      "visual_note": null
+    },
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t29",
+    "split": "test",
+    "group": "abstain",
+    "tags": [],
+    "question": "In Azerbaijan's profile, what average interest rate applied to new commitments from private creditors in 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The Figure 4 card shows '..' for private creditors and the note says Azerbaijan had no new private commitments in 2025.",
+    "absence_check": {
+      "regexes_over_all_pages": [],
+      "visual_note": "p150 Figure 4: private creditors card shows '..' and the note says the country did not have new commitments in 2025."
+    },
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  },
+  {
+    "id": "t30",
+    "split": "test",
+    "group": "abstain",
+    "tags": [],
+    "question": "How much did Norway lend to low- and middle-income countries in 2025 according to the report?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "No creditor-country lending totals are given and Norway is never named.",
+    "absence_check": {
+      "regexes_over_all_pages": [
+        "\\bNorway\\b"
+      ],
+      "visual_note": null
+    },
+    "origin": "ai_proposed_author_review_pending",
+    "verified": "page image read against the original on 2026-11-15"
+  }
+]

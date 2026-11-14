@@ -1,0 +1,344 @@
+{
+ "page": 61,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 24.4,
+ "usage": {
+  "prompt_tokens": 3464,
+  "completion_tokens": 2045,
+  "reasoning_tokens": 210
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 1.17",
+   "title": "External Debt Stock to Exports of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25",
+   "chart_type": "line",
+   "axes": {
+    "x": "Year, 2015–2025",
+    "y": "External debt stock to exports (percent)"
+   },
+   "legend": [
+    "Low-income countries (dark blue)",
+    "Middle-income countries (light blue)",
+    "IDA-eligible countries (orange)",
+    "Low- and middle-income countries (excl. China) (gold)"
+   ],
+   "data": [
+    {
+     "label": "2015",
+     "series": "Low-income countries",
+     "value": 250,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Low-income countries",
+     "value": 275,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Low-income countries",
+     "value": 270,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Low-income countries",
+     "value": 245,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Low-income countries",
+     "value": 260,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Low-income countries",
+     "value": 310,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Low-income countries",
+     "value": 250,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Low-income countries",
+     "value": 215,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Low-income countries",
+     "value": 210,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Low-income countries",
+     "value": 190,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Low-income countries",
+     "value": 180,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "IDA-eligible countries",
+     "value": 175,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "IDA-eligible countries",
+     "value": 190,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "IDA-eligible countries",
+     "value": 190,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "IDA-eligible countries",
+     "value": 180,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "IDA-eligible countries",
+     "value": 190,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "IDA-eligible countries",
+     "value": 250,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "IDA-eligible countries",
+     "value": 220,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "IDA-eligible countries",
+     "value": 190,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "IDA-eligible countries",
+     "value": 200,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "IDA-eligible countries",
+     "value": 184.2,
+     "unit": "percent",
+     "estimate": false
+    },
+    {
+     "label": "2025",
+     "series": "IDA-eligible countries",
+     "value": 177.2,
+     "unit": "percent",
+     "estimate": false
+    },
+    {
+     "label": "2015",
+     "series": "Middle-income countries",
+     "value": 100,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Middle-income countries",
+     "value": 105,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Middle-income countries",
+     "value": 105,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Middle-income countries",
+     "value": 100,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Middle-income countries",
+     "value": 105,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Middle-income countries",
+     "value": 125,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Middle-income countries",
+     "value": 105,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Middle-income countries",
+     "value": 90,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Middle-income countries",
+     "value": 95,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Middle-income countries",
+     "value": 90,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Middle-income countries",
+     "value": 85,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Low- and middle-income countries (excl. China)",
+     "value": 135,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Low- and middle-income countries (excl. China)",
+     "value": 145,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Low- and middle-income countries (excl. China)",
+     "value": 135,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Low- and middle-income countries (excl. China)",
+     "value": 130,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Low- and middle-income countries (excl. China)",
+     "value": 135,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Low- and middle-income countries (excl. China)",
+     "value": 165,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Low- and middle-income countries (excl. China)",
+     "value": 135,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Low- and middle-income countries (excl. China)",
+     "value": 115,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Low- and middle-income countries (excl. China)",
+     "value": 120,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Low- and middle-income countries (excl. China)",
+     "value": 115,
+     "unit": "percent",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Low- and middle-income countries (excl. China)",
+     "value": 115,
+     "unit": "percent",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "The chart compares external debt stock relative to exports for four country groups from 2015 to 2025. All four series peak in 2020 and subsequently decline. Low-income countries have the highest ratio throughout, while middle-income countries have the lowest.",
+   "notes": "Source: World Bank Group International Debt Statistics database. Note: IDA = International Development Association."
+  }
+ ]
+}

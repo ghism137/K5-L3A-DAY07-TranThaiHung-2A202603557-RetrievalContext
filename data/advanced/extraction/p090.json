@@ -1,0 +1,766 @@
+{
+ "page": 90,
+ "model": "gpt-6.1-terra",
+ "prompt_version": "v1",
+ "status": "ok",
+ "seconds": 49.3,
+ "usage": {
+  "prompt_tokens": 3341,
+  "completion_tokens": 4285,
+  "reasoning_tokens": 681
+ },
+ "page_type": "mixed",
+ "elements": [
+  {
+   "kind": "chart",
+   "label": "Figure 2.11",
+   "title": "Sovereign Assets as a Percent of Domestic Banks’ Total Assets, 2005–25",
+   "chart_type": "box plot",
+   "axes": {
+    "x": "Year",
+    "y": "Share of total assets (%)"
+   },
+   "legend": [],
+   "data": [
+    {
+     "label": "2005",
+     "series": "Lower whisker",
+     "value": "2",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2005",
+     "series": "Q1",
+     "value": "6",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2005",
+     "series": "Median",
+     "value": "9",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2005",
+     "series": "Q3",
+     "value": "21",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2005",
+     "series": "Upper whisker",
+     "value": "42",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2006",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2006",
+     "series": "Q1",
+     "value": "5",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2006",
+     "series": "Median",
+     "value": "9",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2006",
+     "series": "Q3",
+     "value": "19",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2006",
+     "series": "Upper whisker",
+     "value": "40",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2007",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2007",
+     "series": "Q1",
+     "value": "4",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2007",
+     "series": "Median",
+     "value": "7",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2007",
+     "series": "Q3",
+     "value": "16",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2007",
+     "series": "Upper whisker",
+     "value": "34",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2008",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2008",
+     "series": "Q1",
+     "value": "4",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2008",
+     "series": "Median",
+     "value": "7",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2008",
+     "series": "Q3",
+     "value": "16",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2008",
+     "series": "Upper whisker",
+     "value": "33",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2009",
+     "series": "Lower whisker",
+     "value": "2",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2009",
+     "series": "Q1",
+     "value": "4",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2009",
+     "series": "Median",
+     "value": "8",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2009",
+     "series": "Q3",
+     "value": "19",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2009",
+     "series": "Upper whisker",
+     "value": "32",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2010",
+     "series": "Lower whisker",
+     "value": "2",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2010",
+     "series": "Q1",
+     "value": "5",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2010",
+     "series": "Median",
+     "value": "9",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2010",
+     "series": "Q3",
+     "value": "17",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2010",
+     "series": "Upper whisker",
+     "value": "33",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2011",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2011",
+     "series": "Q1",
+     "value": "5",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2011",
+     "series": "Median",
+     "value": "10",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2011",
+     "series": "Q3",
+     "value": "17",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2011",
+     "series": "Upper whisker",
+     "value": "34",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2012",
+     "series": "Lower whisker",
+     "value": "2",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2012",
+     "series": "Q1",
+     "value": "6",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2012",
+     "series": "Median",
+     "value": "10",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2012",
+     "series": "Q3",
+     "value": "17",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2012",
+     "series": "Upper whisker",
+     "value": "33",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2013",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2013",
+     "series": "Q1",
+     "value": "6",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2013",
+     "series": "Median",
+     "value": "10",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2013",
+     "series": "Q3",
+     "value": "16",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2013",
+     "series": "Upper whisker",
+     "value": "30",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2014",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2014",
+     "series": "Q1",
+     "value": "6",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2014",
+     "series": "Median",
+     "value": "10",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2014",
+     "series": "Q3",
+     "value": "17",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2014",
+     "series": "Upper whisker",
+     "value": "31",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Q1",
+     "value": "6",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Median",
+     "value": "10",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Q3",
+     "value": "18",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2015",
+     "series": "Upper whisker",
+     "value": "31",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Q1",
+     "value": "6",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Median",
+     "value": "11",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Q3",
+     "value": "21",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2016",
+     "series": "Upper whisker",
+     "value": "42",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Q1",
+     "value": "7",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Median",
+     "value": "11",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Q3",
+     "value": "21",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2017",
+     "series": "Upper whisker",
+     "value": "39",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Q1",
+     "value": "7",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Median",
+     "value": "12",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Q3",
+     "value": "20",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2018",
+     "series": "Upper whisker",
+     "value": "38",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Q1",
+     "value": "6",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Median",
+     "value": "12",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Q3",
+     "value": "19",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2019",
+     "series": "Upper whisker",
+     "value": "37",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Q1",
+     "value": "8",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Median",
+     "value": "12",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Q3",
+     "value": "19",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2020",
+     "series": "Upper whisker",
+     "value": "35",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Q1",
+     "value": "9",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Median",
+     "value": "13",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Q3",
+     "value": "20",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2021",
+     "series": "Upper whisker",
+     "value": "34",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Q1",
+     "value": "9",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Median",
+     "value": "13",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Q3",
+     "value": "19",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2022",
+     "series": "Upper whisker",
+     "value": "31",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Lower whisker",
+     "value": "2",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Q1",
+     "value": "9",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Median",
+     "value": "13",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Q3",
+     "value": "18",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2023",
+     "series": "Upper whisker",
+     "value": "31",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Lower whisker",
+     "value": "2",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Q1",
+     "value": "9",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Median",
+     "value": "14",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Q3",
+     "value": "20",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2024",
+     "series": "Upper whisker",
+     "value": "35",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Lower whisker",
+     "value": "1",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Q1",
+     "value": "9",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Median",
+     "value": "14",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Q3",
+     "value": "21",
+     "unit": "%",
+     "estimate": true
+    },
+    {
+     "label": "2025",
+     "series": "Upper whisker",
+     "value": "34",
+     "unit": "%",
+     "estimate": true
+    }
+   ],
+   "table": "",
+   "description": "Annual box plots show the distribution of sovereign assets as a share of domestic banks’ total assets from 2005 to 2025. The median falls to about 7 percent in 2007–08, then generally rises to about 14 percent in 2024–25. The highest upper whiskers are about 42 percent in 2005 and 2016.",
+   "notes": "Sources: Original calculations based on data from the International Monetary Fund’s International Financial Statistics database. Note: Domestic banks’ sovereign assets are the sum of claims on the central government, local government, and public nonfinancial corporations. Each box represents the 25th (Q1) to 75th (Q3) percentile range, the line inside the box is the median, and the bottom and top whiskers are the 1.5 × IQR from Q1 and Q3, respectively. IQR = interquartile range."
+  }
+ ]
+}
